@@ -1,80 +1,47 @@
-# Model Configuration - Replicating WiserUI-Bench Experimental Setup
+# Model Configuration
 # Reference: https://arxiv.org/html/2505.05026v3
 
-# CRITICAL: All models use temperature=0.2 to match WiserUI-Bench baseline
-# This ensures fair comparison - our architectural change is the only variable
+# All models use temperature=0.2 to match WiserUI-Bench baseline
+# This ensures fair comparison
 
-# GLM-4.5V Spotter Configuration
+# Spotter Configuration
 spotter:
   model_name: glm-4.5v
   api_endpoint: https://api.z.ai/api/paas/v4/chat/completions
-  temperature: 0.2  # MATCH WiserUI-Bench baseline
-  max_tokens: 8000  # For detailed JSON output
-  thinking_mode: enabled  # Leverage GLM-4.5V's deep reasoning
+  temperature: 0.2
+  max_tokens: 8000
+  thinking_mode: enabled
   timeout: 120
   retry_attempts: 3
   retry_delay: 5
 
-  # Spotter outputs position-agnostic JSON (not part of WiserUI-Bench)
-  system_prompt: |
-    You are a precise visual analyst specializing in UI/UX design comparison.
-    Your task is to objectively identify and describe visual differences between two UI designs.
-
-    CRITICAL RULES:
-    1. DO NOT use positional references like "left", "right", "first", "second"
-    2. DO NOT make judgments about which design is better
-    3. ONLY describe what you observe objectively
-    4. Use your grounding capability to provide spatial coordinates
-    5. Output must be in structured JSON format
-
-  output_format: json
-
-# Judger Models Configuration (receives JSON from Spotter)
+# Judger Models Configuration
 judger:
-  # Temperature MUST be 0.2 to match WiserUI-Bench
   temperature: 0.2
-  max_tokens: 2000  # For reasoning chain + final answer
+  max_tokens: 2000
 
   models:
     gpt-4o:
       provider: openai
-      model_name: gpt-4o-2024-08-06  # EXACT version from WiserUI-Bench
+      model_name: gpt-4o-2024-08-06
 
     claude-3.5-sonnet:
       provider: anthropic
-      model_name: claude-3-5-sonnet-20241022  # Latest version (paper used 20240620)
+      model_name: claude-3-5-sonnet-20241022
 
-  # UX Principles for Judger reasoning (our addition)
-  ux_principles:
-    - "Fitts's Law: Larger targets are easier and faster to click"
-    - "Hick's Law: More choices increase decision time"
-    - "Visual Hierarchy: Important elements should be more prominent"
-    - "Gestalt Principles: Group related elements together"
-    - "Color Psychology: Color affects user emotion and behavior"
-    - "Whitespace: Adequate spacing improves readability and focus"
-    - "Consistency: Similar elements should look and behave similarly"
-    - "Affordance: Design should suggest how to interact with it"
-
-# Baseline E2E Models (Direct replication of WiserUI-Bench)
+# Baseline E2E Models
 baseline:
-  # Temperature MUST be 0.2 - CRITICAL for fair comparison
   temperature: 0.2
-  max_tokens: 2000  # WiserUI-Bench didn't specify, using conservative estimate
+  max_tokens: 2000 
 
   models:
     gpt-4o:
       provider: openai
-      model_name: gpt-4o-2024-08-06  # EXACT version from paper
+      model_name: gpt-4o-2024-08-06
 
     claude-3.5-sonnet:
       provider: anthropic
-      model_name: claude-3-5-sonnet-20241022  # Latest (paper: 20240620)
-
-    # Optional: GLM-4.5V for additional baseline comparison
-    glm-4.5v:
-      provider: zai
-      model_name: glm-4.5v
-      thinking_mode: disabled  # Match standard MLLM behavior
+      model_name: claude-3-5-sonnet-20240620
 
 # Cost Tracking (USD per 1M tokens)
 pricing:
@@ -87,19 +54,3 @@ pricing:
   claude-3.5-sonnet:
     input: 3.0
     output: 15.0
-
-# Experimental Protocol (from WiserUI-Bench)
-experiment:
-  # Position permutation testing
-  test_both_orders: true  # Test winner-first AND winner-second
-  num_runs: 3  # Average over 3 independent runs (as per paper)
-
-  # Metrics to calculate
-  metrics:
-    - FA  # First Accuracy: correct when winner shown first
-    - SA  # Second Accuracy: correct when winner shown second
-    - AA  # Average Accuracy: (FA + SA) / 2, baseline=50%
-    - CA  # Consistent Accuracy: correct in BOTH orders, baseline=25%
-
-  # CA is our PRIMARY metric - order-invariant evaluation
-  primary_metric: CA

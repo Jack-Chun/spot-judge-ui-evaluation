@@ -16,7 +16,6 @@ import time
 import json
 import base64
 from typing import Dict, Any, Optional, Tuple
-from pathlib import Path
 import yaml
 
 from openai import OpenAI
@@ -65,9 +64,6 @@ class LLMJudger:
             self.provider = 'anthropic'
         else:
             raise ValueError(f"Unsupported model: {model_name}")
-
-        # Get UX principles for reasoning
-        self.ux_principles = self.judger_config.get('ux_principles', [])
 
     def _init_openai(self, api_key: Optional[str]) -> OpenAI:
         """Initialize OpenAI native client."""
@@ -238,61 +234,3 @@ class LLMJudger:
 
         except Exception as e:
             raise RuntimeError(f"Judger failed: {str(e)}") from e
-
-
-class MultiModelJudger:
-    """
-    Wrapper for judging with multiple LLM models.
-
-    Useful for comparing GPT-4o vs Claude 3.5 Sonnet performance.
-    """
-
-    def __init__(
-        self,
-        models: list = None,
-        config_path: str = "config/models_config.yaml"
-    ):
-        """
-        Initialize multi-model judger.
-
-        Args:
-            models: List of model names (default: ['gpt-4o', 'claude-3.5-sonnet'])
-            config_path: Path to configuration file
-        """
-        if models is None:
-            models = ['gpt-4o', 'claude-3.5-sonnet']
-
-        self.judgers = {
-            model: LLMJudger(model, config_path=config_path)
-            for model in models
-        }
-
-    def judge_all(
-        self,
-        spotter_output: Dict[str, Any],
-        baseline_image_path: str
-    ) -> Dict[str, Tuple[str, Dict[str, Any], Dict[str, Any]]]:
-        """
-        Judge with all models.
-
-        Args:
-            spotter_output: JSON output from Spotter (baseline description + proposed changes)
-            baseline_image_path: Path to baseline (first) UI image
-
-        Returns:
-            Dict mapping model name to (judgment, reasoning, metadata)
-        """
-        results = {}
-
-        for model_name, judger in self.judgers.items():
-            try:
-                judgment, reasoning, metadata = judger.judge(
-                    spotter_output=spotter_output,
-                    baseline_image_path=baseline_image_path
-                )
-                results[model_name] = (judgment, reasoning, metadata)
-            except Exception as e:
-                print(f"Error with {model_name}: {str(e)}")
-                results[model_name] = (None, {"error": str(e)}, {})
-
-        return results

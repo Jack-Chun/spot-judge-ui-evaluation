@@ -17,7 +17,7 @@ This research proposes a two-stage "Spot & Judge" architecture to mitigate Posit
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/spot-judge-ui-evaluation.git
+git clone https://github.com/Jack-Chun/spot-judge-ui-evaluation.git
 cd spot-judge-ui-evaluation
 
 # Create virtual environment
@@ -73,24 +73,4 @@ Experiment results are saved in `results/` directory:
 - `results/processed/`: Aggregated metrics (CSV, JSON)
 - `results/visualizations/`: Visualization outputs
 
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@misc{spotjudge2025,
-  title={Decomposed UI/UX Evaluation Architecture using GLM-4.5V's Visual Perception},
-  author={Your Name},
-  year={2025},
-  url={https://github.com/YOUR_USERNAME/spot-judge-ui-evaluation}
-}
-```
-
-## License
-
-[Add your license here]
-
-## Contact
-
-[Add your contact information here]
 

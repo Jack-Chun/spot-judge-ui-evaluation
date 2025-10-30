@@ -13,7 +13,6 @@ import time
 import json
 import base64
 from typing import Dict, Any, Optional, Tuple
-from pathlib import Path
 import yaml
 
 from openai import OpenAI

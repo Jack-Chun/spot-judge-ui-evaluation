@@ -1,5 +1,4 @@
 # Experiment Configuration for Spot & Judge Architecture
-# Replicates WiserUI-Bench protocol while adding our 2-stage architecture
 
 # Dataset Configuration
 dataset:
@@ -13,65 +12,13 @@ dataset:
 
   # Image preprocessing
   image:
-    max_size: 1120  # Match GLM-4.5V's native resolution
+    max_size: 1120
     format: PNG
     encoding: base64
 
-# Experiment Runs Configuration
-runs:
-  num_independent_runs: 3  # Average over 3 runs (WiserUI-Bench protocol)
-  random_seed_base: 42  # Seeds: 42, 43, 44 for reproducibility
-
-  # Position permutation (CRITICAL for CA metric)
-  position_orders:
-    - winner_first  # Ground truth winner shown first
-    - winner_second  # Ground truth winner shown second
-
-# Architectures to Test
-architectures:
-  # Our proposed Spot & Judge 2-stage architecture
-  spot_and_judge:
-    enabled: true
-    spotter_model: glm-4.5v
-    judger_models:
-      - gpt-4o
-      - claude-3.5-sonnet
-    description: "2-stage: GLM-4.5V extracts differences → Judger reasons about UX"
-
-  # Baseline: Direct E2E evaluation (replicating WiserUI-Bench)
-  baseline_e2e:
-    enabled: true
-    models:
-      - gpt-4o
-      - claude-3.5-sonnet
-      - glm-4.5v  # Optional
-    description: "Direct MLLM evaluation (WiserUI-Bench baseline)"
-
-# Evaluation Metrics (from WiserUI-Bench)
-metrics:
-  # Primary Metrics
-  primary:
-    - CA  # Consistent Accuracy: correct in BOTH position orders
-
-  # Secondary Metrics
-  secondary:
-    - FA  # First Accuracy: correct when winner first
-    - SA  # Second Accuracy: correct when winner second
-    - AA  # Average Accuracy: (FA + SA) / 2
-    - position_bias  # |FA - SA| / 2
-
-  # Statistical Tests
-  statistical_tests:
-    - paired_t_test  # Compare Spot&Judge vs Baseline
-    - cohens_d  # Effect size
-    - confidence_interval: 0.95
-
 # Checkpointing and Resumption
 checkpointing:
-  enabled: true
   checkpoint_dir: ./checkpoints
-  save_frequency: 10  # Save every 10 samples
-  auto_resume: true
 
 # Logging and Output
 logging:
@@ -89,45 +36,9 @@ logging:
 results:
   output_dir: ./results
 
-  # Raw outputs
-  save_raw_outputs: true
-  raw_format: jsonl  # One JSON object per line
-
-  # Processed results
-  save_processed: true
-  processed_format: csv
-
-  # Qualitative case studies
-  num_case_studies: 20
-  case_study_selection:
-    - best_spot_and_judge  # Where S&J succeeds, baseline fails
-    - worst_spot_and_judge  # Where both fail
-    - high_disagreement  # Large variance across runs
-    - edge_cases  # Unusual UI patterns
-
 # Cost Management
 cost_management:
   enable_tracking: true
-  max_cost_per_run: 100.0  # USD
-  warn_threshold: 80.0  # Warn at 80% of max
+  max_cost_per_run: 100.0
+  warn_threshold: 80.0
   stop_on_limit: true
-
-# API Configuration
-api:
-  # Rate limiting
-  rate_limit:
-    requests_per_minute: 60
-    tokens_per_minute: 100000
-
-  # Retry logic
-  retry:
-    max_attempts: 3
-    backoff_factor: 2  # Exponential: 5s, 10s, 20s
-    initial_delay: 5
-
-  # Timeouts
-  timeout:
-    default: 120
-    spotter: 120  # GLM-4.5V with thinking mode
-    judger: 60
-    baseline: 60
