@@ -1,0 +1,111 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+docs/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# API Keys and Secrets
+*.key
+*.pem
+secrets/
+config/secrets.yaml
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Experiment results and checkpoints
+results/
+checkpoints/
+*.jsonl
+
+# Dataset cache
+cache/
+*.arrow
+*.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# OS files
+Thumbs.db
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# Large data files (uncomment if needed)
+# *.h5
+# *.hdf5
+# *.pkl
+# *.pickle
+
+# PDF files in docs (optional - uncomment if you don't want to track PDFs)
+# docs/**/*.pdf
+
+# Visualizations (optional - uncomment if you don't want to track visualization outputs)
+# results/visualizations/*.png
+# results/visualizations/*.jpg
