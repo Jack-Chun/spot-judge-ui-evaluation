@@ -26,6 +26,14 @@ from ..models.llm_judger import LLMJudger
 from ..models.baseline_e2e import BaselineE2EEvaluator
 from ..utils.logger import ExperimentLogger
 
+# Import metrics calculator (use relative import to avoid circular dependency)
+import sys
+from pathlib import Path
+metrics_path = Path(__file__).parent.parent.parent / 'scripts' / 'analysis'
+if str(metrics_path) not in sys.path:
+    sys.path.insert(0, str(metrics_path))
+from metrics import MetricsCalculator
+
 
 class ExperimentOrchestrator:
     """
@@ -77,6 +85,34 @@ class ExperimentOrchestrator:
         if resume_from_checkpoint:
             self._load_checkpoint(resume_from_checkpoint)
 
+        # Spotter cache directory
+        self.spotter_cache_dir = Path(self.config.get('results', {}).get('output_dir', './results')) / 'spotter_cache'
+        self.spotter_cache_dir.mkdir(parents=True, exist_ok=True)
+
+    def _get_spotter_cache_path(self, sample_id: str) -> Path:
+        """Get path for spotter cache file."""
+        return self.spotter_cache_dir / f"{sample_id}.json"
+
+    def _load_spotter_cache(self, sample_id: str) -> Optional[Dict[str, Any]]:
+        """Load spotter result from cache."""
+        cache_path = self._get_spotter_cache_path(sample_id)
+        if cache_path.exists():
+            try:
+                with open(cache_path, 'r') as f:
+                    return json.load(f)
+            except Exception as e:
+                self.logger.warning(f"Failed to load spotter cache for {sample_id}: {e}")
+        return None
+
+    def _save_spotter_cache(self, sample_id: str, data: Dict[str, Any]):
+        """Save spotter result to cache."""
+        cache_path = self._get_spotter_cache_path(sample_id)
+        try:
+            with open(cache_path, 'w') as f:
+                json.dump(data, f, indent=2)
+        except Exception as e:
+            self.logger.warning(f"Failed to save spotter cache for {sample_id}: {e}")
+
     def _init_spotter(self):
         """Lazy initialize Spotter."""
         if self.spotter is None:
@@ -118,38 +154,86 @@ class ExperimentOrchestrator:
         self._init_spotter()
         self._init_judger(judger_model)
 
-        # Spotter ALWAYS sees the same order (lose→win) to eliminate position bias
-        spotter_baseline = sample['image_lose_path']
-        spotter_variant = sample['image_win_path']
+        if position_order == 'win_first':
+            spotter_baseline = sample['image_win_path']
+            spotter_variant = sample['image_lose_path']
+            judger_baseline = sample['image_win_path']
+            judger_variant = sample['image_lose_path']
+        else:
+            spotter_baseline = sample['image_lose_path']
+            spotter_variant = sample['image_win_path']
+            judger_baseline = sample['image_lose_path']
+            judger_variant = sample['image_win_path']
 
-        # Stage 1: Spotter (always compares lose→win)
-        start_time = time.time()
-        spotter_output, spotter_metadata = self.spotter.spot_differences(
-            image_a_path=spotter_baseline,
-            image_b_path=spotter_variant
-        )
-        spotter_time = time.time() - start_time
+        # Stage 1: Spotter (with Caching & Combination)
+        # We always cache the "Win-First" perspective (Win=Image1, Lose=Image2)
+        
+        # Check cache first
+        cached_spotter_data = self._load_spotter_cache(sample['id'])
+        
+        if cached_spotter_data:
+            self.logger.info(f"Using cached spotter result for {sample['id']}")
+            spotter_output = cached_spotter_data['output']
+            spotter_metadata = cached_spotter_data['metadata']
+            spotter_time = 0  # Cached
+        else:
+            # Not cached: Run Spotter TWICE and combine
+            self.logger.info(f"Running spotter for {sample['id']} (Combined Mode)...")
+            start_time = time.time()
+            
+            # Run 1: Win -> Lose
+            out_wl, meta_wl = self.spotter.spot_differences(
+                image_a_path=sample['image_win_path'],
+                image_b_path=sample['image_lose_path']
+            )
+            
+            # Run 2: Lose -> Win
+            out_lw, meta_lw = self.spotter.spot_differences(
+                image_a_path=sample['image_lose_path'],
+                image_b_path=sample['image_win_path']
+            )
+            
+            # Swap Run 2 results to match Win-First perspective
+            out_lw_swapped = self.spotter.swap_differences(out_lw)
+            
+            # Combine results
+            combined_differences = out_wl.get('differences', []) + out_lw_swapped.get('differences', [])
+            spotter_output = {"differences": combined_differences}
+            
+            # Merge metadata (sum tokens, max latency)
+            spotter_metadata = {
+                "latency_seconds": meta_wl.get('latency_seconds', 0) + meta_lw.get('latency_seconds', 0),
+                "input_tokens": meta_wl.get('input_tokens', 0) + meta_lw.get('input_tokens', 0),
+                "output_tokens": meta_wl.get('output_tokens', 0) + meta_lw.get('output_tokens', 0),
+                "total_tokens": meta_wl.get('total_tokens', 0) + meta_lw.get('total_tokens', 0),
+                "model": meta_wl.get('model', 'unknown'),
+                "combined": True
+            }
+            spotter_time = time.time() - start_time
+            
+            # Save to cache
+            self._save_spotter_cache(sample['id'], {
+                'output': spotter_output,
+                'metadata': spotter_metadata
+            })
 
-        # Log Spotter API call
+        # If current order is Win-Second (Lose -> Win), we need to swap the cached Win-First result
+        if position_order == 'win_second':
+            spotter_output = self.spotter.swap_differences(spotter_output)
+
+        # Log Spotter Usage (even if cached, we track it for the run)
         self.logger.log_api_call(
             model='glm-4.5v',
             prompt_type='spotter',
             input_tokens=spotter_metadata['input_tokens'],
             output_tokens=spotter_metadata['output_tokens'],
             latency_seconds=spotter_time,
-            prompt=json.dumps(spotter_metadata.get('prompt', {}), indent=2),
+            prompt="Combined Spotter Run (Cached/Fresh)",
             response=json.dumps(spotter_output, indent=2),
-            metadata={'sample_id': sample['id'], 'position_order': position_order, 'spotter_order': 'lose_win'}
+            metadata={'sample_id': sample['id'], 'position_order': position_order, 'cached': (spotter_time == 0)}
         )
 
-        # Judger receives different baseline image based on position_order
-        # This tests if Judger has position bias
-        if position_order == 'win_first':
-            judger_baseline = sample['image_win_path']
-        else:  # win_second
-            judger_baseline = sample['image_lose_path']
-
-        # Stage 2: Judger (receives baseline image + Spotter's text description)
+        # Stage 2: Judger
         start_time = time.time()
         judgment, reasoning, judger_metadata = self.judgers[judger_model].judge(
             spotter_output=spotter_output,
@@ -318,10 +402,24 @@ class ExperimentOrchestrator:
             # Run Spot & Judge
             if 'spot_and_judge' in architectures:
                 for model in models['spot_and_judge']:
-                    self.results['spot_and_judge'][model] = []
+                    # Initialize list if not present, but PRESERVE if resuming
+                    if model not in self.results['spot_and_judge']:
+                        self.results['spot_and_judge'][model] = []
 
                     for sample in samples:
                         for position in position_orders:
+                            # Check if already processed
+                            already_processed = False
+                            for r in self.results['spot_and_judge'][model]:
+                                if r['sample_id'] == sample['id'] and r['position_order'] == position:
+                                    already_processed = True
+                                    break
+                            
+                            if already_processed:
+                                # self.logger.info(f"Skipping {sample['id']} ({model}, {position}) - Already processed")
+                                pbar.update(1)
+                                continue
+
                             try:
                                 result = self.run_spot_and_judge(sample, model, position)
                                 self.results['spot_and_judge'][model].append(result)
@@ -339,10 +437,24 @@ class ExperimentOrchestrator:
             # Run Baseline
             if 'baseline_e2e' in architectures:
                 for model in models['baseline_e2e']:
-                    self.results['baseline_e2e'][model] = []
+                    # Initialize list if not present, but PRESERVE if resuming
+                    if model not in self.results['baseline_e2e']:
+                        self.results['baseline_e2e'][model] = []
 
                     for sample in samples:
                         for position in position_orders:
+                            # Check if already processed
+                            already_processed = False
+                            for r in self.results['baseline_e2e'][model]:
+                                if r['sample_id'] == sample['id'] and r['position_order'] == position:
+                                    already_processed = True
+                                    break
+                            
+                            if already_processed:
+                                # self.logger.info(f"Skipping {sample['id']} ({model}, {position}) - Already processed")
+                                pbar.update(1)
+                                continue
+
                             try:
                                 result = self.run_baseline(sample, model, position)
                                 self.results['baseline_e2e'][model].append(result)
@@ -371,9 +483,10 @@ class ExperimentOrchestrator:
         return self.results
 
     def get_summary_stats(self) -> Dict[str, Any]:
-        """Get summary statistics of experiment results."""
+        """Get summary statistics of experiment results including FA, SA, AA, CA metrics."""
         summary = {}
 
+        # First calculate basic stats
         for arch in ['spot_and_judge', 'baseline_e2e']:
             summary[arch] = {}
             for model, results in self.results[arch].items():
@@ -389,6 +502,33 @@ class ExperimentOrchestrator:
                     'correct': correct,
                     'accuracy': accuracy
                 }
+
+        # Calculate detailed metrics using MetricsCalculator if we have position data
+        try:
+            calculator = MetricsCalculator(self.results)
+
+            for arch in ['spot_and_judge', 'baseline_e2e']:
+                if arch not in self.results:
+                    continue
+
+                for model in self.results[arch].keys():
+                    if not self.results[arch][model]:
+                        continue
+
+                    metrics = calculator.calculate_all_metrics(arch, model)
+
+                    # Add detailed metrics to summary
+                    summary[arch][model].update({
+                        'FA': metrics['FA'],
+                        'SA': metrics['SA'],
+                        'AA': metrics['AA'],
+                        'CA': metrics['CA'],
+                        'position_bias': metrics['position_bias'],
+                        'total_paired': metrics['total_paired']
+                    })
+        except Exception as e:
+            # If metrics calculation fails, just use basic stats
+            self.logger.warning(f"Could not calculate detailed metrics: {str(e)}")
 
         return summary
 

@@ -57,7 +57,16 @@ def main():
             print(f"    Samples tested: {stats['total_samples'] // 2} (× 2 positions)")
             print(f"    Total evaluations: {stats['total_samples']}")
             print(f"    Correct: {stats['correct']}")
-            print(f"    Accuracy: {stats['accuracy']:.2%}")
+            print(f"    Overall Accuracy: {stats['accuracy']:.2%}")
+
+            # Display detailed metrics if available
+            if 'FA' in stats:
+                print(f"    ─────────────────────────────")
+                print(f"    FA (First Accuracy):  {stats['FA']:.2%}")
+                print(f"    SA (Second Accuracy): {stats['SA']:.2%}")
+                print(f"    AA (Average Accuracy): {stats['AA']:.2%}")
+                print(f"    CA (Consistent Accuracy): {stats['CA']:.2%}")
+                print(f"    Position Bias: {stats['position_bias']:.2%}")
 
     print("\n" + "=" * 80)
     print("✓ Pilot successful! You can now run the full experiment with:")

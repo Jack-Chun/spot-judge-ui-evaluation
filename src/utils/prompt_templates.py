@@ -12,7 +12,6 @@ Reference: https://arxiv.org/html/2505.05026v3
 # Source: https://github.com/jeochris/wiserui-bench/blob/main/inference/prompts_task1/zero_shot.txt
 # =============================================================================
 
-# Official WiserUI-Bench zero-shot prompt (single unified prompt, no system/user separation)
 WISERUI_BASELINE_PROMPT = """You are an expert in designing UI/UX for web/apps.
 
 The two screenshots show two different versions of the same page.
@@ -26,40 +25,45 @@ More effective: <First/Second>"""
 # SPOTTER PROMPTS (GLM-4.5V - Stage 1 of our architecture)
 # =============================================================================
 
-SPOTTER_SYSTEM_PROMPT = """You are a precise visual analyst specializing in UI/UX design comparison.
+SPOTTER_SYSTEM_PROMPT = """## Role
+You are a Senior UI/UX Auditor. Your objective is to detect **Intentional Design & Structural Updates** while strictly filtering out dynamic content variations.
 
-Your ONLY role is to objectively identify WHAT changed between two UI designs - the FIRST (baseline) and SECOND (variant).
+## Detection Criteria
+Compare the two images using this strict conceptual filter:
 
-CRITICAL RULES:
-1. Describe ONLY what changed - do NOT judge, evaluate, or predict impact
-2. Be concise and quantitative (e.g., "4 to 5 products per row" not detailed product names)
-3. Focus on changes relevant to user experience (layout, content, visual elements)
-4. Ignore minor details like typos or exact product names unless UX-significant
-5. Output MUST be valid JSON with simple aspect + description structure
+### 1. NOISE (Strictly IGNORE)
+- **Dynamic Data Injection**: Any content fetched from a database including specific images, prices, timestamps, user names, or item counts.
+- **User Input States**: Text entered by users inside search bars or form fields.
+- **Rendering Artifacts**: Minor anti-aliasing, pixel grid alignment issues, or OCR imperfections.
 
-Remember: You are a camera, not a critic. Describe changes objectively."""
+### 2. SIGNAL (Report these Design Changes)
+- **Layout Topology**: Changes in the arrangement, density, alignment, or ordering of structural containers.
+- **Component Taxonomy**: Fundamental changes in element type, presence, or hierarchy.
+- **Visual Attributes**: Intentional updates to color, shape, size, typography weight, or visibility states.
+- **Strategic Copywriting**: Modifications to fixed UI text elements like Headers, Navigation Labels, or CTA buttons that alter the user journey.
 
-SPOTTER_USER_PROMPT = """Compare the two UI designs and list what changed from the FIRST (baseline) to SECOND (variant).
+## Output Rules
+1. **State-Based Description**: Articulate the visual state of Image 1 and Image 2 separately. Avoid action verbs.
+2. **Spatial Abstraction**: Use relative terms to describe size and position changes.
 
-For each change, identify:
-- Aspect: What UI element/area changed (e.g., "Grid layout", "Button style")
-- Description: What changed objectively (be quantitative when possible)
-
-Output format (JSON):
-{{
-  "changes": [
-    {{
-      "aspect": "Product grid density",
-      "description": "Increased from 4 to 5 products per row (12 → 15+ total visible)"
-    }},
-    {{
-      "aspect": "Product labels",
-      "description": "Added 'More colours' tags to some products"
-    }}
+## Output Schema (JSON Only)
+{
+  "differences": [
+    {
+      "category": "Select from [Layout, Component, Style, Copy]",
+      "component_name": "Concise element name",
+      "first_image_state": "Visual state description for Image 1",
+      "second_image_state": "Visual state description for Image 2"
+    }
   ]
-}}
+}
+"""
 
-Be concise and objective. Focus on UX-relevant changes only. Output only valid JSON."""
+SPOTTER_USER_PROMPT = """Compare the UI structures.
+Filter out dynamic data.
+Focus on Layout, Components, Style, and Strategic Copy.
+Output only valid JSON.
+"""
 
 
 # =============================================================================
@@ -70,13 +74,14 @@ Be concise and objective. Focus on UX-relevant changes only. Output only valid J
 # Single prompt (no system/user separation) - matching WiserUI-Bench structure
 JUDGER_PROMPT = """You are an expert in designing UI/UX for web/apps.
 
-A screenshot and changes description show two different versions of the same page.
-Identify the key UI differences between the two versions, and then evaluate which variant is more effective UI/UX design that leads to better user experience and conversion.
+The screenshot and the description of differences below show two different versions of the same page.
+Based on the identified key UI differences, evaluate which variant is more effective UI/UX design that leads to better user experience and conversion.
+
+[Differences Description]
+{spotter_output}
 
 You should end your answer with following the format (No bold, etc):
 More effective: <First/Second>
-
-changes: {spotter_output}
 """
 
 

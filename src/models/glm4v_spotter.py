@@ -259,3 +259,26 @@ class GLM4VSpotter:
             response,
             0
         )
+
+    @staticmethod
+    def swap_differences(spotter_output: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Swap first_image_state and second_image_state in differences.
+        Used for normalizing results from swapped image orders.
+
+        Args:
+            spotter_output: Original spotter output
+
+        Returns:
+            New spotter output with swapped states
+        """
+        new_output = {"differences": []}
+        
+        for diff in spotter_output.get("differences", []):
+            new_diff = diff.copy()
+            # Swap states
+            new_diff['first_image_state'] = diff.get('second_image_state', '')
+            new_diff['second_image_state'] = diff.get('first_image_state', '')
+            new_output["differences"].append(new_diff)
+            
+        return new_output

@@ -111,9 +111,19 @@ def main():
         print(f"\n{arch.upper().replace('_', ' ')}:")
         for model, stats in arch_results.items():
             print(f"  {model}:")
-            print(f"    Samples: {stats['total_samples']}")
+            print(f"    Total evaluations: {stats['total_samples']}")
             print(f"    Correct: {stats['correct']}")
-            print(f"    Accuracy: {stats['accuracy']:.2%}")
+            print(f"    Overall Accuracy: {stats['accuracy']:.2%}")
+
+            # Display detailed metrics if available
+            if 'FA' in stats:
+                print(f"    ─────────────────────────────")
+                print(f"    FA (First Accuracy):  {stats['FA']:.2%}")
+                print(f"    SA (Second Accuracy): {stats['SA']:.2%}")
+                print(f"    AA (Average Accuracy): {stats['AA']:.2%}")
+                print(f"    CA (Consistent Accuracy): {stats['CA']:.2%}")
+                print(f"    Position Bias: {stats['position_bias']:.2%}")
+                print(f"    Paired samples: {stats['total_paired']}")
 
     print("\n" + "=" * 80)
     print("Results saved to:")
