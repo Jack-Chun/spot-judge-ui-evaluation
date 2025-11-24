@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "CTA Button",
+        "first_image_state": "Displays \"Make Me Famous!\" as the button text",
+        "second_image_state": "Displays \"Click Here to Continue Reading\" as the button text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA Button",
+        "first_image_state": "Displays the text \"Make Me Famous!\"",
+        "second_image_state": "Displays the text \"Click Here to Continue Reading\""
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 18.75055694580078,
+    "input_tokens": 4704,
+    "output_tokens": 474,
+    "total_tokens": 5178,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

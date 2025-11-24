@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "Want to increase your online visibility?",
+        "second_image_state": "Grow your business with the Digital Solutions Program."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Subheading",
+        "first_image_state": "For our Digital Solutions Program today",
+        "second_image_state": "(Government funded) digital support"
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA Button",
+        "first_image_state": "Apply now",
+        "second_image_state": "Get started"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "Text reads 'Want to increase your online visibility?'",
+        "second_image_state": "Text reads 'Grow your business with the Digital Solutions Program.'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Subheading",
+        "first_image_state": "Text describes government-subsidised mentoring, workshops, courses for all digital needs.",
+        "second_image_state": "Text describes government-funded digital support, workshops, courses for digital needs including social media marketing and SEO."
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA Button",
+        "first_image_state": "Text reads 'Apply Now'",
+        "second_image_state": "Text reads 'Get started'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 39.29146099090576,
+    "input_tokens": 1444,
+    "output_tokens": 1934,
+    "total_tokens": 3378,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

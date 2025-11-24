@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "CTA Button",
+        "first_image_state": "Displays 'TRY IT NOW' text",
+        "second_image_state": "Displays 'WATCH FREE FOR 7 DAYS' text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA Button",
+        "first_image_state": "Red rectangular button with white text 'TRY IT NOW'",
+        "second_image_state": "Red rectangular button with white text 'WATCH FREE FOR 7 DAYS'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 17.364612102508545,
+    "input_tokens": 5824,
+    "output_tokens": 527,
+    "total_tokens": 6351,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

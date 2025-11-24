@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Subscription Text",
+        "first_image_state": "Includes 'with a 3-day free trial' after the price",
+        "second_image_state": "Excludes 'with a 3-day free trial' after the price"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Subscription Offer Text",
+        "first_image_state": "Subscription offer text reads 'Subscribe to unlock all the features, just $4.99/week with a 3-day free trial'",
+        "second_image_state": "Subscription offer text reads 'Subscribe to unlock all the features, just $4.99/week'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 15.544979095458984,
+    "input_tokens": 3744,
+    "output_tokens": 598,
+    "total_tokens": 4342,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

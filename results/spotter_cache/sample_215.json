@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "iCIMS Logo Text",
+        "first_image_state": "Displays \"iC\" followed by \"by iCIMS\"",
+        "second_image_state": "Displays \"iCIMS\" without preceding \"iC\""
+      },
+      {
+        "category": "Layout",
+        "component_name": "Analyst Rating Label Position",
+        "first_image_state": "Positioned to the right of the 83 rating circle",
+        "second_image_state": "Positioned below the 83 rating circle"
+      },
+      {
+        "category": "Component",
+        "component_name": "Call-to-Action Buttons",
+        "first_image_state": "Two buttons: \"$ Request Pricing\" (black background, white text) and \"Get Free Demo\" (green background, white text)",
+        "second_image_state": "Two buttons: \"$ Request Pricing\" (green background, white text) and \"Request Demo\" (green background, white text)"
+      },
+      {
+        "category": "Style",
+        "component_name": "Request Pricing and Demo Buttons",
+        "first_image_state": "A black rectangular button labeled '$ Request Pricing' and a green rectangular button labeled 'Get Free Demo', with a text 'REQUEST WITH NO OBLIGATION' above them.",
+        "second_image_state": "Two green rectangular buttons labeled '$ Request Pricing' and 'Request Demo', positioned side by side."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Product Overview Tabs",
+        "first_image_state": "Horizontal tab navigation with options 'Overview', 'Pricing', 'Benefits', 'Reviews', 'Features' positioned below the product name and rating.",
+        "second_image_state": "No tab navigation present below the product name and rating."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Demo Button Label",
+        "first_image_state": "Button labeled 'Get Free Demo'.",
+        "second_image_state": "Button labeled 'Request Demo'."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Obligation Text",
+        "first_image_state": "Text 'REQUEST WITH NO OBLIGATION' above the request buttons.",
+        "second_image_state": "No text above the request buttons."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 41.439505100250244,
+    "input_tokens": 3912,
+    "output_tokens": 2552,
+    "total_tokens": 6464,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

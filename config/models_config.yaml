@@ -27,7 +27,7 @@ judger:
 
     claude-3.5-sonnet:
       provider: anthropic
-      model_name: claude-3-5-sonnet-20241022
+      model_name: claude-3-5-sonnet-20240620
 
 # Baseline E2E Models
 baseline:

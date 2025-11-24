@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Main Question Header",
+        "first_image_state": "What part of your morning routine can we help you with?",
+        "second_image_state": "Let\u2019s help you Get Ready. Which of the following things do you do? (We hope you\u2019re doing all three.)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "First Routine Option Label",
+        "first_image_state": "Shaving",
+        "second_image_state": "Ultimate Shave"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Second Routine Option Label",
+        "first_image_state": "Showering",
+        "second_image_state": "Shower"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Third Routine Option Label",
+        "first_image_state": "Brushing Teeth",
+        "second_image_state": "Oral Care"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "What part of your morning routine can we help you with?",
+        "second_image_state": "Let\u2019s help you Get Ready."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Subheading",
+        "first_image_state": "Not present",
+        "second_image_state": "(We hope you\u2019re doing all three.)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "First Option Label",
+        "first_image_state": "Shaving",
+        "second_image_state": "Ultimate Shave"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Second Option Label",
+        "first_image_state": "Showering",
+        "second_image_state": "Shower"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Third Option Label",
+        "first_image_state": "Brushing Teeth",
+        "second_image_state": "Oral Care"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 86.82845306396484,
+    "input_tokens": 2240,
+    "output_tokens": 3427,
+    "total_tokens": 5667,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

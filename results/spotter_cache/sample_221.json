@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "CTA Button",
+        "first_image_state": "Displays 'Inquire Now' text",
+        "second_image_state": "Displays 'Contact Us' text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Call-to-action button",
+        "first_image_state": "Displays 'Inquire Now' text",
+        "second_image_state": "Displays 'Contact Us' text"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 10.459378957748413,
+    "input_tokens": 3280,
+    "output_tokens": 439,
+    "total_tokens": 3719,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

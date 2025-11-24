@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Top Shipping Banner",
+        "first_image_state": "Displays \"CANADA SHIPPING ONLY $3.95\" with a \"Learn More\" link",
+        "second_image_state": "Displays \"FREE SHIPPING ON U.S. ORDERS OVER $30\" with a \"Learn More\" link"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Coupon Code Subtext",
+        "first_image_state": "Displays \"SHIPPING TO CANADA ONLY $3.95\"",
+        "second_image_state": "Displays \"FREE SHIPPING ON ORDERS OVER $30\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Bottom Shipping Information",
+        "first_image_state": "Displays \"CANADA SHIPPING only $3.95\" followed by stock and shipping details",
+        "second_image_state": "Displays \"FREE SHIPPING on orders over $30\" followed by stock and shipping details"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Shipping Information Header",
+        "first_image_state": "Displays \"CANADA SHIPPING ONLY $3.95\"",
+        "second_image_state": "Displays \"FREE SHIPPING ON U.S. ORDERS OVER $30\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Coupon Code Banner Text",
+        "first_image_state": "Shows \"COUPON CODE HAPPYFALL / SHIPPING TO CANADA ONLY $3.95\"",
+        "second_image_state": "Shows \"COUPON CODE HAPPYFALL + FREE SHIPPING ON ORDERS OVER $30\""
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 48.73999810218811,
+    "input_tokens": 1264,
+    "output_tokens": 2302,
+    "total_tokens": 3566,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

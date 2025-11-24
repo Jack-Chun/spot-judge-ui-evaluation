@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "Large text reading \"CONTACT US WITH ANY QUESTIONS OR COMMENTS\"",
+        "second_image_state": "Shorter text reading \"CONTACT US\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Contact Information Section",
+        "first_image_state": "Text-based contact details stating \"Call us on 0117 453 5994 Or use the form below\" without icons",
+        "second_image_state": "Icon-based contact details including a phone icon with number 0117 453 5994 and an email icon with address info@trentsltd.co.uk"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Form Subheading",
+        "first_image_state": "\"Or use the form below\"",
+        "second_image_state": "\"Contact us using the form below\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Form Fields",
+        "first_image_state": "Contains five input fields (First Name, Last Name, Email, Phone, Address) and a \"FREE QUOTE\" button",
+        "second_image_state": "Contains six input fields (adds Postcode) and no \"FREE QUOTE\" button"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "\"CONTACT US WITH ANY QUESTIONS OR COMMENTS\" displayed with \"CONTACT US\" in orange font and the remaining text in dark blue font",
+        "second_image_state": "\"CONTACT US\" displayed in orange font"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Subheading Text",
+        "first_image_state": "\"Call us on 0117 453 5994 Or use the form below\" displayed with \"Call us on\" in black font, the phone number in orange font, and \"Or use the form below\" in black font",
+        "second_image_state": "\"Contact us using the form below\" displayed in white font on a blue background"
+      },
+      {
+        "category": "Component",
+        "component_name": "Email Icon and Text",
+        "first_image_state": "Absent",
+        "second_image_state": "Orange envelope icon followed by \"info@trentsltd.co.uk\" in dark blue font"
+      },
+      {
+        "category": "Component",
+        "component_name": "Free Quote Button",
+        "first_image_state": "Dark blue rectangular button with white \"FREE QUOTE\" text",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Bottom Phone Number with 24-Hour Icon",
+        "first_image_state": "Orange circular \"24 HOUR\" icon followed by \"0117 453 7697\" in orange font",
+        "second_image_state": "Absent"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 114.92225646972656,
+    "input_tokens": 3088,
+    "output_tokens": 4660,
+    "total_tokens": 7748,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

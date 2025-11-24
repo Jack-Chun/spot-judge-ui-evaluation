@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Payment Method Logos",
+        "first_image_state": "Four payment logos displayed: PayPal, Palm Oil, Eco Cert, Crafty Pie",
+        "second_image_state": "Six payment logos displayed: PayPal, Palm Oil, Eco Cert, Crafty Pie, alu, bicert India"
+      },
+      {
+        "category": "Component",
+        "component_name": "Payment Method Icon",
+        "first_image_state": "A PayPal logo replacing the 'WARNUNG' button, with the heart-shaped favorite icon remaining adjacent",
+        "second_image_state": "A red button with 'WARNUNG' text and a warning icon, followed by a heart-shaped favorite icon"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 34.48548698425293,
+    "input_tokens": 1792,
+    "output_tokens": 1604,
+    "total_tokens": 3396,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

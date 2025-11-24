@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Fast delivery options filter",
+        "first_image_state": "Not present in the left sidebar filter section",
+        "second_image_state": "Present in the left sidebar filter section below the Options filter"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Product listing container",
+        "first_image_state": "Products displayed in a vertical stack with variable-width items (first product takes full width, subsequent products take narrower widths)",
+        "second_image_state": "Products displayed in a horizontal grid with uniform-width items (all products occupy equal horizontal space)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Wine region filter options",
+        "first_image_state": "Includes options: Abruzzo, Barossa Valley, Bassilicata and Calabria",
+        "second_image_state": "Includes options: Bordeaux, Rioja, Tuscany"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Sort dropdown label",
+        "first_image_state": "Displays 'Popularity'",
+        "second_image_state": "Displays 'Best sold'"
+      },
+      {
+        "category": "Style",
+        "component_name": "Award winning wines filter",
+        "first_image_state": "Expanded (options visible)",
+        "second_image_state": "Collapsed (options not visible)"
+      },
+      {
+        "category": "Style",
+        "component_name": "Wine House filter",
+        "first_image_state": "Expanded (options visible)",
+        "second_image_state": "Collapsed (options not visible)"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 139.89684891700745,
+    "input_tokens": 5104,
+    "output_tokens": 6067,
+    "total_tokens": 11171,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

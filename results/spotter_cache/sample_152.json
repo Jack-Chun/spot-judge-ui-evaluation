@@ -1,0 +1,104 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Product Feature Icons",
+        "first_image_state": "Four circular icons with text labels (Support weight loss, Accelerate muscle recovery, Enhances blood circulation, Calm your body & mind) displayed below the main product image.",
+        "second_image_state": "Four square icons with graphical representations (e.g., waistband, hand, etc.) displayed below the main product image."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Right Panel Content",
+        "first_image_state": "Right panel contains price display, quantity selector, \"Add to Cart\" button, \"Buy Now\" button, followed by product description.",
+        "second_image_state": "Right panel contains price display, \"Launch Special\" section, quantity selector, \"Add to Cart\" button, \"Buy with Shop Pay\" button, \"More Payment Options\" button, followed by guarantee/shipping info and feature badges."
+      },
+      {
+        "category": "Component",
+        "component_name": "Payment Buttons",
+        "first_image_state": "\"Buy Now\" button present; no \"Buy with Shop Pay\" or \"More Payment Options\" buttons.",
+        "second_image_state": "\"Buy with Shop Pay\" and \"More Payment Options\" buttons present; \"Buy Now\" button absent."
+      },
+      {
+        "category": "Component",
+        "component_name": "Additional Info Sections",
+        "first_image_state": "No \"Launch Special\" section, no guarantee/shipping info, no feature badges.",
+        "second_image_state": "\"Launch Special\" section, \"30 Day Money Back Guarantee\", \"Free Shipping\" icons, and four circular feature badges present."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Social Media Icons",
+        "first_image_state": "Social media icons (Facebook, Twitter, Pinterest) positioned below the main product image on the left side.",
+        "second_image_state": "Social media icons positioned at the bottom right of the page."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Main content area structure",
+        "first_image_state": "Smaller product image on the left; right side contains product description instead of guarantee icons and payment options",
+        "second_image_state": "Large product image on the left; right side contains price, add-to-cart button, payment options, and guarantee icons"
+      },
+      {
+        "category": "Component",
+        "component_name": "Launch Special badge",
+        "first_image_state": "Absent",
+        "second_image_state": "Present below price with crossed-out original price"
+      },
+      {
+        "category": "Component",
+        "component_name": "Buy with Shop Pay button",
+        "first_image_state": "Absent",
+        "second_image_state": "Present below add-to-cart button"
+      },
+      {
+        "category": "Component",
+        "component_name": "More Payment Options button",
+        "first_image_state": "Absent",
+        "second_image_state": "Present below Buy with Shop Pay button"
+      },
+      {
+        "category": "Component",
+        "component_name": "30 Day Money Back Guarantee and Free Shipping icons",
+        "first_image_state": "Absent",
+        "second_image_state": "Present below payment options"
+      },
+      {
+        "category": "Component",
+        "component_name": "Product description section",
+        "first_image_state": "Present below quantity selector",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Style",
+        "component_name": "Product image size",
+        "first_image_state": "Smaller, occupying less space in left column",
+        "second_image_state": "Larger, occupying majority of left column"
+      },
+      {
+        "category": "Style",
+        "component_name": "BUY NOW button",
+        "first_image_state": "Present below add-to-cart button, orange color matching add-to-cart button",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Price labels",
+        "first_image_state": "Shows '$599.99 $349.99' without 'Launch Special' label",
+        "second_image_state": "Shows '$599.99 $399.99' followed by 'Launch Special $349.99'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Launch Special text",
+        "first_image_state": "Absent",
+        "second_image_state": "Present as a label above discounted price"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 81.89040470123291,
+    "input_tokens": 2104,
+    "output_tokens": 4739,
+    "total_tokens": 6843,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Category filter button (last in row)",
+        "first_image_state": "Displays 'Zwarte' with a black circular icon",
+        "second_image_state": "Displays 'Bedding' with a bedding icon"
+      },
+      {
+        "category": "Component",
+        "component_name": "Helper section ('Te veel keuze?')",
+        "first_image_state": "Present with text 'Te veel keuze? Beantwoord 5 korte vragen en vind jouw artikel' and a blue 'Help mij kiezen' button",
+        "second_image_state": "Not present"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Sort dropdown label",
+        "first_image_state": "Shows 'populariteit'",
+        "second_image_state": "Shows 'Sorteer op: Populariteit'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Product quantity selector and add to cart buttons",
+        "first_image_state": "Not present",
+        "second_image_state": "Present as yellow '+' and '-' buttons, plus a heart icon for each product"
+      },
+      {
+        "category": "Component",
+        "component_name": "Product seller information",
+        "first_image_state": "Not present",
+        "second_image_state": "Present as text like 'Verkoop door Alveru' under the first product"
+      },
+      {
+        "category": "Component",
+        "component_name": "'Meer verkopers vanaf...' text",
+        "first_image_state": "Not present",
+        "second_image_state": "Present as text like 'Meer verkopers vanaf \u20ac62,00' under the first product"
+      },
+      {
+        "category": "Component",
+        "component_name": "Subcategory navigation icons",
+        "first_image_state": "Replaced by large color swatches (green, rainbow, brown, black, beige, blue, pink, gray, yellow, purple, red, orange)",
+        "second_image_state": "Displays icons with text labels for Woonaccessoires, Meubels, Verlichting, Decoratieve accessoires, and Beddeng"
+      },
+      {
+        "category": "Component",
+        "component_name": "Color filter options",
+        "first_image_state": "Large color circles without text labels and a 'Meer' button",
+        "second_image_state": "Radio buttons with text labels (Blauw, Bruin, Geel) and a 'Meer' button"
+      },
+      {
+        "category": "Component",
+        "component_name": "Help section",
+        "first_image_state": "Contains an icon, text 'Te veel keuze?', text 'Beantwoord 5 korte vragen en vind jouw artikel', and a 'Help mij kiezen' button",
+        "second_image_state": "Not present"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 112.31550288200378,
+    "input_tokens": 6256,
+    "output_tokens": 5077,
+    "total_tokens": 11333,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

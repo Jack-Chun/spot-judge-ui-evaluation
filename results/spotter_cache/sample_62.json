@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Top right navigation icons",
+        "first_image_state": "Icons without text labels",
+        "second_image_state": "Icons with text labels 'Login', 'Wishlist', 'My Bag'"
+      },
+      {
+        "category": "Style",
+        "component_name": "Add to bag button",
+        "first_image_state": "Orange background with white text",
+        "second_image_state": "Black background with white text"
+      },
+      {
+        "category": "Style",
+        "component_name": "Add to bag button",
+        "first_image_state": "Orange rectangular button with white text",
+        "second_image_state": "Black rectangular button with white text"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 21.14371633529663,
+    "input_tokens": 6064,
+    "output_tokens": 768,
+    "total_tokens": 6832,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

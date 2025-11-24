@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Pricing Information Section",
+        "first_image_state": "Discount percentage (-33%) and current price ($9.99) displayed prominently above struck-through list price ($15.69)",
+        "second_image_state": "List price, current price, and savings amount displayed in a sequential layout with labels (List Price: $15.69, Price: $9.99, You Save: $5.01)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Shipping Information Text",
+        "first_image_state": "Shipping & Import Fees Deposit to Canada Details",
+        "second_image_state": "No Import Fees Deposit & $9.46 Shipping to Canada Details"
+      },
+      {
+        "category": "Style",
+        "component_name": "Price Display",
+        "first_image_state": "Price shows '-33% $9.99 ($3.33 / Count)', list price '$45.69', no 'You Save' line",
+        "second_image_state": "Price shows '$9.99 ($3.33 / Count)' with 'You Save: $5.01 (33%)' below, list price '$45.00'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Brand Link",
+        "first_image_state": "Text reads 'Lightning Cables by TAK.'",
+        "second_image_state": "Text reads 'Lightning Cables by; TAKAGI'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Shipping Fee Label",
+        "first_image_state": "Text reads '$9.46 Shipping & Import Fees Deposit to Canada Details'",
+        "second_image_state": "Text reads 'No Import Fees Deposit & $9.46 Shipping to Canada Details'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 68.0361258983612,
+    "input_tokens": 5424,
+    "output_tokens": 2681,
+    "total_tokens": 8105,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

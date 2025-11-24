@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Main heading",
+        "first_image_state": "Displays \"Find deals and experience the world\"",
+        "second_image_state": "Displays \"Find deals for any season\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Accommodation navigation item",
+        "first_image_state": "Has a dropdown arrow indicator",
+        "second_image_state": "Does not have a dropdown arrow indicator"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Guest selection field",
+        "first_image_state": "Displays \"2 adults \u00b7 0 children \u00b7 1 room\"",
+        "second_image_state": "Displays \"2 adults \u00b7 1 room\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Glamping accommodation category",
+        "first_image_state": "Present in the row of accommodation types",
+        "second_image_state": "Absent from the row of accommodation types"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "Find deals and experience the world",
+        "second_image_state": "Find deals for any season"
+      },
+      {
+        "category": "Component",
+        "component_name": "Guest Selection Field",
+        "first_image_state": "2 adults \u00b7 0 children \u00b7 1 room",
+        "second_image_state": "2 adults \u00b7 1 room"
+      },
+      {
+        "category": "Component",
+        "component_name": "Accommodation Category Grid",
+        "first_image_state": "Six categories (Adds Glamping)",
+        "second_image_state": "Five categories (Apartments, Resorts, Villas, Cabins, Cottages)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Navigation Tab (Accommodation)",
+        "first_image_state": "Blue background with downward arrow",
+        "second_image_state": "Solid blue background with no arrow"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 77.72327208518982,
+    "input_tokens": 6864,
+    "output_tokens": 3791,
+    "total_tokens": 10655,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

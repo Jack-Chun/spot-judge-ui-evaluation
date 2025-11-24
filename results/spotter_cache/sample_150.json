@@ -1,0 +1,140 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Benefits Section",
+        "first_image_state": "Present with three icon-based benefit cards (No room rent capping, No co-payment, OPD cover & lifelong renewability)",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Back Button",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with left arrow icon and \"Back\" text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Install Button",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with \"Install\" text"
+      },
+      {
+        "category": "Component",
+        "component_name": "WhatsApp Us Link",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with \"WhatsApp us\" text and green WhatsApp icon"
+      },
+      {
+        "category": "Component",
+        "component_name": "Terms and Conditions Checkbox",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with checked box and \"I agree to the terms and conditions\" text"
+      },
+      {
+        "category": "Component",
+        "component_name": "ASK RIA Live Chat Widget",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with circular avatar and \"ASK RIA LIVE CHAT\" text"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Form Field Order (Mobile Number vs Adults/Kids)",
+        "first_image_state": "Mobile Number field positioned above Adults(s) and Kids(s) counters",
+        "second_image_state": "Adults(s) and Kids(s) counters positioned above Mobile Number field"
+      },
+      {
+        "category": "Style",
+        "component_name": "Form Field Icons",
+        "first_image_state": "Present for Mobile Number (phone icon), Adults(s)/Kids(s) (minus/plus icons), Email (envelope icon), Pincode (location icon), Name (person icon)",
+        "second_image_state": "Absent for all form fields"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Header Title",
+        "first_image_state": "\"Health AdvantEdge\"",
+        "second_image_state": "\"IL TakeCare app\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Coverage Information",
+        "first_image_state": "\"Coverage starts from \u20b95 lakh for a monthly premium as low as \u20b9542*\"",
+        "second_image_state": "Absent (replaced by app banner)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Mobile Number Label",
+        "first_image_state": "\"Mobile Number*\"",
+        "second_image_state": "\"Mobile number\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Adults Label",
+        "first_image_state": "\"Adult(s)\"",
+        "second_image_state": "\"Adult's\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Kids Label",
+        "first_image_state": "\"Kids(s)\"",
+        "second_image_state": "\"Kid(s)\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Quote Button Text",
+        "first_image_state": "\"Get quick quote\"",
+        "second_image_state": "\"Get quote\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Page Header",
+        "first_image_state": "Displays \"Health AdvantEdge\" as the main header text.",
+        "second_image_state": "Displays \"IL TakeCare app\" as the main header text."
+      },
+      {
+        "category": "Component",
+        "component_name": "Navigation Element",
+        "first_image_state": "Includes a heart icon adjacent to the header (replacing the install button).",
+        "second_image_state": "Includes an \"Install\" button adjacent to the header."
+      },
+      {
+        "category": "Component",
+        "component_name": "Benefits Module",
+        "first_image_state": "Present, featuring three benefit icons (No room rent capping, No co-payment, OPD cover & lifelong renewability) below the header.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Style",
+        "component_name": "Input Fields",
+        "first_image_state": "Input fields include icons (phone, email, location, person) and asterisks (*) for required fields (Mobile Number, Email, Pincode).",
+        "second_image_state": "Plain input fields without icons or asterisks indicating required status."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Primary Action Button",
+        "first_image_state": "Labeled \"Get quick quote\" with a right-pointing arrow icon.",
+        "second_image_state": "Labeled \"Get quote\" with no additional icon."
+      },
+      {
+        "category": "Component",
+        "component_name": "Utility Elements",
+        "first_image_state": "Does not include a \"Back\" button or the \"ASK RIA LIVE CHAT\" widget.",
+        "second_image_state": "Includes a \"Back\" button and an \"ASK RIA LIVE CHAT\" widget."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Age Range Labels",
+        "first_image_state": "Adult counter displays \"(21 years & above)\"; Kid counter displays \"(3 months - 18 years)\".",
+        "second_image_state": "Adult counter displays \"(21 years - 65 years)\"; Kid counter displays \"(3 months - 20 years)\"."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 101.29800295829773,
+    "input_tokens": 3824,
+    "output_tokens": 5376,
+    "total_tokens": 9200,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

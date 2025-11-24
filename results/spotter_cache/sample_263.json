@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Call to Action Button Text",
+        "first_image_state": "Displays \"add to cart\"",
+        "second_image_state": "Displays \"buy now\""
+      },
+      {
+        "category": "Style",
+        "component_name": "Call to Action Button Visuals",
+        "first_image_state": "Green background with a shopping cart icon",
+        "second_image_state": "Black background with a right-pointing arrow icon"
+      },
+      {
+        "category": "Component",
+        "component_name": "Call-to-action button",
+        "first_image_state": "Green rectangular button with large white \"$10\" text, smaller white \"add to cart\" text, and shopping cart icon",
+        "second_image_state": "Black rectangular button with large white \"$10\" text, smaller white \"buy now\" text, and right-pointing arrow icon"
+      },
+      {
+        "category": "Style",
+        "component_name": "Call-to-action button",
+        "first_image_state": "Green background with white text and shopping cart icon",
+        "second_image_state": "Black background with white text and arrow icon"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Call-to-action button text",
+        "first_image_state": "\"add to cart\"",
+        "second_image_state": "\"buy now\""
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 88.38986015319824,
+    "input_tokens": 1730,
+    "output_tokens": 4266,
+    "total_tokens": 5996,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Modal Overlay",
+        "first_image_state": "Present, covering central portion of the page",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Countdown Timer",
+        "first_image_state": "Visible within the modal",
+        "second_image_state": "Not visible"
+      },
+      {
+        "category": "Component",
+        "component_name": "'Can't resist' Button",
+        "first_image_state": "Visible within the modal with red background and smiley emoji",
+        "second_image_state": "Not visible"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Modal Headline Text",
+        "first_image_state": "Displays 'Give up trash. Start eating Keto.'",
+        "second_image_state": "Not present"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Modal Subheadline Text",
+        "first_image_state": "Displays 'Finish your order in 15 minutes, and save EXTRA 15% OFF!'",
+        "second_image_state": "Not present"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Banner Headline Text",
+        "first_image_state": "Not present",
+        "second_image_state": "Displays 'Cut carbs, kick cravings with our keto friendly snacks'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Banner CTA Text",
+        "first_image_state": "Not present",
+        "second_image_state": "Displays 'SHOP NOW'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Modal Overlay",
+        "first_image_state": "Present, containing promotional text, countdown timer, and 'Can't resist' call-to-action button",
+        "second_image_state": "Not present"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Main Content Area",
+        "first_image_state": "Obscured by modal overlay, with only partial view of underlying content",
+        "second_image_state": "Fully visible, displaying keto snack products and 'SHOP NOW' button"
+      },
+      {
+        "category": "Style",
+        "component_name": "Modal Visual Attributes",
+        "first_image_state": "White background with rounded corners, red accent color for call-to-action button",
+        "second_image_state": "Not applicable (no modal)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Promotional Messaging",
+        "first_image_state": "Text reading 'Give up trash. Start eating Keto.', 'Finish your order in 15 minutes, and save EXTRA 15% OFF!'",
+        "second_image_state": "Not applicable (no modal)"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 89.28082609176636,
+    "input_tokens": 2136,
+    "output_tokens": 4172,
+    "total_tokens": 6308,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

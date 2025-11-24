@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Tipo Dropdown",
+        "first_image_state": "Visible with multiple selectable options (Walk Run, Apart Hotel, Apartment, Home, House In Condominium, Coverage, Shed, Shop, Lot, Lot In Condominium, Building, Room, Parking Space)",
+        "second_image_state": "Not visible"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Search Form Structure",
+        "first_image_state": "Contains 'Tipo' dropdown, 'Bairro' dropdown, and 'Pesquisar' button aligned horizontally",
+        "second_image_state": "Contains a single input field (for neighborhood) and 'Pesquisar' button, with no 'Tipo' dropdown"
+      },
+      {
+        "category": "Component",
+        "component_name": "Bairro Input Field/Dropdown",
+        "first_image_state": "Dropdown with 'Indiferente' selected",
+        "second_image_state": "Input field with placeholder text 'Digite o nome de um bairro para come\u00e7ar'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Header Navigation and Branding",
+        "first_image_state": "Absent (no header with logo, navigation links, or contact information)",
+        "second_image_state": "Present with 'Casa Mineira' logo, 'Comprar'/'Alugar' tabs, navigation menu (Servi\u00e7os, Venda Seu Im\u00f3vel, Seja um Corretor, Contato), and contact numbers (Central de vendas: 31 2533 3000, Central de loca\u00e7\u00e3o: 31 3285 3005)"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Header Section",
+        "first_image_state": "Not visible; the page begins directly with the banner content",
+        "second_image_state": "Visible at the top with logo, navigation links (Servi\u00e7os, Venda Seu Im\u00f3vel, Seja um Corretor, Contato), phone numbers (Central de vendas: 31 2533 3000, Central de loca\u00e7\u00e3o: 31 3285 3005), and a favorites icon (Meus im\u00f3veis favoritos)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Search Input Field",
+        "first_image_state": "Replaced by two dropdown select fields labeled \"Tipo\" and \"Bairro\"",
+        "second_image_state": "Rectangular text input field with placeholder text \"Digite o nome de um bairro para come\u00e7ar\""
+      },
+      {
+        "category": "Style",
+        "component_name": "Search Button",
+        "first_image_state": "Orange rectangular button with text \"Pesquisar\"",
+        "second_image_state": "Yellow rectangular button with text \"Pesquisar\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Property Type Dropdown Menu",
+        "first_image_state": "Open dropdown menu displaying multiple property type options (e.g., Indiferente, Walk Run, Apart Hotel, Apartment, Home, House In Condominium, Coverage, Shed, Shop, Lot, Lot In Condominium, Building, Room, Parking Space)",
+        "second_image_state": "Not present"
+      },
+      {
+        "category": "Copy",
+        "component_name": "More Search Options Link",
+        "first_image_state": "Replaced by two links: \"op\u00e7\u00f5es de pesquisa\" and \"Busca por c\u00f3digo\"",
+        "second_image_state": "Text \"Mais op\u00e7\u00f5es de pesquisa\" located below the search bar"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 84.70173716545105,
+    "input_tokens": 3514,
+    "output_tokens": 4743,
+    "total_tokens": 8257,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

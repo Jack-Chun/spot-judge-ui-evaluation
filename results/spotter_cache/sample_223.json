@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Call-to-action element",
+        "first_image_state": "Red rectangular button with white text",
+        "second_image_state": "Blue underlined text link"
+      },
+      {
+        "category": "Style",
+        "component_name": "Call-to-action styling",
+        "first_image_state": "Red background, white text, rectangular shape",
+        "second_image_state": "Blue text, underlined, no background"
+      },
+      {
+        "category": "Copy",
+        "component_name": "First bullet point text",
+        "first_image_state": "Mentions E-electric projection screen brochure availability",
+        "second_image_state": "Mentions hanging R-series or m-compact projection screen from wires"
+      },
+      {
+        "category": "Component",
+        "component_name": "Fifth bullet point",
+        "first_image_state": "Present, discussing outdoor projection screen elements",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Red CTA Button",
+        "first_image_state": "Large red rectangular button with white text \"Click here to get a great deal on a new or ex-demo projection screen\"",
+        "second_image_state": "Not present"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hanging Screen Instruction Bullet Point",
+        "first_image_state": "Not present",
+        "second_image_state": "\"Learn how to hang your R-series or m-compact projection screen from wires. Download the PDF here\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Outdoor Use Instruction Bullet Point",
+        "first_image_state": "\"Learn all about the role the elements play when you want to use your projection screen outdoors. Check it out\"",
+        "second_image_state": "Not present"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Bullet Points Order",
+        "first_image_state": "Bullet points ordered with R-electric brochure first, followed by floating fixed frame guide, Q-series sizes, customise housing video, then outdoor use instruction",
+        "second_image_state": "Bullet points ordered with \"Learn how to hang...\" as first, followed by R-electric brochure, floating fixed frame guide, Q-series sizes, customise housing video"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 111.71658492088318,
+    "input_tokens": 1612,
+    "output_tokens": 5697,
+    "total_tokens": 7309,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

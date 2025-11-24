@@ -1,0 +1,122 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Main form container",
+        "first_image_state": "Single large container holding 'Your Details' and 'Vehicle 1 Details' sections",
+        "second_image_state": "Four separate card-like containers (Contact, Address, Flight, Vehicle 1) arranged in a 2x2 grid"
+      },
+      {
+        "category": "Component",
+        "component_name": "Vehicle type selection",
+        "first_image_state": "Radio buttons (Car, Van, 4x4) with Car selected",
+        "second_image_state": "Dropdown menu labeled 'Standard'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Add another vehicle button",
+        "first_image_state": "Present as a red button",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Contact section",
+        "first_image_state": "Not present",
+        "second_image_state": "Present as a dark blue card with fields for Title, First Name, Last Name, Phone Number, Email"
+      },
+      {
+        "category": "Component",
+        "component_name": "Address section",
+        "first_image_state": "Not present",
+        "second_image_state": "Present as a dark blue card with fields for Address 1, Address 2, Address 3, City, Postcode"
+      },
+      {
+        "category": "Component",
+        "component_name": "Flight section",
+        "first_image_state": "Not present",
+        "second_image_state": "Present as a dark blue card with fields for Return Flight Number, Destination, Passengers"
+      },
+      {
+        "category": "Component",
+        "component_name": "Vehicle details fields (Make, Model, Colour)",
+        "first_image_state": "Not present",
+        "second_image_state": "Present below 'Number Plate' field in the Vehicle 1 section"
+      },
+      {
+        "category": "Style",
+        "component_name": "Form section background color",
+        "first_image_state": "Light gray",
+        "second_image_state": "Dark blue"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Section header 'Your Details'",
+        "first_image_state": "Present as 'Your Details'",
+        "second_image_state": "Replaced by 'Contact'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Vehicle type label",
+        "first_image_state": "Present as 'Select Your Vehicle Type:'",
+        "second_image_state": "Changed to 'Vehicle Type:'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Navigation buttons (Back, Continue)",
+        "first_image_state": "Positioned at the bottom left of the page",
+        "second_image_state": "Positioned at the bottom right of the page"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Form Sections Container",
+        "first_image_state": "Two larger rectangular containers ('Your Details' and 'Vehicle 1 Details') arranged vertically within the page.",
+        "second_image_state": "Four blue rectangular containers (Contact, Address, Flight, Vehicle 1) arranged in a 2x2 grid within the page."
+      },
+      {
+        "category": "Component",
+        "component_name": "Contact Form Section",
+        "first_image_state": "This container is removed; its fields are integrated into the 'Your Details' section.",
+        "second_image_state": "A blue rectangular container containing fields for Title, First Name, Last Name, Phone Number, Email."
+      },
+      {
+        "category": "Component",
+        "component_name": "Address Form Section",
+        "first_image_state": "This container is removed.",
+        "second_image_state": "A blue rectangular container containing fields for Address 1-3, City, Postcode."
+      },
+      {
+        "category": "Component",
+        "component_name": "Flight Form Section",
+        "first_image_state": "This container is removed.",
+        "second_image_state": "A blue rectangular container containing fields for Return Flight Number, Destination, Passengers."
+      },
+      {
+        "category": "Component",
+        "component_name": "Vehicle Type Selector",
+        "first_image_state": "Radio button options (Car, Van, 4x4) replacing the dropdown.",
+        "second_image_state": "A dropdown menu labeled 'Vehicle Type' with 'Standard' selected."
+      },
+      {
+        "category": "Style",
+        "component_name": "Main Content Background",
+        "first_image_state": "Light blue background behind the form sections.",
+        "second_image_state": "Light gray background behind the form containers."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Section Headers",
+        "first_image_state": "Headers include 'Your Details', 'Vehicle 1 Details'.",
+        "second_image_state": "Headers include 'Contact', 'Address', 'Flight', 'Vehicle 1'."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 101.58631181716919,
+    "input_tokens": 3748,
+    "output_tokens": 4827,
+    "total_tokens": 8575,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

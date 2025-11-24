@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Left-side promotional text",
+        "first_image_state": "Contains 'No more painful procedures or side effects' followed by additional text",
+        "second_image_state": "Contains 'We have partnered with leading dermatologists to bring you the best skin care solutions' followed by additional text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Registration form",
+        "first_image_state": "Includes dropdown labeled 'I am a', text input labeled 'Age', and text input labeled 'Email'",
+        "second_image_state": "Includes dropdown labeled 'I want to register/sign up for', text input labeled 'Name', and text input labeled 'Email'"
+      },
+      {
+        "category": "Component",
+        "component_name": "State input field",
+        "first_image_state": "Dropdown menu for selecting state information.",
+        "second_image_state": "Text input field for entering state information."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Form checkbox label",
+        "first_image_state": "Checkbox label reads 'I'd like to receive beauty tips via email'.",
+        "second_image_state": "Checkbox label reads 'I have or would like to get a free skin analysis Sign me up!'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Form submit button label",
+        "first_image_state": "Button label reads 'Send'",
+        "second_image_state": "Button label reads 'Submit'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 69.88923263549805,
+    "input_tokens": 1200,
+    "output_tokens": 3656,
+    "total_tokens": 4856,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

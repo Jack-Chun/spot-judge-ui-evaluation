@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Name input field",
+        "first_image_state": "Not present in the modal form",
+        "second_image_state": "Present as the first input field in the modal form"
+      },
+      {
+        "category": "Component",
+        "component_name": "Date of birth input field",
+        "first_image_state": "Not present in the modal form",
+        "second_image_state": "Present as the third input field in the modal form"
+      },
+      {
+        "category": "Component",
+        "component_name": "Request Contact button",
+        "first_image_state": "Present as a yellow button at the bottom of the modal form",
+        "second_image_state": "Not present in the modal form"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Form field order",
+        "first_image_state": "Fields arranged as: CPF, Email, Cell phone or phone, UF, City, Profession, Do you have dependents?",
+        "second_image_state": "Fields arranged as: Name, CPF, Date of birth, Email, Cell phone or phone, UF, City, Profession, Do you have dependents?"
+      },
+      {
+        "category": "Component",
+        "component_name": "Name input field",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with person icon"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Input field order",
+        "first_image_state": "CPF field first, followed by Email, Cell phone, UF, City, Profession (Name field omitted)",
+        "second_image_state": "Name field first, followed by CPF, Date of birth, Email, Cell phone, UF, City, Profession"
+      },
+      {
+        "category": "Component",
+        "component_name": "Request Contact button",
+        "first_image_state": "Present as yellow button with 'Request Contact' text",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Legal Information link",
+        "first_image_state": "Present at bottom of form",
+        "second_image_state": "Absent"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 72.80262875556946,
+    "input_tokens": 6384,
+    "output_tokens": 3393,
+    "total_tokens": 9777,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Main Content Structure",
+        "first_image_state": "Three-column layout with SHOP, BUILD, CREATE sections followed by three product category sections (PENDANT LIGHTS, FLOOR LAMPS, TABLE LAMPS)",
+        "second_image_state": "Single banner section followed by a product grid under 'BEST SELLERS'"
+      },
+      {
+        "category": "Component",
+        "component_name": "SHOP/BUILD/CREATE Sections",
+        "first_image_state": "Present with icons and descriptive text",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Style",
+        "component_name": "Banner Visual Type",
+        "first_image_state": "Photographic images in main sections",
+        "second_image_state": "Illustrated banner with black and white artwork"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Content Headings",
+        "first_image_state": "'Browse lighting by renowned designers', 'Architectural Lighting Solutions', 'Collaborate on custom crafted lighting'",
+        "second_image_state": "'BON JOUR \u00c0 TOUT LE MONDE', 'BEST SELLERS'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Main Content Structure",
+        "first_image_state": "Three-column section (SHOP, BUILD, CREATE) followed by categorized lighting sections (Pendant Lights, Floor Lamps, Table Lamps)",
+        "second_image_state": "Single hero banner followed by a 'Best Sellers' product grid"
+      },
+      {
+        "category": "Component",
+        "component_name": "Hero Banner",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with black-and-white illustration, 'BON JOUR \u00c0 TOUT LE MONDE' text, and 'Shop Now' button"
+      },
+      {
+        "category": "Component",
+        "component_name": "Categorized Lighting Sections",
+        "first_image_state": "Present (Pendant Lights, Floor Lamps, Table Lamps) with photographic content and 'Know More' buttons",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Three-Column Icon Sections",
+        "first_image_state": "Present (SHOP, BUILD, CREATE) with icons and descriptive text",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero Text",
+        "first_image_state": "Absent",
+        "second_image_state": "Present ('BON JOUR \u00c0 TOUT LE MONDE')"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Section Headings",
+        "first_image_state": "Absent (replaced by new headings like 'PENDANT LIGHTS', 'FLOOR LAMPS', 'TABLE LAMPS')",
+        "second_image_state": "Present ('BEST SELLERS')"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 60.55918788909912,
+    "input_tokens": 1804,
+    "output_tokens": 2745,
+    "total_tokens": 4549,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

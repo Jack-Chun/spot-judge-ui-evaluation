@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Sommaire section",
+        "first_image_state": "Displays \"Sommaire /Afficher\"",
+        "second_image_state": "Displays \"Sommaire / Cacher\""
+      },
+      {
+        "category": "Style",
+        "component_name": "Promotion box astronaut image",
+        "first_image_state": "Astronaut with a helmet and visor",
+        "second_image_state": "Astronaut with a circular frame around the head"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Sommaire button label",
+        "first_image_state": "Displays \"Afficher\" next to \"Sommaire\"",
+        "second_image_state": "Displays \"1\" next to \"Sommaire\""
+      },
+      {
+        "category": "Style",
+        "component_name": "Author profile avatar",
+        "first_image_state": "Larger circular avatar with verification badge",
+        "second_image_state": "Small circular avatar without verification badge"
+      },
+      {
+        "category": "Style",
+        "component_name": "Promotional banner logo container",
+        "first_image_state": "White circular background",
+        "second_image_state": "Red circular background"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Promotional banner bonus text",
+        "first_image_state": "Displays \"BONUS EXCLUSIF CHOCOLAT AU LAIT\" below the logo",
+        "second_image_state": "No additional text"
+      },
+      {
+        "category": "Style",
+        "component_name": "Top navigation link \"Meilleurs Casinos en ligne\"",
+        "first_image_state": "Uppercase text",
+        "second_image_state": "Lowercase text"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 99.13332271575928,
+    "input_tokens": 1768,
+    "output_tokens": 5212,
+    "total_tokens": 6980,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

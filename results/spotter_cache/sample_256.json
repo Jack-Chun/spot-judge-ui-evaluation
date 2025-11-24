@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Testimonial Section",
+        "first_image_state": "Present (contains image, name 'Alexey Dernyavon', course title 'Postgraduate Diploma in Hotel Management', and quote)",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Your Question Textarea",
+        "first_image_state": "Absent",
+        "second_image_state": "Present (textarea field located below the Phone field)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Testimonial Block",
+        "first_image_state": "Present. Contains a photo of Alexey Deryagin, his name (Alexey Deryagin - Russia), academic credential (Postgraduate Diploma in Hotel Management), and a quoted statement.",
+        "second_image_state": "Absent. No user-specific information or testimonial elements visible."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 23.994154930114746,
+    "input_tokens": 1564,
+    "output_tokens": 1087,
+    "total_tokens": 2651,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

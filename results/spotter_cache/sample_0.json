@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Product Grid Columns",
+        "first_image_state": "4 columns of product containers arranged horizontally",
+        "second_image_state": "5 columns of product containers arranged horizontally"
+      },
+      {
+        "category": "Component",
+        "component_name": "\"More colours\" Label",
+        "first_image_state": "Absent under product titles",
+        "second_image_state": "Present under select product titles"
+      },
+      {
+        "category": "Style",
+        "component_name": "Product Container Width",
+        "first_image_state": "Wider product containers with greater horizontal spacing between them",
+        "second_image_state": "Narrower product containers with reduced horizontal spacing between them"
+      },
+      {
+        "category": "Component",
+        "component_name": "More Colours Link",
+        "first_image_state": "No product cards display a 'More colours' link below the product image.",
+        "second_image_state": "Some product cards display a 'More colours' link below the product image."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 129.4656434059143,
+    "input_tokens": 6544,
+    "output_tokens": 6168,
+    "total_tokens": 12712,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

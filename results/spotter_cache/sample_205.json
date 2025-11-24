@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Newsletter Interaction Element",
+        "first_image_state": "A large modal dialog with 'Stay Connected' header, descriptive text, email input field, agreement checkbox, and orange 'STAY IN THE KNOW' button",
+        "second_image_state": "A small rectangular button labeled 'NEWSLETTER' with an icon in the bottom right corner"
+      },
+      {
+        "category": "Component",
+        "component_name": "Newsletter Subscription Module",
+        "first_image_state": "A dark rectangular modal titled 'Stay Connected' containing an email input field, a checkbox for agreeing to receive periodic information, and an orange button labeled 'STAY IN THE KNOW', positioned on the right side of the page.",
+        "second_image_state": "A small pink rectangular button labeled 'NEWSLETTER' with an icon, positioned on the right side of the page."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 29.34470295906067,
+    "input_tokens": 1824,
+    "output_tokens": 1595,
+    "total_tokens": 3419,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

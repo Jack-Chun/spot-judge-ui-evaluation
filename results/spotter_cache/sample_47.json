@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Rating Display",
+        "first_image_state": "Shows numerical rating '4.9' followed by '(433 reviews)' with star icons",
+        "second_image_state": "Shows five star icons followed by '433' without parentheses"
+      },
+      {
+        "category": "Component",
+        "component_name": "Rating Display",
+        "first_image_state": "Shows a decimal numeric rating '4.9' followed by the text '(433 reviews)'",
+        "second_image_state": "Shows star icon graphics followed by the numeric value '433'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 36.12094187736511,
+    "input_tokens": 6064,
+    "output_tokens": 1401,
+    "total_tokens": 7465,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

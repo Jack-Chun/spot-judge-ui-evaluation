@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Middle section icons and text links",
+        "first_image_state": "Three icons (Secure transaction, Returns Policy, Amazon Delivered) are present between the price and capacity options.",
+        "second_image_state": "These icons are removed, and a 'Secure transaction' text link is added below the Buy Now button."
+      },
+      {
+        "category": "Layout",
+        "component_name": "'Ships from and sold by amazon.ca' text position",
+        "first_image_state": "Positioned above the 'Add to Cart' button.",
+        "second_image_state": "Positioned below the 'Buy Now' button."
+      },
+      {
+        "category": "Component",
+        "component_name": "'About this item' bullet points",
+        "first_image_state": "Four bullet points describing product features (sequential read speeds, transfer rates, MTTF, TBW).",
+        "second_image_state": "Eight bullet points, including additional details like WD F.I.T. Lab certification, 5-year warranty, free software, and active power draw."
+      },
+      {
+        "category": "Component",
+        "component_name": "Navigation menu item 'Electronics'",
+        "first_image_state": "Text 'Electron's' displayed in the navigation menu",
+        "second_image_state": "Text 'Electronics' displayed in the navigation menu"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Top-right promotional text",
+        "first_image_state": "Text 'and TV Shows' displayed next to the sign-in button",
+        "second_image_state": "Text 'Valentine's Day' displayed next to the sign-in button"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 86.30392718315125,
+    "input_tokens": 5104,
+    "output_tokens": 4231,
+    "total_tokens": 9335,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

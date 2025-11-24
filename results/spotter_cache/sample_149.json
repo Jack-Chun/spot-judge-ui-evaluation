@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Status bar (contact info section)",
+        "first_image_state": "Green background with text 'The probability of approval is 50% Get \u2192 10% for the completion of step 2'",
+        "second_image_state": "Yellow background with text 'The probability of approval is 50% \u2192 10% for the completion of step 2'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Status bar text (contact info section)",
+        "first_image_state": "Includes the word 'Get' in the text",
+        "second_image_state": "Does not include the word 'Get' in the text"
+      },
+      {
+        "category": "Style",
+        "component_name": "Contact Info section",
+        "first_image_state": "Green background",
+        "second_image_state": "Yellow background"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Contact Info text",
+        "first_image_state": "The probability of approval is 30% Get +10% for step 3 completion",
+        "second_image_state": "The probability of approval is 30% \u2022 +10% for the completion of step 3"
+      },
+      {
+        "category": "Component",
+        "component_name": "Passport data input fields",
+        "first_image_state": "Three input fields (Code division, Date of issue, Issued)",
+        "second_image_state": "Two input fields (Code division, Date of issue)"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 40.716981172561646,
+    "input_tokens": 1412,
+    "output_tokens": 1935,
+    "total_tokens": 3347,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

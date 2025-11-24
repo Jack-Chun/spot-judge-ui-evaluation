@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Page Heading and Subheading",
+        "first_image_state": "Page heading reads 'Whatever your size, Buildium is the perfect fit.' and subheading reads 'We\u2019ve been powering small, medium, and large property management companies since 2004.'",
+        "second_image_state": "Page heading reads 'Proof, meet pudding. We can help you too.' and subheading reads 'We have over 8,000 happy customers around the world.'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Middle Testimonial Quote",
+        "first_image_state": "Quote text about saving more money monthly using Buildium, discovering time-saving and money-saving features.",
+        "second_image_state": "Quote text about cutting bookkeeping time by 40-50%, simplifying tracking of owners, properties, tenants, lease details."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Right Testimonial Quote",
+        "first_image_state": "Quote text about growing from 12 to 1,750 units, gaining confidence to add more units without logistics worries.",
+        "second_image_state": "Quote text about saving time to service clients and market for new business instead of administrative tasks."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Header and Subheader",
+        "first_image_state": "Header reads \"Whatever your size, Buildium is the perfect fit.\"; subheader reads \"We\u2019ve been powering small, medium, and large property management companies since 2004.\"",
+        "second_image_state": "Header reads \"Proof, meet pudding. We can help you too.\"; subheader reads \"We have over 8,000 happy customers around the world.\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Testimonials",
+        "first_image_state": "Three testimonials from Justyn MacFarland (Sand Dune Properties, with added \"110 units\"), Tom Kaider (A Plus Property Managers, Inc., with added \"573 units\"), and Dave Codrea (Greenleaf Management, with added \"1,750 units\"), each with distinct quotes and company details.",
+        "second_image_state": "Three testimonials from Justyn MacFarland (Sand Dune Properties), Nathan Gesner (American West Realty), and Jeremy L. Hunter (Innovative Property Management), each with distinct quotes and company details."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 119.87221717834473,
+    "input_tokens": 3184,
+    "output_tokens": 4459,
+    "total_tokens": 7643,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

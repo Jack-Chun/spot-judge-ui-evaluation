@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Host promotion section",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with text 'Host the world in Toronto! Travellers from 180 countries searched for places to stay in your area last week.' and a globe icon"
+      },
+      {
+        "category": "Component",
+        "component_name": "Host promotion box",
+        "first_image_state": "Absent",
+        "second_image_state": "Present as a white container with 'Host the world in Toronto!' text, globe icon, and traveler statistics"
+      },
+      {
+        "category": "Component",
+        "component_name": "Steps heading",
+        "first_image_state": "Present as a large heading reading 'in 3 steps'",
+        "second_image_state": "Absent"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 27.345499753952026,
+    "input_tokens": 4736,
+    "output_tokens": 824,
+    "total_tokens": 5560,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

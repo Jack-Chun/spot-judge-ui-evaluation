@@ -1,0 +1,80 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "Text reads \"Get the complete developer platform.\"",
+        "second_image_state": "Text reads \"Plans for all developers\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Promotional Banner",
+        "first_image_state": "Not present",
+        "second_image_state": "Blue rectangular banner with text \"GitHub is now free for teams\", subtext \"GitHub Free gives teams private repositories with unlimited collaborators at no cost.\", and a blue \"Try GitHub Free\" button"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Plan Columns",
+        "first_image_state": "Three columns (Free, Team, Enterprise) arranged horizontally",
+        "second_image_state": "Four columns (Free, Team, Enterprise, GitHub One) arranged horizontally"
+      },
+      {
+        "category": "Component",
+        "component_name": "Payment Frequency Toggle",
+        "first_image_state": "Present with options \"Monthly\", \"Yearly\", and \"Get 1 month free\"",
+        "second_image_state": "Not present"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Plan Descriptions",
+        "first_image_state": "Bullet points include \"Unlimited public/private repositories\", \"Automatic security and version updates\", \"2,000 CI/CD minutes/month\"",
+        "second_image_state": "Bullet points include \"\u221e Unlimited public/private repositories\", \"\u221e Unlimited collaborators\", \"2,000 Actions minutes/month\""
+      },
+      {
+        "category": "Style",
+        "component_name": "Call-to-Action Buttons",
+        "first_image_state": "Mixed colors: \"Join for free\" (white background, black text), \"Continue with Team\" (dark gray background, white text), \"Start a free trial\" (black background, white text), \"Contact Sales\" (white background, black text)",
+        "second_image_state": "Uniform blue background with white text for all buttons: \"Join for free\", \"Continue with Team\", \"Contact Sales\", \"Try GitHub Free\"; additional button \"Learn more\" with white background and blue text"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Plan Cards Arrangement",
+        "first_image_state": "Three plan cards (Free, Team, Enterprise) arranged vertically, with the Team plan centered and highlighted with a blue border.",
+        "second_image_state": "Four plan cards (Free, Team, Enterprise, GitHub One) arranged horizontally in a single row."
+      },
+      {
+        "category": "Component",
+        "component_name": "Promotional Banner",
+        "first_image_state": "No promotional banner; the space is occupied by the main heading and payment frequency options.",
+        "second_image_state": "A blue promotional banner with text 'GitHub is now free for teams' and a call-to-action button 'Try GitHub Free'."
+      },
+      {
+        "category": "Style",
+        "component_name": "Team Plan Highlight",
+        "first_image_state": "Team plan card has a blue border, a 'MOST POPULAR' label at the top, and is visually emphasized compared to other plan cards.",
+        "second_image_state": "Team plan card without any special highlighting; same visual style as other plan cards."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "Main heading reads 'Get the complete developer platform.'.",
+        "second_image_state": "Main heading reads 'Plans for all developers'."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Free Plan Description",
+        "first_image_state": "Free plan description reads 'The basics for individuals and organizations'.",
+        "second_image_state": "Free plan description reads 'Basics for teams and developers'."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 97.39422297477722,
+    "input_tokens": 6224,
+    "output_tokens": 4619,
+    "total_tokens": 10843,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

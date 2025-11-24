@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Bottom section container",
+        "first_image_state": "Contains multiple client logos arranged horizontally",
+        "second_image_state": "Contains a bulleted list of trial subscription benefits"
+      },
+      {
+        "category": "Component",
+        "component_name": "Client logos",
+        "first_image_state": "Present as individual image components (DeliXL, Pelican Rouge, Belisol, SALES CARE, blast digital signage, ONLINE LEADBOX)",
+        "second_image_state": "Absent; replaced by text-based bullet point components"
+      },
+      {
+        "category": "Component",
+        "component_name": "Trial benefit list",
+        "first_image_state": "Absent",
+        "second_image_state": "Present as a series of checkbox-style text components listing subscription features"
+      },
+      {
+        "category": "Component",
+        "component_name": "Left-side promotional content",
+        "first_image_state": "Customer logos (DeliXL, Pelican Rouge, Belisol, SALES CARE ONLINE MARKETING, blast digital signage, ONLINE LEADBOX) and the text 'Meer dan 7000 mkbl'ers werken slimmer met Teamleader'",
+        "second_image_state": "A list of bullet points with checkmarks detailing trial subscription benefits under the heading 'Wat je krijgt bij je proefabonnement van Teamleader:'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 26.27945375442505,
+    "input_tokens": 2224,
+    "output_tokens": 1044,
+    "total_tokens": 3268,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

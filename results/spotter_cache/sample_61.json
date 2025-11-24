@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Plan Selection Container",
+        "first_image_state": "Horizontal arrangement of three plan columns (Basic, Standard, Premium) with features listed in rows below each column.",
+        "second_image_state": "Vertical stack of three plan cards (Premium, Standard, Basic) with features displayed within each card."
+      },
+      {
+        "category": "Component",
+        "component_name": "Plan Option Component",
+        "first_image_state": "Rectangular colored boxes (pink/red) with plan names, accompanied by checkmarks for feature availability in a tabular format.",
+        "second_image_state": "Radio button-selectable cards with plan names, prices, and feature descriptions using icons and text blocks instead of checkmarks."
+      },
+      {
+        "category": "Style",
+        "component_name": "Feature Display Element",
+        "first_image_state": "Features represented by simple checkmarks (\u2713/\u2717) in a row-column structure.",
+        "second_image_state": "Features represented by icons (e.g., 4K, SD) and descriptive text blocks within each plan card."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading and Subheading",
+        "first_image_state": "Main heading: 'Choose the plan that\u2019s right for you'; Subheading: 'Downgrade or upgrade at any time'.",
+        "second_image_state": "Main heading: 'Watch all you want, on any device.'; Subheading: 'Cancel online anytime.'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Plan selection section",
+        "first_image_state": "Horizontally aligned plan cards (Basic, Standard, Premium) as colored rectangles",
+        "second_image_state": "Vertically stacked plan options (Premium, Standard, Basic) with radio buttons"
+      },
+      {
+        "category": "Component",
+        "component_name": "Plan presentation component",
+        "first_image_state": "Card-based plan selectors with a tabular feature list below",
+        "second_image_state": "Radio button + descriptive text block per plan"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main heading",
+        "first_image_state": "\"Choose the plan that\u2019s right for you\"",
+        "second_image_state": "\"Watch all you want, on any device.\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Subheading",
+        "first_image_state": "\"Downgrade or upgrade at any time\"",
+        "second_image_state": "\"Cancel online anytime.\""
+      },
+      {
+        "category": "Style",
+        "component_name": "Plan option visual representation",
+        "first_image_state": "Colored rectangular cards (pink for Basic, pink for Standard, red for Premium) with plan names",
+        "second_image_state": "Circular radio buttons (selected/unselected) with text descriptions"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 72.30796027183533,
+    "input_tokens": 6864,
+    "output_tokens": 2898,
+    "total_tokens": 9762,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Header 'Be a host' link",
+        "first_image_state": "'Be a host' text",
+        "second_image_state": "'Become a host' text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero heading",
+        "first_image_state": "'Go Near' text",
+        "second_image_state": "'Get out and stretch your imagination' text"
+      },
+      {
+        "category": "Style",
+        "component_name": "Navigation tab 'Places to stay'",
+        "first_image_state": "Underlined text",
+        "second_image_state": "Non-underlined text"
+      },
+      {
+        "category": "Style",
+        "component_name": "Hero CTA button",
+        "first_image_state": "Black background with white text",
+        "second_image_state": "White background with black text"
+      },
+      {
+        "category": "Style",
+        "component_name": "Airbnb logo",
+        "first_image_state": "Red-colored logo positioned in the top-left corner",
+        "second_image_state": "Blue-colored logo positioned in the top-left corner"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main heading",
+        "first_image_state": "\"Go Near\" displayed as the primary headline",
+        "second_image_state": "\"Get out and stretch your imagination\" displayed as the primary headline"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Subtext with directional indicator",
+        "first_image_state": "\"Plan a different kind of getaway.o uncover the hidden gems near you.\" with a period and letter \"o\" replacing the arrow",
+        "second_image_state": "\"Plan a different kind of getaway \u2192 uncover the hidden gems near you.\" with an arrow symbol"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero section call-to-action button",
+        "first_image_state": "\"Explo e nearby\" text (missing letter \"r\") on a black button",
+        "second_image_state": "\"Explore nearby\" text on a white button"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Navigation menu items",
+        "first_image_state": "\"Places o stay\", \"Experies ces\", \"Online Experiences\" with partial spelling errors in first two items",
+        "second_image_state": "\"Places to stay\", \"Experiences\", \"Online Experiences\" as full, correctly spelled labels"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 65.30157327651978,
+    "input_tokens": 6224,
+    "output_tokens": 3158,
+    "total_tokens": 9382,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

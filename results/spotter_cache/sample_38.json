@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Reserve Button",
+        "first_image_state": "Displays 'Reserve' as the call-to-action text",
+        "second_image_state": "Displays 'Start booking' as the call-to-action text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA Button",
+        "first_image_state": "Displays 'Reserve' as fixed text",
+        "second_image_state": "Displays 'Start booking' as fixed text"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 15.228111267089844,
+    "input_tokens": 4148,
+    "output_tokens": 434,
+    "total_tokens": 4582,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

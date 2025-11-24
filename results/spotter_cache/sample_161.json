@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Logo",
+        "first_image_state": "Blue text with trademark symbol",
+        "second_image_state": "Dark gray/black text with trademark symbol"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "Includes 'Supplement' after 'Relief'",
+        "second_image_state": "Excludes 'Supplement' after 'Relief'"
+      },
+      {
+        "category": "Style",
+        "component_name": "Main Content Container",
+        "first_image_state": "White background with subtle shadow",
+        "second_image_state": "Light gray/off-white background with no visible shadow"
+      },
+      {
+        "category": "Style",
+        "component_name": "Logo",
+        "first_image_state": "Lighter, smaller blue text \"MOVEXA\" with \"Herbal Capsules\" underneath",
+        "second_image_state": "Bold, large blue text \"MOVEXA\" with \"Herbal Capsules\" underneath"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "Text reads \"Natural Joint Relief Supplement\"",
+        "second_image_state": "Text reads \"Natural Joint Relief\""
+      },
+      {
+        "category": "Style",
+        "component_name": "Product Image",
+        "first_image_state": "Smaller size, positioned to the right of the text, aligned slightly lower",
+        "second_image_state": "Larger size, positioned to the right of the text, aligned near the top"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 60.926562547683716,
+    "input_tokens": 1956,
+    "output_tokens": 2980,
+    "total_tokens": 4936,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

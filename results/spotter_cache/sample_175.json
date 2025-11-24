@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Merkzettel Icon",
+        "first_image_state": "Bookmark-style icon representing wishlist functionality",
+        "second_image_state": "Plus-sign icon representing wishlist functionality"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Bottom Section Heading",
+        "first_image_state": "Fixed text reading 'Das sagen unsere Kunden \u00fcber uns'",
+        "second_image_state": "Fixed text reading 'Unsere Produkttempfehlungen'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Top Promotional Banner",
+        "first_image_state": "Present as a full-width blue bar at the top of the page",
+        "second_image_state": "Not present"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Top Promotional Banner Text",
+        "first_image_state": "Contains text 'SSV vom 23.08. bis 15.09.2018 - Jetzt 10% Extra-Rabatt auf alle SSV-Artikel. Direkt zum Angebot'",
+        "second_image_state": "Not present"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Bottom Section Header",
+        "first_image_state": "'Das sagen unsere Kunden \u00fcber uns'",
+        "second_image_state": "'Unsere Produktempfehlungen'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 107.57820916175842,
+    "input_tokens": 5424,
+    "output_tokens": 5510,
+    "total_tokens": 10934,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

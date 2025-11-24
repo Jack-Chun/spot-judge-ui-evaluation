@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "CTA Button",
+        "first_image_state": "Displays 'Free Demo' text",
+        "second_image_state": "Displays 'Get A Demo' text"
+      },
+      {
+        "category": "Style",
+        "component_name": "CTA Button",
+        "first_image_state": "Has orange background color",
+        "second_image_state": "Has yellow background color"
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA Button",
+        "first_image_state": "Labeled 'Free Demo' with an orange background",
+        "second_image_state": "Labeled 'Get A Demo' with a yellow background"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 24.833704710006714,
+    "input_tokens": 1268,
+    "output_tokens": 882,
+    "total_tokens": 2150,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

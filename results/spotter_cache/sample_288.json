@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Upgrade Button",
+        "first_image_state": "Absent",
+        "second_image_state": "Present as an orange rectangular button with white text 'UPGRADE' and right-aligned arrow icon"
+      },
+      {
+        "category": "Component",
+        "component_name": "Guarantee Info Box",
+        "first_image_state": "Present as a yellow rectangular box containing text \"Best price, guaranteed! As the UK\u2019s biggest experience day retailer, we can negotiate the best prices for you.\"",
+        "second_image_state": "Not present"
+      },
+      {
+        "category": "Style",
+        "component_name": "BUY NOW Button Icon",
+        "first_image_state": "White circular arrow (\u21bb)",
+        "second_image_state": "White right-pointing arrow (\u2192)"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 38.62656021118164,
+    "input_tokens": 2524,
+    "output_tokens": 1613,
+    "total_tokens": 4137,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

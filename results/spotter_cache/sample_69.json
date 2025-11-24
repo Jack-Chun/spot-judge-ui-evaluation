@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Amazon's Choice badge",
+        "first_image_state": "Visible above the first product listing (Amazon Basics 48-Pack AA)",
+        "second_image_state": "Not visible"
+      },
+      {
+        "category": "Component",
+        "component_name": "Instructional text below Results header",
+        "first_image_state": "Absent",
+        "second_image_state": "Visible ('Check each product page for other buying options.')"
+      },
+      {
+        "category": "Component",
+        "component_name": "Best Seller badge",
+        "first_image_state": "Positioned below the second product listing (Amazon Basics 36-Pack AAA)",
+        "second_image_state": "Positioned below the first product listing (Amazon Basics 48-Pack AA) and third product listing (Amazon Basics 100-Pack AA)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Features from brands text",
+        "first_image_state": "'Features from our brands'",
+        "second_image_state": "'Features from Amazon brands'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Overall Pick badge",
+        "first_image_state": "Absent",
+        "second_image_state": "Visible next to the fourth product listing (Amazon Alkaline Batteries)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Product Badge (Top Result)",
+        "first_image_state": "Displays 'Amazon's Choice' badge",
+        "second_image_state": "Displays 'Best Seller' badge"
+      },
+      {
+        "category": "Component",
+        "component_name": "Product Listing (Second Result)",
+        "first_image_state": "Shows Amazon Basics 36-Pack AAA Alkaline High-Performance Batteries",
+        "second_image_state": "Shows Amazon Basics 100-Pack AA Alkaline High-Performance Batteries"
+      },
+      {
+        "category": "Component",
+        "component_name": "Product Listing (Third Result)",
+        "first_image_state": "Shows Energizer Batteries Triple A... 32 Count Pack",
+        "second_image_state": "Shows Duracell with Power... 24 Count Pack"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 89.26667070388794,
+    "input_tokens": 3824,
+    "output_tokens": 3695,
+    "total_tokens": 7519,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

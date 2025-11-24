@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Add to Cart Button",
+        "first_image_state": "Orange rectangular button with 'In den Warenkorb' (lowercase) text and a shopping cart icon, positioned below the size selector.",
+        "second_image_state": "Larger orange rectangular button with 'IN DEN WARENKORB' (uppercase) text, no adjacent heart icon, positioned below the size selector."
+      },
+      {
+        "category": "Component",
+        "component_name": "Wishlist Prompt",
+        "first_image_state": "Absent.",
+        "second_image_state": "Text link 'AUF DEINEN WUNSCHZETTEL' with a heart icon, positioned above the size selector."
+      },
+      {
+        "category": "Style",
+        "component_name": "Size Selector Label",
+        "first_image_state": "'One Size' in gray, lowercase letters.",
+        "second_image_state": "'ONE SIZE' in gray, uppercase letters."
+      },
+      {
+        "category": "Component",
+        "component_name": "Heart Icon Next to Add to Cart",
+        "first_image_state": "White square with a heart icon, positioned to the right of the Add to Cart button.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Component",
+        "component_name": "\"Auf dein Wunschzettel\" button",
+        "first_image_state": "Absent.",
+        "second_image_state": "Present as a white rectangular button with black text, positioned below the price and above the size selector."
+      },
+      {
+        "category": "Component",
+        "component_name": "Size selection dropdown",
+        "first_image_state": "Static text box labeled \"One Size\" without interactive elements, positioned where the dropdown was.",
+        "second_image_state": "Interactive dropdown element labeled \"ONE SIZE\" with a right-facing arrow, positioned below the wishlist button."
+      },
+      {
+        "category": "Component",
+        "component_name": "Add to cart button",
+        "first_image_state": "Smaller orange rectangular button with white text \"In den Warenkorb\", a shopping bag icon on the right, and a heart icon adjacent to the button, positioned below the size selector.",
+        "second_image_state": "Large orange rectangular button with white text \"IN DEN WARENKORB\", no additional icons, positioned below the size selector."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Color label (\"Farbe\")",
+        "first_image_state": "Displays \"cognac/cognac\" in black text, positioned below the product title.",
+        "second_image_state": "Displays \"cognac/wognac\" in black text, positioned below the product title."
+      },
+      {
+        "category": "Style",
+        "component_name": "Product rating stars",
+        "first_image_state": "Five filled stars followed by \"(4)\" in parentheses, positioned to the right of the product title area.",
+        "second_image_state": "Three filled stars followed by one half-filled star, then \"(4)\" in parentheses, positioned to the right of the wishlist button."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 93.48082900047302,
+    "input_tokens": 4612,
+    "output_tokens": 4121,
+    "total_tokens": 8733,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

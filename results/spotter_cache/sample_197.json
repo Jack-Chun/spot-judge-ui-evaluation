@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Country Flag Selection",
+        "first_image_state": "Multiple country flags displayed in the header (including Switzerland, Ireland, etc.)",
+        "second_image_state": "Fewer country flags displayed in the header (only UK, Italy, Germany, Spain, Belgium, Portugal, Denmark, Norway, USA)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Language Selector",
+        "first_image_state": "\"English\" displayed as a clickable link",
+        "second_image_state": "\"English\" displayed as a dropdown menu option"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Breadcrumb Navigation",
+        "first_image_state": "Includes \"MONSTER ENERGY\" in the breadcrumb path",
+        "second_image_state": "Truncates \"MONSTER ENERGY\" from the breadcrumb path"
+      },
+      {
+        "category": "Component",
+        "component_name": "Shopping Basket Label",
+        "first_image_state": "\"SHOPPING BASKET\" text displayed above the total amount",
+        "second_image_state": "\"SHOPPING BASKET\" text not displayed"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Product Price",
+        "first_image_state": "Positioned below the product images",
+        "second_image_state": "Positioned above the \"IN STOCK NOW:\" text"
+      },
+      {
+        "category": "Style",
+        "component_name": "Website Logo",
+        "first_image_state": "Less bold typography with blue and black colors",
+        "second_image_state": "More bold typography with prominent blue color"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Product description container",
+        "first_image_state": "Detailed text block with bullet points describing the jersey below product title",
+        "second_image_state": "Black rectangular placeholder below product title"
+      },
+      {
+        "category": "Component",
+        "component_name": "Left sidebar accessories section",
+        "first_image_state": "Present with subcategories (What's New and Hot, etc.)",
+        "second_image_state": "Absent in left sidebar"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Breadcrumb navigation",
+        "first_image_state": "HOMEHOME > MONSTER ENERGY > O'NEAL BLACK GREEN RICKY DIETRICH REPLICA MONSTER MX JERSEY",
+        "second_image_state": "HOMEHOME > O'NEAL BL...CK GREEN RICKY DIETRICH REPLICA MONSTER MX JERSEY"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 81.95658230781555,
+    "input_tokens": 4270,
+    "output_tokens": 4422,
+    "total_tokens": 8692,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Beoordelingen (star ratings)",
+        "first_image_state": "Present with five green star icons",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Gratis bezorgd (free delivery notice)",
+        "first_image_state": "Present with yellow checkmark icon and text 'Gratis bezorgd voor orders vanaf \u20ac 200,-'",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Betalen op rekening (payment options)",
+        "first_image_state": "Present with yellow checkmark icon, text 'Betalen op rekening of online met:', and three payment method icons (iDEAL, Mastercard, VISA)",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "5 jaar garantie (5-year warranty)",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with gray shield icon and text '5 jaar garantie'"
+      },
+      {
+        "category": "Style",
+        "component_name": "Price display container",
+        "first_image_state": "White rounded rectangular background with subtle shadow effect",
+        "second_image_state": "White rounded rectangular background with flatter design (reduced shadow)"
+      },
+      {
+        "category": "Style",
+        "component_name": "In winkelwagen button",
+        "first_image_state": "Orange rounded rectangular button with white text and subtle shadow",
+        "second_image_state": "Orange rounded rectangular button with white text and flatter appearance (reduced shadow)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Warranty information",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with '5 jaar garantie' text and icon"
+      },
+      {
+        "category": "Component",
+        "component_name": "Ratings section",
+        "first_image_state": "Present with five star icons",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Free delivery information",
+        "first_image_state": "Present with 'Gratis bezorgd voor orders vanaf \u20ac 200,-' text and checkmark",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Payment method icons",
+        "first_image_state": "Present with Mastercard, Maestro, VISA icons",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Middle section elements (quantity controls to help section)",
+        "first_image_state": "Arranged as 'In winkelwagen' button followed by ratings section, free delivery information, payment method icons, help section, and calculator icon",
+        "second_image_state": "Arranged as 'In winkelwagen' button followed by help section and calculator icon"
+      },
+      {
+        "category": "Style",
+        "component_name": "Price container",
+        "first_image_state": "Rounded rectangular with curved top edge",
+        "second_image_state": "Rectangular with flat top edge"
+      },
+      {
+        "category": "Style",
+        "component_name": "'In winkelwagen' button",
+        "first_image_state": "Narrower with less horizontal space",
+        "second_image_state": "Wider with more horizontal space"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Warranty text",
+        "first_image_state": "'5 jaar garantie' absent",
+        "second_image_state": "'5 jaar garantie' present"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Ratings header",
+        "first_image_state": "'Beoordelingen' present",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Free delivery text",
+        "first_image_state": "'Gratis bezorgd voor orders vanaf \u20ac 200,-' present",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Payment method text",
+        "first_image_state": "'Betalen op rekening of online met:' present",
+        "second_image_state": "Absent"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 158.05279994010925,
+    "input_tokens": 1596,
+    "output_tokens": 6915,
+    "total_tokens": 8511,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

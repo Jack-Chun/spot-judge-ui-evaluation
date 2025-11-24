@@ -1,0 +1,134 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Navigation Items",
+        "first_image_state": "Nav items include 'Learn', 'Product', 'Pricing', 'About', 'Blog'",
+        "second_image_state": "Nav items include 'Sales', 'Product', 'Pricing', 'About', 'Blog'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "Text reads 'Grow with fewer tools and lower fees'",
+        "second_image_state": "Text reads 'Pricing designed for bootstrappers'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Subheading",
+        "first_image_state": "Text reads 'Pay for one software subscription instead of five. No contracts. No per user fees.'",
+        "second_image_state": "Text reads 'Try our Onboarding plan\u2014it\u2019s free forever for up to 25 contacts.'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Pricing Toggle Buttons",
+        "first_image_state": "Toggle buttons ordered as 'Billed yearly Save 16%' (left) and 'Billed monthly' (right)",
+        "second_image_state": "Toggle buttons ordered as 'Billed monthly' (left) and 'Billed yearly' (right)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Plan Badge",
+        "first_image_state": "Founder plan has a '7-day free trial' badge",
+        "second_image_state": "Founder plan has no badge"
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA Button (Founder)",
+        "first_image_state": "Text reads 'Start 7-day free trial'",
+        "second_image_state": "Text reads 'Get Started' with additional text 'No credit card required' below"
+      },
+      {
+        "category": "Style",
+        "component_name": "CTA Button Color",
+        "first_image_state": "Start-up and Growth CTA buttons are light gray",
+        "second_image_state": "Start-up and Growth CTA buttons are teal"
+      },
+      {
+        "category": "Style",
+        "component_name": "Background Shapes",
+        "first_image_state": "No large yellow circular shapes in background",
+        "second_image_state": "Large yellow circular shapes present on left and right sides of page"
+      },
+      {
+        "category": "Component",
+        "component_name": "Logo Icon",
+        "first_image_state": "Logo includes a small square icon",
+        "second_image_state": "Logo includes a circular icon"
+      },
+      {
+        "category": "Component",
+        "component_name": "Navigation Menu Item",
+        "first_image_state": "Includes 'Learn' menu item (replaces 'Sales')",
+        "second_image_state": "Includes 'Sales' menu item"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Signup Button Text",
+        "first_image_state": "'Sign up'",
+        "second_image_state": "'Sign up for free'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "'Grow with fewer tools and lower fees'",
+        "second_image_state": "'Pricing designed for bootstrappers'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Subheading",
+        "first_image_state": "'Pay for one software subscription instead of five. No contracts. No per user fees.'",
+        "second_image_state": "'Try our Onboarding plan\u2014it\u2019s free forever for up to 25 contacts.'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Pricing Toggle Options",
+        "first_image_state": "'Billed yearly Save 20%' (left) and 'Billed monthly' (right)",
+        "second_image_state": "'Billed monthly' (left) and 'Billed yearly' (right)"
+      },
+      {
+        "category": "Visual Attributes",
+        "component_name": "Pricing Toggle Badge",
+        "first_image_state": "Includes 'Save 20%' badge on 'Billed yearly' option",
+        "second_image_state": "No badge on 'Billed yearly' option"
+      },
+      {
+        "category": "Component",
+        "component_name": "Plan Feature Line",
+        "first_image_state": "Includes 'Unlimited team members' line in all plans",
+        "second_image_state": "No 'Unlimited team members' line in any plan"
+      },
+      {
+        "category": "Visual Attributes",
+        "component_name": "Signup Button Color",
+        "first_image_state": "Yellow background",
+        "second_image_state": "Teal background"
+      },
+      {
+        "category": "Visual Attributes",
+        "component_name": "Plan Action Buttons",
+        "first_image_state": "Founder plan has teal 'Start 7-day free trial' button; other plans have light gray 'Get started' buttons",
+        "second_image_state": "All 'Get Started' buttons have teal background"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Plan Action Button Text",
+        "first_image_state": "Founder plan uses 'Start 7-day free trial'; other plans use 'Get started'",
+        "second_image_state": "All plans use 'Get Started'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Footer Explanatory Text",
+        "first_image_state": "Includes text explaining transaction fees and contact definitions",
+        "second_image_state": "No explanatory text about transaction fees or contacts"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 118.98516607284546,
+    "input_tokens": 3724,
+    "output_tokens": 5736,
+    "total_tokens": 9460,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

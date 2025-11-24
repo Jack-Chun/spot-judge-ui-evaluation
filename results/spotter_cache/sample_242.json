@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Main Promotional Banner",
+        "first_image_state": "Single large green banner spanning the full width, featuring white text \"BPDE 30 TL'YE VARAN BONUS\" and an image of three people.",
+        "second_image_state": "Split into two equal-width columns; left column has a green background with black text about motorlu ta\u015f\u0131tlar and an image of a green car, right column has a white background with green text \"OPETTE 40 TL'YE VARAN BONUS!\" and an image of a family with a car."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Promotional Text",
+        "first_image_state": "\"BPDE 30 TL'YE VARAN BONUS\"",
+        "second_image_state": "Right column: \"OPETTE 40 TL'YE VARAN BONUS!\"; Left column: \"MOTORLU TA\u015eITLAR VE OTOB\u00dcS SEKT\u00d6R\u00dcNE \u00d6ZEL OLARAK 2 TA\u015eITI GARANT\u0130PAY ET \u00dcCRET\u0130Z 3 TA\u015eIT!\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Bottom Section Text",
+        "first_image_state": "\"300'den fazla kampanya sizi bekliyor\"",
+        "second_image_state": "\"Bedava en bol Bonus 'lar her ay 300'den fazla kampanya sizi bekliyor!\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Bottom Interactive Element",
+        "first_image_state": "Form with two input fields and a yellow \"HEMEN BA\u015eLA\" button",
+        "second_image_state": "Text block with a yellow \"HEMEN BA\u015eLA\" button (no input fields)"
+      },
+      {
+        "category": "Style",
+        "component_name": "Main Banner Color Scheme",
+        "first_image_state": "Solid green background with white text",
+        "second_image_state": "Left column: green background with black text; right column: white background with green text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Main Banner",
+        "first_image_state": "Green background with an illustration of two adults and a child near a house, accompanied by text about BPOE bonus offers.",
+        "second_image_state": "Green background with an illustration of a green car carrying three people, accompanied by text about motor vehicle and bus promotions."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Promotional Content Area",
+        "first_image_state": "Multiple smaller promotional cards aligned horizontally; includes visuals of sports gear and other products.",
+        "second_image_state": "Two large rectangular promotional boxes positioned side by side; left box contains a Turkish flag and two figures, right box displays a directional sign and palm tree."
+      },
+      {
+        "category": "Component",
+        "component_name": "Footer Section",
+        "first_image_state": "Green background with text \"Her ay 300'den fazla\" followed by input fields and a yellow \"HEMEN BA\u015eLA\" button.",
+        "second_image_state": "Green background with static text stating \"Bedava en bol Bonus 'lar her ay 300'den fazla kampanya siz bekliyor!\" adjacent to a yellow \"HEMEN BA\u015eLA\" button."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Banner Headline",
+        "first_image_state": "Text reads \"BPOE 30 TL'YE VARAN BONUS\" and \"TARAFTAR BONUS A BA\u015eVURUN 30 TL BONUSLA CO\u015eUN!\"",
+        "second_image_state": "Text reads \"MOTORLU TA\u015eITLAR VE OTOB\u00dcSE \u00d6DRETS\u0130Z 2 TA\u015eITI GARANT\u0130AYA EK \u00d6DRETS\u0130Z 3 TA\u015eIT!\""
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 123.4791088104248,
+    "input_tokens": 1498,
+    "output_tokens": 5934,
+    "total_tokens": 7432,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

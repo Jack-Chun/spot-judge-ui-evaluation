@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Payment Installment Section",
+        "first_image_state": "Present with text 'Pay in 4 interest-free installments for orders over $50.00 with shop Pay Learn more'",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Low Stock Indicator",
+        "first_image_state": "Present with red dot and text 'Low stock - 15 items left'",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Shipping Information",
+        "first_image_state": "Present with truck icon and text 'Ships in 2-3 business days (N/A to Pre Ord'",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Buy Direct From Grower",
+        "first_image_state": "Present with text 'Buy direct from the grower'",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Product Image",
+        "first_image_state": "Absent below 'Add to cart' button",
+        "second_image_state": "Present below 'Add to cart' button showing a small Arbequina Olive Tree"
+      },
+      {
+        "category": "Component",
+        "component_name": "Post-add-to-cart informational section",
+        "first_image_state": "New components added below the 'Add to cart' button, including 'Pay in 4 interest-free installments...', 'Low stock - 15 items left', 'Ships in 2-3 business days...', and 'Buy direct from the grower'.",
+        "second_image_state": "No additional components below the 'Add to cart' button; only product images follow."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 26.600024938583374,
+    "input_tokens": 4464,
+    "output_tokens": 1304,
+    "total_tokens": 5768,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Shipping/Delivery Information Section",
+        "first_image_state": "Contains 'Estimated arrival' label, date range 'Sep 15 - Oct 6', and three status icons (order placed, order dispatched, delivered) below.",
+        "second_image_state": "Contains 'Estimated delivery' label, date range 'Sep 15 - Oct 6', followed by 'Cost to deliver Free', 'Returns & exchanges Not accepted', 'Deliver to Canada' dropdown, 'Dispatches from...' text, and 'View shop policies' link."
+      },
+      {
+        "category": "Component",
+        "component_name": "Delivery Information Section",
+        "first_image_state": "Contains 'Estimated arrival' label, date range 'Sep 15 - Oct 6', a timeline with three date markers (10 Sep Order placed, Sep 11-15 Order dispatches, Sep 15-Oct 6 Delivered), 'Cost' label with 'Free' value, and 'Returns & exchanges' label",
+        "second_image_state": "Contains 'Estimated delivery' label, date range 'Sep 15 - Oct 6', 'Cost to deliver' label with 'Free' value"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Product Description Text",
+        "first_image_state": "'This is a pre-order of the Black Lives Matter Raised Fist Enamel Lapel pin'",
+        "second_image_state": "'This is pre-order of the Black Lives Matter Raised Fist Enamel Lapel pin'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Returns & Exchanges Label",
+        "first_image_state": "'Returns & exchanges'",
+        "second_image_state": "'Returns & e-changes'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 48.22474122047424,
+    "input_tokens": 6864,
+    "output_tokens": 2132,
+    "total_tokens": 8996,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

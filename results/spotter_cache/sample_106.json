@@ -1,0 +1,104 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Page Heading",
+        "first_image_state": "\"Simple and Transparent Pricing\" displayed above the billing toggle",
+        "second_image_state": "No page heading displayed"
+      },
+      {
+        "category": "Style",
+        "component_name": "Billing Toggle Switch",
+        "first_image_state": "Orange toggle switch between \"BILLED MONTHLY\" and \"BILLED ANNUALLY\"",
+        "second_image_state": "Black toggle switch between \"BILLED MONTHLY\" and \"BILLED ANNUALLY\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Annual Billing Label",
+        "first_image_state": "\"BILLED ANNUALLY\" with \"Save Up to 15%\" displayed below",
+        "second_image_state": "\"BILLED ANNUALLY - Save up to 15%\" displayed as combined text"
+      },
+      {
+        "category": "Style",
+        "component_name": "Starter Plan Container",
+        "first_image_state": "Light blue rectangular container with rounded corners",
+        "second_image_state": "Beige rounded-top container with a circular icon featuring a plant"
+      },
+      {
+        "category": "Style",
+        "component_name": "Starter Plan Heading",
+        "first_image_state": "\"Starter\" in title case",
+        "second_image_state": "\"STARTER\" in uppercase"
+      },
+      {
+        "category": "Component",
+        "component_name": "Starter Plan Feature Items",
+        "first_image_state": "List includes \"Auto-Post TikToks, Reels & More\", \"1 Social Set\" with circular indicators, \"Up to 60 Uploads / Month\", \"1 User\"",
+        "second_image_state": "List includes \"1 Social Set (1 + 1 + 10)\", \"Limited Uploads (60 uploads per account)\", \"1 User\""
+      },
+      {
+        "category": "Style",
+        "component_name": "Start Free Trial Button",
+        "first_image_state": "White rectangular button with black text \"START 7-DAY FREE TRIAL\"",
+        "second_image_state": "Orange rectangular button with white text \"START 7-DAY FREE TRIAL\""
+      },
+      {
+        "category": "Layout",
+        "component_name": "Billing Toggle Section",
+        "first_image_state": "Billing toggle section displays 'BILLED MONTHLY' on the left, an orange toggle switch in the center, 'BILLED ANNUALLY' on the right, and 'Save Up to 15%' below.",
+        "second_image_state": "Billing toggle section displays 'BILLED MONTHLY' on the left, a black toggle switch in the center, and 'BILLED ANNUALLY - Save up to 15%' on the right."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Plan Name",
+        "first_image_state": "Plan name shown as 'Starter' in title case letters.",
+        "second_image_state": "Plan name shown as 'STARTER' in uppercase letters."
+      },
+      {
+        "category": "Style",
+        "component_name": "Plan Container Background",
+        "first_image_state": "Plan container has a light blue background color.",
+        "second_image_state": "Plan container has a beige background color."
+      },
+      {
+        "category": "Component",
+        "component_name": "Auto-Post Feature",
+        "first_image_state": "'Auto-Post TikToks, Reels & More' feature listed with a 'NEW!' label.",
+        "second_image_state": "No 'Auto-Post TikToks, Reels & More' feature listed."
+      },
+      {
+        "category": "Component",
+        "component_name": "Social Set Indicator",
+        "first_image_state": "Social Set indicated with circular icons.",
+        "second_image_state": "Social Set indicated with '(1+1+1)' text."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Uploads Description",
+        "first_image_state": "Uploads described as 'Up to 60 Uploads / Month'.",
+        "second_image_state": "Uploads described as 'Limited Uploads (60 uploads per account)'."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Save Amount Text",
+        "first_image_state": "Save amount displayed as '$21/year'.",
+        "second_image_state": "Save amount displayed as '$1.75 per month'."
+      },
+      {
+        "category": "Style",
+        "component_name": "Start Free Trial Button",
+        "first_image_state": "Start free trial button has a white background with dark text (and a subtle border).",
+        "second_image_state": "Start free trial button has an orange background with white text."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 153.2476019859314,
+    "input_tokens": 1576,
+    "output_tokens": 6425,
+    "total_tokens": 8001,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Product Cards",
+        "first_image_state": "Three product cards (RCA TV, HP laptop, Samsung tablet) in the first row, with the MSI monitor card positioned below the HP laptop in the second row.",
+        "second_image_state": "Three product cards (RCA TV, HP laptop, Samsung tablet) in the first row, with the MSI monitor card repositioned to the second row alongside other product cards."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Best Seller Label",
+        "first_image_state": "Attached to the HP laptop product card in the first row.",
+        "second_image_state": "Attached to the RCA TV product card in the first row."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Rollback Label",
+        "first_image_state": "Attached to the Samsung tablet product card in the first row and the MSI monitor product card in the second row.",
+        "second_image_state": "Attached to the Samsung tablet product card in the first row, the RCA TV product card in the first row, and the MSI monitor product card in the second row."
+      },
+      {
+        "category": "Component",
+        "component_name": "Product card (third position in first row)",
+        "first_image_state": "MSI Optix G27\" 27\" Full HD LED Gaming LCD Monitor - 16:9",
+        "second_image_state": "Samsung Galaxy Tab A8, 10.5\" Tablet (Wi-Fi), Gray"
+      },
+      {
+        "category": "Component",
+        "component_name": "Action button (third product in first row)",
+        "first_image_state": "Blue \"Add\" button",
+        "second_image_state": "Blue \"Options\" button"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Product row (second row)",
+        "first_image_state": "Four product cards arranged horizontally",
+        "second_image_state": "Three product cards arranged horizontally"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 101.440988779068,
+    "input_tokens": 7184,
+    "output_tokens": 4794,
+    "total_tokens": 11978,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

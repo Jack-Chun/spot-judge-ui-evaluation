@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Blog Heading",
+        "first_image_state": "the blog \u2192",
+        "second_image_state": "Fresh from the blog \u2192"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Blog Post Title",
+        "first_image_state": "These are the winners of the gn Awards",
+        "second_image_state": "It\u2019s official! These are the winners of the 2023 Etsy Design Awards"
+      },
+      {
+        "category": "Copy",
+        "component_name": "\u201cWhat is Etsy\u201d Heading",
+        "first_image_state": "What is Etsy Canada?",
+        "second_image_state": "What is Etsy?"
+      },
+      {
+        "category": "Layout",
+        "component_name": "\u201cWhat is Etsy\u201d Content Section",
+        "first_image_state": "Accordion-style sections containing questions and expandable content (\u201cWhat can you find on Etsy?\u201d, \u201cHow does Etsy work?\u201d, \u201cHow to buy on Etsy...\u201d)",
+        "second_image_state": "Three-column layout with distinct headings and descriptive text (\u201cA community doing good\u201d, \u201cSupport independent creators\u201d, \u201cPeace of mind\u201d)"
+      },
+      {
+        "category": "Component",
+        "component_name": "What is Etsy section",
+        "first_image_state": "Accordion components with expandable questions such as 'What is Etsy Canada?', 'What can you find on Etsy?', 'How does Etsy work?'",
+        "second_image_state": "Three static text columns with headings 'A community doing good', 'Support independent creators', 'Peace of mind'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "What is Etsy heading",
+        "first_image_state": "'What is Etsy Canada?'",
+        "second_image_state": "'What is Etsy?'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Blog section heading",
+        "first_image_state": "'he blog \u2192'",
+        "second_image_state": "'Fresh from the blog \u2192'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Footer social media icons",
+        "first_image_state": "Three social media icons (Instagram, Facebook, Pinterest)",
+        "second_image_state": "Five social media icons (Instagram, Facebook, Pinterest, Twitter, YouTube)"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 120.5719587802887,
+    "input_tokens": 4064,
+    "output_tokens": 4921,
+    "total_tokens": 8985,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

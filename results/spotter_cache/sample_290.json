@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Navigation Tab (Active State)",
+        "first_image_state": "\"SHOES\" tab is active (dark green background)",
+        "second_image_state": "\"BOOTS\" tab is active (dark green background)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Information Box (Gold Rated Leather)",
+        "first_image_state": "Present (dark green box with text about traceability and compliance)",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Product Grid",
+        "first_image_state": "Contains three product items and one information box (mixed content arrangement)",
+        "second_image_state": "Contains four product items (uniform content arrangement, no information box)"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Category Navigation Tabs",
+        "first_image_state": "SHOES tab is selected (dark green background)",
+        "second_image_state": "BOOTS tab is selected (dark green background)"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Product Grid Structure",
+        "first_image_state": "Top row contains three shoe product cards and one informational card",
+        "second_image_state": "Top row contains four boot product cards"
+      },
+      {
+        "category": "Component",
+        "component_name": "Product Items",
+        "first_image_state": "Shoe products including Kent Wingtips, Leonard Monkstraps, and Lambert Loafers",
+        "second_image_state": "Boot products including Bolton Chelsea Boots, Nolan Brogue Boots, Douglas Jodhpur Boots, and Silva Boots"
+      },
+      {
+        "category": "Component",
+        "component_name": "Informational Block",
+        "first_image_state": "Present with text 'Gold Rated Leather' and descriptive text about traceability, chemical, and environmental performance compliance",
+        "second_image_state": "Not present"
+      },
+      {
+        "category": "Style",
+        "component_name": "Informational Block Background Color",
+        "first_image_state": "Dark green background",
+        "second_image_state": "Not applicable (no information block)"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 85.99220371246338,
+    "input_tokens": 2344,
+    "output_tokens": 4381,
+    "total_tokens": 6725,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

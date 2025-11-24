@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Promotional Banner Text",
+        "first_image_state": "No promotional banner; displays '3 Month Challenge is Back- Questions related to Economics 1' as the primary content",
+        "second_image_state": "Displays 'Experience a free class' as a promotional banner with 'See all' link on the right"
+      },
+      {
+        "category": "Component",
+        "component_name": "Bottom Free Classes Link",
+        "first_image_state": "Present: 'See all free classes \u2192'",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Top Content Arrangement",
+        "first_image_state": "Challenge title appears directly below the main image",
+        "second_image_state": "Promotional banner appears above the main image and challenge title"
+      },
+      {
+        "category": "Component",
+        "component_name": "Subheader Text Element",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with text \"Experience a free class\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "See All Link Text",
+        "first_image_state": "Text \"See all free classes \u2192\"",
+        "second_image_state": "Text \"See all\""
+      },
+      {
+        "category": "Layout",
+        "component_name": "See All Link Position",
+        "first_image_state": "Positioned at bottom of screen",
+        "second_image_state": "Positioned at top right next to subheader"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 80.1039628982544,
+    "input_tokens": 1504,
+    "output_tokens": 3755,
+    "total_tokens": 5259,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

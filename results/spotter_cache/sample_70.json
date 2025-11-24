@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Heart icon next to 'In winkelwagen' button",
+        "first_image_state": "Filled (solid) heart icon",
+        "second_image_state": "Outline (empty) heart icon"
+      },
+      {
+        "category": "Style",
+        "component_name": "Heart Icon",
+        "first_image_state": "Filled heart icon positioned to the right of the 'In winkelwagen' button",
+        "second_image_state": "Empty heart icon positioned to the right of the 'In winkelwagen' button"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 28.46966576576233,
+    "input_tokens": 5424,
+    "output_tokens": 1174,
+    "total_tokens": 6598,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

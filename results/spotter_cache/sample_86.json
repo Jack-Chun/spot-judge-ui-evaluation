@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Third hotel listing card",
+        "first_image_state": "Displays 'Casa 48 Guesthouse' with associated details (location, rating, description)",
+        "second_image_state": "Displays 'Atlantico Praia de Copacababa' with associated details (location, rating, description)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Map button",
+        "first_image_state": "Displays 'Map view' text",
+        "second_image_state": "Displays 'Show map' text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Third property listing",
+        "first_image_state": "Shows 'Casa 48 Guesthouse' property with associated details",
+        "second_image_state": "Shows 'Atlantico Praia de Copacabana' property with associated details"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 37.9495108127594,
+    "input_tokens": 6544,
+    "output_tokens": 1639,
+    "total_tokens": 8183,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

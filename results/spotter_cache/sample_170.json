@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Branche/secteur input field",
+        "first_image_state": "Present as a required form field",
+        "second_image_state": "Absent from the form"
+      },
+      {
+        "category": "Style",
+        "component_name": "Teamleader logo icon",
+        "first_image_state": "Features a small paper-plane-shaped icon adjacent to the text",
+        "second_image_state": "Features a different small icon (flag-like) adjacent to the text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Submit Button",
+        "first_image_state": "Present",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Style",
+        "component_name": "Submit Button",
+        "first_image_state": "Orange",
+        "second_image_state": "Not applicable (absent)"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 70.17868185043335,
+    "input_tokens": 2354,
+    "output_tokens": 3551,
+    "total_tokens": 5905,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

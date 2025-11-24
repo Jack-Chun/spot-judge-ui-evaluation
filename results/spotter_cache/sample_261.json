@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Pricing Plans Container",
+        "first_image_state": "Three-column table layout where Economy, Standard, and Premium plans share horizontal rows for features (e.g., 'No Overage Fees', 'New records/month')",
+        "second_image_state": "Three individual card components, each containing a single plan\u2019s features in a vertical stack without shared rows between plans"
+      },
+      {
+        "category": "Component",
+        "component_name": "Pricing Plan Structure",
+        "first_image_state": "Part of a table component with rows and columns, where feature labels and values are aligned horizontally across all plans",
+        "second_image_state": "Individual card components, each with its own set of features displayed in a vertical list (e.g., 'No Overage Fees' followed by '1000 New records/month')"
+      },
+      {
+        "category": "Style",
+        "component_name": "Book Demo Button Position",
+        "first_image_state": "Positioned directly below the monthly/annual billing information in the table row for each plan",
+        "second_image_state": "Positioned at the bottom of each individual card component, below the feature list"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Pricing Plan Structure",
+        "first_image_state": "Horizontal row of plan names with prices and billing frequencies, followed by a table listing features across all plans",
+        "second_image_state": "Three vertical cards, each containing plan name, description, price, billing frequency, and feature details (No Overage Fees, new records/month, social accounts, data storage)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Feature Display",
+        "first_image_state": "Features listed horizontally in a shared table with columns for each plan",
+        "second_image_state": "Features listed vertically within each plan card"
+      },
+      {
+        "category": "Style",
+        "component_name": "Standard Plan Badge",
+        "first_image_state": "Red 'MOST POPULAR' badge on Standard plan",
+        "second_image_state": "No badge on Standard plan"
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA Button Text",
+        "first_image_state": "Title case 'Book a Demo'",
+        "second_image_state": "Uppercase 'BOOK A DEMO'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 65.72402787208557,
+    "input_tokens": 2170,
+    "output_tokens": 3033,
+    "total_tokens": 5203,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

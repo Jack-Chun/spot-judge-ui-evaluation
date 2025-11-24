@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Ride Selection Header",
+        "first_image_state": "Displays \"Choose a ride\"",
+        "second_image_state": "Displays \"Choose a trip or swipe up for more\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Ride Options List",
+        "first_image_state": "Contains UberX, Black SUV, and Black ride options",
+        "second_image_state": "Contains UberX, Comfort, and UberXL ride options"
+      },
+      {
+        "category": "Style",
+        "component_name": "UberX Option Background",
+        "first_image_state": "White background",
+        "second_image_state": "Light blue background"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Bottom Action Button",
+        "first_image_state": "Displays \"Choose UberX\"",
+        "second_image_state": "Displays \"Schedule UberX\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Ride Selection Header",
+        "first_image_state": "\"Choose a ride\"",
+        "second_image_state": "\"Choose a trip or swipe up for more\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Ride Type Options",
+        "first_image_state": "Three ride types: UberX, Black SUV, Black",
+        "second_image_state": "Three ride types: UberX, Comfort, UberXL"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Ride Option Item Structure",
+        "first_image_state": "Each ride option includes name, passenger count, estimated arrival time, price, and a \"Cheaper\" tag (for UberX)",
+        "second_image_state": "Each ride option includes name, passenger count, descriptive text, and price range"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Bottom Action Button",
+        "first_image_state": "\"Choose UberX\"",
+        "second_image_state": "\"Schedule UberX\" with date and time (\"Tue, 24 Sep at 3:50 PM-4:00 PM\")"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 89.10558676719666,
+    "input_tokens": 3824,
+    "output_tokens": 3590,
+    "total_tokens": 7414,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

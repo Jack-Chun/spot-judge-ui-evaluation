@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Navigation Label (Last Item)",
+        "first_image_state": "Displays 'Customer Channel'",
+        "second_image_state": "Displays 'I'm a customer'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Form Option",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with text 'I didn't find my profession. Simulate anyway.'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Navigation menu item",
+        "first_image_state": "\"Customer Channel\"",
+        "second_image_state": "\"I'm a customer\""
+      },
+      {
+        "category": "Component",
+        "component_name": "\"I didn't find my profession. Simulate anyway.\" text element",
+        "first_image_state": "Not present",
+        "second_image_state": "Present below the \"Lawyer\" option and above the \"View full list\" button"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 46.84993529319763,
+    "input_tokens": 3664,
+    "output_tokens": 2096,
+    "total_tokens": 5760,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

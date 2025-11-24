@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Hero Banner Quote and CTA",
+        "first_image_state": "Quote positioned on the left side of the hero banner; orange 'Learn more' button positioned on the right side",
+        "second_image_state": "Orange 'Learn more' button positioned on the left side of the hero banner; quote positioned on the right side"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Main Banner Section",
+        "first_image_state": "Orange 'Learn more' button positioned on the right side of the banner; testimonial quote positioned on the left side.",
+        "second_image_state": "Orange 'Learn more' button positioned on the left side of the banner; testimonial quote positioned on the right side."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 17.341016054153442,
+    "input_tokens": 2624,
+    "output_tokens": 776,
+    "total_tokens": 3400,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

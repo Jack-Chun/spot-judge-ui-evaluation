@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Product Description Paragraph",
+        "first_image_state": "Each product card contains a descriptive paragraph below the price",
+        "second_image_state": "No descriptive paragraphs are present below the price in any product card"
+      },
+      {
+        "category": "Component",
+        "component_name": "Product Description Text",
+        "first_image_state": "Present below model name and above 'VIEW PRODUCT DETAILS' button for all product cards, containing descriptive copy",
+        "second_image_state": "Absent from all product cards"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 35.31687307357788,
+    "input_tokens": 1640,
+    "output_tokens": 1443,
+    "total_tokens": 3083,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

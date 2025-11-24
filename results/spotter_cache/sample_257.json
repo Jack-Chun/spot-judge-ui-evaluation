@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Subway Logo",
+        "first_image_state": "Black background with white text",
+        "second_image_state": "Green and yellow colored logo"
+      },
+      {
+        "category": "Style",
+        "component_name": "Kansas State University Logo",
+        "first_image_state": "Gray background with white text",
+        "second_image_state": "Purple background with white text"
+      },
+      {
+        "category": "Style",
+        "component_name": "Kansas State University logo",
+        "first_image_state": "Black background with white text and design elements",
+        "second_image_state": "Purple background with white text and design elements"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 17.72898268699646,
+    "input_tokens": 4284,
+    "output_tokens": 663,
+    "total_tokens": 4947,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

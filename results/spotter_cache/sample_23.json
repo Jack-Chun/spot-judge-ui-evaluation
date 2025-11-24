@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "City Cards Arrangement",
+        "first_image_state": "Five city cards (Toronto, Niagara Falls, Mississauga, Montr\u00e9al, Ottawa) arranged in a two-row grid",
+        "second_image_state": "Three city cards (Toronto, Niagara Falls, Mississauga) arranged in a single row, followed by new accommodation type components"
+      },
+      {
+        "category": "Component",
+        "component_name": "Accommodation Type Components",
+        "first_image_state": "Not present",
+        "second_image_state": "Present, displaying Apartments, Resorts, Villas, Cabins, Cottages with their respective property counts"
+      },
+      {
+        "category": "Component",
+        "component_name": "Navigation menu item (Car rentals/Tours & Activities)",
+        "first_image_state": "Includes 'Tours & Activities' menu item with gear icon (replacing 'Car rentals')",
+        "second_image_state": "Includes 'Car rentals' menu item with car icon"
+      },
+      {
+        "category": "Layout",
+        "component_name": "City card container",
+        "first_image_state": "Five city cards arranged horizontally",
+        "second_image_state": "Three city cards arranged horizontally"
+      },
+      {
+        "category": "Component",
+        "component_name": "City card (Montreal, Ottawa)",
+        "first_image_state": "Includes Montreal and Ottawa city cards",
+        "second_image_state": "Does not include Montreal or Ottawa city cards"
+      },
+      {
+        "category": "Component",
+        "component_name": "Accommodation type categories section",
+        "first_image_state": "Does not display the accommodation type categories section",
+        "second_image_state": "Displays five accommodation type categories (Apartments, Resorts, Villas, Cabins, Cottages) with images and property counts"
+      },
+      {
+        "category": "Style",
+        "component_name": "Off-Peak Deals promotional image",
+        "first_image_state": "Features an image of a green building",
+        "second_image_state": "Features an image of a brick building"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 93.76631689071655,
+    "input_tokens": 6864,
+    "output_tokens": 3280,
+    "total_tokens": 10144,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

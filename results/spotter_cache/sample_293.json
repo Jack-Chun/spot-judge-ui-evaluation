@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "See all free classes button",
+        "first_image_state": "Present at the bottom of the screen",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Experience a free class header and See all link",
+        "first_image_state": "Absent",
+        "second_image_state": "Present above the live stream content"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Fixed UI text elements",
+        "first_image_state": "Contains 'See all free classes' text",
+        "second_image_state": "Contains 'Experience a free class' and 'See all' text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Promotional Section",
+        "first_image_state": "Absent; replaced by a new bottom section with 'See all free classes \u2192' text and an arrow icon.",
+        "second_image_state": "Present, containing 'Experience a free class' text and a 'See all' link."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Promotional Section Position",
+        "first_image_state": "Positioned at the bottom of the screen, above the footer.",
+        "second_image_state": "Positioned at the top of the screen, below the header."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Promotional Text Elements",
+        "first_image_state": "Displays 'See all free classes \u2192' as the promotional CTA text with an arrow icon, replacing the original promotional text.",
+        "second_image_state": "Displays 'Experience a free class' as the main promotional text and 'See all' as the secondary CTA link."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 100.60948514938354,
+    "input_tokens": 1564,
+    "output_tokens": 4832,
+    "total_tokens": 6396,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

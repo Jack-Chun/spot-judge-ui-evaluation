@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Add to Cart Button",
+        "first_image_state": "Displays the text '+ In winkelwagen'",
+        "second_image_state": "Displays the text 'Ja deze wil ik'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Primary action button",
+        "first_image_state": "Displays \"In winkelwagen\"",
+        "second_image_state": "Displays \"Ja deze wil ik\""
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 35.48044013977051,
+    "input_tokens": 1576,
+    "output_tokens": 1655,
+    "total_tokens": 3231,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

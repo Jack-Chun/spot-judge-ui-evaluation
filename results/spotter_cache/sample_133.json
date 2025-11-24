@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Promotional Banners (Aanbevolen Pagina's)",
+        "first_image_state": "Present as two banners: one with floral imagery and 'Profiteer!' text, another with a person and 'E-mail nieuwsbrief' text, positioned under the 'Aanbevolen Pagina's' heading.",
+        "second_image_state": "Absent; the area previously occupied by the banners and heading is empty."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Social Media Icons",
+        "first_image_state": "Positioned below the promotional banners, aligned horizontally.",
+        "second_image_state": "Positioned directly below the 'Tuinieren in januari' heading, aligned horizontally."
+      },
+      {
+        "category": "Component",
+        "component_name": "Sort section items",
+        "first_image_state": "Contains Bloembollen, Bomen en heesters, Gazoon, Groente en fruit, Hagen en coniferen, Klimplanten, Rozen, Terrassen en balkon, Tuinaccessoires, Vaste planten, Vijver",
+        "second_image_state": "Contains Bloembollen, Bomen en heesters, Gazoon, Groente en fruit, Hagen en coniferen, Klimplanten, Rozen"
+      },
+      {
+        "category": "Component",
+        "component_name": "Promotional section 'Aanbevolen Pagina's'",
+        "first_image_state": "Present; contains two promotional banners ('Profiteer!' and 'E-mail nieuwsbrief') above social media icons",
+        "second_image_state": "Absent; contains an image of snowdrops and social media icons above the heading 'Tuinieren in januari'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Social media icons",
+        "first_image_state": "Positioned below the 'Aanbevolen Pagina's' section, with fewer icons excluding Google+",
+        "second_image_state": "Positioned above the 'Tuinieren in januari' heading, with multiple icons including Google+"
+      },
+      {
+        "category": "Copy",
+        "component_name": "'Aanbevolen Pagina's' heading",
+        "first_image_state": "Present above the promotional banners",
+        "second_image_state": "Absent"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 105.2583749294281,
+    "input_tokens": 4200,
+    "output_tokens": 4350,
+    "total_tokens": 8550,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

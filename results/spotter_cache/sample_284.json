@@ -1,0 +1,98 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Header Text",
+        "first_image_state": "\"TRY FOR FREE!\"",
+        "second_image_state": "\"TRY PRO FOR FREE\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Feature Representation",
+        "first_image_state": "Features displayed with icons (gear, chat bubble, cloud, no ads icon)",
+        "second_image_state": "Features displayed with checkmarks"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Feature Descriptions and Names",
+        "first_image_state": "\"Bet Screener: Find betting ideas in one click; Tipster & Bankroll: Tipsters alerts & unlimited bankrolls!; Opening odds alerts: Get an alert as soon as the odds are out at your favorite bookmakers; Ads free!\"",
+        "second_image_state": "\"Screener: Find the best matches of the day thanks to our Screener; Certified Tipsters: No restriction on Tipsters tips and get alerted by notification; Bankroll: Unlimited bankrolls & advanced stats; Opening odds alerts: Get an alert as soon as the odds are out at your favorite bookmakers; Ads free!\""
+      },
+      {
+        "category": "Layout",
+        "component_name": "Tab Navigation",
+        "first_image_state": "No tab navigation elements",
+        "second_image_state": "Two tabs present: \"TIPSTOP PRO\" (selected) and \"FREE PLAN\" (unselected)"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Plan Options",
+        "first_image_state": "Monthly Plan (2.99\u20ac/month) and a free trial offer (\"FREE during month then 2.99\u20ac billed per Month\")",
+        "second_image_state": "Monthly Plan (2.99\u20ac/month) and Yearly Plan (\"then 2,99\u20ac / month billed per Month\")"
+      },
+      {
+        "category": "Style",
+        "component_name": "Background Color",
+        "first_image_state": "Dark navy background",
+        "second_image_state": "White background"
+      },
+      {
+        "category": "Style",
+        "component_name": "Button Color",
+        "first_image_state": "Monthly Plan button is white",
+        "second_image_state": "Monthly Plan button is blue"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Tab Navigation",
+        "first_image_state": "No tab navigation element; feature list appears directly below the header.",
+        "second_image_state": "Two horizontal tabs ('TIPSTOP PRO' selected, 'FREE PLAN') positioned above the feature list."
+      },
+      {
+        "category": "Component",
+        "component_name": "Feature Icons",
+        "first_image_state": "Each feature item includes a custom icon (e.g., gear, chat bubble, cloud, crossed-out circle) preceding the text.",
+        "second_image_state": "Each feature item includes a blue checkmark icon preceding the text."
+      },
+      {
+        "category": "Style",
+        "component_name": "Color Scheme",
+        "first_image_state": "Dark background (navy blue) with white text and light gray/white buttons.",
+        "second_image_state": "Light background (white) with blue accent colors for selected tab and buttons."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Header",
+        "first_image_state": "'TRY FOR FREE!' displayed prominently at the top.",
+        "second_image_state": "'TRY PRO FOR FREE' displayed prominently at the top."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Feature List Items",
+        "first_image_state": "Features include 'Bet Screener', 'Tipster & Bankroll', 'Opening odds alerts', 'Ads free!'.",
+        "second_image_state": "Features include 'Screener', 'Certified Tipsters', 'Bankroll', 'Opening odds alerts', 'Ads free!'."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Plan Buttons",
+        "first_image_state": "Three elements: a 'Monthly Plan' button, a 'SAVE 60%' label, and a 'FREE during month' button with discounted pricing ('then 2,99\u20ac billed per Month (i.e 4,99\u20ac / month)').",
+        "second_image_state": "Two rectangular buttons ('Monthly Plan' and 'Yearly Plan') with identical pricing ('2,99\u20ac / month')."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Subscription Terms",
+        "first_image_state": "Additional text 'Already subscribed? Sign in.' and 'Restore your purchases - Promo code?' before 'Powered by Purchasely'.",
+        "second_image_state": "Text stating 'Subscription can be cancelled at any time...' followed by 'Restore your purchases' and 'Powered by Purchasely'."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 80.57141995429993,
+    "input_tokens": 2704,
+    "output_tokens": 4208,
+    "total_tokens": 6912,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

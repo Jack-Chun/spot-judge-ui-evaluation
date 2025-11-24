@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Action Button Next to Add to Cart",
+        "first_image_state": "Displays 'Buy New' in red with white text",
+        "second_image_state": "Displays 'Add This To My Cart' in red with white text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Add to Cart Button",
+        "first_image_state": "Displays 'Buy Now' text",
+        "second_image_state": "Displays 'Add This To My Cart' text"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 18.32188582420349,
+    "input_tokens": 5104,
+    "output_tokens": 670,
+    "total_tokens": 5774,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

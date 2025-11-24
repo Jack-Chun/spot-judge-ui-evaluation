@@ -1,0 +1,86 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Product T-Shirts",
+        "first_image_state": "Two t-shirts (one green, one olive) featuring pixelated apple tree graphics",
+        "second_image_state": "Two white t-shirts featuring tiger graphics"
+      },
+      {
+        "category": "Component",
+        "component_name": "Background Graphics",
+        "first_image_state": "Pixelated trees and apples",
+        "second_image_state": "Black and white abstract graphics"
+      },
+      {
+        "category": "Component",
+        "component_name": "Oversized Print Banner",
+        "first_image_state": "Not present",
+        "second_image_state": "Red rectangular banner with \"OVERSIZED PRINT\" text positioned at the upper right corner"
+      },
+      {
+        "category": "Style",
+        "component_name": "Call-to-Action Button Appearance",
+        "first_image_state": "Yellow rectangular button with rounded corners",
+        "second_image_state": "Dark rectangular button with rounded corners"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Call-to-Action Button Text",
+        "first_image_state": "\"ADD TO CART\" text",
+        "second_image_state": "\"buy now\" text"
+      },
+      {
+        "category": "Style",
+        "component_name": "Pricing Box Appearance",
+        "first_image_state": "Yellow rectangular box with rounded corners",
+        "second_image_state": "Dark rectangular box with rounded corners"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Pricing Box Text",
+        "first_image_state": "\"$10 ONLY FOR 24 HOURS\" text",
+        "second_image_state": "\"$10\" text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Sizing Charts Text",
+        "first_image_state": "\"sizing charts MENS / WOMEN'S\" text positioned at the bottom left",
+        "second_image_state": "Not present"
+      },
+      {
+        "category": "Component",
+        "component_name": "Product T-Shirt Designs",
+        "first_image_state": "Two t-shirts (one green, one olive) featuring a green tree with apple graphics and text elements",
+        "second_image_state": "Two white t-shirts featuring a black-and-white tiger graphic design with text elements"
+      },
+      {
+        "category": "Style",
+        "component_name": "Overall Color Scheme",
+        "first_image_state": "Vibrant color scheme with shades of green, olive, yellow, and blue dominating the visual",
+        "second_image_state": "Monochromatic color scheme with shades of black, white, and gray dominating the visual"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Promotional Text and Call-to-Action Elements",
+        "first_image_state": "'$10 ONLY FOR 24 HOURS' text in yellow box; 'ADD TO CART' button in blue within yellow box; 'sizing charts MENS / WOMENS' text at bottom edge",
+        "second_image_state": "Red 'OVERSIZED PRINT' label in top-right corner; '$10 buy now' button with arrow icon in bottom-right corner"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Promotional Element Positioning",
+        "first_image_state": "Promotional box positioned in bottom-right corner below t-shirts",
+        "second_image_state": "Promotional label positioned in top-right corner above t-shirts"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 114.27976202964783,
+    "input_tokens": 1798,
+    "output_tokens": 5423,
+    "total_tokens": 7221,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

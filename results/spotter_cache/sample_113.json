@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Call-to-action buttons",
+        "first_image_state": "A single red rectangular button labeled 'Try demo for free!' positioned centrally below the main heading.",
+        "second_image_state": "Two buttons positioned side by side below the main heading: a red rectangular button labeled 'Try demo for free!' and a blue rectangular button labeled 'Buy now'."
+      },
+      {
+        "category": "Component",
+        "component_name": "Call-to-action button",
+        "first_image_state": "Contains one call-to-action button ('Try demo for free!') positioned below the header; the 'Buy now' button is absent.",
+        "second_image_state": "Contains two call-to-action buttons ('Try demo for free!' and 'Buy now') positioned horizontally below the header."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 29.38911724090576,
+    "input_tokens": 1796,
+    "output_tokens": 1136,
+    "total_tokens": 2932,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

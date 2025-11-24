@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Left Sidebar Step Time Indicators",
+        "first_image_state": "Each step in the left sidebar includes a time estimate (e.g., '2 mins only') below the step label.",
+        "second_image_state": "Each step in the left sidebar does not include a time estimate; only the step number and label are present."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Header Checkmark Section",
+        "first_image_state": "The header includes a section with three checkmarks indicating application features ('Takes 10 mins to apply', 'Save your application at any time', 'Quick Conditional Approval').",
+        "second_image_state": "The header does not include the checkmark section with application features."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Continue Button Position",
+        "first_image_state": "The 'Continue' button is positioned centrally at the bottom of the main content area.",
+        "second_image_state": "The 'Continue' button is positioned aligned to the right at the bottom of the main content area."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Left Sidebar Vertical Connector",
+        "first_image_state": "A vertical line connects the circular icons of each step in the left sidebar.",
+        "second_image_state": "No vertical line connects the circular icons of each step in the left sidebar."
+      },
+      {
+        "category": "Component",
+        "component_name": "Header Badges",
+        "first_image_state": "Three circular badges (labeled 'WINNER', 'Best Secured Lender', 'Leading Provider') positioned above the 'imb BANK' logo.",
+        "second_image_state": "No badges present; only the 'imb BANK' logo displayed at the top."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Step Time Labels",
+        "first_image_state": "Each left sidebar step includes a time duration label below the step label (e.g., '2 mins only' under step 1).",
+        "second_image_state": "Left sidebar steps (1\u20136) show only step numbers, icons, and labels (e.g., 'LOAN DETAILS') without time duration indicators."
+      },
+      {
+        "category": "Component",
+        "component_name": "Purpose of Loan Breadcrumb",
+        "first_image_state": "No breadcrumb navigation element present in the main content area.",
+        "second_image_state": "A breadcrumb navigation displaying 'Purpose of Loan > Applicant Details' above the form content."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Application Process Notes",
+        "first_image_state": "Three checkmark-listed statements replacing the mandatory note: '\u2713 Takes 10 mins to apply', '\u2713 Save your application at any time', '\u2713 Quick Conditional Approval'.",
+        "second_image_state": "A static note stating 'Fields marked with * are mandatory.' below the breadcrumb."
+      },
+      {
+        "category": "Style",
+        "component_name": "Continue Button",
+        "first_image_state": "An orange rectangular button with white text, wider in width compared to Image 1.",
+        "second_image_state": "An orange rectangular button with white text, relatively narrow in width."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 85.99984765052795,
+    "input_tokens": 2044,
+    "output_tokens": 4371,
+    "total_tokens": 6415,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

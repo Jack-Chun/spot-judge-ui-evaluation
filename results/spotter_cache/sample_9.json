@@ -1,0 +1,80 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Product Thumbnail Container",
+        "first_image_state": "Arranged horizontally below the main product image",
+        "second_image_state": "Arranged vertically to the left of the main product image"
+      },
+      {
+        "category": "Component",
+        "component_name": "At a Glance Information Box",
+        "first_image_state": "Contains structured product details (e.g., country of origin, age group) in light blue rectangular containers",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "About This Item Bullet Points",
+        "first_image_state": "Contains bulleted product feature descriptions (e.g., dimensions, material)",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Lower Page Content Sections",
+        "first_image_state": "Includes 'Similar items you might like' section followed by a sponsored product recommendation",
+        "second_image_state": "Includes 'Continue your search on Walmart' section with search input fields, followed by 'Popular items in this category' section"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Lower Section Header Text",
+        "first_image_state": "Reads 'Similar items you might like'",
+        "second_image_state": "Reads 'Popular items in this category'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Search Input Fields",
+        "first_image_state": "Absent",
+        "second_image_state": "Present under the 'Continue your search on Walmart' heading"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Product image and thumbnail container",
+        "first_image_state": "Thumbnails are horizontally aligned below the main product image; main product image occupies a larger portion of the page width.",
+        "second_image_state": "Thumbnails are vertically aligned on the left side of the main product image; main product image occupies a smaller portion of the page width."
+      },
+      {
+        "category": "Component",
+        "component_name": "Product specifications section ('At a glance')",
+        "first_image_state": "Present; displays structured specification boxes containing details such as country of origin, age group, recommended room, size, material, and assembled product weight.",
+        "second_image_state": "Absent; product details display price, ratings, returns policy, and shipping options without structured specification boxes."
+      },
+      {
+        "category": "Layout and Copy",
+        "component_name": "Search suggestion heading and content",
+        "first_image_state": "Absent; replaced by 'Similar items you might like' section.",
+        "second_image_state": "Heading 'Continue your search on Walmart' appears above multiple search input fields."
+      },
+      {
+        "category": "Layout and Copy",
+        "component_name": "Popular items heading and content",
+        "first_image_state": "Absent; replaced by 'Similar items you might like' section.",
+        "second_image_state": "Heading 'Popular items in this category' appears above multiple product cards showcasing best-selling items."
+      },
+      {
+        "category": "Component",
+        "component_name": "Add to list button",
+        "first_image_state": "Present; 'Add to list' button is displayed alongside 'Add to registry' button in the right sidebar.",
+        "second_image_state": "Absent; only 'Add to registry' button is displayed in the right sidebar."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 155.0684175491333,
+    "input_tokens": 6544,
+    "output_tokens": 5618,
+    "total_tokens": 12162,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

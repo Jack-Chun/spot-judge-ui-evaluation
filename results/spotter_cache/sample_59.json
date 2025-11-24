@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Stock Status Indicator",
+        "first_image_state": "No stock status icon or text visible",
+        "second_image_state": "Checkmark icon with 'In stock' text positioned next to the price"
+      },
+      {
+        "category": "Component",
+        "component_name": "Dispatch Information",
+        "first_image_state": "Basket icon with 'Other people want this...' text (dynamic count ignored)",
+        "second_image_state": "Box icon with 'Dispatching on schedule. This shop has been dispatching their orders on time.' text"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Reviews Section",
+        "first_image_state": "Displays 'Shop rating' with star rating, followed by 'Total shop reviews 164', then 'Reviews for this item' and 'Reviews for this shop' in a restructured vertical arrangement.",
+        "second_image_state": "Displays '164 reviews' with star rating, followed by 'Reviews for this item 5' and 'Reviews for this shop 64' in a horizontal arrangement."
+      },
+      {
+        "category": "Component",
+        "component_name": "Quantity Selector",
+        "first_image_state": "Present as a dropdown menu labeled 'Quantity' with a default value of '1'.",
+        "second_image_state": "Absent from the interface."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 113.0268907546997,
+    "input_tokens": 5424,
+    "output_tokens": 5778,
+    "total_tokens": 11202,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Testimonial Section",
+        "first_image_state": "Contains a rectangular container displaying three customer testimonials",
+        "second_image_state": "Does not contain the testimonial container; the area where it was located is empty"
+      },
+      {
+        "category": "Component",
+        "component_name": "Middle Content Block",
+        "first_image_state": "Contains a testimonial section with three user quotes about the service.",
+        "second_image_state": "Contains 'Why WikiJob?' section with explanatory text about test simulation and automatic marking."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 27.565534830093384,
+    "input_tokens": 3544,
+    "output_tokens": 960,
+    "total_tokens": 4504,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

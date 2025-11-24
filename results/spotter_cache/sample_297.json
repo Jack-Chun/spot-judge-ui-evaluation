@@ -1,0 +1,86 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Trial Progression Section",
+        "first_image_state": "Vertical timeline with three sequential steps (Today, Day 5, Day 7) aligned left, each step containing an icon (locked, bell, star) and descriptive text.",
+        "second_image_state": "No timeline; instead, a vertical list of four feature items (Unlimited access, Audio, Send to Kindle, Evernote Sync) aligned left, each containing an icon (book, audio, document, evernote) and descriptive text."
+      },
+      {
+        "category": "Component Taxonomy",
+        "component_name": "Progress Indicators",
+        "first_image_state": "Uses step indicator icons (locked, bell, star) to represent trial progression stages.",
+        "second_image_state": "Uses feature icons (book, audio, document, evernote) to represent service features."
+      },
+      {
+        "category": "Component Taxonomy",
+        "component_name": "Cancellation Guide",
+        "first_image_state": "Present, displaying text explaining how to cancel the trial.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Style",
+        "component_name": "Header Background",
+        "first_image_state": "White background for the header section.",
+        "second_image_state": "Green background for the header section."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "\"How your free trial works\"",
+        "second_image_state": "\"Get the big ideas from 2,000+ of the world's best nonfiction titles\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Call-to-Action Button",
+        "first_image_state": "\"Start my free trial now\"",
+        "second_image_state": "\"Subscribe & try 7 days for free\""
+      },
+      {
+        "category": "Layout",
+        "component_name": "Page structure",
+        "first_image_state": "Two-column layout with a timeline on the left and content sections (trial steps, pricing, cancellation instructions) on the right",
+        "second_image_state": "Single-column layout with a green header banner at the top, followed by price information, a feature list, and call-to-action buttons"
+      },
+      {
+        "category": "Component",
+        "component_name": "Timeline component",
+        "first_image_state": "Present with three stages (Today, Day 5, Day 7) each accompanied by an icon",
+        "second_image_state": "Not present"
+      },
+      {
+        "category": "Component",
+        "component_name": "Feature list with icons",
+        "first_image_state": "Not present",
+        "second_image_state": "Present with four items (Unlimited access, Audio, Send to Kindle, Evernote Sync) each with an icon"
+      },
+      {
+        "category": "Style",
+        "component_name": "Color scheme and background",
+        "first_image_state": "White background with a blue-green gradient timeline; dark text on white",
+        "second_image_state": "Green header and primary button with white text; white background for lower sections"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main heading text",
+        "first_image_state": "\"How your free trial works\"",
+        "second_image_state": "\"Get the big ideas from 2,000+ of the world's best nonfiction titles\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Primary call-to-action button text",
+        "first_image_state": "\"Start my free trial now\"",
+        "second_image_state": "\"Subscribe & try 7 days for free\""
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 114.66131711006165,
+    "input_tokens": 3664,
+    "output_tokens": 5586,
+    "total_tokens": 9250,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

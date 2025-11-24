@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Favorite heart icon",
+        "first_image_state": "Positioned on the right side of each listing card",
+        "second_image_state": "Positioned on the left side of each listing card"
+      },
+      {
+        "category": "Component",
+        "component_name": "SUPERHOST badge",
+        "first_image_state": "Absent from all listing cards",
+        "second_image_state": "Present above the property type in each listing card"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Listing subheader text",
+        "first_image_state": "Displays location-based text (e.g., 'Private room in Burien')",
+        "second_image_state": "Displays 'SUPERHOST Private room' (replacing location-based text with host badge and property type)"
+      },
+      {
+        "category": "Component",
+        "component_name": "SUPERHOST badge",
+        "first_image_state": "Absent; replaced by plain text 'Superhost' positioned below rating stars in all listings",
+        "second_image_state": "Present as a distinct badge element above listing titles (e.g., 'SUPERHOST Private room')"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 54.63428330421448,
+    "input_tokens": 4944,
+    "output_tokens": 2547,
+    "total_tokens": 7491,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

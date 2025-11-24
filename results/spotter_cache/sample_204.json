@@ -1,0 +1,116 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Plan Selection Radio Buttons",
+        "first_image_state": "Two radio buttons labeled 'Family Floater' and 'Individual', with 'Individual' selected.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Component",
+        "component_name": "Sum Insured Dropdown",
+        "first_image_state": "A dropdown field labeled 'Select Sum insured?' with placeholder 'Select'.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Component",
+        "component_name": "Local Pincode Input Field",
+        "first_image_state": "An input field labeled 'Enter Your Local Pincode' with placeholder 'Pincode'.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Component",
+        "component_name": "Mobile Number Input Field",
+        "first_image_state": "An input field labeled 'Enter Your Mobile Number' with placeholder 'Mobile Number'.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Component",
+        "component_name": "Promotional Stat Icons",
+        "first_image_state": "Absent.",
+        "second_image_state": "Four circular icons with text: '#1.5 Crore+ Happy Customers', 'Nearly 12000+ Cashless Network', 'Premium Starting at Just \u20b919/Day**', '1 Claim Settled Every Minute*'."
+      },
+      {
+        "category": "Component",
+        "component_name": "Breadcrumb and Health Insurance Heading",
+        "first_image_state": "Absent.",
+        "second_image_state": "Breadcrumb 'Home / Health Insurance' and heading 'Health Insurance'."
+      },
+      {
+        "category": "Component",
+        "component_name": "Live Chat Widget",
+        "first_image_state": "Absent.",
+        "second_image_state": "A circular widget with 'DIA' and 'Live Chat' text."
+      },
+      {
+        "category": "Component",
+        "component_name": "Call to Buy and Language Selector",
+        "first_image_state": "Absent.",
+        "second_image_state": "'CALL TO BUY: 022 6242 6242' and 'English' language selector in the header."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Headline and Supporting Text",
+        "first_image_state": "Headline 'Get ultimate 4X Health Coverage' with bullet points '2X Coverage from Day 1', '100% coverage restored', 'No Cost EMI^'.",
+        "second_image_state": "Headline 'No Cost Installment Available*' followed by paragraph '4X coverage with two new unique services. Optima Secure gets bigger and better.'."
+      },
+      {
+        "category": "Component",
+        "component_name": "Authorization Checkbox",
+        "first_image_state": "A checkbox with text 'I Authorize HDFC ERGO General Insurance Company Limited To Call, Send SMS, Email & Whatsapp To Offer Information & Services.'",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Component",
+        "component_name": "Get Free Quote Now Button",
+        "first_image_state": "A red button with white text 'GET FREE QUOTE NOW!'.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Page Structure",
+        "first_image_state": "Split layout with headline/bullets on the left and image on the right, followed by stacked form fields.",
+        "second_image_state": "Linear promotional layout with a red banner, headline, question field, centered image, four stat boxes, and breadcrumb navigation."
+      },
+      {
+        "category": "Component",
+        "component_name": "Stat Boxes",
+        "first_image_state": "Absent.",
+        "second_image_state": "Present (four stat boxes with icons and text: #1.5 Crore+ Happy Customers, Nearly 12000+ Cashless Network, Premium Starting at Just \u20b919/Day**, 1 Claim Settled Every Minute*)."
+      },
+      {
+        "category": "Component",
+        "component_name": "Form Components",
+        "first_image_state": "Present (radio buttons for plan type, input fields for member selection/pincode/mobile, dropdown for sum insured, checkbox for authorization, and a CTA button).",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Headline",
+        "first_image_state": "\u201cGet ultimate 4X Health Coverage\u201d",
+        "second_image_state": "\u201c4X coverage with two new unique services. Optima Secure gets bigger and better.\u201d"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Supporting Bullets",
+        "first_image_state": "Present (\u201c2X Coverage from Day 1\u201d, \u201c100% coverage restored\u201d, \u201cNo Cost EMI*^\u201d).",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Form Labels",
+        "first_image_state": "Present (\u201cSelect Plan Type\u201d, \u201cSelect Members you want to insure\u201d, \u201cSelect Sum insured\u201d, \u201cEnter Your Local Pincode\u201d, \u201cEnter Your Mobile Number\u201d, authorization text).",
+        "second_image_state": "Absent."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 88.93597912788391,
+    "input_tokens": 3824,
+    "output_tokens": 5289,
+    "total_tokens": 9113,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

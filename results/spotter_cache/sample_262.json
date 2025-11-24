@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Header Label",
+        "first_image_state": "No spaces between characters in 'KPN 1 jaar'",
+        "second_image_state": "Spaces between characters in 'K P N 1 jaar'"
+      },
+      {
+        "category": "Style",
+        "component_name": "Call-to-Action Button",
+        "first_image_state": "Orange background with white text",
+        "second_image_state": "Green background with white text"
+      },
+      {
+        "category": "Style",
+        "component_name": "INFO/BESTEL Button",
+        "first_image_state": "Large, orange rectangular button with white text",
+        "second_image_state": "Small, gray rectangular button with white text"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 76.1169228553772,
+    "input_tokens": 1124,
+    "output_tokens": 3964,
+    "total_tokens": 5088,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

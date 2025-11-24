@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Search Button",
+        "first_image_state": "Blue circular button with white magnifying glass icon",
+        "second_image_state": "Yellow circular button with orange magnifying glass icon"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Search Bar Placeholder",
+        "first_image_state": "Text reads \"Search everything at Walmart online and 'n store\"",
+        "second_image_state": "Text reads \"Search everything at Walmart online and in store\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Navigation Item \"Patio & Garden\"",
+        "first_image_state": "Visible as full label \"Patio & Garden\"",
+        "second_image_state": "Truncated to \"Garden\""
+      },
+      {
+        "category": "Style",
+        "component_name": "Heart Icon in \"My Items\" Section",
+        "first_image_state": "White filled heart icon",
+        "second_image_state": "Outlined heart icon"
+      },
+      {
+        "category": "Style",
+        "component_name": "Search button",
+        "first_image_state": "Blue circular button with magnifying glass icon",
+        "second_image_state": "Yellow circular button with magnifying glass icon"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Top left header text",
+        "first_image_state": "\"ur items?\"",
+        "second_image_state": "\"Items?\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Navigation category \"Garden\"",
+        "first_image_state": "\"Patio & Garden\" (replaced in navigation menu)",
+        "second_image_state": "\"& Garden\" (present in navigation menu)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Navigation category \"Registry\"",
+        "first_image_state": "\"Renistry\" (changed in navigation menu)",
+        "second_image_state": "\"Registry\" (present in navigation menu)"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 91.80565285682678,
+    "input_tokens": 4784,
+    "output_tokens": 4131,
+    "total_tokens": 8915,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

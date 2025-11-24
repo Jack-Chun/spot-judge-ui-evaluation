@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Frequently bought together section",
+        "first_image_state": "Not present in the page structure",
+        "second_image_state": "Present, positioned below the similar items section, containing three product thumbnails with pricing and add-to-cart options"
+      },
+      {
+        "category": "Component",
+        "component_name": "Similar item to consider",
+        "first_image_state": "Contains one product listing (AmazonBasics 2.5-inch SATA HDD or SSD Hard Drive Enclosure - USB 3.0)",
+        "second_image_state": "Contains two product listings (AmazonBasics 2.5-inch SATA HDD or SSD Hard Drive Enclosure - USB 3.0 and Cirago 500GB Slim External Portable Hard Drive)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Style selection buttons",
+        "first_image_state": "Contains two buttons: Portable HDD (selected), Desktop HDD; Portable SSD button is absent",
+        "second_image_state": "Contains three buttons: Portable SSD, Portable HDD, Desktop HDD"
+      },
+      {
+        "category": "Component",
+        "component_name": "Product specifications section",
+        "first_image_state": "Displays 'Brand: Seagate', 'Compatible Devices: Laptop', 'Digital Storage Capacity: 2 TB', 'Hardware Interface: USB 3.0', 'Model: STGX2000400'; Pattern Name field is absent",
+        "second_image_state": "Displays 'Pattern Name: Hard Drive'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Similar item recommendation",
+        "first_image_state": "Shows Sonnnics 250GB White External Pocket Hard Drive USB 3.0",
+        "second_image_state": "Shows Cirago 500GB Slim External Portable Hard Drive"
+      },
+      {
+        "category": "Component",
+        "component_name": "Frequently bought together section",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with items and prices"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 99.02480125427246,
+    "input_tokens": 6704,
+    "output_tokens": 4103,
+    "total_tokens": 10807,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

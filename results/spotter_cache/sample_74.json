@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Breadcrumb Navigation",
+        "first_image_state": "Displays 'Books > Biographies & Memoirs > Leaders & Notable People' as the breadcrumb path.",
+        "second_image_state": "Displays 'Back to results' followed by 'Books > Biographies & Memoirs > Leaders & Notable People' as the breadcrumb path."
+      },
+      {
+        "category": "Component",
+        "component_name": "Add to Cart Button",
+        "first_image_state": "Visible below the format selection options (Kindle, Audiobook, Hardcover, etc.).",
+        "second_image_state": "Not visible in the same location."
+      },
+      {
+        "category": "Component",
+        "component_name": "Add to List Button",
+        "first_image_state": "Visible next to the 'Have one to sell?' text.",
+        "second_image_state": "Not visible next to the 'Have one to sell?' text."
+      },
+      {
+        "category": "Component",
+        "component_name": "See this Author link",
+        "first_image_state": "Absent",
+        "second_image_state": "Present below the author image"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Follow button text",
+        "first_image_state": "Displays '+ Follow'",
+        "second_image_state": "Displays 'Follow'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 81.92972493171692,
+    "input_tokens": 4784,
+    "output_tokens": 3944,
+    "total_tokens": 8728,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Product feature section",
+        "first_image_state": "Contains a list of bullet points with green checkmarks detailing product features (e.g., 'Bedrukking tot 3 kleuren...', 'Gratis verzending...')",
+        "second_image_state": "Replaced by a green rectangular box containing text about bulk order discounts ('Meer dan de briefpapier bestellen, bespaar ook bij het bestellen van grote hoeveelheden...')"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Bottom-left orange information boxes",
+        "first_image_state": "Three orange rectangular containers positioned horizontally adjacent; first container displays text \"1 Hoe lever je het ontwerp aan?\" with a yellow arrow icon, second container displays text \"2 Stel je samen\", third container displays text \"Kies het format\" with an icon.",
+        "second_image_state": "Two orange rectangular containers positioned horizontally adjacent; first container displays text \"Hoe lever je het ontwerp aan?\" with a yellow arrow icon, second container displays text \"Eigen bestanden uploaden\" with a blue icon."
+      },
+      {
+        "category": "Component",
+        "component_name": "Bottom-left orange information boxes",
+        "first_image_state": "Contains three containers with texts \"1 Hoe lever je het ontwerp aan?\", \"2 Stel je samen\", and \"Kies het format\".",
+        "second_image_state": "Contains two containers with texts \"Hoe lever je het ontwerp aan?\" and \"Eigen bestanden uploaden\"."
+      },
+      {
+        "category": "Style",
+        "component_name": "Bottom-left orange information boxes",
+        "first_image_state": "Numerical prefixes \"1\" and \"2\" added to the first two containers' text.",
+        "second_image_state": "No numerical prefixes on the text within the containers."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Bottom-left orange information boxes",
+        "first_image_state": "Texts are \"1 Hoe lever je het ontwerp aan?\", \"2 Stel je samen\", and \"Kies het format\".",
+        "second_image_state": "Texts are \"Hoe lever je het ontwerp aan?\" and \"Eigen bestanden uploaden\"."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 80.40583491325378,
+    "input_tokens": 2148,
+    "output_tokens": 4504,
+    "total_tokens": 6652,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

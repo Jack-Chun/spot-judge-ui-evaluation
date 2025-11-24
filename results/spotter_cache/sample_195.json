@@ -1,0 +1,80 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "Cloud-Based Restaurant POS Software & Management System",
+        "second_image_state": "POS Software For Ever Growing Restaurants!"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Hero Device Screenshots",
+        "first_image_state": "Two device screenshots (desktop and mobile) aligned vertically on the right",
+        "second_image_state": "Three device screenshots (desktop, tablet, mobile) arranged horizontally on the right"
+      },
+      {
+        "category": "Component",
+        "component_name": "\"Why POSist?\" Section",
+        "first_image_state": "Present with bullet points and restaurant brand logos",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Footer Contact Form",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with input fields for Name, Restaurant Name, Email ID, Phone Number, City"
+      },
+      {
+        "category": "Style",
+        "component_name": "Hero Background",
+        "first_image_state": "Darker blue gradient with triangular shapes",
+        "second_image_state": "Lighter blue gradient with triangular shapes"
+      },
+      {
+        "category": "Component",
+        "component_name": "Navigation Menu",
+        "first_image_state": "Less structured menu items with a \"GET STARTED\" button",
+        "second_image_state": "Structured menu items including FEATURES, PRODUCTS, ENTERPRISE, BENEFITS, INTEGRATIONS, CUSTOMERS, CONTACT US"
+      },
+      {
+        "category": "Component",
+        "component_name": "Contact Form",
+        "first_image_state": "Absent.",
+        "second_image_state": "Present with input fields for Name, Restaurant Name, Email ID, Phone Number, and City, positioned at the bottom of the page."
+      },
+      {
+        "category": "Component",
+        "component_name": "\"Why POSist?\" Section",
+        "first_image_state": "Present with bullet points listing features, positioned below the logo row.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "\"Cloud-Based Restaurant POS Software & Management System\"",
+        "second_image_state": "\"POS Software For Ever Growing Restaurants!\""
+      },
+      {
+        "category": "Layout",
+        "component_name": "Logo Row",
+        "first_image_state": "Present as a horizontal row of restaurant logos, positioned below the sign-up button and above the device display.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Component",
+        "component_name": "Tablet Device Display",
+        "first_image_state": "Absent.",
+        "second_image_state": "Present alongside desktop and phone, displaying a POS interface."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 115.46890091896057,
+    "input_tokens": 2032,
+    "output_tokens": 6231,
+    "total_tokens": 8263,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

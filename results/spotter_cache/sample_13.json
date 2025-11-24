@@ -1,0 +1,86 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Page Structure",
+        "first_image_state": "Linear layout with a single hero section followed by a cancellation section and footer.",
+        "second_image_state": "Modular layout composed of multiple distinct sections including hero, entertainment categories, TV, download, watch everywhere, and FAQs."
+      },
+      {
+        "category": "Component",
+        "component_name": "Entertainment Category Tiles",
+        "first_image_state": "Not present.",
+        "second_image_state": "Grid of tiles displaying various entertainment categories (e.g., Bird Box, Incredibles)."
+      },
+      {
+        "category": "Component",
+        "component_name": "Device-Specific Sections",
+        "first_image_state": "Not present.",
+        "second_image_state": "Sections dedicated to TV viewing ('Enjoy on your TV.') and mobile downloading ('Download your shows to watch on the go.')."
+      },
+      {
+        "category": "Component",
+        "component_name": "FAQ Accordion",
+        "first_image_state": "Not present.",
+        "second_image_state": "Expandable list of frequently asked questions with toggles (e.g., 'What is Netflix?', 'How much does Netflix cost?')."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Headline",
+        "first_image_state": "'See what\u2019s next.'",
+        "second_image_state": "'All of Netflix. Free for 30 days.'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Subheadings",
+        "first_image_state": "'WATCH ANYWHERE. CANCEL ANYTIME.'",
+        "second_image_state": "'Endless entertainment, anytime, anywhere.' (and other section-specific subheadings like 'Enjoy on your TV.', 'Download your shows to watch on the go.')."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Page Structure",
+        "first_image_state": "Single hero section with movie poster collage, followed by three feature icons, a cancellation explanation section, and a simplified footer.",
+        "second_image_state": "Multiple distinct sections including a promotional banner, 'Endless entertainment' grid, 'Enjoy on your TV' section, 'Download your shows' section, 'Watch everywhere' section, and 'Frequently Asked Questions' accordion."
+      },
+      {
+        "category": "Component",
+        "component_name": "Entertainment Grid",
+        "first_image_state": "Absent: Replaced by a full-width movie poster collage in the hero section.",
+        "second_image_state": "Present: Rows of movie/show thumbnails under 'Endless entertainment, anytime, anywhere.'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Device Sections",
+        "first_image_state": "Absent: Replaced by three icon-based feature sections ('No commitments', 'Watch anywhere', 'Pick your price').",
+        "second_image_state": "Present: 'Enjoy on your TV', 'Download your shows', and 'Watch everywhere' sections with corresponding device imagery."
+      },
+      {
+        "category": "Component",
+        "component_name": "FAQ Accordion",
+        "first_image_state": "Absent: Replaced by a cancellation explanation with an X icon graphic.",
+        "second_image_state": "Present: Expandable questions under 'Frequently Asked Questions'."
+      },
+      {
+        "category": "Style",
+        "component_name": "Color Scheme & Typography",
+        "first_image_state": "Vibrant hero with colorful movie posters; bolder, larger typography (e.g., 'See what\u2019s next.'); red accents for primary buttons; cleaner footer with reduced link density.",
+        "second_image_state": "Dark background with white text; structured sections with minimal color variation beyond red CTAs."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Promotional Headings",
+        "first_image_state": "'See what\u2019s next.' and 'WATCH ANYWHERE. CANCEL ANYTIME.'",
+        "second_image_state": "'All of Netflix. Free for 30 days.' and 'Endless entertainment, anytime, anywhere.'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 101.96227216720581,
+    "input_tokens": 4704,
+    "output_tokens": 4053,
+    "total_tokens": 8757,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

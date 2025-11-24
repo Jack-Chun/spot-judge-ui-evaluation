@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Add to Cart button",
+        "first_image_state": "Displays \"In winkelwagen\" (Add to Cart) as the primary call-to-action text",
+        "second_image_state": "Displays \"Bestel nu\" (Order Now) as the primary call-to-action text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Primary CTA Button",
+        "first_image_state": "Displays \"In winkelwagen\" (Add To Cart) in white text on a yellow background",
+        "second_image_state": "Displays \"Bestel nu\" (Order Now) in white text on a yellow background"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 15.65912413597107,
+    "input_tokens": 1576,
+    "output_tokens": 665,
+    "total_tokens": 2241,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

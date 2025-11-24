@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Background Image",
+        "first_image_state": "A room interior featuring exposed wooden beams and a large window with natural light",
+        "second_image_state": "A room interior featuring wooden stairs and a couch with cushions"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Monthly potential label",
+        "first_image_state": "'Monthly potential' text displayed above the price",
+        "second_image_state": "No 'Monthly potential' text present above the price"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Get started button",
+        "first_image_state": "Positioned in the top-right corner of the page, outside the 'Earn money as an Airbnb host' section",
+        "second_image_state": "Positioned within the 'Earn money as an Airbnb host' section (lower portion of the white container)"
+      },
+      {
+        "category": "Style",
+        "component_name": "Navigation tabs",
+        "first_image_state": "'Overview' tab is highlighted (e.g., underlined or bold) to indicate active state",
+        "second_image_state": "All navigation tabs ('Overview', 'Setup', 'Financials', 'Safety') are unhighlighted with standard text styling"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 61.31697225570679,
+    "input_tokens": 5504,
+    "output_tokens": 2681,
+    "total_tokens": 8185,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

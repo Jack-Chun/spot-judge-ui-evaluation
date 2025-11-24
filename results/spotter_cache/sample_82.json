@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Top Banner Content",
+        "first_image_state": "Contains 'Amazon's response to COVID-19' static text element",
+        "second_image_state": "Contains 'International Kindle Paperwhite Buy Now' link and 'Sign in' button elements"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Coupon Section Text",
+        "first_image_state": "Displays '15% off coupon' static text",
+        "second_image_state": "Displays 'Save an extra 10% when you apply this coupon. Discount on first order. Terms' static text"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Style Options Display",
+        "first_image_state": "Shows style options as a horizontal row with price details",
+        "second_image_state": "Shows style options as thumbnail images with price details"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Add Accessory Label",
+        "first_image_state": "Displays 'Add as accessory:' static text",
+        "second_image_state": "Displays 'an Accessory:' static text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Top right banner",
+        "first_image_state": "Displays 'Amazon's response to COVID-19' text",
+        "second_image_state": "Displays 'Sign in' button and 'New customer? Start here.' text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Sponsored product carousel",
+        "first_image_state": "Displays 'Duracell Optimum AAA Batteries | 12 Count Pack | ...' sponsored product",
+        "second_image_state": "Displays 'International Kindle Paperwhite Buy Now' sponsored product"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Coupon text",
+        "first_image_state": "Displays truncated coupon text 'Save an ex...'",
+        "second_image_state": "Displays full coupon text 'Save an extra 10% when you apply this coupon. Discount on first order. Terms'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Bottom footer links",
+        "first_image_state": "Displays 'Have one to sell?' and 'Sell on Amazon' links",
+        "second_image_state": "Displays '15% off coupon' link"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 85.92738342285156,
+    "input_tokens": 5424,
+    "output_tokens": 4205,
+    "total_tokens": 9629,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

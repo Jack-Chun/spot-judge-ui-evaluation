@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "$75 Per Seat Badge",
+        "first_image_state": "Present as a green circular badge with white text",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Start Button Text",
+        "first_image_state": "Displays \"START TODAY\" in white text on green background",
+        "second_image_state": "Displays \"START FREE TRIAL\" in white text on green background"
+      },
+      {
+        "category": "Copy",
+        "component_name": "No Credit Card Required Note",
+        "first_image_state": "Absent",
+        "second_image_state": "Present as small gray text below the Phone input field"
+      },
+      {
+        "category": "Style",
+        "component_name": "Left Content Area Background Color",
+        "first_image_state": "Dark blue",
+        "second_image_state": "Lighter blue"
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA Button",
+        "first_image_state": "Text reads 'START TODAY'",
+        "second_image_state": "Text reads 'START FREE TRIAL'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Form Note",
+        "first_image_state": "Absent",
+        "second_image_state": "Present below Phone field"
+      },
+      {
+        "category": "Component",
+        "component_name": "Pricing Badge",
+        "first_image_state": "Circular green badge with '$75 PER SEAT' text",
+        "second_image_state": "Not present"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 50.93680286407471,
+    "input_tokens": 1582,
+    "output_tokens": 2152,
+    "total_tokens": 3734,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

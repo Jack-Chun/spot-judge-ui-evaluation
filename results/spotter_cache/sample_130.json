@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Lower content section",
+        "first_image_state": "Displays a grid of eight course cards (InDesign, Photoshop, AutoCAD, Cinema 4D, Excel, Project, PowerPoint, Office Update) each with an icon and a red \"Kurse anzeigen\" button.",
+        "second_image_state": "Displays three columnar sections titled \"\u00d6ffentliche Trainings\", \"Individuelle Inhouse Trainings\", and \"Individuelle Firmen Trainings\", each containing descriptive text and a red \"mehr\" button."
+      },
+      {
+        "category": "Component",
+        "component_name": "Training Type Sections",
+        "first_image_state": "Not present; replaced by a new section.",
+        "second_image_state": "Three vertical columns displaying \"\u00d6ffentliche Trainings\", \"Individuelle Inhouse Trainings\", and \"Individuelle Firmen Trainings\" with descriptive text, small maps, and red \"mehr\" buttons."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Lower Section Layout",
+        "first_image_state": "Grid of eight rectangular course cards arranged in two rows (four per row) in the lower portion.",
+        "second_image_state": "Three equal-width columns arranged horizontally in the lower portion."
+      },
+      {
+        "category": "Component",
+        "component_name": "Course Cards",
+        "first_image_state": "Eight rectangular cards featuring icons, course titles (e.g., \"InDesign Kurs\", \"Photoshop Kurs\"), and red \"Kurse anzeigen\" buttons.",
+        "second_image_state": "Not present."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Search Bar Placeholder",
+        "first_image_state": "\"Kurstext eingeben\"",
+        "second_image_state": "\"Kursname eingeben\""
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 80.1633198261261,
+    "input_tokens": 2614,
+    "output_tokens": 3818,
+    "total_tokens": 6432,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

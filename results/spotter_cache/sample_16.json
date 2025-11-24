@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "WORKPRO 408-Piece Mechanics Tool Set",
+        "first_image_state": "Present as a product listing with image, title, price, ratings, and shipping information",
+        "second_image_state": "Absent from the product listings"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Category label in \"Customers shopped Amazon's Choice for...\" section",
+        "first_image_state": "Third label is \"craftsman\", fourth label is \"craftsman mechanics tools\"",
+        "second_image_state": "Third label is \"construction tools\", fourth label is \"craftsman\""
+      },
+      {
+        "category": "Layout",
+        "component_name": "Product Listing Container",
+        "first_image_state": "Four product listings arranged vertically",
+        "second_image_state": "Three product listings arranged vertically"
+      },
+      {
+        "category": "Component",
+        "component_name": "WORKPRO Mechanics Tool Set Card",
+        "first_image_state": "Present as the fourth product listing",
+        "second_image_state": "Not present"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Amazon's Choice Tile Label",
+        "first_image_state": "Labels include 'tools for mec.anics', 'tools', 'craftsman', 'craftsman mechanics tools'",
+        "second_image_state": "Labels include 'tools for mechanics', 'tools', 'construction tools', 'craftsman'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 78.07620573043823,
+    "input_tokens": 5104,
+    "output_tokens": 2937,
+    "total_tokens": 8041,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

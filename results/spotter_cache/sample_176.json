@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Kunden interessiert auch section",
+        "first_image_state": "Located below product details and above technical data section",
+        "second_image_state": "Located at the bottom of the page, below product reviews section"
+      },
+      {
+        "category": "Component",
+        "component_name": "Trusted Shops section",
+        "first_image_state": "Not present",
+        "second_image_state": "Present on the right side, below technical data section"
+      },
+      {
+        "category": "Style",
+        "component_name": "Main product image",
+        "first_image_state": "Large, occupying significant vertical space",
+        "second_image_state": "Smaller, occupying less vertical space"
+      },
+      {
+        "category": "Component",
+        "component_name": "Zubeh\u00f6r link in Das Wichtige auf einen Blick section",
+        "first_image_state": "Present as one of the links in the section",
+        "second_image_state": "Not present in the section"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Main section ordering",
+        "first_image_state": "Sections ordered as Kunden interessiert auch, Technische Daten, Produktbeschreibung, Zubeh\u00f6r, Produktbewertungen",
+        "second_image_state": "Sections ordered as Technische Daten, Produktbeschreibung, Zubeh\u00f6r, Produktbewertungen, Kunden interessiert auch"
+      },
+      {
+        "category": "Style",
+        "component_name": "Product image",
+        "first_image_state": "Larger size relative to surrounding elements",
+        "second_image_state": "Smaller size relative to surrounding elements"
+      },
+      {
+        "category": "Component",
+        "component_name": "Das Wichtigste auf einen Blick bullet points",
+        "first_image_state": "Excludes bullet point for Produktbeschreibung",
+        "second_image_state": "Includes bullet point for Produktbeschreibung"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Secondary CTA button text",
+        "first_image_state": "Auf die Merkliste",
+        "second_image_state": "Auf die Wunschliste"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 87.45339488983154,
+    "input_tokens": 4064,
+    "output_tokens": 4311,
+    "total_tokens": 8375,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

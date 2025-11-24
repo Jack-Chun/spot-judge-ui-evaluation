@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Search Button",
+        "first_image_state": "Orange circular button with white magnifying glass icon",
+        "second_image_state": "Gray circular button with black magnifying glass icon"
+      },
+      {
+        "category": "Component",
+        "component_name": "Top Right Action Icon",
+        "first_image_state": "Shopping cart icon",
+        "second_image_state": "Gear/settings icon"
+      },
+      {
+        "category": "Style",
+        "component_name": "Search Button",
+        "first_image_state": "Orange circular button with a white magnifying glass icon",
+        "second_image_state": "White circular button with a black magnifying glass icon"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 26.483126163482666,
+    "input_tokens": 4784,
+    "output_tokens": 1121,
+    "total_tokens": 5905,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

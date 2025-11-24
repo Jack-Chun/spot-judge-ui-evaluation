@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Promotional Banner",
+        "first_image_state": "Contains a yellow banner with text: 'Unforgettable Gift: Add a confetti explosion with any hamper'",
+        "second_image_state": "Does not contain the promotional banner"
+      },
+      {
+        "category": "Component",
+        "component_name": "Product Icons",
+        "first_image_state": "Displays one icon (yellow circle with symbol) below the product image",
+        "second_image_state": "Displays two icons (yellow circle with symbol and pink circle with symbol) below the product image"
+      },
+      {
+        "category": "Component",
+        "component_name": "Bottom Right Element",
+        "first_image_state": "Shows a circular button with three dots",
+        "second_image_state": "Shows a 'VEGAN' label with a leaf icon"
+      },
+      {
+        "category": "Component",
+        "component_name": "Pink promotional badge",
+        "first_image_state": "Not visible",
+        "second_image_state": "Visible as a circular icon with pink background positioned above the product image"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Promotional banner",
+        "first_image_state": "Present as a horizontal container with yellow background spanning the width of the product image area",
+        "second_image_state": "Not present"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Promotional banner text",
+        "first_image_state": "Present as a heading within the promotional banner reading 'Unforgettable Gift: Add a confetti explosion with any hamper'",
+        "second_image_state": "Not present"
+      },
+      {
+        "category": "Component",
+        "component_name": "Three-dot menu icon",
+        "first_image_state": "Visible as a circular icon at the bottom right corner of the screen",
+        "second_image_state": "Not visible"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Product description",
+        "first_image_state": "Present as a paragraph of text below the product title reading 'Unleashing sweet surprises and fluttery delights with every pop.'",
+        "second_image_state": "Not present"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 69.56782507896423,
+    "input_tokens": 2470,
+    "output_tokens": 3702,
+    "total_tokens": 6172,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

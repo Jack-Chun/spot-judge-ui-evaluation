@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Promotional Message Section",
+        "first_image_state": "Present below the 'Cart' header and above the product details, containing the text 'You are 1 Product away to get Extra 30% Off'",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Promotional Message",
+        "first_image_state": "Visible as a structural element with text content",
+        "second_image_state": "Not present in the interface"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Promotional Message Text",
+        "first_image_state": "Displays the text 'You are 1 Product away to get Extra 30% Off'",
+        "second_image_state": "No text displayed (element absent)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Promotional Banner",
+        "first_image_state": "Red text stating 'You are 1 Product away to get Extra 30% Off' appears above the product details",
+        "second_image_state": "No promotional text above the product details"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 35.70086121559143,
+    "input_tokens": 1752,
+    "output_tokens": 2250,
+    "total_tokens": 4002,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

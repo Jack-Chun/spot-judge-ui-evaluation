@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Navigation menu item",
+        "first_image_state": "Displays 'FAVORITER' as a navigation label",
+        "second_image_state": "Displays 'TREND' as a navigation label"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Sidebar category label",
+        "first_image_state": "Shows 'Ballonger' as the category name",
+        "second_image_state": "Shows 'Ballonger & Dekoration' as the category name"
+      },
+      {
+        "category": "Component",
+        "component_name": "'GREAT DEAL' badge",
+        "first_image_state": "Absent from product cards",
+        "second_image_state": "Present on multiple product cards"
+      },
+      {
+        "category": "Style",
+        "component_name": "'GREAT DEAL' badge visual attributes",
+        "first_image_state": "Not applicable (element absent)",
+        "second_image_state": "Features an orange background with white text"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Main product grid",
+        "first_image_state": "Grid of product cards featuring balloons and LED items, with no 'GREAT DEAL' badges present on any card",
+        "second_image_state": "Grid of product cards featuring fidget spinners and other items, each with an orange 'GREAT DEAL' badge positioned in the upper right corner of the card"
+      },
+      {
+        "category": "Component",
+        "component_name": "'GREAT DEAL' badge",
+        "first_image_state": "Absent from all product cards in the main grid",
+        "second_image_state": "Present on every product card in the main grid, displayed as an orange speech bubble-shaped label with white text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Page heading",
+        "first_image_state": "Large, centered heading reading 'Ballonger' positioned above the main product grid, indicating a specific product category",
+        "second_image_state": "No prominent main heading; the page displays a general product assortment without a focused category title"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 72.73873686790466,
+    "input_tokens": 2044,
+    "output_tokens": 3768,
+    "total_tokens": 5812,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Seller information card",
+        "first_image_state": "Absent below the main product image",
+        "second_image_state": "Present below the main product image, displaying seller name 'Pikore', review badges, and shop statistics"
+      },
+      {
+        "category": "Component",
+        "component_name": "Shop information card",
+        "first_image_state": "Absent; no shop information card displayed",
+        "second_image_state": "Visible with shop name 'Pikore', review badges ('Rave reviews', 'Top shop for gifts'), shop rating (4.8 stars), 'On Etsy since 2018', and sales count (25.2K)"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 19.23762798309326,
+    "input_tokens": 6544,
+    "output_tokens": 614,
+    "total_tokens": 7158,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

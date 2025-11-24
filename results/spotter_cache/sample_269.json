@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Finish Selector",
+        "first_image_state": "Two radio buttons (Brass selected, Chrome unselected)",
+        "second_image_state": "Dropdown menu with Chrome selected"
+      },
+      {
+        "category": "Component",
+        "component_name": "Model Selector",
+        "first_image_state": "Two radio buttons (30 selected, 50 unselected)",
+        "second_image_state": "Dropdown menu with 30 selected"
+      },
+      {
+        "category": "Component",
+        "component_name": "Finish Selector",
+        "first_image_state": "Radio button group with 'Brass' and 'Chrome' options",
+        "second_image_state": "Dropdown menu with 'Chrome' selected"
+      },
+      {
+        "category": "Component",
+        "component_name": "Model Selector",
+        "first_image_state": "Two selectable options ('30' and '50') presented as separate elements",
+        "second_image_state": "Single input field displaying '30'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 38.50551724433899,
+    "input_tokens": 1590,
+    "output_tokens": 1705,
+    "total_tokens": 3295,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

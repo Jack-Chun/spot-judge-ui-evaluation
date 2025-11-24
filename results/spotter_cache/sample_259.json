@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Third Phone Option",
+        "first_image_state": "Labeled \"Android\" with Google logo displayed below the phone image",
+        "second_image_state": "Labeled \"Deluxe\" without Google logo"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Third Phone Option Header",
+        "first_image_state": "Displays \"Android\"",
+        "second_image_state": "Displays \"Deluxe\""
+      },
+      {
+        "category": "Style",
+        "component_name": "Google Logo",
+        "first_image_state": "Visible below the third phone image",
+        "second_image_state": "Not visible"
+      },
+      {
+        "category": "Component",
+        "component_name": "Phone model in option c",
+        "first_image_state": "Black Android phone with Google logo",
+        "second_image_state": "Silver Deluxe phone"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Label of option c",
+        "first_image_state": "\"ANDROID\"",
+        "second_image_state": "\"Deluxe\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Star rating in option c",
+        "first_image_state": "Absent",
+        "second_image_state": "Present (five stars)"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 87.16533160209656,
+    "input_tokens": 3268,
+    "output_tokens": 4024,
+    "total_tokens": 7292,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Main body text under 'Stay with us'",
+        "first_image_state": "Contains text about plumped pillows, deep-filled down duvets, crisp linen, and details about room features such as seating areas, TVs, balconies, and air conditioning.",
+        "second_image_state": "Contains text about plumped pillows, deep-filled down duvets, crisp linen, and details about room types (Deluxe Suites, Grand Suites) with descriptions of features like king-size beds, lounge areas, bathrooms, and en-suite facilities."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Footer text",
+        "first_image_state": "Displays 'FO DNR Ltd trading as The Vineyard Hotel & Spa | T: 01555 855274'.",
+        "second_image_state": "Displays 'Welcome to The Vineyard' followed by 'For prices and availability book online or call us on 01555 855274'."
+      },
+      {
+        "category": "Component",
+        "component_name": "BOOK ONLINE Button",
+        "first_image_state": "Present as a red rectangular button with white text, positioned between the 'Stay with us' heading and subsequent text",
+        "second_image_state": "Not present in the layout"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Text under 'Stay with us' heading",
+        "first_image_state": "Shorter sentence encouraging direct contact (e.g., 'Can't decide? Just give us a call.')",
+        "second_image_state": "Long paragraph describing bedding amenities (e.g., 'Perfectly plumped pillows, deep-filled down duvets and crisp linen...')"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 80.02281832695007,
+    "input_tokens": 2296,
+    "output_tokens": 3300,
+    "total_tokens": 5596,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

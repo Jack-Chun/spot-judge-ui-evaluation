@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Product Showcase Container",
+        "first_image_state": "Contains two phone cases arranged side by side, occupying central horizontal space.",
+        "second_image_state": "Contains one phone case positioned centrally, occupying more vertical space than individual cases in first image."
+      },
+      {
+        "category": "Component",
+        "component_name": "Primary Navigation Bar",
+        "first_image_state": "Includes items \"BESTSELLERS\", \"NYHETER\", \"TILLBEH\u00d6R\", \"LADDNING\", \"OUTLET\", \"SPARA ORDER\".",
+        "second_image_state": "Includes items \"NEW IN\", \"BESTSELL*RS\", \"NYHETER\", \"ACCESSORIES\", \"LADDNING\", \"OUTLET\", \"SP\u00c4RA ORDER\"."
+      },
+      {
+        "category": "Style",
+        "component_name": "Page Background",
+        "first_image_state": "Features sharp, defined pink heart shapes with high contrast against foreground elements.",
+        "second_image_state": "Features blurred, indistinct pink heart shapes with lower contrast, creating a softer backdrop."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero Section Text Overlays",
+        "first_image_state": "Displays \"Find the one Gift the one\" with \"Gift the one\" as a secondary line below \"Find the one\"; \"2 for 1\" badge does not include additional text.",
+        "second_image_state": "Displays only \"Find the one\" without secondary line; \"2 for 1\" badge includes \"Limited time only\" text beneath the main offer."
+      },
+      {
+        "category": "Component",
+        "component_name": "Phone case display",
+        "first_image_state": "Two phone case components displayed side by side.",
+        "second_image_state": "One phone case component displayed centrally."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Promotional banner text",
+        "first_image_state": "'Find the one Gift the one' banner text displayed with additional 'Gift the one' line.",
+        "second_image_state": "'Find the one' banner text displayed alone."
+      },
+      {
+        "category": "Style",
+        "component_name": "Background and promotional badge",
+        "first_image_state": "Sharply defined pink heart background; '21 For Limited time only' badge with blue fill and yellow text.",
+        "second_image_state": "Blurred pink heart background; '21 For Limited time only' badge with purple outline and gold text."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 98.77944016456604,
+    "input_tokens": 2724,
+    "output_tokens": 4215,
+    "total_tokens": 6939,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

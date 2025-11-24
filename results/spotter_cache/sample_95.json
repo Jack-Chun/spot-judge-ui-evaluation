@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Price Display",
+        "first_image_state": "Price displays as 'CA$22.17+' followed by 'CA$44.34 (50% Off)'",
+        "second_image_state": "Price displays as 'CA$22.17\u2013CA$51.06 (50% Off)'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Second dropdown option field",
+        "first_image_state": "Contains a field labeled \"Set with gift box *\" followed by a dropdown menu",
+        "second_image_state": "Contains a field labeled \"hnx*\" followed by a dropdown menu"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 50.99744486808777,
+    "input_tokens": 5104,
+    "output_tokens": 2062,
+    "total_tokens": 7166,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

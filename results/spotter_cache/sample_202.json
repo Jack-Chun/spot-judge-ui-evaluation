@@ -1,0 +1,110 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Form Fields",
+        "first_image_state": "Includes 'Enter Your Full Name *' field and 'Enter Your Mobile Number *' field with '+91' prefix; no email field.",
+        "second_image_state": "Includes 'Name' field, 'Email' field, and 'Mobile Number' field without '+91' prefix."
+      },
+      {
+        "category": "Component",
+        "component_name": "Plan Type Label and Link",
+        "first_image_state": "'Select Plan Type *' label with no additional link.",
+        "second_image_state": "'PLAN TYPE' label with 'What's This?' link."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Call-to-Action Button",
+        "first_image_state": "Text reads 'GET YOUR FREE QUOTE NOW!'",
+        "second_image_state": "Text reads 'BUY NOW!'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "\"Why Choose\" Heading",
+        "first_image_state": "Text reads 'Why Choose HDFC Ergo Health Insurance' (no hyphens, 'Ergo' spelling)",
+        "second_image_state": "Text reads '\u2014 Why Choose HDFC ERGO Health Insurance \u2014' (with hyphens, 'ERGO' spelling)"
+      },
+      {
+        "category": "Layout",
+        "component_name": "\"Why Choose\" Icon Count",
+        "first_image_state": "Two icons displayed (Cashless Healthcare, Add'tional Online)",
+        "second_image_state": "Three icons displayed (Cashless Healthcare Network, Additional 5% Online Discount, Claims settled)"
+      },
+      {
+        "category": "Style",
+        "component_name": "\"Why Choose\" Section Background",
+        "first_image_state": "Gray background",
+        "second_image_state": "Pinkish background"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Offer Text",
+        "first_image_state": "Text reads 'Dual Benefit Offer Get pe and Sa es! upto \u20b975,000'",
+        "second_image_state": "Text reads 'Stay worry-free from unforeseen hospitalisation expenses with Optima Secure\u2019s 4X Health Coverage'"
+      },
+      {
+        "category": "Style",
+        "component_name": "Form Section Background",
+        "first_image_state": "White background",
+        "second_image_state": "Light blue background"
+      },
+      {
+        "category": "Component",
+        "component_name": "Email Input Field",
+        "first_image_state": "Absent",
+        "second_image_state": "Present as a white rectangular input field below the Name field"
+      },
+      {
+        "category": "Component",
+        "component_name": "Mobile Number Input Field",
+        "first_image_state": "White rectangular input field labeled \"Enter Your Mobile Number *\" with a \"+91\" country code prefix",
+        "second_image_state": "White rectangular input field labeled \"Mobile Nu.mber\" without a country code prefix"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Call-to-Action Button",
+        "first_image_state": "Displays \"GET YOUR FREE QUOTE NOW!\" in white uppercase text on a red background",
+        "second_image_state": "Displays \"BUY NOW!\" in white uppercase text on a red background"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Header Promotional Message",
+        "first_image_state": "Displays \"Dual Benefit Offer Get pe... and Sa... es! upto \u20b975,000\" in black and red text",
+        "second_image_state": "Displays \"Stay worry-free from unforeseen hospitalisation expenses with Optima Secure\u2019s 4X Health Coverage\" in black and red text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Benefits Section Items",
+        "first_image_state": "Contains two items: \"12000+ Cashless Healthcare\" and \"5%+ Additional Online\" with respective icons; the third item is absent",
+        "second_image_state": "Contains three items: \"13,000+ Cashless Healthcare Network\", \"Additional 5% Online Discount\", and \"\u20b912,000+ Cr claims settled till now\" with respective icons"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Form Input Labels",
+        "first_image_state": "Displays \"Enter Your Full Name *\" and \"Enter Your Mobile Number *\" as label text above respective input fields",
+        "second_image_state": "Displays \"Name\", \"Email\", and \"Mobile Nu.mber\" as label text above respective input fields"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Plan Type Label",
+        "first_image_state": "Displays \"Select Plan Type *\" followed by a question mark icon",
+        "second_image_state": "Displays \"PLAN TYPE\" followed by \"What's This?\" in smaller text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Below-Form Section Title",
+        "first_image_state": "Displays \"Why Choose HDFC Ergo Health Insurance\" in gray text without decorative dashes",
+        "second_image_state": "Displays \"\u2014 Why Choose HDFC ERGO Health Insurance \u2014\" in bold black text with decorative dashes"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 86.30833101272583,
+    "input_tokens": 3904,
+    "output_tokens": 4823,
+    "total_tokens": 8727,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Category Expandable Indicator",
+        "first_image_state": "Right-pointing arrow next to each category (Saree, Salwar Kameez, Lehenga, Concepts, Indowestern, Plus, Jewelry, Men, Kids)",
+        "second_image_state": "Plus sign next to Concepts; no indicator next to other categories (Saree, Salwar Kameez, Lehenga, Indowestern, Plus, Jewelry, Men, Kids)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Category list items",
+        "first_image_state": "All category items (Saree, Salwar Kameez, Lehenga, Concepts, Indowestern, Plus, Jewelry, Men, Kids) have '>' icons.",
+        "second_image_state": "Concepts item has a '+' icon; other category items (Saree, Salwar Kameez, Lehenga, Indowestern, Plus, Jewelry, Men, Kids) have no icons."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 39.15591287612915,
+    "input_tokens": 1450,
+    "output_tokens": 1637,
+    "total_tokens": 3087,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

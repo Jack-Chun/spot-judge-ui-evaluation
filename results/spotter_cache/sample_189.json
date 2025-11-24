@@ -1,0 +1,86 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Left Sidebar - Our Services Navigation Items",
+        "first_image_state": "Contains three service links: Residential Movers, International Movers, and Company Reviews.",
+        "second_image_state": "Contains six service links: Residential Movers, Intermediate Moves, Commercial Movers, International Movers, Specialized Moves, Storage."
+      },
+      {
+        "category": "Component",
+        "component_name": "Right Sidebar - Free Quote Form Fields",
+        "first_image_state": "Includes text input fields for Your Name, Email, Phone, and Message.",
+        "second_image_state": "Includes dropdown menus for move type and size, date input fields, text input fields for Name, Email, Phone, and a checkbox for adding to email list."
+      },
+      {
+        "category": "Component",
+        "component_name": "Main Content Image",
+        "first_image_state": "Displays an image of four individuals wearing blue uniforms.",
+        "second_image_state": "Displays an image of moving boxes and a couple."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Company Review Text",
+        "first_image_state": "Short review text mentioning experience and recommendation.",
+        "second_image_state": "Longer review text with additional details about services and recommendations."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Content - Moving from NY to Florida Paragraph",
+        "first_image_state": "Brief paragraph about Harrington Moving & Storage.",
+        "second_image_state": "Extended paragraph with more details about services and benefits."
+      },
+      {
+        "category": "Component",
+        "component_name": "Lower Left Truck Image",
+        "first_image_state": "Displays a truck with the Harrington logo.",
+        "second_image_state": "Displays a truck with the Stevens logo."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Promotion Banner",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with text 'Save up to 15% on your move! View All Promotions \u25ba'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Left Sidebar Container",
+        "first_image_state": "Absent",
+        "second_image_state": "Present containing 'Our Services' menu, 'Company Reviews' section, and truck image"
+      },
+      {
+        "category": "Component",
+        "component_name": "Main Content Image",
+        "first_image_state": "Photo of Harrington employees in blue shirts",
+        "second_image_state": "Photo of two people with moving boxes"
+      },
+      {
+        "category": "Component",
+        "component_name": "'Add me to email list' Checkbox",
+        "first_image_state": "Absent",
+        "second_image_state": "Present below phone input field in quote form"
+      },
+      {
+        "category": "Component",
+        "component_name": "'NY to Florida Movers' Benefits List",
+        "first_image_state": "Plain list items without bullet points",
+        "second_image_state": "Bullet-pointed list (e.g., 'Trained Professional...', 'Clean Trucks...')"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Company Reviews Section",
+        "first_image_state": "Repositioned to main content area below the main image",
+        "second_image_state": "Positioned within left sidebar"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 95.82282257080078,
+    "input_tokens": 2016,
+    "output_tokens": 5222,
+    "total_tokens": 7238,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

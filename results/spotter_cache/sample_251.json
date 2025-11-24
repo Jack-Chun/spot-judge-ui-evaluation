@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Left Sidebar",
+        "first_image_state": "Dark gray background with 'Generelt' label in a dark rectangular container",
+        "second_image_state": "Light gray background with 'Generelt' label in a light gray rectangular container"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Descriptive Content Sections",
+        "first_image_state": "'Beskrivelse af alm. klisterm\u00e6rker' section positioned above 'Beskyttelse' section",
+        "second_image_state": "'Beskyttelse' section positioned above 'Beskrivelse af alm. klisterm\u00e6rker' section"
+      },
+      {
+        "category": "Component",
+        "component_name": "Input fields (Antal, Bredde, H\u00f8jde, Beskyttelse)",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with values 10, 50 cm, 20 cm, and 'Ingen Laminat' dropdown"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Alm. klisterm\u00e6rker section heading",
+        "first_image_state": "'Beskrivelse af alm. klisterm\u00e6rker:'",
+        "second_image_state": "'1.V\u00e6lg st\u00f8rrelse og antal:'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Descriptive text block",
+        "first_image_state": "Moved to the 'Alm. klisterm\u00e6rker' section above the buttons, with the original 'Beskrivelse' section removed",
+        "second_image_state": "Located in a separate 'Beskrivelse' section below the price section"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 84.7079849243164,
+    "input_tokens": 3360,
+    "output_tokens": 4574,
+    "total_tokens": 7934,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

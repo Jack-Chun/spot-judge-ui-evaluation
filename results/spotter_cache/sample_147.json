@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Information bar with approval probability",
+        "first_image_state": "Present as a yellow rectangular container with text about approval probability",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Form section below steps",
+        "first_image_state": "Contains \"Passport data\" heading with input fields for code division, date of issue, issued, series and number, date of birth",
+        "second_image_state": "Contains \"What is your name?\" heading with input fields for name, mobile phone, email"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Step indicator text",
+        "first_image_state": "Displays \"Step 5 of 4\"",
+        "second_image_state": "Displays \"Step 1 of 4\""
+      },
+      {
+        "category": "Layout",
+        "component_name": "Contact Info section",
+        "first_image_state": "Replaced by a yellow banner and a Passport data section, removing the original Contact Info container.",
+        "second_image_state": "A white rectangular container positioned below the three-step process, containing input fields for name, mobile phone, and email."
+      },
+      {
+        "category": "Component",
+        "component_name": "Contact Info form",
+        "first_image_state": "Absent, replaced by a Passport data form with input fields for code division, date of issue, issued, bank details, and date of birth.",
+        "second_image_state": "Present as a white container with input fields for name, mobile phone, and email."
+      },
+      {
+        "category": "Style",
+        "component_name": "Contact Info section background",
+        "first_image_state": "Replaced by a yellow background in the new banner/container.",
+        "second_image_state": "White background."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Contact Info section header and additional text",
+        "first_image_state": "Replaced by a yellow banner with text \"The process of approval takes 3-5 days +10% for the comparison of documents\", and the section title changed to \"Passport data\".",
+        "second_image_state": "\"Contact info Step 1 of 4\" as the header, with no additional text below."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 56.51630711555481,
+    "input_tokens": 1578,
+    "output_tokens": 3098,
+    "total_tokens": 4676,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

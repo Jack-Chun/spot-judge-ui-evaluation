@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Header underline",
+        "first_image_state": "Present (maroon horizontal line beneath the header)",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Copy",
+        "component_name": "First bullet point",
+        "first_image_state": "Text about R-electric projection screen brochure availability",
+        "second_image_state": "Text about hanging R-series or m-compact projection screen from wires"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Fifth bullet point",
+        "first_image_state": "Text about using projection screen outdoors",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Bullet Points List",
+        "first_image_state": "Ordered with 'The new brochure of the R-electric projection screen is now available. Download it here' as the first item",
+        "second_image_state": "Ordered with 'Learn how to hang your R-series or m-compact projection screen from wires. Download the PDF here' as the first item"
+      },
+      {
+        "category": "Component",
+        "component_name": "Hanging Projection Screen Guide Bullet",
+        "first_image_state": "Absent",
+        "second_image_state": "Present as the first bullet point"
+      },
+      {
+        "category": "Component",
+        "component_name": "Outdoor Elements Guide Bullet",
+        "first_image_state": "Present as the fifth bullet point",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Outdoor Elements Guide Text",
+        "first_image_state": "'Learn all about the role the elements play when you want to use your projection screen outdoors. Check it ou'",
+        "second_image_state": "Absent"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 104.395742893219,
+    "input_tokens": 1612,
+    "output_tokens": 5355,
+    "total_tokens": 6967,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Brand Header",
+        "first_image_state": "Displays 'DURACELL' logo followed by 'The #1 Most Trusted Battery Brand' text",
+        "second_image_state": "Displays 'EBL' logo followed by 'New Generation AA' text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Brand Tagline",
+        "first_image_state": "'The #1 Most Trusted Battery Brand'",
+        "second_image_state": "'New Generation AA'"
+      },
+      {
+        "category": "Style",
+        "component_name": "Brand Logo Color",
+        "first_image_state": "Black",
+        "second_image_state": "Green"
+      },
+      {
+        "category": "Component",
+        "component_name": "Header Brand Logo",
+        "first_image_state": "Displays 'DURACELL' logo",
+        "second_image_state": "Displays 'EBL' logo"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Header Subtitle Text",
+        "first_image_state": "Shows 'The #1 Most Trusted Battery Brand'",
+        "second_image_state": "Shows 'New Generation AA Battery'"
+      },
+      {
+        "category": "Style",
+        "component_name": "Top Right Pricing/Prime Information",
+        "first_image_state": "Displays '$19.86 prime Save 5% with coupon'",
+        "second_image_state": "Displays '$29.99 prime'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 82.18095874786377,
+    "input_tokens": 3344,
+    "output_tokens": 3559,
+    "total_tokens": 6903,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

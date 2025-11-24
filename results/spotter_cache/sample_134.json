@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Left Sidebar",
+        "first_image_state": "Present with 'FREE DOWNLOADS' heading, 'DOWNLOAD FREE SLIDES AND PACKAGES' subheading, and category links (Diagrams, Business Models, Icons, Process Diagrams, Puzzle Diagrams, Stage Diagrams, Text Box, Tree Diagrams)",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Right Promotional Sidebar",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with 'FREE Sample Package' box (orange header, 'DOWNLOAD' button) and 'Today's offer' section (fishbone diagram, 'Buy Fishbone today and save 27 %' text)"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Main Content Container",
+        "first_image_state": "Narrower, aligned to the left, adjacent to the left sidebar",
+        "second_image_state": "Wider, spanning the full width without the left sidebar, with the right promotional sidebar adjacent to it"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Main Content Structure",
+        "first_image_state": "Two-column layout with a left sidebar containing category listings and a narrower main content area",
+        "second_image_state": "Full-width main content area with top navigation bar and no left sidebar"
+      },
+      {
+        "category": "Component",
+        "component_name": "Left Sidebar Components",
+        "first_image_state": "Added left sidebar with 'FREE DOWNLOADS' section and hierarchical category list (e.g., Business Models, Icons, Process Diagrams)",
+        "second_image_state": "No left sidebar; only top navigation and main content"
+      },
+      {
+        "category": "Style",
+        "component_name": "Sidebar Background Color",
+        "first_image_state": "Blue background for the left sidebar, contrasting with the main content area",
+        "second_image_state": "White background for all page sections"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Sidebar Promotional Text",
+        "first_image_state": "Added 'FREE DOWNLOADS' header and 'DOWNLOAD FREE SLIDES AND PACKAGES' subtext in the left sidebar",
+        "second_image_state": "No sidebar promotional text; 'FREE Sample Package' banner in main content"
+      },
+      {
+        "category": "Component",
+        "component_name": "Category Navigation",
+        "first_image_state": "Expanded category navigation in left sidebar with granular options (e.g., Business Models, Puzzle Diagrams, Stage Diagrams)",
+        "second_image_state": "Top navigation bar with broad category tabs (Diagrams, Charts, Shapes)"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 103.86967158317566,
+    "input_tokens": 2118,
+    "output_tokens": 4326,
+    "total_tokens": 6444,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

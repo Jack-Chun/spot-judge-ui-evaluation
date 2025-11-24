@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Brand Logo Display",
+        "first_image_state": "Displays 'Bugatti >' as a text link above the product title",
+        "second_image_state": "Displays a larger 'bugatti' logo with 'we are europe' text, followed by 'Bugatti >' link"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Color Option Text",
+        "first_image_state": "Farbe: cognac/cognac",
+        "second_image_state": "Farbe: cognac/vognac"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 34.39602613449097,
+    "input_tokens": 4612,
+    "output_tokens": 1247,
+    "total_tokens": 5859,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Facebook Login Box",
+        "first_image_state": "Not present in the form area",
+        "second_image_state": "Present as a rectangular container with 'Logg inn med Facebook' text and button"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Text above email input field",
+        "first_image_state": "Displays instructional text about logging in with email and password",
+        "second_image_state": "Displays modified instructional text about requiring an email address"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Logo Text",
+        "first_image_state": "Displays \"BliVokker.no\" as the site logo",
+        "second_image_state": "Displays \"EiVokker.no\" as the site logo"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Customer Service Label",
+        "first_image_state": "Shows \"Kundeservice:\" without a phone number or icon",
+        "second_image_state": "Shows \"Kundeservice: 38 00 33 35\" with a phone icon"
+      },
+      {
+        "category": "Component",
+        "component_name": "Facebook Login Container",
+        "first_image_state": "No such container present; the right side is empty where the container was located",
+        "second_image_state": "A white rectangular container on the right side containing \"Logg inn med Facebook\" text and a blue Facebook login button"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 75.52937626838684,
+    "input_tokens": 1620,
+    "output_tokens": 3479,
+    "total_tokens": 5099,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

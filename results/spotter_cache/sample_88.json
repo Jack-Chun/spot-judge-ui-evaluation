@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Cancellation Policy Display",
+        "first_image_state": "Text-based cancellation policy with 'Read more about the policy' expandable link",
+        "second_image_state": "Visual timeline with labeled phases (Reservation confirmed, 48 hours later, 7 days before check-in, Check-In) and explanatory text, accompanied by 'Get full details' link"
+      },
+      {
+        "category": "Component",
+        "component_name": "Cancellation Timeline Graphic",
+        "first_image_state": "Does not contain the timeline graphic; includes a 'Read more about the policy' link",
+        "second_image_state": "Contains a timeline graphic with markers and refund information"
+      },
+      {
+        "category": "Component",
+        "component_name": "Similar Listings Item",
+        "first_image_state": "Displays an image with a heart icon; includes text elements (property type, bed count, title, price, rating) below the image",
+        "second_image_state": "Displays an image with a heart icon; no text elements below the image"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 37.32220101356506,
+    "input_tokens": 5932,
+    "output_tokens": 1562,
+    "total_tokens": 7494,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

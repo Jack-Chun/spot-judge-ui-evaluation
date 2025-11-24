@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Search Bar",
+        "first_image_state": "Search input field with a magnifying glass icon positioned to the right.",
+        "second_image_state": "Search input field with a 'Search' button positioned to the right."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Navigation Menu Items",
+        "first_image_state": "Full, correctly spelled category labels (e.g., 'Jewellery & Accessories', 'Wedding', 'Toys & Entertainment').",
+        "second_image_state": "Truncated or misspelled category labels (e.g., 'Jew-ellery & Accessories', 'Wedding o Part...', 'Toys & Enveitainn ent')."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Feature Section Text",
+        "first_image_state": "'We have millions of one-of-a-kind items, so you can find whatever you need (or really, really want).'",
+        "second_image_state": "'We have millions of one-c-a-b lad items, so you can find whatever you eu (or really, really want).'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Search Button",
+        "first_image_state": "Circular magnifying glass icon (no text)",
+        "second_image_state": "Rectangular black button with white 'Search' text"
+      },
+      {
+        "category": "Style",
+        "component_name": "Search Input Field",
+        "first_image_state": "Wider rounded rectangular input field with light border and increased curvature",
+        "second_image_state": "Narrow rectangular input field with straight edges and dark border"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Wedding Category Link",
+        "first_image_state": "Text displays 'Wedding'",
+        "second_image_state": "Text displays 'Wedding & Party'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 149.48063707351685,
+    "input_tokens": 6144,
+    "output_tokens": 5026,
+    "total_tokens": 11170,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

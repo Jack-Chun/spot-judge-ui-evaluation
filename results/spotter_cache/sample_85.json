@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Basket activity indicator",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with text 'Other people want this. 7 people have this in their baskets right now.'"
+      },
+      {
+        "category": "Style",
+        "component_name": "Gift wrapping icon",
+        "first_image_state": "Purple bow-shaped icon",
+        "second_image_state": "Blue plus-shaped icon"
+      },
+      {
+        "category": "Component",
+        "component_name": "Social proof section",
+        "first_image_state": "Displays 'In 7 baskets' without the shopping basket icon",
+        "second_image_state": "Displays 'Other people want this. 7 people have this in their baskets' with a shopping basket icon"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 31.34389591217041,
+    "input_tokens": 5104,
+    "output_tokens": 1330,
+    "total_tokens": 6434,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

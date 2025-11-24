@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Primary action button",
+        "first_image_state": "Displays \"In winkelwagen\" (Add to Cart) with a plus icon",
+        "second_image_state": "Displays \"Koop nu\" (Buy Now) with a plus icon"
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA Button",
+        "first_image_state": "Displays \"In winkelwagen\" (Add To Cart) with a plus icon",
+        "second_image_state": "Displays \"Koop nu\" (Buy Now) with a plus icon"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 31.93674111366272,
+    "input_tokens": 1576,
+    "output_tokens": 1229,
+    "total_tokens": 2805,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

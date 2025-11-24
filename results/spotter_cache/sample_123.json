@@ -1,0 +1,80 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Brand Logo",
+        "first_image_state": "Simple 'kilt' text logo without additional visual elements",
+        "second_image_state": "'buyakilt.com' text logo accompanied by a tartan pattern icon"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Left Sidebar Structure",
+        "first_image_state": "Titled 'Shop By' with sub-section 'Shopping Options', followed by hierarchical category listings (e.g., Kilt Manufacture, Kilt Pattern)",
+        "second_image_state": "Titled 'Categories' with a flat list of kilt types and accessory categories (e.g., 8 Yard Kilts, Fashion Kilts)"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Product Display Area",
+        "first_image_state": "Grid of individual kilt products with images, names, prices, and star ratings",
+        "second_image_state": "Category banner layout featuring images of people wearing kilts, labeled with category names (e.g., 8 Yard Kilts, Fashion Kilts)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Left Sidebar Heading",
+        "first_image_state": "'Shop By' heading with sub-heading 'Shopping Options'",
+        "second_image_state": "'Categories' heading without sub-headings"
+      },
+      {
+        "category": "Component",
+        "component_name": "Header Logo",
+        "first_image_state": "Displays 'kilt' text as the logo without the 'buyakilt.com' branding.",
+        "second_image_state": "Displays 'buyakilt.com' text alongside a tartan pattern logo."
+      },
+      {
+        "category": "Component",
+        "component_name": "Log In Link",
+        "first_image_state": "Absent from the top navigation area.",
+        "second_image_state": "Present as a text link in the top-left corner."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Left Sidebar Heading",
+        "first_image_state": "Displays 'Shop By' as the heading.",
+        "second_image_state": "Displays 'Categories' as the heading."
+      },
+      {
+        "category": "Component",
+        "component_name": "Left Sidebar Items",
+        "first_image_state": "Contains a list of shopping options such as 'Kilt Manufacture', 'Bespoke (3-6 Weeks)', 'Pre-made (1 Day)'.",
+        "second_image_state": "Contains a list of kilt-related categories such as '8 Yard Kilts', '5 Yard Kilts', 'Fashion Kilts'."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Main Product Display Arrangement",
+        "first_image_state": "Arranged as a grid of product listings, each containing an image, product name, price, and rating.",
+        "second_image_state": "Arranged as four large kilt images with labels beneath each (e.g., '8 Yard Kilts', '5 Yard Kilts')."
+      },
+      {
+        "category": "Component",
+        "component_name": "Main Product Display Elements",
+        "first_image_state": "Consists of product listings with detailed information (name, price, rating).",
+        "second_image_state": "Consists of large kilt images with simple labels."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Casual Kit Mention",
+        "first_image_state": "Includes the phrase '5 yard casual kit' in the descriptive text.",
+        "second_image_state": "Includes the phrase '6 yard casual kit' in the descriptive text."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 103.9423098564148,
+    "input_tokens": 4848,
+    "output_tokens": 5031,
+    "total_tokens": 9879,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

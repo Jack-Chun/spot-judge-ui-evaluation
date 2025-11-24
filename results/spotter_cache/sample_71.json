@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Buy Now button",
+        "first_image_state": "Visible as an orange rectangular button positioned below the Add to Cart button",
+        "second_image_state": "Not visible"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Add to List button text",
+        "first_image_state": "Text reads 'add to List' with lowercase initial letter",
+        "second_image_state": "Text reads 'Add to List' with capitalized initial letter"
+      },
+      {
+        "category": "Style",
+        "component_name": "Shipping information text",
+        "first_image_state": "Text displays 'Amazon.com' with capitalized brand name",
+        "second_image_state": "Text displays 'amazon.com' with lowercase brand name"
+      },
+      {
+        "category": "Component",
+        "component_name": "Action Buttons",
+        "first_image_state": "Contains 'Add to Cart' button (without shopping cart icon) and a new 'Buy Now' button.",
+        "second_image_state": "Contains a single 'Add to Cart' button with a shopping cart icon."
+      },
+      {
+        "category": "Style",
+        "component_name": "Add to Cart Button",
+        "first_image_state": "Does not display a shopping cart icon; only text remains.",
+        "second_image_state": "Displays a shopping cart icon alongside the text."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 56.940043210983276,
+    "input_tokens": 4368,
+    "output_tokens": 2499,
+    "total_tokens": 6867,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

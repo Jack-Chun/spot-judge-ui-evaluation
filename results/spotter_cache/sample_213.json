@@ -1,0 +1,98 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Pricing Boxes (15, 35, 75, 200 keys)",
+        "first_image_state": "Four rectangular boxes arranged horizontally, each displaying key count, heart count, price, and a 'CONTINUE' button.",
+        "second_image_state": "Absent; replaced by other components."
+      },
+      {
+        "category": "Component",
+        "component_name": "How Do I Play Icons with Descriptive Text",
+        "first_image_state": "Three icons (Get Keys, Unlock Chests, XP+) without accompanying text.",
+        "second_image_state": "Three icons with expanded descriptive text below each (e.g., 'Keys unlock chests...' under Get Keys)."
+      },
+      {
+        "category": "Component",
+        "component_name": "How Do I Get Keys Section",
+        "first_image_state": "Absent.",
+        "second_image_state": "Present, containing three sub-components (Earned Keys, Daily Keys, Purchased Keys) with icons and explanatory text."
+      },
+      {
+        "category": "Style",
+        "component_name": "Treasure Hunter Header",
+        "first_image_state": "Large, prominent gold text spanning most of the width.",
+        "second_image_state": "Smaller gold text compared to Image 1."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Continue Button",
+        "first_image_state": "Located within each pricing box.",
+        "second_image_state": "Located at the bottom right of the 'How Do I Play?' section."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Central Content Container",
+        "first_image_state": "Contains four aligned pricing boxes displaying key quantities (15, 35, 75, 200) and prices ($4.99, $9.99, $19.99, $49.99)",
+        "second_image_state": "Contains three aligned columns: 'Get Keys', 'Unlock Chests', and 'Get Rewards'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Unlock Chests Card",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with icon, title, and descriptive text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Get Rewards Card",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with icon, title, and descriptive text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Unlock Chests Descriptive Text",
+        "first_image_state": "Absent",
+        "second_image_state": "'Every chest contains an item of unique value, from common to rare'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Get Rewards Descriptive Text",
+        "first_image_state": "Absent",
+        "second_image_state": "'Get your hands on powerful items, GP, XP lamps and more!'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "How Do I Play? Container",
+        "first_image_state": "Positioned below the four-pricing-box central content section",
+        "second_image_state": "Positioned above the three-column central content section"
+      },
+      {
+        "category": "Component",
+        "component_name": "How Do I Play? Cards",
+        "first_image_state": "Three icon components with minimal text (only titles)",
+        "second_image_state": "Three card components with titles and descriptive paragraphs"
+      },
+      {
+        "category": "Style",
+        "component_name": "How Do I Play? Card Size",
+        "first_image_state": "Smaller icon components with minimal text",
+        "second_image_state": "Larger card components with substantial text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "How Do I Play? Descriptive Paragraphs",
+        "first_image_state": "Absent",
+        "second_image_state": "Present under each card title"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 103.77904272079468,
+    "input_tokens": 2822,
+    "output_tokens": 6347,
+    "total_tokens": 9169,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

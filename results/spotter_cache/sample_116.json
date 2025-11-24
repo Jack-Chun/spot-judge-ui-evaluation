@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Breadcrumb",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with text 'SHOP > BICYCLE'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Bicycle System Overview Section",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with heading 'SHOP OUR BICYCLE SYSTEM' and three-step boxes (labeled '1 CLEAN', '2 PROTECT & SHINE', '3 LUBE') and four category boxes (labeled 'KITS', 'RIDER CARE', 'LIFESTYLE', 'BUNDLES')"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Product Display Grid",
+        "first_image_state": "Multiple rows of product items",
+        "second_image_state": "Fewer product items arranged in a single row"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Shop Our Bicycle System Heading",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with text 'SHOP OUR BICYCLE SYSTEM'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Step Labels",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with labels '1 CLEAN', '2 PROTECT & SHINE', '3 LUBE'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Shop Our Bicycle System Section",
+        "first_image_state": "Absent, replaced by a 'CLEAN' section with product grids",
+        "second_image_state": "Present, containing numbered step components (1 CLEAN, 2 PROTECT & SHINE, 3 LUBE) and category tiles (KITS, RIDER CARE, LIFESTYLE, BUNDLES)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Numbered Step Components (1, 2, 3)",
+        "first_image_state": "Absent",
+        "second_image_state": "Present as gray rectangular boxes with white numbers and text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Category Tiles (KITS, RIDER CARE, LIFESTYLE, BUNDLES)",
+        "first_image_state": "Absent",
+        "second_image_state": "Present as gray rectangular boxes with icons and text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Section Heading",
+        "first_image_state": "'CLEAN'",
+        "second_image_state": "'SHOP OUR BICYCLE SYSTEM'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 92.03831458091736,
+    "input_tokens": 3248,
+    "output_tokens": 4688,
+    "total_tokens": 7936,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

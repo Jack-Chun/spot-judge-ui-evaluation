@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Download Sega Genesis button",
+        "first_image_state": "Labeled 'Price Guide \u2192'",
+        "second_image_state": "Labeled 'Download \u2192 Sega Genesis price list for $2'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Download Button",
+        "first_image_state": "Text reads 'Download Sega Genesis Price Guide'",
+        "second_image_state": "Text reads 'Download Sega Genesis price list for $2'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 29.98037886619568,
+    "input_tokens": 1372,
+    "output_tokens": 1334,
+    "total_tokens": 2706,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

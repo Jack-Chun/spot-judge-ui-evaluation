@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Next Steps link (third item)",
+        "first_image_state": "Text reads 'Request pricing'",
+        "second_image_state": "Text reads 'Request a quote'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Next Steps list item",
+        "first_image_state": "Displays 'Request pricing'",
+        "second_image_state": "Displays 'Request a quote'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 17.425288915634155,
+    "input_tokens": 2324,
+    "output_tokens": 593,
+    "total_tokens": 2917,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

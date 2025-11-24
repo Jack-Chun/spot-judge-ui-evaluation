@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Rating Display",
+        "first_image_state": "Displays star rating with numerical score '4.7' followed by '(1145)' in parentheses",
+        "second_image_state": "Displays star rating with text '1145 reviews' replacing the numerical score and parenthesis format"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Product Title",
+        "first_image_state": "Displays 'Dopper Original drinkfles 450 ml - Pacific Blue'",
+        "second_image_state": "Displays 'Dopper Original drinkflos 450 ml - Pacific Blue'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Rating Display",
+        "first_image_state": "Shows star icons followed by '4.7 (1145)'",
+        "second_image_state": "Shows star icons followed by '1145 reviews'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 82.43081521987915,
+    "input_tokens": 4148,
+    "output_tokens": 2947,
+    "total_tokens": 7095,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

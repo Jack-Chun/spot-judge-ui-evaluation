@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Header Visual Elements",
+        "first_image_state": "Orange circular icon with closed eyes and smile, set against a solid bright yellow background",
+        "second_image_state": "Yellow circular icon with closed eyes and smile, set against an orange background with abstract curved shapes"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "\"What\u2019s on your mind?\" displayed as the primary heading",
+        "second_image_state": "\"Managing everyday anxiety & stress\" displayed as the primary heading"
+      },
+      {
+        "category": "Component",
+        "component_name": "Subheading",
+        "first_image_state": "\"I want to...\" displayed below the main heading",
+        "second_image_state": "No subheading present below the main heading"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Options List",
+        "first_image_state": "Six radio button options arranged vertically, with \"Manage anxiety\" selected",
+        "second_image_state": "Four options including a dark button and three plain options, arranged vertically"
+      },
+      {
+        "category": "Style",
+        "component_name": "Header background and smiley icon",
+        "first_image_state": "Solid yellow background; orange circular smiley icon with closed eyes and smile.",
+        "second_image_state": "Orange background with lighter orange curved shapes; yellow circular smiley icon with closed eyes and smile."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main heading and subtitle text",
+        "first_image_state": "\"What\u2019s on your mind?\"; \"I want to...\"",
+        "second_image_state": "\"Managing everyday anxiety & stress\"; \"Relax your mind with meditations you can listen to anytime.\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Option selection elements",
+        "first_image_state": "Six rounded rectangular radio buttons (one selected with blue checkmark, five unselected) with text labels (\"Manage anxiety\", \"Sleep soundly\", \"Be present and mindful\", \"Reduce stress\", \"Feel calm and relaxed\", \"Something else\").",
+        "second_image_state": "Four rectangular buttons (one dark gray, three light gray) with text labels (\"Managing everyday anxiety & stress\", \"Sleeping soundly\", \"Being more active\", \"Trying something new\")."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 84.17218923568726,
+    "input_tokens": 3824,
+    "output_tokens": 3990,
+    "total_tokens": 7814,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

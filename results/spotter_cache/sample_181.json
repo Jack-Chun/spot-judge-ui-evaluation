@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Filter Button",
+        "first_image_state": "Displays an icon alongside the 'FILTER' text",
+        "second_image_state": "Does not display an icon alongside the 'FILTER' text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Sort/Filter Controls",
+        "first_image_state": "Contains a 'SORT BY' dropdown menu",
+        "second_image_state": "Contains a 'New Arrivals' dropdown menu and a grid icon"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Product Label (Second Item)",
+        "first_image_state": "Displays 'ONLINE EXCLUSIVE' text",
+        "second_image_state": "Displays 'NEW ARRIVALS' text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Sort Dropdown and Grid Icon",
+        "first_image_state": "Contains a 'SORT BY' dropdown in place of 'New Arrivals' and no grid icon.",
+        "second_image_state": "Contains a 'New Arrivals' dropdown and a grid icon adjacent to the filter button."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 59.057191133499146,
+    "input_tokens": 1120,
+    "output_tokens": 2681,
+    "total_tokens": 3801,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Search Button",
+        "first_image_state": "Red circular button with magnifying glass icon (no text)",
+        "second_image_state": "Pink rectangular button with 'Search' text and magnifying glass icon"
+      },
+      {
+        "category": "Style",
+        "component_name": "Search Input Labels",
+        "first_image_state": "Bold, black text ('Location', 'Check in', 'Check out', 'Guests')",
+        "second_image_state": "Uppercase, gray text ('LOCATION', 'CHECK IN', 'CHECK OUT', 'GUESTS')"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero Section Heading",
+        "first_image_state": "'Go Near'",
+        "second_image_state": "'Get out and stretch your imagination'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero CTA Button",
+        "first_image_state": "'Explore nearby' (black button)",
+        "second_image_state": "'Explore nearby >' (white button with arrow)"
+      },
+      {
+        "category": "Style",
+        "component_name": "Top Navigation Menu Items",
+        "first_image_state": "Subtle styling (e.g., underline or bold font)",
+        "second_image_state": "Minimal styling (e.g., no underline, lighter font weight)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "COVID-19 Information Link",
+        "first_image_state": "'Get the latest on our COVID-19 respor'",
+        "second_image_state": "'Get the latest on our COVID-19 response'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Navigation Labels",
+        "first_image_state": "\"Places o stay\", \"Experieses\", \"Online Experiences\"",
+        "second_image_state": "\"Places to stay\", \"Experiences\", \"Online Experiences\""
+      },
+      {
+        "category": "Layout",
+        "component_name": "Navigation Items Alignment",
+        "first_image_state": "Centered",
+        "second_image_state": "Left-aligned"
+      },
+      {
+        "category": "Style",
+        "component_name": "Search Container",
+        "first_image_state": "Rounded white container with integrated input fields",
+        "second_image_state": "Rectangular white container with separate input fields"
+      },
+      {
+        "category": "Style",
+        "component_name": "Search Button",
+        "first_image_state": "Circular red button with white magnifying glass icon",
+        "second_image_state": "Rectangular pink button with white magnifying glass icon"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero Heading",
+        "first_image_state": "\"Go Near\"",
+        "second_image_state": "\"Get out and stretch your imagination\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero Call-to-Action",
+        "first_image_state": "\"Explore nearby\" (black button text)",
+        "second_image_state": "\"Explore nearby >\" (text link)"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 149.23130893707275,
+    "input_tokens": 6224,
+    "output_tokens": 6928,
+    "total_tokens": 13152,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

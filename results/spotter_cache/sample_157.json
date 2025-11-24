@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Top section content (between header and form)",
+        "first_image_state": "Displays 'Call us on 0117 453 5994 Or use the form below'",
+        "second_image_state": "Displays 'Proudly Serving customers throughout Bristol, & the South of England' followed by Facebook, LinkedIn, and Google Reviews icons"
+      },
+      {
+        "category": "Component",
+        "component_name": "Email input field",
+        "first_image_state": "Visible below Last Name field",
+        "second_image_state": "Not visible"
+      },
+      {
+        "category": "Component",
+        "component_name": "Phone input field",
+        "first_image_state": "Visible below Email field",
+        "second_image_state": "Not visible"
+      },
+      {
+        "category": "Component",
+        "component_name": "Address input field",
+        "first_image_state": "Visible below Phone field",
+        "second_image_state": "Not visible"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Form introduction text",
+        "first_image_state": "'Call us on 0117 453 5994 Or use the form below'",
+        "second_image_state": "'Contact us using the form below'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Social Media Icons (Facebook, LinkedIn, Google Reviews)",
+        "first_image_state": "Absent",
+        "second_image_state": "Present below the service area subheading"
+      },
+      {
+        "category": "Component",
+        "component_name": "Contact Form Input Fields",
+        "first_image_state": "Contains five input fields (First Name, Last Name, Email, Phone, Address)",
+        "second_image_state": "Contains two input fields (First Name, Last Name)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Service Area Subheading Text",
+        "first_image_state": "Call us on 0117 453 5994 Or use the form below",
+        "second_image_state": "Proudly Serving customers throughout Bristol, & the South of England"
+      },
+      {
+        "category": "Style",
+        "component_name": "Service Area Subheading Phone Number",
+        "first_image_state": "Orange (matches main heading color)",
+        "second_image_state": "Dark blue (matches surrounding text)"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 114.50062799453735,
+    "input_tokens": 3088,
+    "output_tokens": 5763,
+    "total_tokens": 8851,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

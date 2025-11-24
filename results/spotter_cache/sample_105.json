@@ -1,0 +1,74 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Pricing Plan Cards",
+        "first_image_state": "Three vertically aligned columns; each column contains a header with the plan name (Basic/Business/Enterprise) and a distinct color background (purple/orange/teal), followed by a price (\u00a312/\u00a324), key features listed as bullet points, a green 'Get Started' button, and a detailed feature list below.",
+        "second_image_state": "Three vertically aligned columns; each column displays a price (\u00a36/mo/\u00a312/mo/\u00a324/mo) at the top, followed by the plan name (BASIC/BUSINESS/ENTERPRISE), features listed as checkmarks, a colored 'Sign Up' button (purple/blue/orange), and the Business plan includes a blue star icon; all columns have gray backgrounds."
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA Buttons",
+        "first_image_state": "Green 'Get Started' buttons positioned below each pricing plan.",
+        "second_image_state": "Colored 'Sign Up' buttons (purple/blue/orange) positioned below each pricing plan."
+      },
+      {
+        "category": "Style",
+        "component_name": "Pricing Plan Backgrounds",
+        "first_image_state": "Vibrant, plan-specific color backgrounds (purple for Basic, orange for Business, teal for Enterprise) for the plan headers.",
+        "second_image_state": "Uniform gray backgrounds for all plan columns, with accent colors (blue star for Business, colored buttons) replacing the plan-specific header colors."
+      },
+      {
+        "category": "Component",
+        "component_name": "Feature List Display",
+        "first_image_state": "Features listed as bullet points with accompanying icons.",
+        "second_image_state": "Features listed as checkmarks without icons."
+      },
+      {
+        "category": "Component",
+        "component_name": "Feature Lists",
+        "first_image_state": "Features grouped into labeled sections (e.g., Core Features, Hosting Included) with corresponding icons, replacing the single list.",
+        "second_image_state": "Features listed as an unordered list with checkmark icons, no grouping."
+      },
+      {
+        "category": "Style",
+        "component_name": "Plan Headers",
+        "first_image_state": "Title case text with 'Plan' suffix, set against colored backgrounds (purple, orange, teal).",
+        "second_image_state": "Uppercase text on light gray background, no additional styling."
+      },
+      {
+        "category": "Style",
+        "component_name": "Call-to-Action Buttons",
+        "first_image_state": "Uniform green buttons with consistent text ('Get Started').",
+        "second_image_state": "Buttons with distinct colors (purple, teal, orange) and varied text ('Build your first site', 'Get started today', 'SIGN UP')."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Annual Savings Text",
+        "first_image_state": "Absent.",
+        "second_image_state": "Present under each plan ('Or Save 33% By Paying Annually')."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Currency Selector",
+        "first_image_state": "'SELECT CURRENCY' label with US/UK flag icons, no monthly/annual toggle tabs.",
+        "second_image_state": "'Choose Currency' label with pound symbol, adjacent 'MONTHLY'/'ANNUAL' toggle tabs."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Plan Names",
+        "first_image_state": "Title case labels with 'Plan' suffix ('Basic Plan', 'Business Plan', 'Enterprise Plan').",
+        "second_image_state": "Uppercase labels ('BASIC', 'BUSINESS', 'ENTERPRISE')."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 131.34823775291443,
+    "input_tokens": 3912,
+    "output_tokens": 6943,
+    "total_tokens": 10855,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

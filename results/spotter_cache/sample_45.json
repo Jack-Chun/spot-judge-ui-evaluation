@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Delivery Information Section",
+        "first_image_state": "Includes detailed delivery timeframe ('within 4 hrs 17 mins') and two 'Details' links alongside free delivery and fastest delivery options.",
+        "second_image_state": "Simplified delivery information without timeframe details or 'Details' links; only basic delivery dates remain."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Seller Name",
+        "first_image_state": "Displays 'Sold by Amaze, Buy and Fulfilled by Amazon.'",
+        "second_image_state": "Displays 'Sold by Amazon, Buy and Fulfilled by Amazon.'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Delivery Information Section / Technical Specifications Table",
+        "first_image_state": "Replaced by a technical specifications table displaying language, publisher, publication date, dimensions, and ISBN numbers",
+        "second_image_state": "Contains delivery time details including 'FREE delivery: Thursday, Oct 7 on your first order' and 'Fastest delivery: Wednesday, Oct 6'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 56.20820713043213,
+    "input_tokens": 5424,
+    "output_tokens": 2511,
+    "total_tokens": 7935,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

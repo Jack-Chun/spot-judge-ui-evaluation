@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Visit the Duracell Store link",
+        "first_image_state": "Positioned between the product title and ratings section",
+        "second_image_state": "Positioned below the product title, before the ratings section"
+      },
+      {
+        "category": "Style",
+        "component_name": "Top-right price display",
+        "first_image_state": "Displays \"$19.86 prime\" with a prime badge",
+        "second_image_state": "Displays \"$1\" without a prime badge"
+      },
+      {
+        "category": "Component",
+        "component_name": "Prime badge",
+        "first_image_state": "Visible next to the price",
+        "second_image_state": "Not visible"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Price display next to brand statement",
+        "first_image_state": "Displays \"$19.86 prime\"",
+        "second_image_state": "Displays \"$1\""
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 71.1250171661377,
+    "input_tokens": 3344,
+    "output_tokens": 3363,
+    "total_tokens": 6707,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

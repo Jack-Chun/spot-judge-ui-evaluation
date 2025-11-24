@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Background Image",
+        "first_image_state": "Black and white photograph of people on a ship",
+        "second_image_state": "Color photograph of a building with a tree and potted plant"
+      },
+      {
+        "category": "Component",
+        "component_name": "Left background image",
+        "first_image_state": "Black-and-white historical photograph of people on a ship deck",
+        "second_image_state": "Color photograph of a building exterior with a green door, stone columns, and a potted plant"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 24.397241353988647,
+    "input_tokens": 3592,
+    "output_tokens": 921,
+    "total_tokens": 4513,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

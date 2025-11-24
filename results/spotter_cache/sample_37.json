@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Shipping Information Section",
+        "first_image_state": "Contains a price display ($19.93) followed by detailed shipping text, then an 'In Stock.' label below.",
+        "second_image_state": "Lacks the price display; 'In Stock.' label is positioned above the shipping text, and the shipping text is restructured without the price."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Quantity Selector",
+        "first_image_state": "Positioned below the shipping information section.",
+        "second_image_state": "Positioned above the 'Add to Cart' button, higher in the sidebar."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Shipping Information Section",
+        "first_image_state": "Relocated to the right sidebar, situated below the price display and above the quantity selector.",
+        "second_image_state": "Located in the main product content area, below the price and inventory status, above the product features."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Style Selection Label",
+        "first_image_state": "Displays full text 'AA (Pack of 48)'",
+        "second_image_state": "Displays truncated text 'AA (Pack ...'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Seller Information Text",
+        "first_image_state": "Moved to the right sidebar, positioned below the 'Buy Now' button.",
+        "second_image_state": "Located in the main product content area, below the shipping information."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 112.96766710281372,
+    "input_tokens": 6064,
+    "output_tokens": 4563,
+    "total_tokens": 10627,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

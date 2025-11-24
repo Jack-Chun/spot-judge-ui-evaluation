@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Header Action Buttons",
+        "first_image_state": "Displays 'Talk to Sales: 1 (888) 372-2851' and 'Start Free Trial' buttons",
+        "second_image_state": "Displays 'Get a Demo' and 'Sign In' buttons"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Primary Content Container",
+        "first_image_state": "Arranged as a two-column layout with left column containing text and form, right column containing video",
+        "second_image_state": "Arranged as a centered modal overlay with form, background image spanning full width behind the modal"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "Shows 'Build Your Vision Virtually With 3D Floor Plans' heading",
+        "second_image_state": "Shows 'One simple solution for contractors and design pros' heading"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Email Input Label",
+        "first_image_state": "Labeled 'Email'",
+        "second_image_state": "Labeled 'Your Business Email'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Header Right-Side CTAs",
+        "first_image_state": "Contains 'Talk to Sales: 1 (888) 372-2851' and 'Start Free Trial' buttons",
+        "second_image_state": "Contains 'Get a Demo' and 'Sign In' buttons"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Main Content Container",
+        "first_image_state": "Left-aligned text column and right-aligned media column (with video and person)",
+        "second_image_state": "Centered modal overlay containing sign-up form and contractor-focused text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "'Build Your Vision Virtually With 3D Floor Plans'",
+        "second_image_state": "'One simple solution for contractors and design pros'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Email Input Label",
+        "first_image_state": "'Email'",
+        "second_image_state": "'Your Business Email'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 81.14855885505676,
+    "input_tokens": 4464,
+    "output_tokens": 3782,
+    "total_tokens": 8246,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

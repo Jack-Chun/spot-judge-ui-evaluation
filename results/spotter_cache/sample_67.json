@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Filter Bar",
+        "first_image_state": "Contains buttons for 'Cancellation flexibility', 'Type of place', 'Price', 'Instant Book', and 'More filters'",
+        "second_image_state": "Contains dropdown menus for 'Price' and 'Type of place', followed by buttons for amenities like 'Beachfront', 'Wifi', 'Kitchen', 'Pets allowed', 'Free parking', 'Hot tub', 'Washer', 'Dryer', 'Self check-in', 'Dedicated workspace', 'Pool', and 'Filters'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Filter Bar Buttons",
+        "first_image_state": "Contains alternative filter buttons including 'Cancellation flexibility', 'Instant Book', and 'More filters', replacing the previous amenity-based buttons.",
+        "second_image_state": "Contains amenity-based filter buttons such as 'Beachfront', 'Wifi', 'Kitchen', 'Pets allowed', 'Free parking', 'Hot tub', 'Washer', 'Dryer', 'Self check-in', 'Dedicated workspace', 'Pool', along with price and type of place dropdowns."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 37.14116883277893,
+    "input_tokens": 5104,
+    "output_tokens": 1647,
+    "total_tokens": 6751,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

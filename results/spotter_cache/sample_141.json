@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Product name in shopping cart",
+        "first_image_state": "Displays \"Zestaw kluczy nasadowych 1/4'' + 1/2'' Z\"",
+        "second_image_state": "Displays \"Zestaw kluczy nasadowych 1/4'' + 1/2'' ZE\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Shopping Cart Modal",
+        "first_image_state": "Contains a 'Lista zakup\u00f3w' link; displays product listings with images, quantities, and prices.",
+        "second_image_state": "Does not contain a 'Lista zakup\u00f3w' link; displays product listings with images, quantities, and prices."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 91.55680847167969,
+    "input_tokens": 2240,
+    "output_tokens": 4981,
+    "total_tokens": 7221,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

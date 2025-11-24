@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Send Download Link To: label",
+        "first_image_state": "Present above the email input field",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Fully Editable PowerPoint File section",
+        "first_image_state": "Present below the email field, containing an icon and descriptive text",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Style",
+        "component_name": "Benefit icons",
+        "first_image_state": "Shield icon for Money Back Guarantee, person icon for 24 Hour Support, download arrow icon for Direct Download After Payment",
+        "second_image_state": "Checkmark icon for Money Back Guarantee, person with chat bubble icon for 24 Hour Support, green circular down arrow icon for Direct Download After Payment"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Email Label",
+        "first_image_state": "Displays 'Send Download Link To:' as the label for the input field.",
+        "second_image_state": "Displays 'E-mail:' as the label for the input field."
+      },
+      {
+        "category": "Component",
+        "component_name": "FREE Re Download Guarantee Section",
+        "first_image_state": "Present, featuring an icon and text describing the re-download guarantee.",
+        "second_image_state": "Not present."
+      },
+      {
+        "category": "Component",
+        "component_name": "Fully Editable PowerPoint File Section",
+        "first_image_state": "Present, featuring an icon and text describing the editable file feature.",
+        "second_image_state": "Not present."
+      },
+      {
+        "category": "Component",
+        "component_name": "Payment Method Logos",
+        "first_image_state": "Present, displaying various payment method logos (eSign, PayPal, Visa, MasterCard, Verified by VISA).",
+        "second_image_state": "Not present."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Your Information Section Layout",
+        "first_image_state": "Contains the email label, input field, followed by three new components (guarantee, editable file, payment logos) before the proceed button, increasing the vertical density and altering the arrangement.",
+        "second_image_state": "Contains only the email label, input field, and proceed button, arranged vertically with minimal spacing between them."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 82.28699612617493,
+    "input_tokens": 2532,
+    "output_tokens": 4772,
+    "total_tokens": 7304,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

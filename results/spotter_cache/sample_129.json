@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Header Banner",
+        "first_image_state": "White rectangular container with black text describing the SMS and webbl\u00e4n service.",
+        "second_image_state": "Blue rectangular container with a gold coin/envelope icon and white promotional text for new customers."
+      },
+      {
+        "category": "Component",
+        "component_name": "Service Description Paragraph",
+        "first_image_state": "Present below the title, containing text about Meddelandel\u00e4n Sverige AB.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Loan Term Radio Button",
+        "first_image_state": "Selected option displays '30 dagar'.",
+        "second_image_state": "Selected option displays '3C dagar'."
+      },
+      {
+        "category": "Component",
+        "component_name": "Top Container",
+        "first_image_state": "A white rectangular informational box containing Swedish text about SMS and web loans.",
+        "second_image_state": "A blue rectangular promotional banner containing an envelope icon and Swedish text."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Top Section Text",
+        "first_image_state": "Fixed text stating \"Sm\u00e5 SMS- och Webbl\u00e5n...\"",
+        "second_image_state": "Fixed text stating \"F\u00f6r nya kunder: L\u00e5na 500 kr i 15 dagar!\""
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 77.6447057723999,
+    "input_tokens": 1876,
+    "output_tokens": 3887,
+    "total_tokens": 5763,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

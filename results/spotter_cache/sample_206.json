@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "CTA Button",
+        "first_image_state": "Yellow button displaying 'GET A FREE QUOTE'",
+        "second_image_state": "Blue button displaying 'BOOK A FREE SURVEY'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Left Content Container",
+        "first_image_state": "Wider, occupying approximately one-third of the page width",
+        "second_image_state": "Narrower, occupying approximately one-quarter of the page width"
+      },
+      {
+        "category": "Style",
+        "component_name": "Home Security Promotion Panel",
+        "first_image_state": "Light blue background",
+        "second_image_state": "Darker blue background"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Business Security Text",
+        "first_image_state": "Longer text including phrases like 'Keep intruders at arm's length', 'Discover crime alerts', and 'see how alarms can protect you'",
+        "second_image_state": "Shorter text, only showing 'Discover crime alerts' and partial subsequent phrases"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Header Top Right Text",
+        "first_image_state": "Displays 'CASTING CUSTOMERS ONLINE PAYMENTS ABOUT ADT'",
+        "second_image_state": "Displays 'SALES: 0800 144 4999'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Tagline under ADT logo",
+        "first_image_state": "\"ADT Always There!\"",
+        "second_image_state": "\"ADT Always!\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA button text",
+        "first_image_state": "\"GET A FREE QUOTE\"",
+        "second_image_state": "\"BOOK A FREE SURVEY\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Top-right sales number",
+        "first_image_state": "Absent",
+        "second_image_state": "Present"
+      },
+      {
+        "category": "Component",
+        "component_name": "Rightmost carousel text boxes",
+        "first_image_state": "Present",
+        "second_image_state": "Absent"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 69.89382195472717,
+    "input_tokens": 1958,
+    "output_tokens": 4625,
+    "total_tokens": 6583,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

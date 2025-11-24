@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Overall page structure",
+        "first_image_state": "Vertical stack of distinct sections including 'Repeating Auto-Stash' box, 'Next Transfer' box, 'Deposits' section, and 'Investments' section",
+        "second_image_state": "List-based layout with sequential items such as 'Auto-Stash Total', 'Your Investments (9)', 'Frequency', 'Next Auto-Stash', and 'Turn Auto-Stash Off'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Content sections",
+        "first_image_state": "Contains 'Cash' (with 'Set' button), 'Stay in Touch' (with 'Set' button), and 'AT&T' (with amount) components under 'Deposits' and 'Investments' headings",
+        "second_image_state": "Contains 'Your Investments (9)' (with arrow), 'Frequency' (with value), and 'Next Auto-Stash' (with date) components without original 'Deposits' or individual investment entries"
+      },
+      {
+        "category": "Style",
+        "component_name": "Background and text color",
+        "first_image_state": "Gradient background transitioning from purple to blue; white text on gradient background",
+        "second_image_state": "Solid white background; dark gray/black text on white background"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Fixed UI text labels",
+        "first_image_state": "Includes labels such as 'Repeating Auto-Stash', 'Next Transfer', 'Deposits', and 'Investments'",
+        "second_image_state": "Includes labels such as 'Auto-Stash Total', 'Your Investments (9)', 'Next Auto-Stash', and 'Turn Auto-Stash Off'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Overall Page Structure",
+        "first_image_state": "Segmented layout with distinct blocks: Repeating Auto-Stash card, Next Transfer section, Deposits section, and Investments section",
+        "second_image_state": "Vertical list of sequential sections including Auto-Stash Total, Your Investments, Frequency, Next Auto-Stash, and Turn Auto-Stash Off"
+      },
+      {
+        "category": "Component",
+        "component_name": "Investment Display",
+        "first_image_state": "Separate 'Investments' section containing multiple itemized entries (Stay in Touch, AT&T, On Cloud Nine)",
+        "second_image_state": "Single list item 'Your Investments (9)' showing total amount"
+      },
+      {
+        "category": "Style",
+        "component_name": "Background Color",
+        "first_image_state": "Gradient purple-blue background",
+        "second_image_state": "Solid white background"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Section Headers and Labels",
+        "first_image_state": "Headers include 'Repeating Auto-Stash', 'Next Transfer', 'Deposits', 'Investments'",
+        "second_image_state": "Headers include 'Auto-Stash Total', 'Your Investments (9)', 'Frequency', 'Next Auto-Stash'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 48.99685478210449,
+    "input_tokens": 2674,
+    "output_tokens": 2389,
+    "total_tokens": 5063,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

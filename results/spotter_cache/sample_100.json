@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Accommodation category",
+        "first_image_state": "Includes 'Glamping' category with associated image and count (7,417 glamping sites)",
+        "second_image_state": "Does not include 'Glamping' category; only five categories (Apartments, Resorts, Villas, Cabins, Cottages) are present"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Guest selection text",
+        "first_image_state": "Displays '2 adults \u00b7 0 children \u00b7 1 room' in the guest selector",
+        "second_image_state": "Displays '2 adults \u00b7 0 children' in the guest selector (removes '\u00b7 1 room')"
+      },
+      {
+        "category": "Component",
+        "component_name": "Occupancy Selector",
+        "first_image_state": "Displays '2 adults \u00b7 0 children \u00b7 1 room' with room count added",
+        "second_image_state": "Displays '2 adults \u00b7 0 children' without room count"
+      },
+      {
+        "category": "Component",
+        "component_name": "Accommodation Category (Glamping)",
+        "first_image_state": "Present as a sixth category with an associated image and label",
+        "second_image_state": "Not present in the accommodation categories section"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 38.099175691604614,
+    "input_tokens": 6864,
+    "output_tokens": 1740,
+    "total_tokens": 8604,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

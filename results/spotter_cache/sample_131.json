@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Enquiry Form",
+        "first_image_state": "Positioned in the right sidebar below the course details section",
+        "second_image_state": "Positioned in the main content area below the course details section"
+      },
+      {
+        "category": "Component",
+        "component_name": "Right Sidebar Components",
+        "first_image_state": "Contains 'Enquire about this course' form with input fields and logos (smh.com.au, careerone, BRW)",
+        "second_image_state": "Contains 'Related Courses' and 'Related Categories' sections with links"
+      },
+      {
+        "category": "Component",
+        "component_name": "Request Brochure Button",
+        "first_image_state": "Present as an orange button below the course details",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Enquiry Form Header",
+        "first_image_state": "Displays 'Enquire about this course'",
+        "second_image_state": "Displays 'Enquire about Bachelor of Accounting'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Partnered With Logos",
+        "first_image_state": "Includes smh.com.au, careerone, BRW logos",
+        "second_image_state": "Includes different logos (no smh.com.au, careerone, BRW)"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Enquiry Form",
+        "first_image_state": "Positioned within the right sidebar",
+        "second_image_state": "Positioned within the main content area below course details"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Enquiry Header",
+        "first_image_state": "Displays \"Enquire about this course\"",
+        "second_image_state": "Displays \"Enquire about Bachelor of Accounting\""
+      },
+      {
+        "category": "Layout",
+        "component_name": "Right Sidebar Sections",
+        "first_image_state": "Contains \"Related Categories\" section followed by \"Enquire about this course\" section",
+        "second_image_state": "Contains \"Related Courses\" section followed by \"Related Categories\" section"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 117.80854511260986,
+    "input_tokens": 3824,
+    "output_tokens": 5273,
+    "total_tokens": 9097,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

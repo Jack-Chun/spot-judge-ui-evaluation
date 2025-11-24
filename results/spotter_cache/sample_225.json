@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Right Sidebar Structure",
+        "first_image_state": "Includes a '30 Day Badge' and 'App Store Button' above the benefits list.",
+        "second_image_state": "Removes the '30 Day Badge' and 'App Store Button', adds a 'Free Access' section below the benefits list."
+      },
+      {
+        "category": "Component",
+        "component_name": "30 Day Badge",
+        "first_image_state": "Present in the right sidebar.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Component",
+        "component_name": "App Store Button",
+        "first_image_state": "Present in the right sidebar.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Component",
+        "component_name": "Free Access Link",
+        "first_image_state": "Absent.",
+        "second_image_state": "Present at the bottom of the page."
+      },
+      {
+        "category": "Style",
+        "component_name": "Price Buttons Color",
+        "first_image_state": "'$10/month' button is green, '$99/year' button is yellow.",
+        "second_image_state": "Both '$10/month' and '$99/year' buttons are green."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Video Title Text",
+        "first_image_state": "'need to understand the quran all courses in English'.",
+        "second_image_state": "'need & understand the quran all courses in English'."
+      },
+      {
+        "category": "Component",
+        "component_name": "Feature List / Badge",
+        "first_image_state": "The right side of the video displays a circular badge with '30' and an App Store icon, replacing the bulleted feature list.",
+        "second_image_state": "The right side of the video displays a vertical bulleted list of course features."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 43.442185163497925,
+    "input_tokens": 1548,
+    "output_tokens": 2680,
+    "total_tokens": 4228,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

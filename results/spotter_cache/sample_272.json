@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Customer Testimonial Block",
+        "first_image_state": "Present with quoted text, author attribution, and star rating with count (73)",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Product Subtitle",
+        "first_image_state": "Present as 'Embrace eco-conscious parenting with style and organization.'",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Product Long Description",
+        "first_image_state": "Present as 'The Chelsea Convertible Nappy Bag combines versatile style, effortless organisation, sustainable luxury, and all-day comfort for an elevated parenting experience.'",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Testimonial Section",
+        "first_image_state": "Present; positioned above product image, altering vertical layout sequence",
+        "second_image_state": "Absent; product image appears directly below navigation bar"
+      },
+      {
+        "category": "Component",
+        "component_name": "Customer Testimonial Block",
+        "first_image_state": "Included as a distinct component with quoted text and author attribution",
+        "second_image_state": "Not included in the interface"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Product Subtitle",
+        "first_image_state": "Present; displays 'Embrace eco-conscious parenting with style and organisation.' below product name",
+        "second_image_state": "Absent; only product name 'Chelsea Convertible' displayed"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Product Description",
+        "first_image_state": "Extended with descriptive text about versatility, sustainability, and comfort",
+        "second_image_state": "Short feature list only (no detailed narrative)"
+      },
+      {
+        "category": "Style",
+        "component_name": "Testimonial Typography",
+        "first_image_state": "Quoted text enclosed in double quotation marks, indicating stylistic emphasis",
+        "second_image_state": "No quoted text; plain paragraph format"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 61.70828413963318,
+    "input_tokens": 2500,
+    "output_tokens": 2576,
+    "total_tokens": 5076,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

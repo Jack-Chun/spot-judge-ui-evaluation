@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Hero Banner",
+        "first_image_state": "Contains an image of a chair with text \"FASHION & SPORT MINIMAL PRICES\"",
+        "second_image_state": "Contains images of shoes with text \"NOT PRICES\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Promotional Banner",
+        "first_image_state": "Displays \"FASHION & SPORT MINIMAL PRICES\" text with an image of a chair",
+        "second_image_state": "Displays \"NOT PRICES\" text with images of kitchen appliances (e.g., coffee makers)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "BOGO Link/Button",
+        "first_image_state": "Shows \"BOGO REWARDS\" text",
+        "second_image_state": "Shows \"BOGO\" text"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 42.085468769073486,
+    "input_tokens": 954,
+    "output_tokens": 1815,
+    "total_tokens": 2769,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Restart membership text",
+        "first_image_state": "No additional text below the 'TRY IT NOW' button",
+        "second_image_state": "Contains the text 'Been a member before? Restart membership' below the 'TRY IT NOW' button"
+      },
+      {
+        "category": "Component",
+        "component_name": "Restart membership link",
+        "first_image_state": "Absent",
+        "second_image_state": "Present below the 'TRY IT NOW' button with white text"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 16.806378841400146,
+    "input_tokens": 4240,
+    "output_tokens": 483,
+    "total_tokens": 4723,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

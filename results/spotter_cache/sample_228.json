@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Video Section",
+        "first_image_state": "Present with a video player displaying a thumbnail",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Product Thumbnail Gallery",
+        "first_image_state": "A 'Video' section with a video player replacing the thumbnail gallery",
+        "second_image_state": "A row of small thumbnail images displayed below the main product image"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 14.75879693031311,
+    "input_tokens": 2456,
+    "output_tokens": 756,
+    "total_tokens": 3212,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

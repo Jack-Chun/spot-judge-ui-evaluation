@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Brand Logo",
+        "first_image_state": "Displays 'LandlordForms' with a blue underline and the tagline 'State-Specific Legal Forms Landlords Trust'",
+        "second_image_state": "Displays 'EZ Landlord Forms' with a distinct icon and the same tagline"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Primary Call-to-Action Button",
+        "first_image_state": "Labeled 'Create Lease' with subtext 'State-Specific Lease Package Just $29'",
+        "second_image_state": "Labeled 'View Free Forms' with subtext '-FREE Lease Agreement Available -State-Specific Lease Package Just $29*'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Left Sidebar Content Blocks",
+        "first_image_state": "Includes sections for 'get complete applications and leases online at ezlandlordforms.com' with an MSNBC logo, and 'Recent Customer Feedback' with a testimonial",
+        "second_image_state": "Includes sections for 'EZ Landlord Forms is the ultimate in protection' with a Zillow logo, and 'Recent Customer Feedback' with a different testimonial"
+      },
+      {
+        "category": "Style",
+        "component_name": "Trust Badge",
+        "first_image_state": "Rectangular badge with '100% Satisfaction Guarantee' text and a star icon",
+        "second_image_state": "Circular badge with '100% Satisfaction Guarantee' text and a seal-like design"
+      },
+      {
+        "category": "Style",
+        "component_name": "Live Help Button Text",
+        "first_image_state": "'ONLINE NOW!' displayed in green text",
+        "second_image_state": "'ONLINE NOW!' displayed in white text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Left Sidebar Content",
+        "first_image_state": "Contains promotional text ('get complete applications and leases online at ezlandlordforms.com') and an MSNBC logo, replacing the form categories and Zillow testimonial.",
+        "second_image_state": "Contains a list of legal form categories (e.g., 'Free Documents', 'Rental Application Forms') and a Zillow testimonial at the bottom."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Call-to-Action Button",
+        "first_image_state": "Labeled 'Create Lease' with similar subtext about free lease agreement and package price.",
+        "second_image_state": "Labeled 'View Free Forms' with subtext about free lease agreement availability and state-specific package price."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 87.75883221626282,
+    "input_tokens": 2740,
+    "output_tokens": 3608,
+    "total_tokens": 6348,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Search Container",
+        "first_image_state": "Horizontal arrangement of destination input field, check-in/check-out text fields, guest selector, and search button; calendar overlay below.",
+        "second_image_state": "Vertical yellow container with stacked destination input field, check-in date dropdown, check-out date dropdown, traveler dropdowns, and search button; no calendar overlay."
+      },
+      {
+        "category": "Component",
+        "component_name": "Featured Destinations Section",
+        "first_image_state": "Not present.",
+        "second_image_state": "Present with city cards (London, Rome, Saint Petersburg, Lisbon, Tbilisi City) and apartment count text."
+      },
+      {
+        "category": "Component",
+        "component_name": "Date Selection Fields",
+        "first_image_state": "Text input fields for check-in and check-out dates, accompanied by a calendar overlay.",
+        "second_image_state": "Dropdown menus for check-in and check-out dates, no calendar overlay."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Search Button",
+        "first_image_state": "Displays 'Search'.",
+        "second_image_state": "Displays 'Search apartments'."
+      },
+      {
+        "category": "Style",
+        "component_name": "Apartments Heading",
+        "first_image_state": "Smaller font size, positioned above the search bar.",
+        "second_image_state": "Larger font size, centered above the search form."
+      },
+      {
+        "category": "Style",
+        "component_name": "Search Form Background",
+        "first_image_state": "White background with orange border around input fields.",
+        "second_image_state": "Yellow background with no visible border around input fields."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Search Form Container",
+        "first_image_state": "Horizontal layout with combined destination/traveler input field, check-in/out date selector (displayed as a calendar overlay), traveler dropdown, and search button",
+        "second_image_state": "Vertical stacked layout with separate destination input, check-in date picker, check-out date picker, adults spinner, children spinner, and search button"
+      },
+      {
+        "category": "Component",
+        "component_name": "Date Picker",
+        "first_image_state": "Single combined check-in/out date picker displayed as a modal calendar overlay",
+        "second_image_state": "Two separate date pickers for check-in and check-out"
+      },
+      {
+        "category": "Component",
+        "component_name": "Traveler Selector",
+        "first_image_state": "Single dropdown displaying '2 adults \u00b7 0 children'",
+        "second_image_state": "Two separate spinners for adults and children"
+      },
+      {
+        "category": "Style",
+        "component_name": "Search Box Background",
+        "first_image_state": "White background with orange border",
+        "second_image_state": "Yellow background color"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Search Button",
+        "first_image_state": "Text 'Search'",
+        "second_image_state": "Text 'Search apartments'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Welcome Popup",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with sign-in message and options"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 87.61730313301086,
+    "input_tokens": 5424,
+    "output_tokens": 4274,
+    "total_tokens": 9698,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

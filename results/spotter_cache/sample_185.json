@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Header Navigation",
+        "first_image_state": "No hamburger menu; 'Showpo.' logo centered with search, heart, and cart icons aligned to the right",
+        "second_image_state": "Hamburger menu positioned on the left; 'Showpo.' logo adjacent to the hamburger menu with search, heart, and cart icons aligned to the right"
+      },
+      {
+        "category": "Component",
+        "component_name": "Size Selection Buttons",
+        "first_image_state": "Four size buttons (S, M, L, XL) with S selected (pink)",
+        "second_image_state": "Five size buttons (XS, S, M, L, XL) with S selected (pink)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Bottom Action Bar",
+        "first_image_state": "No additional button below the 'Add to Wishlist' option",
+        "second_image_state": "'Details' button added below the 'Add to Wishlist' option"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Header Promotional Text",
+        "first_image_state": "Promotional text 'FREE SH + PING on all orders above US$50' is displayed below the brand name 'Showpo.'",
+        "second_image_state": "No promotional text below the brand name 'Showpo.'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Color Option Button Label",
+        "first_image_state": "The color option button label is 'Mustard'.",
+        "second_image_state": "The color option button label is 'M-stard'."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 59.14302730560303,
+    "input_tokens": 1520,
+    "output_tokens": 2605,
+    "total_tokens": 4125,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

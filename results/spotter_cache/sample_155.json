@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Phone Color Selector",
+        "first_image_state": "Present with three radio button options (Silver, Gold, Space Gray) and corresponding availability text",
+        "second_image_state": "Absent; replaced by four small colored squares positioned below the product image"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Subscription Plan List",
+        "first_image_state": "Contains plans up to 5000 MB tier (including 1000 MB, 3000 MB, and 5000 MB options)",
+        "second_image_state": "Extended to include 7000 MB tier options (additional rows for 7000 MB data allowances)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Internet Speed Section",
+        "first_image_state": "Absent",
+        "second_image_state": "Present as a heading labeled \"Internet speed\" positioned at the bottom of the page"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 149.16661715507507,
+    "input_tokens": 1936,
+    "output_tokens": 7296,
+    "total_tokens": 9232,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

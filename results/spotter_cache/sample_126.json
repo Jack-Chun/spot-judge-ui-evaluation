@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Product selection buttons (Velux, Roto, etc.)",
+        "first_image_state": "Present as a vertical stack of green rectangular buttons with white text labels",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Testimonial quote box",
+        "first_image_state": "Present as a gray rectangular box with white text on the right side of the main content",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Call-to-action button",
+        "first_image_state": "Absent",
+        "second_image_state": "Present as an orange rectangular button with white text at the bottom of the main content area"
+      },
+      {
+        "category": "Style",
+        "component_name": "Logo graphic",
+        "first_image_state": "Features three horizontal blocks in green, blue, and yellow",
+        "second_image_state": "Features three horizontal blocks in blue, red, and green"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Header contact information text",
+        "first_image_state": "Displays \"Sie brauchen Hilfe? Fragen?\"",
+        "second_image_state": "Displays detailed contact information including phone number and business hours"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Main content area structure",
+        "first_image_state": "Divided into two columns: left column with descriptive text, right column with green buttons and a testimonial box",
+        "second_image_state": "Divided into two columns: left column with descriptive text, right column with a different image and a call-to-action button"
+      },
+      {
+        "category": "Style",
+        "component_name": "Logo",
+        "first_image_state": "Logo featuring three colored rectangular blocks (light green, light blue, yellow) on a white background.",
+        "second_image_state": "Logo featuring four colored rectangular blocks (dark blue, green, orange, red) on a light gray background."
+      },
+      {
+        "category": "Component",
+        "component_name": "Main Promotional Content Area",
+        "first_image_state": "Contains a large image of a roof window with green panels and a dark gray quote box displaying white text 'Qualitativ hochwertige Dachfensterrollos, die perfekt in jedes Dachfenster passen.'",
+        "second_image_state": "Contains a large image with overlaid text 'Jedes Dachfenster' and an orange call-to-action button with text 'W\u00e4hlen Sie Ihren Dachfensterhersteller aus'."
+      },
+      {
+        "category": "Component",
+        "component_name": "Call-to-Action Button",
+        "first_image_state": "Absent.",
+        "second_image_state": "Present as an orange button with text 'W\u00e4hlen Sie Ihren Dachfensterhersteller aus'."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 112.69113779067993,
+    "input_tokens": 3180,
+    "output_tokens": 5014,
+    "total_tokens": 8194,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

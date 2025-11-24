@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Brand logo row",
+        "first_image_state": "Present below main category filters, containing multiple brand icons (e.g., wosid, zuiver, dutch decor)",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Help section ('Te veel keuze?')",
+        "first_image_state": "Present with text 'Te veel keuze?', 'Beantwoord 5 korte vragen en vind jouw artikel', and a blue 'Help mij kiezen' button",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Visual Attribute",
+        "component_name": "Rainbow color option in Kleur filter",
+        "first_image_state": "Present as a multicolored circular option among other solid colors",
+        "second_image_state": "Absent, replaced by solid color options only"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Sort dropdown label",
+        "first_image_state": "Displays 'populariteit' without preceding text",
+        "second_image_state": "Displays 'Sorteer op: Populariteit' with preceding text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Category Filter Icons",
+        "first_image_state": "Brand logo icons (Riverdale, woodid, zuiver, dutch decor, etc.) replacing product category icons",
+        "second_image_state": "Product category icons (Woonaccessoires, Meubels, Verlichting, Decoratieve accessoires, Beddeng) displayed as clickable thumbnails"
+      },
+      {
+        "category": "Style",
+        "component_name": "Color Filter Options",
+        "first_image_state": "Large rectangular color swatches without text labels, displaying multiple colors (green, rainbow, brown, black, beige, blue, pink, gray, yellow, purple, red, orange) with no 'Meer' button",
+        "second_image_state": "Small circular color swatches with text labels (Blauw, Bruin, Geel) and a 'Meer' expand button"
+      },
+      {
+        "category": "Component",
+        "component_name": "Helper Section",
+        "first_image_state": "New helper section with text 'Te veel keuze?', 'Beantwoord 5 korte vragen en vind jouw artikel', and a blue 'Help mij kiezen' button",
+        "second_image_state": "No helper section; only color and brand filters visible"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 85.12444114685059,
+    "input_tokens": 6256,
+    "output_tokens": 3959,
+    "total_tokens": 10215,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Main CTA Button",
+        "first_image_state": "Displays 'TRY IT NOW' text",
+        "second_image_state": "Displays 'GET NETFLIX' text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Secondary CTA Button",
+        "first_image_state": "Displays 'TRY IT NOW' text",
+        "second_image_state": "Displays 'GET NETFLIX' text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Primary CTA Button",
+        "first_image_state": "Displays 'TRY IT NOW' text",
+        "second_image_state": "Displays 'GET NETFLIX' text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Secondary CTA Button",
+        "first_image_state": "Displays 'TRY IT NOW' text",
+        "second_image_state": "Displays 'GET NETFLIX' text"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 43.08032417297363,
+    "input_tokens": 4944,
+    "output_tokens": 1902,
+    "total_tokens": 6846,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

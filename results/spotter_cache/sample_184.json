@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Subheader Text",
+        "first_image_state": "Contains the text 'Stop right now! Call us or fill in the form and we'll do the hard work for you for free'",
+        "second_image_state": "Contains the text 'Call us or fill in the form to speak to a dedicated venue coordinator'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Subheading text",
+        "first_image_state": "Text reads 'Stop right now! Call us or fill in the form and we'll do the hard work for you for free'",
+        "second_image_state": "Text reads 'Call us or fill in the form to speak to a dedicated venue coordinator'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 29.00079083442688,
+    "input_tokens": 1520,
+    "output_tokens": 890,
+    "total_tokens": 2410,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

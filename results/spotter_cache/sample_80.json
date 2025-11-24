@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Navigation Category Labels",
+        "first_image_state": "Full text displayed for categories including 'Clothing & Shoes' and 'Art & Collectibles'",
+        "second_image_state": "Truncated text shown for categories such as 'Cloth... & Sho...' and 'Art & Co...ectibles'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Product Title",
+        "first_image_state": "Complete descriptive title listing all wallet details",
+        "second_image_state": "Truncated title with ellipsis indicating omitted text"
+      },
+      {
+        "category": "Style",
+        "component_name": "Highlights Materials Label",
+        "first_image_state": "Full text 'Materials: leather' displayed",
+        "second_image_state": "Truncated text 'Materials: lea...' shown"
+      },
+      {
+        "category": "Component",
+        "component_name": "Description Section",
+        "first_image_state": "Absent from the page",
+        "second_image_state": "Present with an expandable heading"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Product Title",
+        "first_image_state": "Longer product title with additional keywords including 'Mens Wallet' and 'Dad Birthday Gift'",
+        "second_image_state": "Shorter product title with partial keywords"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 42.9986629486084,
+    "input_tokens": 5424,
+    "output_tokens": 1584,
+    "total_tokens": 7008,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

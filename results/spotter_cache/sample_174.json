@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Input Field Icons",
+        "first_image_state": "Input fields include icons (e.g., user icon for First Name, email icon for Email)",
+        "second_image_state": "Input fields do not include icons"
+      },
+      {
+        "category": "Component",
+        "component_name": "Form input fields",
+        "first_image_state": "Input fields with icons (person icon for First Name, last name icon for Last Name, envelope icon for Email, building icon for Company, phone icon for Phone Number)",
+        "second_image_state": "Input fields without accompanying icons"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 24.673816442489624,
+    "input_tokens": 2224,
+    "output_tokens": 760,
+    "total_tokens": 2984,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

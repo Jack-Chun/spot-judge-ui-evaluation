@@ -1,0 +1,80 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Chapter Title",
+        "first_image_state": "Displays \"Chapter 1\"",
+        "second_image_state": "Displays \"Chapter 2\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Lesson Items",
+        "first_image_state": "Contains lessons titled \"Saying hello\", \"Introducing yourself\", \"Meeting someone for the first time\", \"Developing fluency\"",
+        "second_image_state": "Contains lessons titled \"Greetings\", \"Understanding essential phrases\", \"Learning polite expressions\", \"Hiragana: a i u e o\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Checkpoint Text",
+        "first_image_state": "Displays \"Test your skills to access the next chapter\"",
+        "second_image_state": "Displays \"Put your skills to the test\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Right Side Action Button",
+        "first_image_state": "Shows a purple \"PREMIUM\" button with a green \"7-DAY FREE TRIAL\" label",
+        "second_image_state": "Shows a blue cloud icon"
+      },
+      {
+        "category": "Style",
+        "component_name": "\"Me\" Tab Icon",
+        "first_image_state": "Features a red circular icon",
+        "second_image_state": "Features a purple icon"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Chapter Header",
+        "first_image_state": "Displays \"Chapter 1\"",
+        "second_image_state": "Displays \"Chapter 2\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Lesson List Items",
+        "first_image_state": "Four lesson items with titles \"Saying hello\", \"Introducing yourself\", \"Meeting someone for the first time\", \"Developing fluency\"",
+        "second_image_state": "Four lesson items with titles \"Greetings\", \"Understanding essential phrases\", \"Learning polite expressions\", \"Hiragana: a i u e o\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Checkpoint Text",
+        "first_image_state": "Displays \"Test your skills to access the next chapter\"",
+        "second_image_state": "Displays \"Put your skills to the test\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Top Left Navigation Icon",
+        "first_image_state": "South Korean flag icon",
+        "second_image_state": "Red circular icon with white center"
+      },
+      {
+        "category": "Component",
+        "component_name": "Me Tab Navigation Icon",
+        "first_image_state": "Red circular icon with white icon (different silhouette)",
+        "second_image_state": "Purple circular icon with white avatar silhouette"
+      },
+      {
+        "category": "Component",
+        "component_name": "Premium Promotion Button",
+        "first_image_state": "Purple rectangular button with \"PREMIUM\" text and green \"7-DAY FREE TRIAL\" text below",
+        "second_image_state": "Not present"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 154.32061195373535,
+    "input_tokens": 3744,
+    "output_tokens": 7282,
+    "total_tokens": 11026,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

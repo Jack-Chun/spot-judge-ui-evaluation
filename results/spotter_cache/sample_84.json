@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Guest Selection Dropdown",
+        "first_image_state": "Displays numeric values with separate '+' and '-' buttons for adjusting room count, adult count, and child count",
+        "second_image_state": "Displays numeric values within input fields accompanied by up/down arrow icons for adjusting room count, adult count, and child count"
+      },
+      {
+        "category": "Component",
+        "component_name": "Guest selection dropdown controls",
+        "first_image_state": "Plus/minus button pairs adjacent to numerical values for adjusting room count, adult count, and child count",
+        "second_image_state": "Small input fields with up/down arrow buttons for adjusting room count, adult count, and child count"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 15.099883079528809,
+    "input_tokens": 6864,
+    "output_tokens": 503,
+    "total_tokens": 7367,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

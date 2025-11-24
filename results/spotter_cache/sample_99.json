@@ -1,0 +1,86 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Policies section / The neighbourhood section",
+        "first_image_state": "Present with House Rules, Cancellations, and Read more links",
+        "second_image_state": "Absent; replaced by The neighbourhood section with Features, description, Maria's Guidebook, and Things to do in New York links"
+      },
+      {
+        "category": "Component",
+        "component_name": "Things to do near this home section",
+        "first_image_state": "Present with three activity cards (Learn how to box..., Street art scene..., David Bowie Walking Tour)",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Footer Discover section link 'Travel Credit'",
+        "first_image_state": "Present as a link under Trust & Safety",
+        "second_image_state": "Replaced by 'Invite Friends' link"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Explore other options heading text",
+        "first_image_state": "Includes 'Apartments - Houses - Bed and breakfasts - Lofts - Villas'",
+        "second_image_state": "Includes 'Apartments - Bed and breakfasts - Lofts - Villas - Condominiums'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Major section ordering",
+        "first_image_state": "Map followed by Policies, then Similar listings, then Things to do, then Explore other options",
+        "second_image_state": "Language/Response/Contact followed by The neighbourhood (with map), then Similar listings, then Explore other options"
+      },
+      {
+        "category": "Component",
+        "component_name": "Language Selector",
+        "first_image_state": "Absent from the top of the page",
+        "second_image_state": "Present at the top of the page, displaying 'Languages: English, Espa\u00f1ol'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Neighbourhood Section",
+        "first_image_state": "Absent from the page",
+        "second_image_state": "Present below the communication notice, containing features, description, map, and links to Maria's Guidebook and Things to do in New York"
+      },
+      {
+        "category": "Component",
+        "component_name": "Policies Section",
+        "first_image_state": "Present below the communication notice, containing house rules and cancellation policy information",
+        "second_image_state": "Absent from the page"
+      },
+      {
+        "category": "Component",
+        "component_name": "Things to Do Section",
+        "first_image_state": "Present as a standalone section ('Things to do near this home') below the Similar Listings section",
+        "second_image_state": "Present as a link ('Things to do in New York') within the Neighbourhood Section"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Main Sections Order",
+        "first_image_state": "Sections ordered as Communication Notice \u2192 Policies Section \u2192 Similar Listings \u2192 Things to Do Near This Home \u2192 Explore Other Options \u2192 Footer",
+        "second_image_state": "Sections ordered as Communication Notice \u2192 Neighbourhood Section \u2192 Similar Listings \u2192 Explore Other Options \u2192 Footer"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Footer Links (Discover)",
+        "first_image_state": "Contains links including 'Travel Credit', 'Airbnb Travel', replacing the previous links",
+        "second_image_state": "Contains links including 'Invite Friends', 'Airbnb Citizen', 'Business Travel', 'Guidebooks'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Footer Links (Hosting)",
+        "first_image_state": "Does not contain a link to 'Refer Hosts'",
+        "second_image_state": "Contains a link to 'Refer Hosts'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 109.17208313941956,
+    "input_tokens": 4464,
+    "output_tokens": 5424,
+    "total_tokens": 9888,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

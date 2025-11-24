@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Filter button label",
+        "first_image_state": "Sixth filter button displays truncated text 'In ant loc.'",
+        "second_image_state": "Sixth filter button displays full text 'Instant Book'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Fourth listing title",
+        "first_image_state": "Displays 'Entire loft'",
+        "second_image_state": "Displays 'Cozy Private Loft Apt with Balcony'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Review Summary Banner",
+        "first_image_state": "Present (trophy icon with text about guest reviews)",
+        "second_image_state": "Absent (no review summary banner)"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 62.413776874542236,
+    "input_tokens": 4960,
+    "output_tokens": 2792,
+    "total_tokens": 7752,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

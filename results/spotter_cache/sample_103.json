@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Header Text",
+        "first_image_state": "Text displays 'The 401(k) for small and medium-sized businesses.'",
+        "second_image_state": "Text displays 'The 401(k) for small & medium businesses.'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Form Input Fields",
+        "first_image_state": "Multiple input fields including first name, last name, work email, phone number, company name, and your role are visible.",
+        "second_image_state": "No form input fields are present."
+      },
+      {
+        "category": "Component",
+        "component_name": "Explanatory Paragraph",
+        "first_image_state": "No explanatory paragraph is visible.",
+        "second_image_state": "A paragraph reading 'Human Interest makes it easy and affordable to help your employees save for retirement.' is visible."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main heading text",
+        "first_image_state": "\"The 401(k) for small and medium-sized businesses.\"",
+        "second_image_state": "\"The 401(k) for small & medium businesses.\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Subheading paragraph",
+        "first_image_state": "Not visible; replaced by form elements.",
+        "second_image_state": "Visible, displaying text about human interest making it easy and affordable."
+      },
+      {
+        "category": "Component",
+        "component_name": "Form input fields (first name, last name, work email, phone number, company name, your role)",
+        "first_image_state": "Present, arranged in a two-column grid below the main heading.",
+        "second_image_state": "Not present."
+      },
+      {
+        "category": "Layout",
+        "component_name": "\"Get Started\" button",
+        "first_image_state": "Positioned directly below the form input fields.",
+        "second_image_state": "Positioned directly below the subheading paragraph."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 86.78354907035828,
+    "input_tokens": 2770,
+    "output_tokens": 4303,
+    "total_tokens": 7073,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

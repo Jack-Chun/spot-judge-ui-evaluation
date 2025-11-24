@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Why Shop With Us section",
+        "first_image_state": "Present as a rectangular container with four icon-text pairs (FREE UK Delivery, Price Match promise, 30 Day No Hassle Returns, Collect in Store)",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA button",
+        "first_image_state": "Black button with white text \"FIND MY WEDDING SHOES\"",
+        "second_image_state": "Black button with white text \"SHOP WEDDING SHOES\""
+      },
+      {
+        "category": "Style",
+        "component_name": "Banner headline text (\"ULTIMATE ELEGANCE\")",
+        "first_image_state": "Pink text",
+        "second_image_state": "White text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Shoe product image",
+        "first_image_state": "Absent",
+        "second_image_state": "Present as an image of high-heeled shoes"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Banner CTA Button",
+        "first_image_state": "Displays text 'FIND MY WEDDING SHOES'",
+        "second_image_state": "Displays text 'SHOP WEDDING SHOES'"
+      },
+      {
+        "category": "Style",
+        "component_name": "Banner Headline Text ('Ultimate Elegance')",
+        "first_image_state": "Pink text color",
+        "second_image_state": "White text color"
+      },
+      {
+        "category": "Component",
+        "component_name": "Lower Section Container",
+        "first_image_state": "Contains an informational section titled 'Why Shop With Us' with four benefit items (FREE UK Delivery, Price Match promise, 30 Day No Hassle Returns, Collect in Store)",
+        "second_image_state": "Contains a product image of high-heeled shoes"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 66.04796695709229,
+    "input_tokens": 1504,
+    "output_tokens": 3200,
+    "total_tokens": 4704,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

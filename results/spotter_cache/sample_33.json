@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Review filters",
+        "first_image_state": "Contains two review-related links ('Reviews for this item' with '18' and 'Reviews for this shop' with '223') and a 'Sort by: Suggested' dropdown",
+        "second_image_state": "Replaced with three interactive buttons ('Sort by: Suggested', 'With photos', 'Filter by rating')"
+      },
+      {
+        "category": "Component",
+        "component_name": "Bottom filter and review controls",
+        "first_image_state": "Does not contain the filter buttons or review tab labels; instead shows a 'Sort by: Suggested' dropdown and star ratings at the bottom",
+        "second_image_state": "Contains three filter buttons ('Sort by: Suggested', 'With photos', 'Filter by rating') and two review tab labels ('Reviews for t...', 'Reviews for this shop 223')"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 32.09750986099243,
+    "input_tokens": 6064,
+    "output_tokens": 1136,
+    "total_tokens": 7200,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

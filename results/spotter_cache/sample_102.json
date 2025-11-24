@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Delivery Options Section",
+        "first_image_state": "Contains text-based delivery information including pickup location (Sacramento Supercenter, Aisle F37), delivery eligibility, shipping arrival date (Sun, Apr 2), and seller details (Walmart.com)",
+        "second_image_state": "Replaced with three icon-based option cards displaying 'Shipping (Sun, Apr 2)', 'Pickup Today', and 'Delivery Today' with corresponding icons"
+      },
+      {
+        "category": "Component",
+        "component_name": "Delivery Options Section",
+        "first_image_state": "Replaced with detailed pickup information ('Pickup today at Sacramento Supercenter', 'Aisle F37') and delivery from store details ('Delivery from store - Check eligibility', 'Shipping arrives by Sun, Apr 2 to Sacramento, 95829')",
+        "second_image_state": "Contains three icon-based delivery method options: 'Shipping Sun, Apr 2', 'Pickup Today', and 'Delivery Today'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 19.252206325531006,
+    "input_tokens": 6384,
+    "output_tokens": 689,
+    "total_tokens": 7073,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

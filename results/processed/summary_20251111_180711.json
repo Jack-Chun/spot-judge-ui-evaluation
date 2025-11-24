@@ -1,0 +1,16 @@
+{
+  "spot_and_judge": {
+    "gpt-4o": {
+      "total_samples": 10,
+      "correct": 3,
+      "accuracy": 0.3
+    }
+  },
+  "baseline_e2e": {
+    "gpt-4o": {
+      "total_samples": 9,
+      "correct": 7,
+      "accuracy": 0.7777777777777778
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Input Fields",
+        "first_image_state": "Contains a single input field labeled 'Mobile*'",
+        "second_image_state": "Contains two input fields labeled 'Mobile*' and 'Email*'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Input Fields (Mobile and Email)",
+        "first_image_state": "One combined input field labeled 'Mobile*', replacing the previous two fields.",
+        "second_image_state": "Two separate input fields labeled 'Mobile*' and 'Email*', positioned side by side horizontally."
+      },
+      {
+        "category": "Component",
+        "component_name": "Payment Tabs (Taxi tab)",
+        "first_image_state": "Five tabs visible: 'Cards', 'Bank', 'Taxi', 'UPI', 'Wallets', with 'Taxi' newly added.",
+        "second_image_state": "Four tabs visible: 'Cards', 'Bank', 'UPI', 'Wallets'."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 49.59692192077637,
+    "input_tokens": 1478,
+    "output_tokens": 2653,
+    "total_tokens": 4131,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

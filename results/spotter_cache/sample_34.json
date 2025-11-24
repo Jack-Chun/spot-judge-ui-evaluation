@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Duration selection buttons",
+        "first_image_state": "Present below the calendar with labels '+ 1 day', '+ 2 days', '+ 3 days', '+ 7 days'",
+        "second_image_state": "Absent; not visible in the calendar area"
+      },
+      {
+        "category": "Component",
+        "component_name": "Calendar Duration Selection Buttons",
+        "first_image_state": "Duration selection buttons (+1 day, +2 days, +3 days, +7 days) present below the date grids in the upper calendar.",
+        "second_image_state": "No duration selection buttons below the date grids in the upper calendar."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 25.614588022232056,
+    "input_tokens": 4464,
+    "output_tokens": 1178,
+    "total_tokens": 5642,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

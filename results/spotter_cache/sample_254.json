@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "One Condition Button",
+        "first_image_state": "Present as an orange rectangular button with white text",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Header text and price arrangement",
+        "first_image_state": "Header text 'Claim your free Shampoo Bar (Worth' on the first line, '\u00a38)' on the second line, and an orange button adjacent to the price.",
+        "second_image_state": "Header text 'Claim your free Shampoo Bar (Worth \u00a38)' arranged contiguously across two lines with the price inline."
+      },
+      {
+        "category": "Component",
+        "component_name": "Orange button",
+        "first_image_state": "Orange button labeled 'One Condition' positioned next to the price.",
+        "second_image_state": "No orange button present."
+      },
+      {
+        "category": "Style",
+        "component_name": "Button visual attributes",
+        "first_image_state": "Button with orange background and white text.",
+        "second_image_state": "No button with orange background and white text."
+      },
+      {
+        "category": "Style",
+        "component_name": "Delivery text decoration",
+        "first_image_state": "Text 'Just cover delivery.' displayed with underline.",
+        "second_image_state": "Text 'Just cover delivery.' displayed without underline."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Button text",
+        "first_image_state": "Button text 'One Condition' displayed.",
+        "second_image_state": "No button text present."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 70.2339186668396,
+    "input_tokens": 3322,
+    "output_tokens": 3099,
+    "total_tokens": 6421,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

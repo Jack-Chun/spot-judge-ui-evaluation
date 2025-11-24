@@ -1,0 +1,20 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Top 'TRY IT NOW' button",
+        "first_image_state": "Narrower red rectangular button with white text and right arrow, centered horizontally with reduced horizontal span compared to Image 1",
+        "second_image_state": "Wide red rectangular button with white text and right arrow, centered horizontally across the content area"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 71.89244604110718,
+    "input_tokens": 7184,
+    "output_tokens": 2722,
+    "total_tokens": 9906,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

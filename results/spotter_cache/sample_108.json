@@ -1,0 +1,80 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Main promotional paragraph",
+        "first_image_state": "Includes the phrase 'van \u20ac15 tot \u20ac1000'",
+        "second_image_state": "Does not include the phrase 'van \u20ac15 tot \u20ac1000'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Budget information box",
+        "first_image_state": "Displays 'Voor iedere budget: vanaf \u20ac15 tot \u20ac1000'",
+        "second_image_state": "Displays 'Voor iedere budget: vanaf \u20ac14 tot \u20ac5000'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Search bar placeholder text",
+        "first_image_state": "Displays 'Zoek op naam...' ",
+        "second_image_state": "Displays 'Ik zoek naar...' "
+      },
+      {
+        "category": "Component",
+        "component_name": "Bestel nu button",
+        "first_image_state": "Not present",
+        "second_image_state": "Present as an orange button"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Bottom experience categories section",
+        "first_image_state": "Contains two columns listing experiences for men and women",
+        "second_image_state": "Replaced by sections titled 'De Pluim is een origineel cadeau om in te zetten als:' with four image-text boxes"
+      },
+      {
+        "category": "Component",
+        "component_name": "Vragen? contact box",
+        "first_image_state": "Displays phone number and operating hours",
+        "second_image_state": "Displays colored circular pricing indicators (\u20ac15, \u20ac25, etc.)"
+      },
+      {
+        "category": "Style",
+        "component_name": "Logo background",
+        "first_image_state": "Dark blue background",
+        "second_image_state": "Lighter blue background"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Call-to-action buttons",
+        "first_image_state": "One blue button ('Bekijk belevenissen') centered below the main content.",
+        "second_image_state": "Two buttons ('Bekijk belevenissen' in blue, 'Bestel nu' in orange) positioned side by side below the main content."
+      },
+      {
+        "category": "Component",
+        "component_name": "Main content section below headline",
+        "first_image_state": "Two columns of list items with bullet points replacing the card components.",
+        "second_image_state": "Four card components with images and descriptive text arranged in a row."
+      },
+      {
+        "category": "Style",
+        "component_name": "Contact information section",
+        "first_image_state": "No colored circular indicators; plain text only.",
+        "second_image_state": "Colored circular indicators (red, yellow, green, blue) present next to the phone number and operating hours."
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA button text",
+        "first_image_state": "'Bestel nu' button absent.",
+        "second_image_state": "Orange button labeled 'Bestel nu' present."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 97.2204737663269,
+    "input_tokens": 2670,
+    "output_tokens": 5019,
+    "total_tokens": 7689,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Primary Action Button",
+        "first_image_state": "Displays \"In winkelwagen\" (Add to Cart) as the button text",
+        "second_image_state": "Displays \"Bestellen\" (Order) as the button text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Action Button",
+        "first_image_state": "Yellow button with '+ In winkelwagen' text",
+        "second_image_state": "Yellow button with '+ Bestellen' text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Wishlist Button",
+        "first_image_state": "Heart icon with 'Op verlanglijstje' text",
+        "second_image_state": "Heart icon with 'Op je langlijstje' text"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 25.95397400856018,
+    "input_tokens": 1576,
+    "output_tokens": 1200,
+    "total_tokens": 2776,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

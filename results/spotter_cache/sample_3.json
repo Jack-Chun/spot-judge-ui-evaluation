@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Header Banner Text",
+        "first_image_state": "The Continental - Watch now",
+        "second_image_state": "Prime | Movies and TV Shows"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Product Details Table",
+        "first_image_state": "Separate label and value columns with distinct rows for each attribute",
+        "second_image_state": "Combined label and value in single lines, merging attribute labels and values into one column"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Battery Cell Composition Label",
+        "first_image_state": "Alkalive",
+        "second_image_state": "Alkaline"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Recommended Uses for Product Label",
+        "first_image_state": "Power Tool, TV Remote, Camera, Clock, Gaming Controller",
+        "second_image_state": "Power Tool, TV Remote, Camera, Clock Gaming Controller"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Top-right header text",
+        "first_image_state": "Displays 'The Continental - Watch now'",
+        "second_image_state": "Displays 'Prime | Movies and TV Shows'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 82.6800696849823,
+    "input_tokens": 6704,
+    "output_tokens": 3279,
+    "total_tokens": 9983,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

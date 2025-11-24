@@ -1,0 +1,86 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Right Sidebar Element Arrangement",
+        "first_image_state": "Vertical stack of \"Ready to Purchase?\" box, \"In stock\" indicator, price display, star ratings, quantity selector, \"Add to Cart\" button, \"Add to wishlist\" link, and social sharing icons",
+        "second_image_state": "Reorganized with price display above product description, star ratings above product description, \"Tell a friend\" section between product description and quantity selector, enlarged \"Add to Cart\" button, social sharing icons below \"Add to wishlist\" link, and \"In stock and ready to ship? YES\" status at bottom"
+      },
+      {
+        "category": "Component",
+        "component_name": "Ready to Purchase? Box",
+        "first_image_state": "Present as a blue-bordered rectangular box with white text",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Tell a Friend Section",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with email icon and social media icons"
+      },
+      {
+        "category": "Style",
+        "component_name": "Add to Cart Button Size",
+        "first_image_state": "Smaller with rounded corners",
+        "second_image_state": "Larger with increased width and height"
+      },
+      {
+        "category": "Style",
+        "component_name": "Price Display Position",
+        "first_image_state": "Below product description",
+        "second_image_state": "Above product description"
+      },
+      {
+        "category": "Style",
+        "component_name": "Star Ratings Position",
+        "first_image_state": "Below price display",
+        "second_image_state": "Above product description"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Ready to Purchase? Text",
+        "first_image_state": "Present as header text within blue box",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Right Column Element Order",
+        "first_image_state": "Elements ordered as 'Ready to Purchase?' box (blue background), price, star rating, product description (single paragraph), quantity selector, 'Add to Cart' button, 'Add to wishlist' link",
+        "second_image_state": "Elements ordered as price, star rating, product description (two paragraphs), 'Tell a friend' section (email, Facebook, Twitter icons), quantity selector, 'ADD TO CART' button, 'Add to wishlist' link"
+      },
+      {
+        "category": "Component",
+        "component_name": "Tell a Friend Section",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with email, Facebook, Twitter sharing icons"
+      },
+      {
+        "category": "Component",
+        "component_name": "Ready to Purchase Box",
+        "first_image_state": "Present with blue background",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Style",
+        "component_name": "Add to Cart Button Text Case",
+        "first_image_state": "Sentence case ('Add to Cart')",
+        "second_image_state": "All capital letters ('ADD TO CART')"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Product Description Structure",
+        "first_image_state": "Single merged paragraph combining feature descriptions",
+        "second_image_state": "Two separate paragraphs detailing garment rack features"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 116.13798809051514,
+    "input_tokens": 1842,
+    "output_tokens": 6875,
+    "total_tokens": 8717,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

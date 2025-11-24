@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Product Images (Paket Problemfreie Haut)",
+        "first_image_state": "Displays three product images (cream jar, brown jar, and another item) accompanied by greenery.",
+        "second_image_state": "Displays three new product images (pink flower, black box, and coconut-related items) accompanied by greenery."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Left Sidebar Categories",
+        "first_image_state": "Contains categories such as 'Marina Club', '100% reine \u00e4therische \u00d6le', 'B\u00e4der', etc., ending with 'Bl\u00fctensalate'.",
+        "second_image_state": "Includes the same categories plus additional sections 'Nat\u00fcrliche Inhaltsstoffe' and '100% Geld-R\u00fcckgabungsgarantie' below."
+      },
+      {
+        "category": "Component",
+        "component_name": "Payment Method Icons",
+        "first_image_state": "Displays multiple payment icons including PayPal, Palm Oil, ECO CERT, and Cruelty Free.",
+        "second_image_state": "Does not display any payment method icons in the previously occupied area."
+      },
+      {
+        "category": "Style",
+        "component_name": "Bruttopreis Text",
+        "first_image_state": "Shows '19,5 EUR' with a comma and no trailing zero.",
+        "second_image_state": "Shows '19,50 EUR' with a comma and a trailing zero."
+      },
+      {
+        "category": "Component",
+        "component_name": "Payment Method Icons",
+        "first_image_state": "Multiple payment method icons (including PayPal, Palm Oil, and others) displayed in the lower right section",
+        "second_image_state": "No payment method icons displayed in the lower right section"
+      },
+      {
+        "category": "Style",
+        "component_name": "Price Text",
+        "first_image_state": "Price displayed as '19,5 EUR' without a comma separator",
+        "second_image_state": "Price displayed as '19,50 EUR' with a comma separator"
+      },
+      {
+        "category": "Component",
+        "component_name": "Action Buttons",
+        "first_image_state": "Two action buttons displayed next to the price: 'WARENKORB' (shopping cart) and 'Favoriten' (favorites)",
+        "second_image_state": "Single 'WARENKORB' (shopping cart) button displayed next to the price"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 42.72908306121826,
+    "input_tokens": 1864,
+    "output_tokens": 2677,
+    "total_tokens": 4541,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

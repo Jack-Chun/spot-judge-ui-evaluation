@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Price Comparison Section",
+        "first_image_state": "Present with a list of retailer prices (Paperstone, Viking, Quidco, etc.)",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Delivery Information Container",
+        "first_image_state": "Horizontal green bar with 'Next working day delivery' text positioned below the price",
+        "second_image_state": "Circular green badge with 'Next working day delivery' text positioned near the price"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Add to Favourite Button Label",
+        "first_image_state": "'Add to Favourite'",
+        "second_image_state": "'Add Favourite'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Right Sidebar Lower Section",
+        "first_image_state": "Displays price comparison table with vendor options (Paperstone, Viking, QIS, Office Depot)",
+        "second_image_state": "Displays next working day delivery information and order deadline text"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 58.283178091049194,
+    "input_tokens": 2008,
+    "output_tokens": 2797,
+    "total_tokens": 4805,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

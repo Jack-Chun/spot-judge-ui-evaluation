@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Domain count / Promotional message",
+        "first_image_state": "Spar 25% p\u00e5 2-\u00e5rig tilmelding",
+        "second_image_state": "10 dom\u00e6ner"
+      },
+      {
+        "category": "Component",
+        "component_name": "Domain count / Promotional message",
+        "first_image_state": "Spar 25% p\u00e5 2-\u00e5rig tilmelding",
+        "second_image_state": "20 dom\u00e6ner"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 142.37713408470154,
+    "input_tokens": 1540,
+    "output_tokens": 7549,
+    "total_tokens": 9089,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

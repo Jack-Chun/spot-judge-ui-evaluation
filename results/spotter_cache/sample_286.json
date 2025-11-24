@@ -1,0 +1,98 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Order Section Structure",
+        "first_image_state": "Meal items stacked vertically followed by Special Instructions, Subtotal, My order total, My card balance, and payment buttons",
+        "second_image_state": "Location information section followed by a single item, Special Instructions, Subtotal/Tax/Total, Cancel Order notice, Balance, and new action buttons"
+      },
+      {
+        "category": "Component",
+        "component_name": "Location Display",
+        "first_image_state": "Not present",
+        "second_image_state": "Present with address, phone number, Carry Out status, and operating hours"
+      },
+      {
+        "category": "Component",
+        "component_name": "Multiple Meal Items",
+        "first_image_state": "Four meal items listed with Details links",
+        "second_image_state": "Single meal item listed with Details link"
+      },
+      {
+        "category": "Style",
+        "component_name": "Header Background",
+        "first_image_state": "Gray background",
+        "second_image_state": "Yellow background"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Top Right Action Label",
+        "first_image_state": "Remove Items",
+        "second_image_state": "Edit"
+      },
+      {
+        "category": "Component",
+        "component_name": "Payment Buttons",
+        "first_image_state": "Two buttons: Pay with credit card (white) and Pay with $one (red)",
+        "second_image_state": "Two buttons: Add Items (white) and Continue (white with red text)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Order Total Label",
+        "first_image_state": "My order total:",
+        "second_image_state": "Total"
+      },
+      {
+        "category": "Component",
+        "component_name": "Tax Line Item",
+        "first_image_state": "Not present",
+        "second_image_state": "Present between Subtotal and Total"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Cancel Order Notice",
+        "first_image_state": "Not present",
+        "second_image_state": "Present with explanatory text about order limits and pickup process"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Header action button",
+        "first_image_state": "Displays 'Remove Items' text",
+        "second_image_state": "Displays 'Edit' text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Restaurant details container",
+        "first_image_state": "Absent",
+        "second_image_state": "Present, containing address, phone number, and operating hours"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Order items list",
+        "first_image_state": "Contains four items (Chick-fil-A\u00ae Chicken Sandwich Meal, Spicy Sandwich Meal, 12 Chick-fil-A\u00ae Nuggets Meal, 8 Chick-fil-A\u00ae Nuggets Meal)",
+        "second_image_state": "Contains one item (Chick-fil-A\u00ae Chicken Biscuit)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Bottom payment buttons",
+        "first_image_state": "Displays 'Pay with credit card' and 'Pay with one' buttons",
+        "second_image_state": "Displays 'Add Items' and 'Continue' buttons"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Financial summary text",
+        "first_image_state": "Shows 'Subtotal $26.30', 'My order total: $28.47', and 'My card balance: $2.07'",
+        "second_image_state": "Shows 'Subtotal $2.25', 'Tax $0.19', 'Total $2.44', and 'Balance: $9.33'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 74.38374495506287,
+    "input_tokens": 2284,
+    "output_tokens": 3380,
+    "total_tokens": 5664,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Hero Section Text Structure",
+        "first_image_state": "Contains a short main headline ('A space to share, a world to gain'), a subheadline paragraph, and a 'Get started' button arranged vertically.",
+        "second_image_state": "Contains a longer main headline ('Host your entire place for 4 guests in Toronto and earn up to'), a 'Get started' button, and an additional link below the button, arranged vertically."
+      },
+      {
+        "category": "Style",
+        "component_name": "Hero Section Background",
+        "first_image_state": "Displays a person seated in a lush garden environment.",
+        "second_image_state": "Displays a modern house exterior set against a wooded backdrop."
+      },
+      {
+        "category": "Component",
+        "component_name": "Earnings Estimation Link",
+        "first_image_state": "Absent.",
+        "second_image_state": "Present below the 'Get started' button with the text 'How we estimate your earnings potential'."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Hero Section Text Blocks",
+        "first_image_state": "Single main heading followed by a subheading without dropdown arrows or numbered indicators",
+        "second_image_state": "Multiple text lines with dropdown arrows and a numbered circular indicator positioned above the first line"
+      },
+      {
+        "category": "Component",
+        "component_name": "Numbered Indicator (1)",
+        "first_image_state": "No numbered circular indicator",
+        "second_image_state": "Purple circular indicator with white number \"1\" positioned to the left of the first text line"
+      },
+      {
+        "category": "Component",
+        "component_name": "Dropdown Arrows",
+        "first_image_state": "No dropdown arrows adjacent to text lines",
+        "second_image_state": "Downward-pointing arrows adjacent to \"Host your entire place\" and \"for 4 guests\" text lines"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero Main Heading",
+        "first_image_state": "\"A space to share, a world to gain\" as the primary heading text",
+        "second_image_state": "\"Host your entire place\" as the primary heading text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero Subheading",
+        "first_image_state": "\"Hosting can help you turn your extra space into extra income and pursue more of what you love.\" as the secondary heading text",
+        "second_image_state": "\"and earn up to $2,204 CAD a month*\" as the secondary heading text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Additional Links in Middle and Right Columns",
+        "first_image_state": "\"Explore the world of hosting\" link positioned below the middle column text and \"How we support Hosts\" link positioned below the right column text",
+        "second_image_state": "No additional links below the descriptive text in the middle and right columns"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 107.9722089767456,
+    "input_tokens": 5104,
+    "output_tokens": 5867,
+    "total_tokens": 10971,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

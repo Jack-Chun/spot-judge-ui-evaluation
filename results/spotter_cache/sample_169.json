@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "CTA Button (Right Sidebar)",
+        "first_image_state": "Displays 'MAKE MONEY FLIPPING WEBSITES' in white text on a green background",
+        "second_image_state": "Displays 'JOIN US!' in white text on a green background"
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA Button (Right Sidebar)",
+        "first_image_state": "Displays 'MAKE MONEY FLIPPING WEBSITES' in green",
+        "second_image_state": "Displays 'JOIN US!' in green"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 22.9996178150177,
+    "input_tokens": 1432,
+    "output_tokens": 791,
+    "total_tokens": 2223,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

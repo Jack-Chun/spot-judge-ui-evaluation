@@ -1,0 +1,98 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Promotional Banner",
+        "first_image_state": "Large banner featuring a person and text \"GET COVERAGE FOR ACCIDENTAL DAMAGE JUST @\u20b92,094*/YEAR\"",
+        "second_image_state": "Replaced by a text block stating \"Get Coverage For Accidental Damage of Your Vehicle With HDFC ERGO Car Insurance Policy Buy Car Insurance Starting @\u20b92094/year*\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Vehicle Registration Label",
+        "first_image_state": "\"Enter Vehicle Registration Number\" (sentence case)",
+        "second_image_state": "\"ENTER VEHICLE REGISTRATION NUMBER\" (all caps)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Quote Button",
+        "first_image_state": "\"Get A FREE QUOTE NOW!\" (red button)",
+        "second_image_state": "\"GET A QUOTE\" (red button)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Secondary Action Buttons",
+        "first_image_state": "Gray buttons without arrows displaying \"PROCEED WITHOUT CAR NUMBER\" and \"RENEW EXISTING HDFC ERGO POLICY\"",
+        "second_image_state": "Buttons with right-pointing arrows displaying \"PROCEED WITHOUT CAR NUMBER \u2192\" and \"RENEW EXISTING HDFC ERGO POLICY \u2192\""
+      },
+      {
+        "category": "Layout",
+        "component_name": "Bottom Section Content",
+        "first_image_state": "Contains \"Why choose HDFC ERGO CAR INSURANCE\" heading and two icons (Cashless Garages, Claim-related)",
+        "second_image_state": "Contains a car illustration followed by three icons (100% Claim Settlement Ratio, 6700+ Cashless Garages, Live Chat)"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Main Content Structure",
+        "first_image_state": "Banner image at top, followed by heading with price, input field, primary button, secondary buttons, then 'Why choose' section with icons.",
+        "second_image_state": "Vertical stack of heading, subheading, input field, primary button, secondary buttons, car illustration, and bottom statistics."
+      },
+      {
+        "category": "Component",
+        "component_name": "Banner Image",
+        "first_image_state": "Present above main content, featuring a person and vehicles.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Component",
+        "component_name": "Car Illustration",
+        "first_image_state": "Absent.",
+        "second_image_state": "Present below secondary buttons, showing a red car."
+      },
+      {
+        "category": "Component",
+        "component_name": "'Why Choose' Section",
+        "first_image_state": "Present below secondary buttons, containing text and icons.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Style",
+        "component_name": "Primary Button",
+        "first_image_state": "Red rectangular button with white mixed-case text 'Get A FREE QUOTE NOW!'",
+        "second_image_state": "Red rectangular button with white uppercase text 'GET A QUOTE'."
+      },
+      {
+        "category": "Style",
+        "component_name": "Secondary Buttons",
+        "first_image_state": "Gray filled buttons with dark text.",
+        "second_image_state": "White outline buttons with black text."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "GET COVERAGE FOR ACCIDENTAL DAMAGE JUST @\u20b92,094*/YEAR",
+        "second_image_state": "Get Coverage For Accidental Damage of Your Vehicle With HDFC ERGO Car Insurance Policy"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Primary Button Text",
+        "first_image_state": "Get A FREE QUOTE NOW!",
+        "second_image_state": "GET A QUOTE"
+      },
+      {
+        "category": "Copy",
+        "component_name": "'Why Choose' Section Heading",
+        "first_image_state": "Why choose HDFC ERGO CAR INSURANCE",
+        "second_image_state": "Absent."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 87.44790172576904,
+    "input_tokens": 3494,
+    "output_tokens": 5706,
+    "total_tokens": 9200,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

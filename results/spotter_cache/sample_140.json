@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Promotional Feature Blocks",
+        "first_image_state": "Four green rectangular blocks with icons and text: \"Darmowa dostawa\" (truck icon), \"30 dni na zwrot\" (return icon), \"Dostawa w 24 godziny\" (clock icon), \"160+ sklep\u00f3w\" (people icon).",
+        "second_image_state": "Four rectangular blocks with different icons and text: \"Darmowa dostawa zamiast...\" (truck icon), \"Darmowy zwrot do 30 dni\" (return icon), \"Zam\u00f3w dzi\u015b wy\u015blij w 24h\" (clock icon), \"Profesjonalne doradztwo w 100+ sklepach\" (people icon)."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Promotional Feature Boxes",
+        "first_image_state": "Each promotional box displays revised text such as 'DARMOWA DOSTAWA', '30 DNI NA ZWROT', 'DOSTAWA W 24 GODZINY', '160+ SKLEP\u00d3W' with additional subtext.",
+        "second_image_state": "Each promotional box displays text such as 'Darmowa dostawa', 'Darmowy zwrot do 30 dni', 'Zam\u00f3w dzi\u015b wysy\u0142ka w 24h', 'Profesjonalne doradztwo w 100+ sklepach'."
+      },
+      {
+        "category": "Style",
+        "component_name": "Promotional Feature Icons",
+        "first_image_state": "Icons in promotional boxes have updated designs and colors (e.g., green delivery truck, modified return arrow, clock with new styling, people icon with altered appearance).",
+        "second_image_state": "Icons in promotional boxes use standard designs (e.g., delivery truck, return arrow, clock, people)."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 95.079763174057,
+    "input_tokens": 2240,
+    "output_tokens": 4935,
+    "total_tokens": 7175,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

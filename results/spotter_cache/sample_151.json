@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "CTA Button / Live Chat Widget",
+        "first_image_state": "Orange rectangular 'Get quick quote' button positioned at the bottom of the screen",
+        "second_image_state": "Circular 'ASK RIA LIVE CHAT' chat bubble positioned at the bottom right of the screen, replacing the previous CTA button"
+      },
+      {
+        "category": "Component",
+        "component_name": "Live Chat Widget",
+        "first_image_state": "Absent.",
+        "second_image_state": "Present as a circular floating button with 'ASK RIA LIVE CHAT' text and a person icon, positioned near the bottom right of the screen."
+      },
+      {
+        "category": "Component",
+        "component_name": "CTA Button",
+        "first_image_state": "Present as a rectangular orange button with 'Get quick quote' text, positioned at the bottom of the screen.",
+        "second_image_state": "Absent."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 34.33660912513733,
+    "input_tokens": 3824,
+    "output_tokens": 1271,
+    "total_tokens": 5095,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

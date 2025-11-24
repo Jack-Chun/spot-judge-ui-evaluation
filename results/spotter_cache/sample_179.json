@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Delivery Information Items",
+        "first_image_state": "Each delivery option displayed within a green rectangular box; 'Free Delivery above $150' showed 'Yes', 'Free 30 Days Return' showed 'Yes', 'Cash On Delivery' showed 'Tin'",
+        "second_image_state": "Each delivery option displayed as plain text without a green box; 'Delivery above $150*' showed 'Free', '30 Days Return' showed 'Free', 'Cash On Delivery' showed 'Yes'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Delivery Information Items",
+        "first_image_state": "Text included 'Free Delivery above $150', 'Free 30 Days Return', 'Cash On Delivery'",
+        "second_image_state": "Text included 'Delivery above $150*', '30 Days Return', 'Cash On Delivery'"
+      },
+      {
+        "category": "Style",
+        "component_name": "See More Button",
+        "first_image_state": "Displayed 'see more' with a right-pointing arrow icon",
+        "second_image_state": "Displayed 'see more' with a down-pointing arrow icon"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Product Image Container",
+        "first_image_state": "Larger, occupying approximately half of the page width, positioned more centrally, reducing space between the image and product details.",
+        "second_image_state": "Smaller, occupying approximately one-third of the page width, positioned to the left of the product details section."
+      },
+      {
+        "category": "Component",
+        "component_name": "Delivery Information Elements",
+        "first_image_state": "Interactive-style button elements (green background, white text) replacing the label-value text pairs.",
+        "second_image_state": "Static text elements with labels (e.g., 'Delivery above $150') followed by value text (e.g., 'Free')."
+      },
+      {
+        "category": "Style",
+        "component_name": "Delivery Buttons",
+        "first_image_state": "Green background with white text, rounded corners.",
+        "second_image_state": "Plain text with no background color, black text."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 114.80111598968506,
+    "input_tokens": 1662,
+    "output_tokens": 5467,
+    "total_tokens": 7129,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Benefit Bullet Bar",
+        "first_image_state": "Present as an orange horizontal bar below the main navigation",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Benefit Bullets",
+        "first_image_state": "Three bullet points with icons and text ('Absolutely no hidden charges', '88% of calls fixed on first visit', '24/7 emergency callouts') present in the Benefit Bullet Bar",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Style",
+        "component_name": "Product Section Background",
+        "first_image_state": "White background for the section containing 'Our Products' heading",
+        "second_image_state": "Yellow background for the same section"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Benefit Bullet Text",
+        "first_image_state": "Fixed text elements 'Absolutely no hidden charges', '88% of calls fixed on first visit', '24/7 emergency callouts' present in the Benefit Bullet Bar",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Navigation link 'Help and Advice'",
+        "first_image_state": "Text displays 'Help and Advice'",
+        "second_image_state": "Text displays 'Help and .dvice'"
+      },
+      {
+        "category": "Style",
+        "component_name": "Navigation bar background",
+        "first_image_state": "Orange background",
+        "second_image_state": "Light gray background"
+      },
+      {
+        "category": "Component",
+        "component_name": "Bullet points with checkmarks",
+        "first_image_state": "Three bullet points with checkmarks displaying service features",
+        "second_image_state": "Not present"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Content area below navigation bar",
+        "first_image_state": "Contains three bullet points before transitioning to the yellow 'Our Products' section",
+        "second_image_state": "Directly transitions to the yellow 'Our Products' section"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 87.3991687297821,
+    "input_tokens": 1864,
+    "output_tokens": 4386,
+    "total_tokens": 6250,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Product Benefits Bullet Points",
+        "first_image_state": "Four flat bullet points with no sub-points, each describing a distinct benefit (growth promotion, heart health, sensitive digestion, reseal feature)",
+        "second_image_state": "Five bullet points with a hierarchical structure: the third point contains three sub-points (suitability for heavy builds, skeletal support, no stomach upset)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Product Benefits Text Content",
+        "first_image_state": "Fixed text emphasizing growth promotion, heart health, sensitive digestion, and reseal feature",
+        "second_image_state": "Fixed text emphasizing complete feed, growth rate support, life stage suitability, skeletal development, and no stomach upset"
+      },
+      {
+        "category": "Component",
+        "component_name": "Feature icons below product image",
+        "first_image_state": "Icons representing 'growth', 'heart function', 'digestion', and 'sensitive stomach'",
+        "second_image_state": "Icons representing 'all ages', 'high energy', 'bone health', and 'dog suitability'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main product description text",
+        "first_image_state": "Describes JOSERA Kids as suitable from 8 weeks, improving metabolism, supporting heart function with taurine/L-carnitine, preventing digestive issues with a gentle recipe, and highlighting resealable packaging",
+        "second_image_state": "Describes JOSERA Kids as an all-round feed for young dogs of medium/large breeds, emphasizing high energy, balanced protein/fat for moderate growth and strong bones/joints"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Bottom link text",
+        "first_image_state": "Replaces the link with text about resealable bags: 'Mach' den Sack zu: Durch den Resealverschluss bei unseren 15 kg S\u00e4cken h\u00e4lt das Futter l\u00e4nger und das Aroma bleibt erhalten.'",
+        "second_image_state": "Includes a link labeled 'Zur Zusammensetzung/Futterempfehlung' (To composition/feed recommendation)"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 114.93716216087341,
+    "input_tokens": 1344,
+    "output_tokens": 5745,
+    "total_tokens": 7089,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

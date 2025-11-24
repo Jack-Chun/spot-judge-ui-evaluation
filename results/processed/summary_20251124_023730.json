@@ -1,0 +1,28 @@
+{
+  "spot_and_judge": {
+    "gpt-4o": {
+      "total_samples": 400,
+      "correct": 225,
+      "accuracy": 0.5625,
+      "FA": 0.455,
+      "SA": 0.67,
+      "AA": 0.5625,
+      "CA": 0.43,
+      "position_bias": 0.10750000000000001,
+      "total_paired": 200
+    }
+  },
+  "baseline_e2e": {
+    "gpt-4o": {
+      "total_samples": 400,
+      "correct": 221,
+      "accuracy": 0.5525,
+      "FA": 0.26,
+      "SA": 0.845,
+      "AA": 0.5525,
+      "CA": 0.225,
+      "position_bias": 0.2925,
+      "total_paired": 200
+    }
+  }
+}

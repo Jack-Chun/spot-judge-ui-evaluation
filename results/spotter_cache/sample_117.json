@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Try for Free Call-to-Action",
+        "first_image_state": "A large green rectangular button with white text 'Try for Free' centered below the main descriptive text.",
+        "second_image_state": "Replaced by a text input field labeled 'Your business email' and a smaller green rectangular button with white text 'Try for Free' positioned to the right of the input."
+      },
+      {
+        "category": "Component",
+        "component_name": "Email Input Field",
+        "first_image_state": "Absent",
+        "second_image_state": "Present as a text input with placeholder 'Your business email'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 23.982419967651367,
+    "input_tokens": 3376,
+    "output_tokens": 885,
+    "total_tokens": 4261,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

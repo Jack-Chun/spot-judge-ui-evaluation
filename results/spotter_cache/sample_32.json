@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "ONE Debit link",
+        "first_image_state": "Present in top right corner next to $0.00",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Breadcrumb second item",
+        "first_image_state": "Truncated as 'Pa...' (likely 'Patio & Outdoor Decor')",
+        "second_image_state": "Full text 'Patio & Outdoor Decor'"
+      },
+      {
+        "category": "Style",
+        "component_name": "Location display",
+        "first_image_state": "Shows 'Sacramento, 95829 - Sacramento Su...' with an arrow icon",
+        "second_image_state": "Shows 'Sacramento, 95829 Sacramento Supercenter' with a store icon"
+      },
+      {
+        "category": "Component",
+        "component_name": "Top nav items (Au..., stry)",
+        "first_image_state": "Present after 'Patio & Garden'",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Top Navigation Dropdown Indicators",
+        "first_image_state": "Dropdown arrows (\u25bc) visible on 'Departments' and 'Services' navigation items.",
+        "second_image_state": "No dropdown arrows visible on 'Departments' or 'Services' navigation items."
+      },
+      {
+        "category": "Style",
+        "component_name": "Search Button",
+        "first_image_state": "Blue background with white text.",
+        "second_image_state": "Yellow background with white text."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Grocery & Essentials Navigation Label",
+        "first_image_state": "'Groc-ery & Essentials' (hyphenated).",
+        "second_image_state": "'Grocery & Essentials' (no hyphen)."
+      },
+      {
+        "category": "Component",
+        "component_name": "Top Navigation Menu Items",
+        "first_image_state": "Includes additional items after 'Patio & Garden' (e.g., 'Au...', 'stry', 'ONE Debit').",
+        "second_image_state": "Ends with 'Patio & Garden' navigation item."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 110.5125675201416,
+    "input_tokens": 5104,
+    "output_tokens": 5822,
+    "total_tokens": 10926,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

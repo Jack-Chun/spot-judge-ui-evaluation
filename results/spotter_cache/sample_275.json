@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "CTA Button",
+        "first_image_state": "Displays 'TRIAL FOR FREE' text",
+        "second_image_state": "Displays 'SIGN UP FOR FREE' text"
+      },
+      {
+        "category": "Style",
+        "component_name": "CTA Button",
+        "first_image_state": "Green background with white text",
+        "second_image_state": "White background with dark text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA Button",
+        "first_image_state": "\"TRIAL FOR FREE\" text",
+        "second_image_state": "\"SIGN UP FOR FREE\" text"
+      },
+      {
+        "category": "Style",
+        "component_name": "CTA Button",
+        "first_image_state": "Green background with white text",
+        "second_image_state": "White background with black text"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 44.8966588973999,
+    "input_tokens": 2448,
+    "output_tokens": 2224,
+    "total_tokens": 4672,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

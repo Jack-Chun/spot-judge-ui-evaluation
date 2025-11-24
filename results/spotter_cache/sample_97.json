@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Filter navigation bar",
+        "first_image_state": "Contains filter options: All homes, Private rooms, Lake, New, Cabins, Trending, Beachfront, Amazing pools, Amazing views, Vineyards, Tiny homes, Countryside",
+        "second_image_state": "Contains filter options: All homes, Lakefront, Beachfront, Tiny homes, Amazing views, Cabins, Amazing pools, Trending, Private rooms, Farms, Countryside, Design"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Filter navigation bar",
+        "first_image_state": "Filters arranged in a horizontal sequence with consistent spacing between items",
+        "second_image_state": "Filters arranged in a horizontal sequence with altered spacing and repositioned items compared to first image"
+      },
+      {
+        "category": "Component",
+        "component_name": "Navigation Filter Bar",
+        "first_image_state": "Displays categories: All homes, Private rooms, Lake, New, Cabins, Trending, Beachfront, Amazing pools, Amazing views, Vineyards, Tiny homes, Countryside",
+        "second_image_state": "Displays categories: All homes, Lakefront, Beachfront, Tiny homes, Amazing views, Cabins, Amazing pools, Trending, Private rooms, Farms, Countryside, Design"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 39.212876081466675,
+    "input_tokens": 6544,
+    "output_tokens": 1708,
+    "total_tokens": 8252,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

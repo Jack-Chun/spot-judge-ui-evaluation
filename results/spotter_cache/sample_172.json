@@ -1,0 +1,80 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Left Content Column",
+        "first_image_state": "Present with promotional text and client logos, positioned on the left side of the page",
+        "second_image_state": "Absent, resulting in the form being centered horizontally"
+      },
+      {
+        "category": "Component",
+        "component_name": "Client Logos Section",
+        "first_image_state": "Visible with multiple brand logos (DeliXL, Pelican Rouge, Belisol, Sales Care, blast digital signage, Online Leadbox)",
+        "second_image_state": "Not visible"
+      },
+      {
+        "category": "Style",
+        "component_name": "Main Content Background",
+        "first_image_state": "Teal with subtle patterned design",
+        "second_image_state": "Solid white"
+      },
+      {
+        "category": "Style",
+        "component_name": "Main Headline Text",
+        "first_image_state": "Large font size, left-aligned",
+        "second_image_state": "Smaller font size, centered"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Top Header Text",
+        "first_image_state": "No 'Nu uitproberen' text, only 'Teamleader' logo",
+        "second_image_state": "'Nu uitproberen' text added below the 'Teamleader' logo"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Headline Text",
+        "first_image_state": "Includes 'nu' (now): 'Probeer het nu gratis en vrijblijvend uit!'",
+        "second_image_state": "Excludes 'nu': 'Probeer het gratis en vrijblijvend uit.'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Subtext",
+        "first_image_state": "Present: 'Meer dan 7000 mkbl'ers werken slimmer met Teamleader'",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Form Container",
+        "first_image_state": "Right-aligned within a white card with a subtle border, accompanied by additional content (logos, text) on the left.",
+        "second_image_state": "Centered on the page, occupying most of the horizontal space, with no surrounding content."
+      },
+      {
+        "category": "Component",
+        "component_name": "Logo Section",
+        "first_image_state": "Present; includes multiple company logos (e.g., DeliXL, Pelican Rouge, Belisol) and marketing service labels (e.g., SALES CARE, blast digital signage) below the main heading.",
+        "second_image_state": "Absent; no logo components present."
+      },
+      {
+        "category": "Style",
+        "component_name": "Form Visual Styling",
+        "first_image_state": "Contained within a white card with a light border, creating a distinct modular separation from the rest of the page.",
+        "second_image_state": "Inline with the page background (white), no distinct border or separation from surrounding content."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "Longer, more descriptive heading 'Zelf ervaren hoe je met Teamleader sneller werkt? Probeer het nu gratis en vrijblijvend uit!' replacing the original header and subheading.",
+        "second_image_state": "Short header 'Nu uitproberen' followed by a subheading about trying Teamleader for free."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 74.75373578071594,
+    "input_tokens": 2304,
+    "output_tokens": 3862,
+    "total_tokens": 6166,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

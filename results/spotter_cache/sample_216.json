@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Right Sidebar Widget",
+        "first_image_state": "Trustpilot review section displaying 'Goed' header, star ratings, and customer testimonials",
+        "second_image_state": "Email subscription section displaying 'Mis geen speciale acties!' header, email input field, and 'Inschrijven' button"
+      },
+      {
+        "category": "Component",
+        "component_name": "Right Sidebar Content Block",
+        "first_image_state": "Trustpilot review section containing 'Goed' header, Trustpilot rating display, customer review count, selected reviews list, and Trustpilot logo",
+        "second_image_state": "Newsletter subscription section containing 'Mis geen speciale acties!' header, email input field, and 'Inschrijven' button"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 20.24946427345276,
+    "input_tokens": 5264,
+    "output_tokens": 1003,
+    "total_tokens": 6267,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

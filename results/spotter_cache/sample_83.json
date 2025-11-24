@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Asterisk indicators",
+        "first_image_state": "Red asterisks visible next to 'Color' and 'Set with gift box' labels in personalization section",
+        "second_image_state": "Asterisks removed; 'Color' and 'Set with gift box' labels appear without asterisks"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Personalization dropdown labels",
+        "first_image_state": "The label for the first personalization dropdown is 'Personalizatio Color*' and the label for the second dropdown is 'Set with box*'",
+        "second_image_state": "The label for the first personalization dropdown is 'Personalization/Color' and the label for the second dropdown is 'Set with gift box'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 26.24935507774353,
+    "input_tokens": 6064,
+    "output_tokens": 846,
+    "total_tokens": 6910,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

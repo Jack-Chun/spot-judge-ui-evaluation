@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Call-to-action buttons",
+        "first_image_state": "Left button displays 'Try demo for free!' in red; right button displays 'Buy now' in blue",
+        "second_image_state": "Left button displays 'Try demo' in red; right button displays 'Buy now for $19.99' in blue"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Try demo button",
+        "first_image_state": "Displays 'Try demo for free!' with a play icon",
+        "second_image_state": "Displays 'Try demo' with a play icon"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Buy now button",
+        "first_image_state": "Displays 'Buy now' with a plus icon",
+        "second_image_state": "Displays 'Buy now for $19.99' with a plus icon"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 26.149106979370117,
+    "input_tokens": 1796,
+    "output_tokens": 1070,
+    "total_tokens": 2866,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Shop by Interest Section",
+        "first_image_state": "Contains a 'Shop by interest' section with six category cards (Mid Century Modern, Woodworking, Do It Yourself, Coffee, Minimalist, Wine) positioned below the furniture category navigation.",
+        "second_image_state": "Does not contain the 'Shop by interest' section; the area previously occupied by this section now displays additional product listings."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Section ordering",
+        "first_image_state": "Category tiles followed by 'Shop by interest' section, then 'Find something you love' section",
+        "second_image_state": "Category tiles followed directly by 'Find something you love' section"
+      },
+      {
+        "category": "Component",
+        "component_name": "Shop by interest section",
+        "first_image_state": "Present, displaying categories such as Mid Century Modern, Woodworking, Do It Yourself, Coffee, Minimalist, Wine",
+        "second_image_state": "Absent"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 87.3023030757904,
+    "input_tokens": 5264,
+    "output_tokens": 4246,
+    "total_tokens": 9510,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

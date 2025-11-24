@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Add to Cart Button",
+        "first_image_state": "Contains the text \"+ In winkelwagen\"",
+        "second_image_state": "Contains the text \"+ \ud83d\uded2\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Wish List Button",
+        "first_image_state": "Contains the truncated text \"Op verlang\"",
+        "second_image_state": "Contains the full text \"Op verlanglijstje\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Add to Cart Button",
+        "first_image_state": "Yellow button with \"+ In winkelwagen\" text",
+        "second_image_state": "Yellow button with \"+ \ud83d\uded2\" text"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 56.82697677612305,
+    "input_tokens": 1576,
+    "output_tokens": 2171,
+    "total_tokens": 3747,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

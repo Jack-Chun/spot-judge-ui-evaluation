@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Sign-in prompt text",
+        "first_image_state": "Absent below the 'TRY IT NOW' button",
+        "second_image_state": "Present as 'Have an account? Sign In' below the 'TRY IT NOW' button"
+      },
+      {
+        "category": "Component",
+        "component_name": "Sign In link",
+        "first_image_state": "Absent",
+        "second_image_state": "Present below the 'TRY IT NOW' button"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 14.796617031097412,
+    "input_tokens": 4240,
+    "output_tokens": 418,
+    "total_tokens": 4658,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Left Sidebar Product Categories",
+        "first_image_state": "Categories include Gifts, Automotive, Decorating, Building materials, Decorating Tools, Draught exclusion, Fillers, Paint, Sealants, Solvents and cleaners, Woodcare, Fixings, Garden, Hand Tools, Home & Leisure, Lighting & Electrical.",
+        "second_image_state": "Additional categories Power Tool Accessories and Power Tools added below Lighting & Electrical."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Main Product Display Area",
+        "first_image_state": "Displays a top row of four product cards followed by a bottom row of four product cards.",
+        "second_image_state": "Replaced by a Refine Your Search section containing Price, Brand, Type, and Application filter options, with a subsequent row of four product cards."
+      },
+      {
+        "category": "Component",
+        "component_name": "View Toggle",
+        "first_image_state": "No view toggle options visible.",
+        "second_image_state": "Added view toggle with grid and list display options."
+      },
+      {
+        "category": "Component",
+        "component_name": "Refine Your Search Section",
+        "first_image_state": "Absent from the page.",
+        "second_image_state": "Present as a structured container with filter groups for Price, Brand, Type, and Application positioned below the navigation breadcrumb."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 80.70122790336609,
+    "input_tokens": 4912,
+    "output_tokens": 3877,
+    "total_tokens": 8789,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

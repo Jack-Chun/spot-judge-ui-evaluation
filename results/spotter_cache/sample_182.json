@@ -1,0 +1,74 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Right Sidebar Container",
+        "first_image_state": "Present, occupying the right portion of the page, containing 'Uw veiligheid', 'Velen gingen voor', and 'Eduhub is bekend van:' sections.",
+        "second_image_state": "Absent, main form area expands to fill the entire width of the page."
+      },
+      {
+        "category": "Component",
+        "component_name": "Feedback Section ('Velen gingen voor')",
+        "first_image_state": "Present, displaying three bullet points about visitor feedback.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Component",
+        "component_name": "Partners Section ('Eduhub is bekend van:')",
+        "first_image_state": "Present, displaying logos of intermediar.nl, Trouw, nu.nl, and another partner logo.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Pre-form Informational Text",
+        "first_image_state": "Shorter text: 'Met dit formulier kunt u direct informatie aanvragen over de cursus Human Resource Management B van MK Opleidingen BV.'",
+        "second_image_state": "Longer text including additional sentences: 'Met dit formulier kunt u direct informatie aanvragen over de cursus Human Resource Management B van MK Opleidingen BV. Eduhub stuurde u aanmelding direct door naar de juiste persoon bij MK Opleidingen BV. Gaan uiteraard verder met uw gegevens.'"
+      },
+      {
+        "category": "Style",
+        "component_name": "Form Field Optional/Required Indicators",
+        "first_image_state": "Uses '(optioneel)' text to mark optional fields (e.g., Straat & Huisnummer:, Postcode:, Plaats:).",
+        "second_image_state": "Uses '*' symbols to mark required fields for the same fields."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Right Sidebar Structure",
+        "first_image_state": "Contains multiple stacked sections: 'Uw veiligheid' (with three bullet points), 'Velen gingen voor' (feedback items), and 'Eduhub is bekend van:' (partner organization logos).",
+        "second_image_state": "Contains a single section titled 'Uw veiligheid' with four bullet points about data usage and a green shield icon."
+      },
+      {
+        "category": "Component",
+        "component_name": "IMK Opleidingen Information Section",
+        "first_image_state": "Absent.",
+        "second_image_state": "Present, displaying the IMK Opleidingen logo and text about Eduhub starting courses through MK Opleidingen BV."
+      },
+      {
+        "category": "Style",
+        "component_name": "Form Field Optional Labels",
+        "first_image_state": "Optional labels '(optioneel)' displayed next to Achternaam, Straat & Huisnummer, E-mailadres, and Telefoon fields.",
+        "second_image_state": "No optional labels visible on form fields (e.g., Achternaam, Straat & Huisnummer)."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Top Navigation Dropdown Label",
+        "first_image_state": "Displays a dropdown menu labeled 'Sluit categorie'.",
+        "second_image_state": "Displays a dropdown menu (likely labeled 'Zoek op categorie')."
+      },
+      {
+        "category": "Copy",
+        "component_name": "'Uw veiligheid' Bullet Points",
+        "first_image_state": "Three bullet points: 'We gebruiken uw gegevens alleen om deze aanvraag te verwerken.', 'De gegevens worden niet apart opgeslagen of aan derden verstrekt.', 'U ontvangt via e-mail of post meer informatie van de aanbieder.'",
+        "second_image_state": "Four bullet points: 'We gebruiken uw gegevens alleen om deze aanvraag te verwerken.', 'De gegevens worden niet apart opgeslagen of aan derden verstrekt.', 'U ontvangt via e-mail of post meer informatie van de aanbieder.', 'Lees ook onze privacyverklaring voor meer informatie.'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 112.98299479484558,
+    "input_tokens": 2716,
+    "output_tokens": 5148,
+    "total_tokens": 7864,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

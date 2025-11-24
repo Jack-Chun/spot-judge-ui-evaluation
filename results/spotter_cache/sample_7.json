@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Email input field (hero section)",
+        "first_image_state": "Present below the 'Unlimited movies, TV shows, and more.' heading, adjacent to the 'TRY IT NOW' button",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Layout",
+        "component_name": "TRY IT NOW button (hero section)",
+        "first_image_state": "Positioned to the right of the email input field",
+        "second_image_state": "Positioned in the horizontal space previously occupied by the email input field, aligned with the heading text"
+      },
+      {
+        "category": "Component",
+        "component_name": "TRY IT NOW button ('Enjoy on your TV' section)",
+        "first_image_state": "Absent below the section text",
+        "second_image_state": "Present below the section text"
+      },
+      {
+        "category": "Component",
+        "component_name": "TRY IT NOW button ('Download your shows' section)",
+        "first_image_state": "Absent below the section text",
+        "second_image_state": "Present below the section text"
+      },
+      {
+        "category": "Component",
+        "component_name": "TRY IT NOW button ('Watch everywhere' section)",
+        "first_image_state": "Absent below the section text",
+        "second_image_state": "Present below the section text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Email input field (FAQ section)",
+        "first_image_state": "Present below the FAQ questions, adjacent to the 'TRY IT NOW' button",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Email Input Field",
+        "first_image_state": "Present with placeholder 'Email address' above the 'TRY IT NOW' button",
+        "second_image_state": "Not present in the top section"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Top Section Button Placement",
+        "first_image_state": "'TRY IT NOW' button positioned adjacent to the email input field",
+        "second_image_state": "'TRY IT NOW' button positioned below the main heading text"
+      },
+      {
+        "category": "Component",
+        "component_name": "'Enjoy on your TV' TRY IT NOW Button",
+        "first_image_state": "Not present",
+        "second_image_state": "Present below the section text"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 113.64315390586853,
+    "input_tokens": 3664,
+    "output_tokens": 4395,
+    "total_tokens": 8059,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

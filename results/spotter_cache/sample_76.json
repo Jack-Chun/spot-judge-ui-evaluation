@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Quantity Selector Buttons",
+        "first_image_state": "Button labeled '1 x \u20ac 74,95' is selected, positioned left of '2 x \u20ac 67,46'",
+        "second_image_state": "Button labeled '\u20ac 14,95' is selected, positioned left of '2 x \u20ac 67,46'"
+      },
+      {
+        "category": "Style",
+        "component_name": "Add to Cart Button",
+        "first_image_state": "Yellow background with white text, cart icon, and heart icon to the right",
+        "second_image_state": "Yellow background with white text, cart icon, and heart icon below"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Quantity selection button (first option)",
+        "first_image_state": "Displays '1 x \u20ac74,95' in a gray-bordered button",
+        "second_image_state": "Displays '1 x 14,95' in a blue-bordered button"
+      },
+      {
+        "category": "Style",
+        "component_name": "Quantity selection button (first option)",
+        "first_image_state": "Gray background with black text and gray border",
+        "second_image_state": "Blue background with white text and blue border"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 53.83358907699585,
+    "input_tokens": 4944,
+    "output_tokens": 2342,
+    "total_tokens": 7286,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

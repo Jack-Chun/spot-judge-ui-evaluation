@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Middle Section Call to Action Buttons",
+        "first_image_state": "Two buttons present: orange 'Buy Now' and blue 'Free Trial'",
+        "second_image_state": "One button present: orange 'Buy Now'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Bottom Section Call to Action Buttons",
+        "first_image_state": "Two buttons present: orange 'Buy Now' and blue 'Free Trial'",
+        "second_image_state": "One button present: orange 'Buy Now'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Top Navigation Buttons",
+        "first_image_state": "Two buttons\u2014'Buy Now' (orange) and 'Free Trial' (blue)\u2014positioned among the header navigation links.",
+        "second_image_state": "A single orange 'Buy Now' button positioned among the header navigation links."
+      },
+      {
+        "category": "Component",
+        "component_name": "Hero Section Call-to-Action",
+        "first_image_state": "Two buttons\u2014'Buy Now' (orange) and 'Free Trial' (blue)\u2014with 'Starting at $8.16/mo' below the Buy Now button and 'Try free for 30 days. No credit card required. Sign-up takes only 25 secs.' below the Free Trial button.",
+        "second_image_state": "A single orange 'Buy Now' button with 'Starting at $8.16/mo' below it."
+      },
+      {
+        "category": "Component",
+        "component_name": "Bottom Section Call-to-Action",
+        "first_image_state": "Two buttons\u2014'Buy Now' (orange) and 'Free Trial' (blue)\u2014with 'Starting at $8.16/mo' below the Buy Now button and 'Try free for 30 days. No credit card required. Sign-up takes only 25 secs.' below the Free Trial button.",
+        "second_image_state": "A single orange 'Buy Now' button with 'Starting at $8.16/mo' below it."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 103.10740208625793,
+    "input_tokens": 3222,
+    "output_tokens": 4610,
+    "total_tokens": 7832,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

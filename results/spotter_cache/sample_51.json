@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Popular pick label",
+        "first_image_state": "Visible above product title with accompanying text",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Restrictions apply text",
+        "first_image_state": "Correctly spelled as \"Restrictions apply\"",
+        "second_image_state": "Misspelled as \"Resrictions apply\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Walmart+ Dropdown Indicator",
+        "first_image_state": "Blue dropdown indicator present next to Walmart+ navigation link",
+        "second_image_state": "No dropdown indicator next to Walmart+ navigation link"
+      },
+      {
+        "category": "Component",
+        "component_name": "Popular Pick Badge",
+        "first_image_state": "Popular pick badge with text 'for \"outdoor pillows blue\"' displayed below product image",
+        "second_image_state": "No popular pick badge displayed below product image"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 63.929863929748535,
+    "input_tokens": 6544,
+    "output_tokens": 2561,
+    "total_tokens": 9105,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

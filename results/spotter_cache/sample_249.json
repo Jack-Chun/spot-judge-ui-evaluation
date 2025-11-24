@@ -1,0 +1,20 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Customer Review Text",
+        "first_image_state": "Review text stating 'No bad comments, a great first experience at Royal Discount, however, A very easy online shopping experience. Very light in the wallet too.' with date '- Dec 5th 2012'",
+        "second_image_state": "Review text stating 'I was unsure of the product, and I got the help I needed to know which product to purchase, as well as saving money.' with date '- Jul 26th 2012'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 42.990487813949585,
+    "input_tokens": 3808,
+    "output_tokens": 1773,
+    "total_tokens": 5581,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Form Element Order",
+        "first_image_state": "Car number input field followed by mobile number input field followed by authorization checkbox followed by quote button",
+        "second_image_state": "Car number input field followed by 'Got a new vehicle' link followed by mobile number input field followed by quote button"
+      },
+      {
+        "category": "Component",
+        "component_name": "Authorization Checkbox",
+        "first_image_state": "Present and checked with text about authorizing communications",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "'Got a new vehicle' Link",
+        "first_image_state": "Absent",
+        "second_image_state": "Present below car number input field"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Header Headline",
+        "first_image_state": "Get a Car Insurance with 100% Settlement Ratio^",
+        "second_image_state": "HDFC ERGO Car Insurance 100% Claim Settlement Ratio^"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Car Number Input Placeholder",
+        "first_image_state": "eg. MH 03 AB 1212",
+        "second_image_state": "ENTER CAR NO. EG: (MH 03 AB 1212)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Mobile Number Input Placeholder",
+        "first_image_state": "Enter your 10-digit phone number",
+        "second_image_state": "ENTER MOBILE NUMBER"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Quote Button Text",
+        "first_image_state": "GET A FREE QUOTE NOW!",
+        "second_image_state": "GET A QUOTE"
+      },
+      {
+        "category": "Copy",
+        "component_name": "'Why Choose' Heading",
+        "first_image_state": "Why choose HDFC ERGO PRIVATE CAR INSURANCE",
+        "second_image_state": "WHY CHOOSE HDFC ERGO CAR INSURANCE?"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Cashless Garages Text",
+        "first_image_state": "7,700+ Cashless Garages Network^",
+        "second_image_state": "6700+ CASHLESS GARAGES NETWORK^"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Claim Settlement Text",
+        "first_image_state": "100% Claim Settlement Ratio^",
+        "second_image_state": "100% CLAIM SETTLEMENT RATIO^"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Pay as You Drive Text",
+        "first_image_state": "Pay as You Drive",
+        "second_image_state": "PAY AS YOU DRIVE KILOMETER BENEFIT^^"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Overnight Text",
+        "first_image_state": "Overnight",
+        "second_image_state": "OVERNIGHT VEHICLE REPAIRS\u00af"
+      },
+      {
+        "category": "Component",
+        "component_name": "Cashless Garages Icon",
+        "first_image_state": "Garage with tools icon",
+        "second_image_state": "Garage with car icon"
+      },
+      {
+        "category": "Component",
+        "component_name": "Claim Settlement Icon",
+        "first_image_state": "Shield with checkmark icon",
+        "second_image_state": "Clipboard with checkmarks icon"
+      },
+      {
+        "category": "Component",
+        "component_name": "Pay as You Drive Icon",
+        "first_image_state": "Hand holding money icon",
+        "second_image_state": "Key/fob icon"
+      },
+      {
+        "category": "Component",
+        "component_name": "Overnight Icon",
+        "first_image_state": "Tools icon",
+        "second_image_state": "Clock with wrench icon"
+      },
+      {
+        "category": "Component",
+        "component_name": "Header Visual Element",
+        "first_image_state": "Includes an image of a person alongside text 'Get a Car Insurance with 100% Settlement Ratio^'",
+        "second_image_state": "No image; text 'HDFC ERGO Car Insurance' and '100% Claim Settlement Ratio^'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Form Input Sequence",
+        "first_image_state": "Car number input field, followed by mobile number input field (with +91 prefix), followed by a checkbox, followed by 'GET A FREE QUOTE NOW!' button",
+        "second_image_state": "Car number input field, followed by 'Got a new vehicle' link, followed by mobile number input field and 'GET A QUOTE' button"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Call-to-Action Button",
+        "first_image_state": "'GET A FREE QUOTE NOW!'",
+        "second_image_state": "'GET A QUOTE'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Section Heading",
+        "first_image_state": "'Why choose HDFC ERGO PRIVATE CAR INSURANCE'",
+        "second_image_state": "'WHY CHOOSE HDFC ERGO CAR INSURANCE?'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Benefit Icons",
+        "first_image_state": "Four different icons representing garage network, claim settlement, pay-as-you-drive, and overnight repairs (distinct shapes and designs)",
+        "second_image_state": "Four icons representing garage network, claim settlement, pay-as-you-drive, and overnight repairs"
+      },
+      {
+        "category": "Style",
+        "component_name": "Section Heading Typography",
+        "first_image_state": "Title case (first letter of each word capitalized)",
+        "second_image_state": "All uppercase letters"
+      },
+      {
+        "category": "Component",
+        "component_name": "Plans Section",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with text 'CAR INSURANCE PLANS' and a red underline"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 129.84296560287476,
+    "input_tokens": 3824,
+    "output_tokens": 6983,
+    "total_tokens": 10807,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

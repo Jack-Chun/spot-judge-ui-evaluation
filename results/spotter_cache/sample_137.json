@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Main descriptive paragraph under 'Used Plastics Machinery & Equipment'",
+        "first_image_state": "Contains specific mentions of machinery types: 'single-screw extruders, twin-screw extruders, horizontal injection molders, granulators, shredders, and more'",
+        "second_image_state": "Contains generalized categorization: 'View our selection of plastics processing equipment, categorized by equipment type and function. Plastic equipment in stock includes: Blow Molding, Extrusion, Injection Molding, Support Equipment, Potomolding, Size reduction, and Thermoforming'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Descriptive Text",
+        "first_image_state": "Text describing inventory including single-screw extruders, twin-screw extruders, horizontal injection molders, granulators, shredders, and more, with a direct contact prompt.",
+        "second_image_state": "Text describing equipment categories including Blow Molding, Extrusion, Injection Molding, Support Equipment, Potomolding, Size reduction, and Thermoforming, with an invitation to contact for unavailable items."
+      },
+      {
+        "category": "Component",
+        "component_name": "Left Column Equipment List",
+        "first_image_state": "Items include Air Compressors, Baler, Blow Molding - Injection Blow, Blowers, Centrifuges, Cnc Machines, Crammer Feeders.",
+        "second_image_state": "Items include Air Compressors, Baler, Blow Molding - Injection Blow, Blowers, Centrifuges, Cnc Machines."
+      },
+      {
+        "category": "Component",
+        "component_name": "Middle Column Equipment List",
+        "first_image_state": "Items include Air Knife, Blow Molding - Accumulator Head, Blow Molding - Reciprocating Screw, Box Dumpers & Tilters, Chillers & Cooling Systems, Conveyor - Belt, Cyclone.",
+        "second_image_state": "Items include Air Knife, Blow Molding - Accumulator Head, Blow Molding - Reciprocating Screw, Box Dumpers & Tilters, Chillers & Cooling Systems, Conveyor - Belt."
+      },
+      {
+        "category": "Component",
+        "component_name": "Right Column Equipment List",
+        "first_image_state": "Items include Bagmaking Machinery, Blow Molding - Continuous, Blow Molding - Stretch, Braider, Classifier Screener, Conveyor - Vacuum, Decorating.",
+        "second_image_state": "Items include Bagmaking Machinery, Blow Molding - Continuous, Blow Molding - Stretch, Braider, Classifier Screener, Conveyor - Vacuum."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 53.862086057662964,
+    "input_tokens": 3724,
+    "output_tokens": 2493,
+    "total_tokens": 6217,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

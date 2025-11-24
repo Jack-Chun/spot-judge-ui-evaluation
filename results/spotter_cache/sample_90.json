@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Calendar Navigation Arrows",
+        "first_image_state": "Left and right navigation arrows displayed as full-width chevrons (\u2190 \u2192)",
+        "second_image_state": "Left and right navigation arrows displayed as half-width angle brackets (< >)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Review Metrics Layout",
+        "first_image_state": "Review metrics organized into two columns: left column contains Cleanliness (4.9), Communication (5.0), Check-in (5.0); right column contains Accuracy (4.9), Location (4.9), Value (4.9)",
+        "second_image_state": "Review metrics reorganized into two columns: left column contains Communication (5.0), Accuracy (4.9), Location (4.9); right column contains Check-in (5.0), Cleanliness (4.9), Value (4.9)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Review Categories",
+        "first_image_state": "Ordered as Cleanliness, Communication, Check-in, Accuracy, Location, Value",
+        "second_image_state": "Ordered as Communication, Accuracy, Location, Check-in, Cleanliness, Value"
+      },
+      {
+        "category": "Style",
+        "component_name": "Calendar Navigation Arrows",
+        "first_image_state": "Left arrow is \"\u2190\", right arrow is \"\u2192\"",
+        "second_image_state": "Left arrow is \"<\", right arrow is \">\""
+      },
+      {
+        "category": "Style",
+        "component_name": "Calendar Date Cells",
+        "first_image_state": "Lighter, less prominent numbers with faded background",
+        "second_image_state": "Dark, prominent numbers with some highlighted dates"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 62.12003016471863,
+    "input_tokens": 5744,
+    "output_tokens": 2384,
+    "total_tokens": 8128,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

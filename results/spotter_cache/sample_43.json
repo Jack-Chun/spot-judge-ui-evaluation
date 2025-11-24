@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "In stock indicator",
+        "first_image_state": "Present as a checkmark icon adjacent to the price information",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Product Title",
+        "first_image_state": "Includes the phrase \", Gift For Boyfriend\" with a preceding comma separating \"Engraved Wallet\" and \"Gift For Boyfriend\"",
+        "second_image_state": "Includes the phrase \"Engraved Wallet Gift For Boyfriend\" without a preceding comma"
+      },
+      {
+        "category": "Component",
+        "component_name": "Inventory Status Indicator",
+        "first_image_state": "An \"In stock\" indicator with a checkmark is present near the price",
+        "second_image_state": "No inventory status indicator present near the price"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 50.34369707107544,
+    "input_tokens": 5424,
+    "output_tokens": 2289,
+    "total_tokens": 7713,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

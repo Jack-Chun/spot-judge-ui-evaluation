@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Leftmost featured article",
+        "first_image_state": "Displays a large map titled 'Early Triassic 237 million years ago' positioned on the left side of the main content area",
+        "second_image_state": "Displays an image titled 'Swashbuckling Sisters: 6 Lady Pirates' positioned on the left side of the main content area"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Early Triassic map",
+        "first_image_state": "Positioned on the left side of the main content area",
+        "second_image_state": "Positioned in the top-right corner of the main content area"
+      },
+      {
+        "category": "Component",
+        "component_name": "Article 'How Deadly Is Quicksand?'",
+        "first_image_state": "Present in the bottom row, left of '7 Monarchs with Unfortunate Nicknames'",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Article '7 Monarchs with Unfortunate Nicknames'",
+        "first_image_state": "Present in the bottom row, right of 'How Deadly Is Quicksand?'",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Article 'Why Is Pluto No Longer a Planet?'",
+        "first_image_state": "Absent",
+        "second_image_state": "Present in the top-middle of the main content area"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Article 'Why Do Movie Theaters Serve Popcorn?'",
+        "first_image_state": "Positioned in the top-right of the main content area",
+        "second_image_state": "Positioned in the bottom-right of the main content area"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Article 'Name That Artist'",
+        "first_image_state": "Positioned in the top-right, adjacent to 'Why Do Movie Theaters Serve Popcorn?'",
+        "second_image_state": "Positioned in the bottom-left, adjacent to 'Why Is Pluto No Longer a Planet?'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Article Cards",
+        "first_image_state": "Arranged in a grid with top row (left: Early Triassic, middle: Why Do Movie Theaters Serve Popcorn?, right: Name That Artist) and bottom row (left: Spotting a Supercontinent..., middle: How Deadly Is Quicksand?, right: 7 Monarchs...)",
+        "second_image_state": "Arranged in a grid with top row (left: Swashbuckling Sisters, middle: Why Is Pluto No Longer a Planet?, right: Spotting a Supercontinent...) and bottom row (left: Name That Artist, middle: Why Do Movie Theaters Serve Popcorn?, right: another article)"
+      },
+      {
+        "category": "Style",
+        "component_name": "Search Button",
+        "first_image_state": "Gray background with dark magnifying glass icon",
+        "second_image_state": "Blue background with white magnifying glass icon"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 111.28547191619873,
+    "input_tokens": 1980,
+    "output_tokens": 6445,
+    "total_tokens": 8425,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

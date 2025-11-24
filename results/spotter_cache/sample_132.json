@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Middle Content Block",
+        "first_image_state": "Contains a quote ('Yours is the only newsletter that I actually read.') followed by explanatory text about subscriber feedback.",
+        "second_image_state": "Contains a heading ('Could You Use A Free Plan For Promoting with Social Media?') followed by bullet points listing social media promotion benefits."
+      },
+      {
+        "category": "Component",
+        "component_name": "Main Content Block",
+        "first_image_state": "Contains a testimonial quote '\"Yours is the only newsletter that I actually read.\"' followed by explanatory text about subscriber feedback regarding leads from social media.",
+        "second_image_state": "Contains a heading 'Could You Use A Free Plan For Promoting with Social Media?' followed by bullet points listing benefits such as targeted traffic and promotional strategies."
+      },
+      {
+        "category": "Component",
+        "component_name": "Submit Button",
+        "first_image_state": "Present as a clickable button labeled 'Submit' positioned adjacent to the Email input field in the sign-up form.",
+        "second_image_state": "Absent from the sign-up form section."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 36.511101722717285,
+    "input_tokens": 2584,
+    "output_tokens": 1830,
+    "total_tokens": 4414,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

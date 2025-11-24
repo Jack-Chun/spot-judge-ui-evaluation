@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Top-right icon set",
+        "first_image_state": "Phone icon, Facebook icon, Twitter icon",
+        "second_image_state": "Search icon, Facebook icon, Twitter icon"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Buy ticket button text",
+        "first_image_state": "\"K\u00d8B BILLETTER\"",
+        "second_image_state": "\"K\u00d8B BILET\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Last navigation link text",
+        "first_image_state": "\"S\u00c6RLIGT FO\" (truncated)",
+        "second_image_state": "\"S\u00c6RLIGT FOR\" (complete)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Navigation Label 'S\u00c6RLIGT FOR'",
+        "first_image_state": "Displays truncated text 'S\u00c6RLIGT FO'",
+        "second_image_state": "Displays full text 'S\u00c6RLIGT FOR'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA Button Text",
+        "first_image_state": "Displays 'K\u00d8B BILLETER'",
+        "second_image_state": "Displays 'K\u00d8B BILLET >'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Pagination Indicators",
+        "first_image_state": "Two small white rectangular indicators",
+        "second_image_state": "Three small white rectangular indicators"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 103.99275636672974,
+    "input_tokens": 3012,
+    "output_tokens": 3668,
+    "total_tokens": 6680,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

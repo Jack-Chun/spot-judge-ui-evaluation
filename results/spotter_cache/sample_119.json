@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Payment Method Icons",
+        "first_image_state": "Present as a row of icons including Apple Pay, Google Pay, Mastercard, PayPal, DPay, Visa, and Amex",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Style",
+        "component_name": "Size Dropdown",
+        "first_image_state": "White background with black text",
+        "second_image_state": "Black background with white text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Payment Method Icons",
+        "first_image_state": "Multiple payment method icons are displayed, including Apple Pay, Google Pay, Mastercard, PayPal, PayPal Credit, Visa, and American Express.",
+        "second_image_state": "Only PayPal logo is visible as a payment option."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 43.05450701713562,
+    "input_tokens": 4144,
+    "output_tokens": 1491,
+    "total_tokens": 5635,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

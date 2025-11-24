@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Pricing plans container",
+        "first_image_state": "Three-column layout with left-aligned feature list and three plan cards (Lite, Premium, Unlimited)",
+        "second_image_state": "Four-column layout without feature list and four plan cards (Free Trial, Lite, Premium, Unlimited)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Feature list",
+        "first_image_state": "Present as a left-aligned list of event management features",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Plan cards",
+        "first_image_state": "Three cards (Lite, Premium, Unlimited) with 'Free trial' or 'request a quote' buttons",
+        "second_image_state": "Four cards (Free Trial, Lite, Premium, Unlimited) with 'Start Free Trial' or 'Get a Quote' buttons"
+      },
+      {
+        "category": "Style",
+        "component_name": "CTA buttons",
+        "first_image_state": "'Free trial' buttons (gray for Lite/Unlimited, green for Premium); 'request a quote' text below",
+        "second_image_state": "'Start Free Trial' button (green for Free Trial); 'Get a Quote' buttons (gray for other plans)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Plan headers and descriptions",
+        "first_image_state": "Headers: 'Lite', 'Premium', 'Unlimited'; No descriptive text under headers",
+        "second_image_state": "Headers: 'Free Trial', 'Lite starting at...', 'Premium starting at...', 'Unlimited Customized plan'; Descriptive text under each header (e.g., '30 days for free' for Free Trial)"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Pricing Plans Section",
+        "first_image_state": "Table structure with rows of feature labels and columns for each plan, displaying plan information horizontally across rows",
+        "second_image_state": "Row of four card-like containers arranged horizontally, each containing a plan title, descriptive text, and a call-to-action button"
+      },
+      {
+        "category": "Component",
+        "component_name": "Pricing Plan Cards",
+        "first_image_state": "Single table component with three columns (Lite, Premium, Unlimited) and multiple rows of feature items; Free Trial card component removed",
+        "second_image_state": "Four individual card components (Free Trial, Lite, Premium, Unlimited) with vertical stacking of title, description, and CTA"
+      },
+      {
+        "category": "Style",
+        "component_name": "Pricing Section Background",
+        "first_image_state": "Light gray background",
+        "second_image_state": "White background"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Pricing Plan Headers",
+        "first_image_state": "Excludes 'Free Trial' plan header; only 'Lite', 'Premium', 'Unlimited' headers present",
+        "second_image_state": "Includes 'Free Trial' as a plan header"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 62.54980206489563,
+    "input_tokens": 2670,
+    "output_tokens": 3027,
+    "total_tokens": 5697,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Hero Banner",
+        "first_image_state": "Split layout with left-aligned promotional text and right-aligned image of a person wearing safety gear; light beige background.",
+        "second_image_state": "Full-width bright blue background with centered text and product images; no split layout."
+      },
+      {
+        "category": "Component",
+        "component_name": "Most Popular Categories",
+        "first_image_state": "Present, displaying four category cards with images and labels.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Style",
+        "component_name": "Hero Background and Typography",
+        "first_image_state": "Light beige background with small black body text and medium-sized headings.",
+        "second_image_state": "Bright blue background with large white bold headings and no body text."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero Promotional Text",
+        "first_image_state": "Text reads \"Premium Quality Safety Glasses at Affordable Prices!\" followed by bullet points about free shipping, returns, and brands.",
+        "second_image_state": "Text reads \"SAFETY GEAR QUICK SHIP\" with no additional promotional details."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Hero Banner",
+        "first_image_state": "Split layout with left-aligned text ('Premium Quality Safety Glasses at Affordable Prices!' and bullet points) and a right-aligned image of a person working, accompanied by a blue 'SHOP NOW' button below the text.",
+        "second_image_state": "Centralized text 'SAFETY GEAR' and 'QUICK SHIP' on a solid bright blue background, with images of safety glasses positioned below the text."
+      },
+      {
+        "category": "Component",
+        "component_name": "Most Popular Categories Section",
+        "first_image_state": "Present; features four rectangular category cards arranged horizontally, each containing an image and label (Prescription Safety Glasses, Safety Goggles, Non-Rx Safety Glasses, Prescription Sunglasses) above the 'Featured Products' section.",
+        "second_image_state": "Absent; the section immediately following the hero banner is 'Featured Products'."
+      },
+      {
+        "category": "Style",
+        "component_name": "Hero Banner Background and Typography",
+        "first_image_state": "Light beige background with smaller black sans-serif text ('Premium Quality Safety Glasses at Affordable Prices!') and bullet points, maintaining the blue 'SHOP NOW' button.",
+        "second_image_state": "Solid bright blue background with large, bold white sans-serif text ('SAFETY GEAR', 'QUICK SHIP')."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 96.47025275230408,
+    "input_tokens": 2016,
+    "output_tokens": 4062,
+    "total_tokens": 6078,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

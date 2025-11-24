@@ -1,0 +1,74 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Product listing container",
+        "first_image_state": "Contains three vertically stacked product card components displaying item images, names, prices, and add-to-cart icons.",
+        "second_image_state": "Contains a single product detail container with an enlarged product image, detailed information, and interactive elements."
+      },
+      {
+        "category": "Component",
+        "component_name": "Product display component",
+        "first_image_state": "Uses small product card components with minimal details (image, name, price, add-to-cart icon).",
+        "second_image_state": "Uses a large product detail component with expanded information (enlarged image, product details, quantity selector, price, add-to-cart button)."
+      },
+      {
+        "category": "Style",
+        "component_name": "Product image",
+        "first_image_state": "Small-sized product images within each product card.",
+        "second_image_state": "Large-sized product image occupying most of the container space."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Availability status text",
+        "first_image_state": "No availability status text below the product number.",
+        "second_image_state": "Includes the text \"Produkt dost\u0119pny, wysy\u0142ka w 24 h\" below the product number."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Product Display Container",
+        "first_image_state": "Contains multiple product items arranged vertically in a list format.",
+        "second_image_state": "Contains a single product with a large central image dominating the display area."
+      },
+      {
+        "category": "Component",
+        "component_name": "Quantity Selector",
+        "first_image_state": "Absent.",
+        "second_image_state": "Present with minus, input field, and plus buttons located below the product image."
+      },
+      {
+        "category": "Component",
+        "component_name": "Product Card",
+        "first_image_state": "Present with multiple instances, each containing a small product image, product name, sales unit information, product number, price, and an add-to-cart icon.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Style",
+        "component_name": "Product Image",
+        "first_image_state": "Small, positioned left-aligned within each product card.",
+        "second_image_state": "Large, occupying a significant portion of the display area and centered horizontally."
+      },
+      {
+        "category": "Component",
+        "component_name": "Header Supplementary Elements",
+        "first_image_state": "Present with phone number ('801 000 174') and store location ('Znajd\u017a sklep') icons and text.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Component",
+        "component_name": "Footer Element",
+        "first_image_state": "Present with 'vwo' logo.",
+        "second_image_state": "Absent."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 100.10376596450806,
+    "input_tokens": 2366,
+    "output_tokens": 5079,
+    "total_tokens": 7445,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Info Box",
+        "first_image_state": "Absent within the central white container",
+        "second_image_state": "Present below the 'Get started' button, displaying 'Toronto is popular!' with a statistic about local listing bookings and an upward trend icon"
+      },
+      {
+        "category": "Component",
+        "component_name": "Toronto popularity info box",
+        "first_image_state": "Absent; the space where the info box was located is empty.",
+        "second_image_state": "Present below the main form with a green upward trend icon and text stating 'Toronto is popular! 39% of listings in your area are fully booked next week.'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 25.68055295944214,
+    "input_tokens": 4736,
+    "output_tokens": 955,
+    "total_tokens": 5691,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

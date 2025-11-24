@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Main Heading Text",
+        "first_image_state": "Displays \"Prelims special Economics Ncert series- L2\"",
+        "second_image_state": "Displays \"3 Month Challenge is Back- Questions related to Economics 1\""
+      },
+      {
+        "category": "Component",
+        "component_name": "See all free classes link/button",
+        "first_image_state": "Button-like element with green background and green text, enclosed in a rectangular container, positioned below the live stream section.",
+        "second_image_state": "Plain text link with green color, no background, positioned below the live stream section."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 41.28857398033142,
+    "input_tokens": 1564,
+    "output_tokens": 2059,
+    "total_tokens": 3623,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

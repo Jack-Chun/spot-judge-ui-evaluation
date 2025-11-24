@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "CTA Button",
+        "first_image_state": "Displays 'Download' text",
+        "second_image_state": "Displays 'Buy Now' text"
+      },
+      {
+        "category": "Style",
+        "component_name": "CTA Button",
+        "first_image_state": "Green background color",
+        "second_image_state": "Blue background color"
+      },
+      {
+        "category": "Component",
+        "component_name": "Buy Now button",
+        "first_image_state": "Absent",
+        "second_image_state": "Present as a blue rectangular button positioned to the right of the Download button"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 30.543728828430176,
+    "input_tokens": 2164,
+    "output_tokens": 1378,
+    "total_tokens": 3542,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

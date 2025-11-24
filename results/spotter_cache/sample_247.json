@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Search Bar",
+        "first_image_state": "Visible at the top of the screen, containing the text 'Doorzoek de hele winkel' and a magnifying glass icon.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Component",
+        "component_name": "Call-to-Action Button",
+        "first_image_state": "Absent.",
+        "second_image_state": "Visible below the number input field, displaying the text 'In Winkelwagen'."
+      },
+      {
+        "category": "Style",
+        "component_name": "Call-to-Action Button",
+        "first_image_state": "Not applicable (absent).",
+        "second_image_state": "Blue background color."
+      },
+      {
+        "category": "Layout",
+        "component_name": "List Items",
+        "first_image_state": "Positioned below the number input field.",
+        "second_image_state": "Positioned below the call-to-action button."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Promotional Text Item",
+        "first_image_state": "Absent.",
+        "second_image_state": "Visible as a list item, displaying the text 'Gratis verzending en 3 gratis samples bij iedere bestelling'."
+      },
+      {
+        "category": "Component",
+        "component_name": "Search Bar",
+        "first_image_state": "Present at the top of the page, spanning approximately 80% of the width, with a search icon on the right",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Add to Cart Button (\"In Winkelwagen\")",
+        "first_image_state": "Absent",
+        "second_image_state": "Present as a blue rectangular button below the quantity selector, with white text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Chat Icon",
+        "first_image_state": "Present as a circular blue icon with a white chat bubble symbol, located at the bottom right corner",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Search Bar Placeholder Text",
+        "first_image_state": "Contains the text \"Doorzoek de hele winkel\"",
+        "second_image_state": "Absent (no search bar)"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 166.64428400993347,
+    "input_tokens": 1432,
+    "output_tokens": 7710,
+    "total_tokens": 9142,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

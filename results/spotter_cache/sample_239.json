@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Top promotional banner",
+        "first_image_state": "Present with text 'EARLY ACCESS ENDS SOON!' and countdown timer displaying days/hours/minutes/seconds",
+        "second_image_state": "Absent; no promotional banner in the top section"
+      },
+      {
+        "category": "Component",
+        "component_name": "Promotional Banner",
+        "first_image_state": "Present; blue horizontal banner with text 'EARLY ACCESS ENDS SOON!' and a countdown timer",
+        "second_image_state": "Absent; no banner element in the top section"
+      },
+      {
+        "category": "Component",
+        "component_name": "Hamburger Menu Icon",
+        "first_image_state": "Present; three-line hamburger menu icon positioned to the left of the 'HEM' navigation link",
+        "second_image_state": "Absent; no hamburger menu icon next to navigation links"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 38.88348031044006,
+    "input_tokens": 3824,
+    "output_tokens": 1019,
+    "total_tokens": 4843,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

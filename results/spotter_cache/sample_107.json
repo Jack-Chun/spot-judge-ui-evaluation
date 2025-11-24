@@ -1,0 +1,86 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "Displays 'Start Auto-Posting in Minutes' as the main heading.",
+        "second_image_state": "Displays 'Sign Up' as the main heading."
+      },
+      {
+        "category": "Component",
+        "component_name": "Login Prompt Text",
+        "first_image_state": "No login prompt text above form fields.",
+        "second_image_state": "Displays 'Already a PLANOLY member? Click here to log-in' above form fields."
+      },
+      {
+        "category": "Component",
+        "component_name": "Log In Button",
+        "first_image_state": "Contains only a 'SIGN UP NOW' button.",
+        "second_image_state": "Contains 'SIGN UP NOW' button and an additional 'ALREADY A MEMBER? LOG IN' button below it."
+      },
+      {
+        "category": "Component",
+        "component_name": "Trust Badges",
+        "first_image_state": "Displays three trust badges (Highest User Adoption 2023, Capterra Shortlist 2023, High Performer Winter 2023) below terms.",
+        "second_image_state": "Does not display any trust badges."
+      },
+      {
+        "category": "Component",
+        "component_name": "Testimonial Quote",
+        "first_image_state": "Displays a quoted testimonial text with quotation marks.",
+        "second_image_state": "Does not display a testimonial quote."
+      },
+      {
+        "category": "Style",
+        "component_name": "Sign Up Button",
+        "first_image_state": "Sign Up Now button is dark orange.",
+        "second_image_state": "Sign Up Now button is light orange."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Header",
+        "first_image_state": "\"Start Auto-Posting in Minutes\"",
+        "second_image_state": "\"Sign Up\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Login Link",
+        "first_image_state": "Absent",
+        "second_image_state": "Present (\"Already a PLANOLY member? Click here to log-in\")"
+      },
+      {
+        "category": "Style",
+        "component_name": "Sign-Up Button",
+        "first_image_state": "Orange background",
+        "second_image_state": "Light beige background"
+      },
+      {
+        "category": "Component",
+        "component_name": "Login Alternative Button",
+        "first_image_state": "Absent",
+        "second_image_state": "Present (\"ALREADY A MEMBER? LOG IN\")"
+      },
+      {
+        "category": "Component",
+        "component_name": "Trust Badges",
+        "first_image_state": "Present (three badges: G2 Highest User Adoption 2023, Capterra Shortlist 2023, High Performer Winter 2023)",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Testimonial Quote",
+        "first_image_state": "Present (Quote: \"My go-to for planning ahead for both my personal and business accounts. I've tried a few and always come back to PLANOLY!\")",
+        "second_image_state": "Absent"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 106.97976112365723,
+    "input_tokens": 1684,
+    "output_tokens": 5318,
+    "total_tokens": 7002,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Verpakking filter header",
+        "first_image_state": "Labeled 'Verpak'",
+        "second_image_state": "Labeled 'Verpakkingsvorm'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Sorting/Filtering Controls",
+        "first_image_state": "Three interactive buttons: '1 Top 10', 'Best beoordeeld' (with a star icon), and 'Meest bewaard' (with a heart icon).",
+        "second_image_state": "A dropdown menu labeled 'Sorteer op:' with 'Bestverkocht' selected, accompanied by a list view icon."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 43.83630847930908,
+    "input_tokens": 6064,
+    "output_tokens": 1509,
+    "total_tokens": 7573,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

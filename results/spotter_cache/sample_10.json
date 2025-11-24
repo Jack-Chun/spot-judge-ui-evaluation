@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Top Promotional Section",
+        "first_image_state": "Contains 'The blog \u2192' heading followed by three article cards (e.g., 'These are the winners of the gn Awards', 'Introducing The John Legend Creator Collab', '12 Easy Ideas for a More Lifestyle')",
+        "second_image_state": "Contains 'Collections \u2192' heading followed by four gift category cards (e.g., '$30', 'Gifts for Her', 'Gifts for Him', 'Gifts for Kids')"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Middle Informational Section",
+        "first_image_state": "Contains 'What is Etsy Canada?' heading with expandable FAQ sections (e.g., 'What can you find on Etsy?', 'How does Etsy work?', 'How to buy on Etsy...')",
+        "second_image_state": "Contains 'Shops in Canada' heading with a 'local makers' dropdown and product display grids"
+      },
+      {
+        "category": "Style",
+        "component_name": "Middle Content Section Background",
+        "first_image_state": "Light beige background",
+        "second_image_state": "White background"
+      },
+      {
+        "category": "Component",
+        "component_name": "Primary Content Section",
+        "first_image_state": "Contains a header titled 'The blog \u2192' and displays four blog post cards (each featuring an image, title, and excerpt text)",
+        "second_image_state": "Contains a header titled 'Collections \u2192' with subtext 'hand-picked by Etsy editors' and displays three gift category cards (each featuring an image, title, and price/count label)"
+      },
+      {
+        "category": "Component",
+        "component_name": "Secondary Content Section",
+        "first_image_state": "Contains a header titled 'What is Etsy Canada?' and displays multiple FAQ accordion items (each featuring a heading and expandable content)",
+        "second_image_state": "Contains a header titled 'Shops in Canada' with a dropdown menu labeled 'local makers' and displays three shop cards (each featuring an image, shop name, and logo)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Primary Section Header",
+        "first_image_state": "Text reads 'The blog \u2192'",
+        "second_image_state": "Text reads 'Collections \u2192'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Secondary Section Header",
+        "first_image_state": "Text reads 'What is Etsy Canada?'",
+        "second_image_state": "Text reads 'Shops in Canada'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 90.66411590576172,
+    "input_tokens": 3504,
+    "output_tokens": 3769,
+    "total_tokens": 7273,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Top-right promotional badge/Twitter follow widget",
+        "first_image_state": "Has a circular promotional badge (pink background) positioned between the logo and search bar",
+        "second_image_state": "Has a Twitter follow widget ('Follow @bagservant') positioned between the logo and search bar"
+      },
+      {
+        "category": "Component",
+        "component_name": "Header Promotional Element",
+        "first_image_state": "Pink circular promotional badge with 'NEW' text",
+        "second_image_state": "Twitter follow button displaying '@follow @bagservant' text and '436 followers' count"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 22.301921367645264,
+    "input_tokens": 2512,
+    "output_tokens": 916,
+    "total_tokens": 3428,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

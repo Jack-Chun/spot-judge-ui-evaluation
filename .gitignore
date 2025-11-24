@@ -55,7 +55,7 @@ logs/
 *.log.*
 
 # Experiment results and checkpoints
-results/
+# results/
 checkpoints/
 *.jsonl
 

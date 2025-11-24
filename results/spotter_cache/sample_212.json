@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Header Navigation Bar",
+        "first_image_state": "Brown/tan background",
+        "second_image_state": "White background"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero Section CTA Text",
+        "first_image_state": "Text reads \"GET YOUR WHITE CARD ONLINE $50\"",
+        "second_image_state": "Text reads \"GET WHITE CARD ONLINE $50.00\""
+      },
+      {
+        "category": "Style",
+        "component_name": "Hero Section CTA Button",
+        "first_image_state": "Green button with \"START NOW\" text",
+        "second_image_state": "Orange/brown button with \"CLICK HERE TO PURCHASE\" text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Feature Blocks",
+        "first_image_state": "Three circular icons with short descriptive text (e.g., \"Money Back Guarantee\")",
+        "second_image_state": "Three rectangular sections with headings (e.g., \"THE COURSE\") and expanded descriptive text"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Feature Blocks Arrangement",
+        "first_image_state": "Icons aligned horizontally with equal spacing",
+        "second_image_state": "Sections aligned horizontally with equal spacing, containing more textual content"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero Banner Text",
+        "first_image_state": "Displays \"GET YOUR WHITE CARD ONLINE $50\"",
+        "second_image_state": "Displays \"GET WHITE CARD ONLINE $50.00\""
+      },
+      {
+        "category": "Style",
+        "component_name": "Hero CTA Button",
+        "first_image_state": "Green button labeled \"START NOW\"",
+        "second_image_state": "Orange button labeled \"CLICK HERE TO PURCHASE\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Feature Columns",
+        "first_image_state": "Three columns titled \"Money Back Guarantee\", \"Recognised Australia Wide\", \"Fast Turnaround We Email Certificates Daily\" with different icons and descriptive text",
+        "second_image_state": "Three columns titled \"THE COURSE\", \"COURSE INFORMATION\", \"LICENCE\" with respective icons and descriptive text"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 69.61424016952515,
+    "input_tokens": 1972,
+    "output_tokens": 3006,
+    "total_tokens": 4978,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

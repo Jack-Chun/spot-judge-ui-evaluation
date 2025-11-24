@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Product Selection Options",
+        "first_image_state": "Displayed as green rectangular buttons arranged vertically",
+        "second_image_state": "Displayed as plain text links without green background, arranged vertically"
+      },
+      {
+        "category": "Component",
+        "component_name": "Product Selection List",
+        "first_image_state": "Styled button list of product types (VELUX, ROTO, FAKRO, Rooflite, Daksora, Dachfensterrollen mit Ma\u00df)",
+        "second_image_state": "Plain text list of product types (VELUX, ROTO, FAKRO, Rooflite, Daksora, Basic Dachfensterrollen)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Last Product Selection Item",
+        "first_image_state": "Text 'Dachfensterrollen mit Ma\u00df'",
+        "second_image_state": "Text 'Basic Dachfensterrollen'"
+      },
+      {
+        "category": "Style",
+        "component_name": "Product Selection List",
+        "first_image_state": "Green background with white text, rounded corners",
+        "second_image_state": "Plain white background with black text, no rounded corners"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 72.12708377838135,
+    "input_tokens": 1576,
+    "output_tokens": 3134,
+    "total_tokens": 4710,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

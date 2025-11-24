@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Top Searches section",
+        "first_image_state": "Present with tags (oakley, bolle, 3M, wiley x, goggles, hard hat, Face shield, safety glasses)",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Top Categories section",
+        "first_image_state": "Present with link \"Prescription Safety Glasses\"",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Featured Products section",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with a large promotional image and \"Featured Products\" header"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Section headers",
+        "first_image_state": "Contains \"TOP SEARCHES\" and \"TOP CATEGORIES\" headers",
+        "second_image_state": "Contains \"Featured Products\" header"
+      },
+      {
+        "category": "Component",
+        "component_name": "Header Visual Element",
+        "first_image_state": "Search suggestions dropdown (containing 'Top Searches' and 'Top Categories' sections) positioned below the search bar.",
+        "second_image_state": "Large product image (depicting a person wearing safety gear) positioned below the search bar."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 136.95876908302307,
+    "input_tokens": 1468,
+    "output_tokens": 7196,
+    "total_tokens": 8664,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

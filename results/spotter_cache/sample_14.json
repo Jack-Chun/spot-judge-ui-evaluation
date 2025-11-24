@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Fee Info Icons",
+        "first_image_state": "No information icons present next to fee items",
+        "second_image_state": "Information icons present next to each fee item (cleaning fee, service fee, occupancy taxes and fees)"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Fee Breakdown Section",
+        "first_image_state": "Displays fee details as individual lines without a table structure",
+        "second_image_state": "Displays fee details in a structured table with columns for fee names and amounts"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 25.307067155838013,
+    "input_tokens": 6704,
+    "output_tokens": 684,
+    "total_tokens": 7388,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

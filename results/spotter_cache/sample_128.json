@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Product Selection List",
+        "first_image_state": "Present as a vertical list of brand names (VELUX, ROTO, FAKRO, Rooflite, Lucis, Dakstra) in the middle content column.",
+        "second_image_state": "Absent; replaced by a large image of a roof window in the same column."
+      },
+      {
+        "category": "Component",
+        "component_name": "Quote Box",
+        "first_image_state": "Present as a rectangular container with a quote about high-quality roof windows in the right content column.",
+        "second_image_state": "Absent; replaced by a CTA button in the same column."
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA Button Text",
+        "first_image_state": "Absent (no CTA button in the right content column)",
+        "second_image_state": "Present as the text \"W\u00e4hlen Sie Ihren Dachfensterhersteller aus\" on the CTA button."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Main Content Container",
+        "first_image_state": "Split into two sections: left side with a list of brands and right side with a quote box",
+        "second_image_state": "Contains a single large image with overlay text and bullet points"
+      },
+      {
+        "category": "Component",
+        "component_name": "Large Image Component",
+        "first_image_state": "Absent; replaced by a list component and quote component",
+        "second_image_state": "Present as a prominent visual element with product imagery"
+      },
+      {
+        "category": "Style",
+        "component_name": "Main Content Background",
+        "first_image_state": "White background",
+        "second_image_state": "Light blue and yellow gradient background"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Bullet Point Text",
+        "first_image_state": "Replaced by a quote ('Qualitativ hochwertige Dachfensterrollos, die perfekt in jedes Dach passen.') and brand list (VELUX, ROTO, etc.)",
+        "second_image_state": "Lists product features (e.g., 'Qualit\u00e4t hochwertige Dachfensterrollos...', 'Gro\u00dfe Auswahl an Farben...')"
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA Button Text",
+        "first_image_state": "Absent; replaced by other textual elements",
+        "second_image_state": "Displays 'W\u00e4hlen Sie Ihren Dachfensterhersteller aus'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 79.17720317840576,
+    "input_tokens": 1576,
+    "output_tokens": 3970,
+    "total_tokens": 5546,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

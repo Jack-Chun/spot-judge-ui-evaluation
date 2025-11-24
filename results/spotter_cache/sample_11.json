@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Blog Section",
+        "first_image_state": "Contains three blog post cards arranged horizontally below 'the blog \u2192' heading",
+        "second_image_state": "Absent; no blog post cards or heading visible"
+      },
+      {
+        "category": "Copy",
+        "component_name": "What is Etsy Canada? section text",
+        "first_image_state": "Short paragraph summarizing Etsy as a global community of buyers and sellers",
+        "second_image_state": "Longer, detailed paragraph explaining Etsy Canada's focus on local makers, marketplace features, and community impact"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Top promotional section",
+        "first_image_state": "Contains additional components (including 'the blog \u2192' link and extra images) resulting in a denser layout with more items",
+        "second_image_state": "Contains three shopping guide cards arranged horizontally"
+      },
+      {
+        "category": "Component",
+        "component_name": "'What is Etsy Canada?' section",
+        "first_image_state": "Collapsible section with a down arrow indicator, hiding the descriptive text behind the dropdown",
+        "second_image_state": "Expanded section displaying full descriptive text without a collapsible indicator"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 62.46054649353027,
+    "input_tokens": 3504,
+    "output_tokens": 2831,
+    "total_tokens": 6335,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

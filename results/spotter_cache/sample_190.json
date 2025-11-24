@@ -1,0 +1,80 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Service Categories List",
+        "first_image_state": "Displays four service categories: Residential Movers, International Movers, Commercial Movers, Storage",
+        "second_image_state": "Displays six service categories: Residential Movers, Intermediate Moves, Commercial Movers, International Movers, Specialized Moves, Storage (two additional categories added)"
+      },
+      {
+        "category": "Style",
+        "component_name": "Main Content Image",
+        "first_image_state": "Shows an image of a moving truck and residential property",
+        "second_image_state": "Shows an image of people handling moving boxes"
+      },
+      {
+        "category": "Component",
+        "component_name": "Free Quote Form Fields",
+        "first_image_state": "Contains simple input fields for contact information and basic move details",
+        "second_image_state": "Contains dropdown menus for move type and size, date selection fields, and expanded input fields for contact information (more structured form)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Company Reviews Text",
+        "first_image_state": "Short paragraph highlighting customer satisfaction with minimal detail",
+        "second_image_state": "Longer paragraph with additional context about service history and a 'More reviews \u2192' link"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Main Content Paragraph and Bullet Points",
+        "first_image_state": "Bullet points directly follow the main image without an introductory paragraph",
+        "second_image_state": "An introductory paragraph precedes the bullet points, altering content flow"
+      },
+      {
+        "category": "Component",
+        "component_name": "Header Logo and Company Name",
+        "first_image_state": "Displays 'HARRINGTON' with a blue logo.",
+        "second_image_state": "Displays 'HARRINGTON MOVING & STORAGE' with a green logo."
+      },
+      {
+        "category": "Component",
+        "component_name": "Promotional Banner",
+        "first_image_state": "Not visible.",
+        "second_image_state": "Visible with text 'Save up to 15% on your move!' and 'View All Promotions' link."
+      },
+      {
+        "category": "Component",
+        "component_name": "Email Subscription Checkbox",
+        "first_image_state": "Absent.",
+        "second_image_state": "Present below phone input field with label 'Add me to email list'."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Left Sidebar",
+        "first_image_state": "Narrow sidebar with abbreviated 'Services' menu and less vertical content.",
+        "second_image_state": "Wide sidebar containing 'Our Services' menu (Residential, International, Commercial, Specialized, Storage) and 'Company Reviews' section."
+      },
+      {
+        "category": "Style",
+        "component_name": "Free Quote Button",
+        "first_image_state": "Dark green background with white text.",
+        "second_image_state": "Bright green background with white text."
+      },
+      {
+        "category": "Copy",
+        "component_name": "NY to Florida Movers Benefits Section",
+        "first_image_state": "Benefits listed as bullet points.",
+        "second_image_state": "Benefits listed as paragraphs (e.g., 'Trained Professional Uniformed Movers...', 'Clean Trucks with Proper Moving Pads...')."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 106.31689405441284,
+    "input_tokens": 1990,
+    "output_tokens": 5427,
+    "total_tokens": 7417,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

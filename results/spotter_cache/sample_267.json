@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Price Tag",
+        "first_image_state": "Present below product name",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Product Description",
+        "first_image_state": "Present below price tag",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Product Card Elements",
+        "first_image_state": "Contains image, product name, price, descriptive text (for first two products), and view details button.",
+        "second_image_state": "Contains image, product name, and view details button."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Product Card Element Order",
+        "first_image_state": "Product name positioned above price, which is above descriptive text (where present), which is above view details button.",
+        "second_image_state": "Product name positioned directly above view details button."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 59.91854906082153,
+    "input_tokens": 1658,
+    "output_tokens": 3010,
+    "total_tokens": 4668,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

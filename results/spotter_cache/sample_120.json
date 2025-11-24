@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Middle Section Content",
+        "first_image_state": "Contains 'Shirt Finder' with three input fields and a 'Show My Shirt' button",
+        "second_image_state": "Contains 'MEN' and 'WOMEN' category navigation with multiple sub-links"
+      },
+      {
+        "category": "Component",
+        "component_name": "About Thomas Pink Section",
+        "first_image_state": "Not present",
+        "second_image_state": "Present with descriptive text about the brand"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Men/Women Category Columns",
+        "first_image_state": "Absent; replaced by Shirt Finder tool",
+        "second_image_state": "Two adjacent columns (left: MEN, right: WOMEN) containing subcategory links (e.g., NEW ARRIVALS, CUSTOMER FAVOURITES, ALL SHIRTS)"
+      },
+      {
+        "category": "Component",
+        "component_name": "About Thomas Pink Text Block",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with brand description text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Shirt Finder Interactive Tool",
+        "first_image_state": "Present with input fields and \"Show My Shirt\" button",
+        "second_image_state": "Absent"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 69.66366219520569,
+    "input_tokens": 3176,
+    "output_tokens": 3795,
+    "total_tokens": 6971,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

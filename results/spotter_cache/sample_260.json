@@ -1,0 +1,74 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Navigation Menu Items",
+        "first_image_state": "Contains 'WHY ARCHIVE?', 'PRODUCT', 'PRICING', 'INDUSTRY', 'COMPANY' links",
+        "second_image_state": "Contains 'WHY ARCHIVE?', 'PRODUCT', 'PRICING', 'RESOURCES' links"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "Displays 'Social Media Archiving Built for Transparency & Compliance'",
+        "second_image_state": "Displays 'Social Media Archiving Built for Government Transparency'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Sample Archive Instructions",
+        "first_image_state": "Present ('Enter your business email to create a sample archive in less than 60 seconds with your twitter account.')",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Live Chat Widget",
+        "first_image_state": "Present (bottom-right corner)",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Style",
+        "component_name": "Page Background",
+        "first_image_state": "Solid dark blue",
+        "second_image_state": "Dark blue with light geometric network pattern"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Email Form Container",
+        "first_image_state": "Positioned on the right side, adjacent to the main heading text",
+        "second_image_state": "Positioned below the main heading, centered horizontally"
+      },
+      {
+        "category": "Component",
+        "component_name": "Navigation Menu Items",
+        "first_image_state": "Contains \"WHY ARCHIVE?\", \"PRODUCT\", \"PRICING\", \"INDUSTRY\" (with dropdown indicator), \"COMPANY\" (with dropdown indicator), and \"SCHEDULE A CALL\"",
+        "second_image_state": "Contains \"WHY ARCHIVE?\", \"PRODUCT\", \"PRICING\", \"RESOURCES\" (with dropdown indicator), and \"SCHEDULE A CALL\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "\"Social Media Archiving Built for Transparency & Compliance\"",
+        "second_image_state": "\"Social Media Archiving Built for Government Transparency\""
+      },
+      {
+        "category": "Layout",
+        "component_name": "Call-to-Action Section",
+        "first_image_state": "Larger rectangular section with explanatory text (\"Enter your business email to create a sample archive...\") and \"BUSINESS EMAIL*\" input field, \"SAMPLE YOUR ARCHIVE\" button, and additional text (\"Don't have a Twitter account...\") positioned below the subheading",
+        "second_image_state": "Small rectangular section with \"BUSINESS EMAIL*\" input field and \"SAMPLE YOUR ARCHIVE\" button, positioned below the subheading"
+      },
+      {
+        "category": "Component",
+        "component_name": "Chat Widget",
+        "first_image_state": "Present as a floating widget in the bottom-right corner with text \"What can we help you with today?\" and an icon",
+        "second_image_state": "Not present"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 78.3527159690857,
+    "input_tokens": 1624,
+    "output_tokens": 3419,
+    "total_tokens": 5043,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "COVID-19 Update Text",
+        "first_image_state": "Text reads \"Get the latest on our COVID-19 report\"",
+        "second_image_state": "Text reads \"Get the latest on our COVID-19 response\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero Heading",
+        "first_image_state": "Heading text is \"Go Near\"",
+        "second_image_state": "Heading text is \"Get out and stretch your imagination\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero Subheading",
+        "first_image_state": "Subheading text is \"Plan a different kind of getaway to uncover the hidden gems near you\"",
+        "second_image_state": "Subheading text is \"Plan a different kind of getaway to uncover the hidden gems near you\" (slight variation in phrasing)"
+      },
+      {
+        "category": "Layout/Component",
+        "component_name": "Hero Background Visual",
+        "first_image_state": "Background shows a floating house over water with people",
+        "second_image_state": "Background shows an open window view with a green dome-shaped structure in a landscape"
+      },
+      {
+        "category": "Copy/Style",
+        "component_name": "Explore Nearby Button",
+        "first_image_state": "Black button with text \"Explore nearby\"",
+        "second_image_state": "Button with text \"Explore nearby >\" (includes arrow icon)"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Become a Host Link",
+        "first_image_state": "Link text is \"Be a host\"",
+        "second_image_state": "Link text is \"Become a host\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Broadway Online Experiences Section",
+        "first_image_state": "Section not present",
+        "second_image_state": "Black background section with heading \"Broadway Online Experiences\", descriptive text, and \"Explore all\" button"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero Headline",
+        "first_image_state": "Go Near",
+        "second_image_state": "Get out and stretch your imagination"
+      },
+      {
+        "category": "Component",
+        "component_name": "Hero Background Image",
+        "first_image_state": "Image of a floating house on water with birds in the sky",
+        "second_image_state": "Image of a dome-shaped house with mountains in the background"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero CTA Button",
+        "first_image_state": "Explore nearby",
+        "second_image_state": "Explore nearby >"
+      },
+      {
+        "category": "Style",
+        "component_name": "Hero Headline Typography",
+        "first_image_state": "Bold-weight, larger-sized font",
+        "second_image_state": "Light-weight, medium-sized font"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 116.95273160934448,
+    "input_tokens": 6224,
+    "output_tokens": 4361,
+    "total_tokens": 10585,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

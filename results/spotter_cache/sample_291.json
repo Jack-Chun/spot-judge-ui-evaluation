@@ -1,0 +1,86 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Bullet Points",
+        "first_image_state": "Four bullet points with text 'You pay \u00a30.00 today.', 'No commitments. Easy to cancel online at anytime.', 'You won't be charged if you cancel before Sep 08, 2019', 'As a reminder, we'll email you 3 days before.'",
+        "second_image_state": "Three bullet points with text 'You pay \u00a30.00 today.', 'You won't be charged if you cancel before Nov 14, 2019.', 'No commitments. Easy to cancel online at anytime.'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Card Number Input Field Icon",
+        "first_image_state": "No icon present next to the card number input field; Visa, Mastercard, and American Express logos displayed below the input field.",
+        "second_image_state": "An icon (small square with horizontal lines) present next to the card number input field; no logos displayed below the input field."
+      },
+      {
+        "category": "Component",
+        "component_name": "Expiry Date Input Field Icon",
+        "first_image_state": "No icon present next to the expiry date input field.",
+        "second_image_state": "An icon (calendar-like symbol) present next to the expiry date input field."
+      },
+      {
+        "category": "Component",
+        "component_name": "CVC/CVV Input Field Icon",
+        "first_image_state": "No icon present next to the CVC/CVV input field.",
+        "second_image_state": "An icon (key-like symbol) present next to the CVC/CVV input field."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Name Input Field Placeholder",
+        "first_image_state": "No placeholder text visible in the name input field.",
+        "second_image_state": "'CARDHOLDER NAME' placeholder text visible in the name input field."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Benefit items sequence",
+        "first_image_state": "Two checkmarks followed by a checkmark with date, then a bell icon: \"You pay \u00a30.00 today.\", \"No commitments. Easy to cancel online at anytime.\", \"You won't be charged if you cancel before [date].\", \"As a reminder, we'll email you 3 days before.\"",
+        "second_image_state": "Three checkmarks in order: \"You pay \u00a30.00 today.\", \"You won't be charged if you cancel before [date].\", \"No commitments. Easy to cancel online at anytime.\""
+      },
+      {
+        "category": "Component",
+        "component_name": "CARD NUMBER input field",
+        "first_image_state": "Displays Visa, Mastercard, and American Express logos without placeholder text or icon.",
+        "second_image_state": "Displays placeholder text \"1234 1234 1234 1234\" and an icon."
+      },
+      {
+        "category": "Component",
+        "component_name": "EXPIRY DATE and CVC/CVV input fields",
+        "first_image_state": "Fields do not include icons.",
+        "second_image_state": "Each field includes an icon."
+      },
+      {
+        "category": "Component",
+        "component_name": "Bell icon with reminder text",
+        "first_image_state": "Present below the date-related checkmark.",
+        "second_image_state": "Not present."
+      },
+      {
+        "category": "Style",
+        "component_name": "\"ENTER YOUR PAYMENT DETAILS\" heading",
+        "first_image_state": "Centered text.",
+        "second_image_state": "Left-aligned text."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Non-date benefit statements order",
+        "first_image_state": "\"No commitments. Easy to cancel online at anytime.\" appears as the second statement.",
+        "second_image_state": "\"No commitments. Easy to cancel online at anytime.\" appears as the third statement."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Reminder text",
+        "first_image_state": "\"As a reminder, we'll email you 3 days before.\" is present.",
+        "second_image_state": "Not present."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 137.96285915374756,
+    "input_tokens": 2644,
+    "output_tokens": 6215,
+    "total_tokens": 8859,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

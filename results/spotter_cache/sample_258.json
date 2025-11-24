@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Payment Method Icons",
+        "first_image_state": "Multiple payment method icons (e.g., Visa, Mastercard, American Express, PayPal) displayed in the bottom left area.",
+        "second_image_state": "Fewer payment method icons displayed in the bottom left area compared to the first image."
+      },
+      {
+        "category": "Component",
+        "component_name": "Payment Method Icons",
+        "first_image_state": "Displays digital payment platform logos (PayPal, Google Pay, Apple Pay, etc.)",
+        "second_image_state": "Displays traditional credit card logos (Visa, Mastercard, American Express, Discover)"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 25.99615216255188,
+    "input_tokens": 1708,
+    "output_tokens": 1203,
+    "total_tokens": 2911,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

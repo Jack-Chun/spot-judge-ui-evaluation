@@ -1,0 +1,122 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Navigation Links",
+        "first_image_state": "Contains 'Products', 'Features', 'How it works', 'Why Hubstaff?', 'Pricing', 'Demo', 'Free 14-day trial', 'Sign in'",
+        "second_image_state": "Contains 'Products', 'Features', 'Industry', 'More', 'Pricing', 'Demo', 'Start Free 14 Day Trial', 'Sign in'"
+      },
+      {
+        "category": "Style",
+        "component_name": "Hero Section Background",
+        "first_image_state": "White background",
+        "second_image_state": "Dark blue background"
+      },
+      {
+        "category": "Style",
+        "component_name": "Hero Headline Text",
+        "first_image_state": "Dark blue text",
+        "second_image_state": "White text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero Subheadline",
+        "first_image_state": "The all-in-one work time tracker for managing field or remote teams.",
+        "second_image_state": "Employee time tracking software with screenshots, reporting and automated payments."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Form Checkbox Label",
+        "first_image_state": "I agree to the Terms of Service",
+        "second_image_state": "I accept the terms of service"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Form Submit Button Text",
+        "first_image_state": "Create account",
+        "second_image_state": "Let's go"
+      },
+      {
+        "category": "Style",
+        "component_name": "Form Submit Button Color",
+        "first_image_state": "Blue background",
+        "second_image_state": "Green background"
+      },
+      {
+        "category": "Style",
+        "component_name": "Video Play Button",
+        "first_image_state": "Circular blue button with white play icon",
+        "second_image_state": "Rectangular green button with white play icon"
+      },
+      {
+        "category": "Component",
+        "component_name": "Bottom Section Logos",
+        "first_image_state": "Displays trust badges (Groupon, Keller Williams, Clippers, Instacart)",
+        "second_image_state": "Displays integration icons (Slack, Asana, etc.) and 'See all' link"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Bottom Section Text",
+        "first_image_state": "Trusted by 40,000+ businesses. No credit card required",
+        "second_image_state": "Free 14 day trial \u2022 No credit card required Integrates with"
+      },
+      {
+        "category": "Component",
+        "component_name": "Navigation Menu Links",
+        "first_image_state": "Contains links labeled 'Products', 'Features', 'How it works', 'Why Hubstaff?', 'Pricing', 'Demo', 'Free 14-day trial', 'Sign in'",
+        "second_image_state": "Contains links labeled 'Products', 'Features', 'Industry', 'More', 'Pricing', 'Demo', 'Start Free 14 Day Trial', 'Sign in'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading Subtitle",
+        "first_image_state": "Displays 'The all-in-one work time tracker for managing field or remote teams.'",
+        "second_image_state": "Displays 'Employee time tracking software with screenshots, reporting and automated payments.'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Form Submit Button",
+        "first_image_state": "Displays 'Create account' text",
+        "second_image_state": "Displays 'Let's go' text"
+      },
+      {
+        "category": "Style",
+        "component_name": "Form Submit Button",
+        "first_image_state": "Blue rectangular button with white text",
+        "second_image_state": "Green rectangular button with white text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Terms Checkbox Label",
+        "first_image_state": "Displays 'I agree to the Terms of Service' text",
+        "second_image_state": "Displays 'I accept the terms of service' text"
+      },
+      {
+        "category": "Style",
+        "component_name": "Video Play Button",
+        "first_image_state": "Blue circular play button overlaying an image of people in an office",
+        "second_image_state": "Green square play button overlaying an image of a person at a computer"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Footer Trust Statement",
+        "first_image_state": "Displays 'Trusted by 40,000+ businesses.' text",
+        "second_image_state": "Displays 'Integrates with' text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Footer Brand Logos",
+        "first_image_state": "Shows customer brand logos (e.g., Groupon, Keller Williams, etc.)",
+        "second_image_state": "Shows integration partner logos (e.g., Slack, etc.)"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 142.76664900779724,
+    "input_tokens": 4464,
+    "output_tokens": 7238,
+    "total_tokens": 11702,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

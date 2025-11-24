@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Main Headline",
+        "first_image_state": "Text reads \"Checking email every 5 minutes? Stop!\"",
+        "second_image_state": "Text reads \"Check email every 5 mins? Stop!\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Subhead",
+        "first_image_state": "Text reads \"Get AWAY from your inbox \u2014 let urgent emails cut through the clutter and FIND you...instantly.\"",
+        "second_image_state": "Text reads \"Let us find your urgent messages.\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Patrick Rhone Testimonial",
+        "first_image_state": "Quote reads \"I'm not tied to my email. The important stuff gets through to me.\"",
+        "second_image_state": "Quote reads \"I'm not tied to my mobile. The important stuff gets through to me.\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Headline",
+        "first_image_state": "Checking email every 5 minutes? Stop! Get AWAY from your inbox \u2014 let urgent emails cut through the clutter and FIND you...instantly.",
+        "second_image_state": "Check email every 5 mins? Stop! Let us find your urgent messages."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Subheadline",
+        "first_image_state": "When you receive a timely message, AwayFind will notify you on your mobile device with an SMS, Voice call or even our iPhone & Android apps.",
+        "second_image_state": "When you receive an urgent message, AwayFind will notify you via your mobile device, a voice call, IM, or even delegate the message to someone you specify."
+      },
+      {
+        "category": "Style",
+        "component_name": "Main Headline Typography",
+        "first_image_state": "\"AWAY\" and \"FIND\" are displayed in uppercase, creating typographic emphasis.",
+        "second_image_state": "Standard sentence case with no emphasized words."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 81.82271409034729,
+    "input_tokens": 1984,
+    "output_tokens": 3315,
+    "total_tokens": 5299,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

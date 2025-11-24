@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Free Shipping Banner Text",
+        "first_image_state": "Present with text 'FREE SHIPPING OVER $75'",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Style",
+        "component_name": "Shop Nuface Button",
+        "first_image_state": "Teal background with white text",
+        "second_image_state": "White background with black text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Free Shipping Promotion Text",
+        "first_image_state": "Present above Shop Nuface button",
+        "second_image_state": "Not present"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 102.11531496047974,
+    "input_tokens": 1360,
+    "output_tokens": 5686,
+    "total_tokens": 7046,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Date Selection Field",
+        "first_image_state": "Displays 'Check-in \u2014 Check-out' with an open calendar showing March and April 2019",
+        "second_image_state": "Displays 'Thu 7 Mar \u2014 Fri 8 Mar' as selected dates without a calendar popup"
+      },
+      {
+        "category": "Component",
+        "component_name": "Date Selection Field",
+        "first_image_state": "Displays 'Check-in \u2014 Check-out' text with an interactive calendar overlay showing March and April 2019",
+        "second_image_state": "Displays static text 'Thu 7 Mar \u2014 Fri 8 Ma' without any interactive calendar overlay"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 18.18644118309021,
+    "input_tokens": 5904,
+    "output_tokens": 722,
+    "total_tokens": 6626,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

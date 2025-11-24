@@ -1,0 +1,44 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Main Content Section",
+        "first_image_state": "Contains a user testimonial with an image, quote, star rating, user name, age, and weight/body fat statistics.",
+        "second_image_state": "Contains a motivational header and paragraph encouraging commitment to a 12-week body transformation."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Page Header",
+        "first_image_state": "Displays the text \"Our users are convinced\".",
+        "second_image_state": "Displays the text \"Are you ready for change?\"."
+      },
+      {
+        "category": "Style",
+        "component_name": "Main Content Background",
+        "first_image_state": "Solid white background.",
+        "second_image_state": "Dark background featuring an image of two individuals performing push-ups."
+      },
+      {
+        "category": "Component",
+        "component_name": "Main Header Content",
+        "first_image_state": "Contains a testimonial section with a user quote, star rating, and user profile information.",
+        "second_image_state": "Contains a promotional image of two individuals performing push-ups with overlaid text encouraging body transformation."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Header Text",
+        "first_image_state": "Displays the text \"Our users are convinced\"",
+        "second_image_state": "Displays the text \"Are you ready for change? If you've got the will, we've got the way. Commit to your 12-week body transformation TODAY!\""
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 75.14322924613953,
+    "input_tokens": 2234,
+    "output_tokens": 4113,
+    "total_tokens": 6347,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

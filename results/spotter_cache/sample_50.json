@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Find out what you could earn text",
+        "first_image_state": "Displays 'Find + ut what you could earn'",
+        "second_image_state": "Displays 'Find out what you could earn'"
+      },
+      {
+        "category": "Style",
+        "component_name": "Get started button",
+        "first_image_state": "Larger rectangular button with more pronounced rounded corners, spanning a greater horizontal width within its container.",
+        "second_image_state": "Small rectangular button with rounded corners, positioned to the right of the price display."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 69.12826180458069,
+    "input_tokens": 5744,
+    "output_tokens": 2873,
+    "total_tokens": 8617,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

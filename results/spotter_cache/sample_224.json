@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Additional Input Sections",
+        "first_image_state": "No 'Gift Card' or 'Special Offer' sections present; only 'Order Notes' section exists below product details.",
+        "second_image_state": "'Gift Card' section (with text input field) and 'Special Offer' section (with text input field and 'ADD' button) added above 'Order Notes' section."
+      },
+      {
+        "category": "Component",
+        "component_name": "Gift Card section",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with blue header, input field, and UPDATE CART button"
+      },
+      {
+        "category": "Component",
+        "component_name": "Special Offer section",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with blue header, input field, and ADD button"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 23.138510942459106,
+    "input_tokens": 3278,
+    "output_tokens": 1153,
+    "total_tokens": 4431,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Logo Text",
+        "first_image_state": "Displays \"CONSOLIDATED LABEL IND\" as the logo text",
+        "second_image_state": "Displays \"CONSOLIDATED LABEL\" as the logo text (without \"IND\")"
+      },
+      {
+        "category": "Component",
+        "component_name": "Instant Online Quote Button",
+        "first_image_state": "Includes a green rectangular button with \"Instant Online Quote\" text and subtext",
+        "second_image_state": "Does not include the Instant Online Quote button"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "Displays \"Food Packaging Labels\" as the main heading",
+        "second_image_state": "Displays \"Fod Packaging Labels\" as the main heading (typo in \"Food\")"
+      },
+      {
+        "category": "Component",
+        "component_name": "Footer Section",
+        "first_image_state": "Does not include a \"Food Label Samples\" or \"Our Promise To You\" section",
+        "second_image_state": "Includes a new section with \"Food Label Samples View More >> Our Promise To You\" text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "Displays 'Food Packaging Labels'",
+        "second_image_state": "Displays 'Fod Packaging Labels'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Breadcrumb Last Item",
+        "first_image_state": "Displays 'Food Packaging Labels'",
+        "second_image_state": "Displays 'Food Labels'"
+      },
+      {
+        "category": "Component",
+        "component_name": "'Slice With Us' Button",
+        "first_image_state": "Absent",
+        "second_image_state": "Present as a button element"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 86.26729893684387,
+    "input_tokens": 1888,
+    "output_tokens": 3182,
+    "total_tokens": 5070,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

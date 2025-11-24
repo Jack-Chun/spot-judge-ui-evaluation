@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Size selection buttons",
+        "first_image_state": "Displays sizes XS, S, M, L, XL with 10 XL selected.",
+        "second_image_state": "Displays sizes 2XS, 4S, 6M, 8L, 10XL with 10 XL selected."
+      },
+      {
+        "category": "Component",
+        "component_name": "Stock notification checkbox",
+        "first_image_state": "Present below size options.",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Style",
+        "component_name": "Add to wishlist button",
+        "first_image_state": "Heart icon with light background (e.g., white or gray).",
+        "second_image_state": "Heart icon with pink background."
+      },
+      {
+        "category": "Component",
+        "component_name": "Color selection button (first option)",
+        "first_image_state": "Labeled \"Gold\" with pink background.",
+        "second_image_state": "Labeled \"C...\" (truncated, e.g., \"Champagne\") with different background (e.g., white)."
+      },
+      {
+        "category": "Copy",
+        "component_name": "More info link",
+        "first_image_state": "\"More Info\" (capitalized).",
+        "second_image_state": "\"More info\" (lowercase)."
+      },
+      {
+        "category": "Component",
+        "component_name": "Size selection options",
+        "first_image_state": "Displays number sizes (2, 4, 6, 8, 10, XL) as circular buttons",
+        "second_image_state": "Displays letter sizes (XS, S, M, L, XL) as circular buttons"
+      },
+      {
+        "category": "Component",
+        "component_name": "Stock notification checkbox",
+        "first_image_state": "Present with text 'Notify me when my size is back in stock'",
+        "second_image_state": "Not present"
+      },
+      {
+        "category": "Style",
+        "component_name": "Add to bag button",
+        "first_image_state": "Black background with white shopping cart icon",
+        "second_image_state": "Dark gray background with white shopping cart icon"
+      },
+      {
+        "category": "Style",
+        "component_name": "Add to wishlist button",
+        "first_image_state": "White background with heart icon",
+        "second_image_state": "Light pink background with heart icon"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 118.08785367012024,
+    "input_tokens": 2512,
+    "output_tokens": 5732,
+    "total_tokens": 8244,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

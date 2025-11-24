@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Body Text Paragraphs",
+        "first_image_state": "Includes additional text: '(and what the giant liquid shampoo companies hope you will not discover)' followed by 'If it\u2019s so good, why are you giving it away for free?' with a pink arrow",
+        "second_image_state": "Excludes the additional text; ends the paragraph with 'exactly what you\u2019ve been looking for.'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Body paragraph text",
+        "first_image_state": "Extended to include '(and what the giant liquid shampoo companies hope you will not discover)' and adds a new paragraph starting with 'If it\u2019s so good, why are you giving it away for free?'",
+        "second_image_state": "Ends with 'exactly what you\u2019ve been looking for.'"
+      },
+      {
+        "category": "Style",
+        "component_name": "Text underline",
+        "first_image_state": "'award-winning' and the new paragraph 'If it\u2019s so good, why are you giving it away for free?' are underlined.",
+        "second_image_state": "No underlines applied to 'award-winning' or subsequent text."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 34.675479888916016,
+    "input_tokens": 5158,
+    "output_tokens": 1429,
+    "total_tokens": 6587,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

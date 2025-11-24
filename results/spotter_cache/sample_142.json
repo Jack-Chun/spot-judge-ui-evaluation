@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Product Description Section",
+        "first_image_state": "Each product card contains product image, name, price, short metadata, rating, and 'Do ko\u0161\u00edku' button. No additional descriptive text below the main card.",
+        "second_image_state": "Each product card includes all elements from the first image plus an additional section of descriptive text below the main card."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Product Image",
+        "first_image_state": "Larger dimensions, occupying more vertical space within the product card",
+        "second_image_state": "Smaller dimensions, occupying less vertical space within the product card"
+      },
+      {
+        "category": "Style",
+        "component_name": "Akce! Badge",
+        "first_image_state": "Circular orange badge with white text",
+        "second_image_state": "Rectangular orange badge with white text"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 51.234615087509155,
+    "input_tokens": 3072,
+    "output_tokens": 2423,
+    "total_tokens": 5495,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

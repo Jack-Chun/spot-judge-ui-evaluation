@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "\"CONTACT US WITH ANY QUESTIONS OR COMMENTS\" displayed in orange and dark blue text",
+        "second_image_state": "\"CONTACT US\" displayed in orange text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Subheading",
+        "first_image_state": "\"Call us on Or use the form below\" displayed in black text (excluding dynamic phone number)",
+        "second_image_state": "\"Proudly Serving customers throughout Bristol, & the South of England Contact us using the form below\" displayed in dark blue text"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Text Block Structure",
+        "first_image_state": "A single subheading block containing phone number and form instruction below the main heading",
+        "second_image_state": "Two subheading blocks (service area and form instruction) below the main heading"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "Displays 'CONTACT US WITH ANY QUESTIONS OR COMMENTS' with 'CONTACT US' in orange and the remaining text in blue",
+        "second_image_state": "Displays 'CONTACT US' in orange"
+      },
+      {
+        "category": "Style",
+        "component_name": "Main Heading",
+        "first_image_state": "'CONTACT US' in orange, subsequent text in blue",
+        "second_image_state": "All text rendered in orange"
+      },
+      {
+        "category": "Component",
+        "component_name": "Service Area Subheading",
+        "first_image_state": "Absent",
+        "second_image_state": "Present as a paragraph displaying 'Proudly Serving customers throughout Bristol, & the South of England'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Phone Contact Subheading",
+        "first_image_state": "Present as a paragraph displaying 'Call us on 0117 453 5994'",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Form Subheading",
+        "first_image_state": "Displays 'Or use the form below'",
+        "second_image_state": "Displays 'Contact us using the form below'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 146.2481391429901,
+    "input_tokens": 3124,
+    "output_tokens": 7025,
+    "total_tokens": 10149,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

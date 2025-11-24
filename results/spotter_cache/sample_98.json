@@ -1,0 +1,80 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Navigation Links",
+        "first_image_state": "Navigation links arranged as 'Become a host', 'Help', 'Sign up', 'Log in'",
+        "second_image_state": "Navigation links arranged as 'Become a host', 'Saved', 'Tips', 'Messages'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Navigation Links",
+        "first_image_state": "Navigation link texts include 'Help', 'Sign up', 'Log in'",
+        "second_image_state": "Navigation link texts include 'Saved', 'Tips', 'Messages'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Main Image Container",
+        "first_image_state": "Contains a 2x2 grid of four photos",
+        "second_image_state": "Contains a single large photo"
+      },
+      {
+        "category": "Component",
+        "component_name": "Sleeping Arrangements Section",
+        "first_image_state": "Includes two bedroom components (Bedroom 1, Bedroom 2)",
+        "second_image_state": "Includes three components (Bedroom 1, Bedroom 2, Common spaces)"
+      },
+      {
+        "category": "Style",
+        "component_name": "Price Text",
+        "first_image_state": "Displays '$239 per night' in black text",
+        "second_image_state": "Displays '$252 per night' in teal text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Booking Button",
+        "first_image_state": "Displays 'Request to Book' text",
+        "second_image_state": "Displays 'Book' text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Amenities List",
+        "first_image_state": "Includes amenities such as 'Indoor fireplace', 'Kitchen', 'Wifi', 'Cable TV'",
+        "second_image_state": "Includes amenities such as 'Cable TV', 'Iron', 'Laptop-friendly workspace'"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Hero Image Container",
+        "first_image_state": "Grid of four smaller images displaying various angles of the interior space",
+        "second_image_state": "Single full-width image displaying the interior space"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Top Right Navigation Links",
+        "first_image_state": "Contains links labeled 'Help', 'Sign up', 'Log in'",
+        "second_image_state": "Contains links labeled 'Saved', 'Tips', 'Messages'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Booking CTA Button",
+        "first_image_state": "Labeled 'Request to Book'",
+        "second_image_state": "Labeled 'Book'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Amenities List Items",
+        "first_image_state": "Does not include 'Iron' and 'Laptop friendly workspace'; other amenities may vary",
+        "second_image_state": "Includes 'Iron' and 'Laptop friendly workspace' among other amenities"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 118.51435685157776,
+    "input_tokens": 4784,
+    "output_tokens": 5043,
+    "total_tokens": 9827,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

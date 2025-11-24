@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Model Selection Options",
+        "first_image_state": "Two input fields labeled '30' and '50'",
+        "second_image_state": "One input field labeled '30'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Model Selection",
+        "first_image_state": "Two selectable options ('30' and '50') displayed side by side",
+        "second_image_state": "Single dropdown displaying '30' as the selected option"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 32.74601125717163,
+    "input_tokens": 1648,
+    "output_tokens": 1389,
+    "total_tokens": 3037,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Hero Section",
+        "first_image_state": "Text-based layout with solid blue background, containing 'Find your next stay' heading and 'Search low prices on hotels, homes and much more...' subheading.",
+        "second_image_state": "Image-based layout with beach scene background, containing 'The great getaway, your way' heading, 'Save at least 15% on stays worldwide, from relaxing retreats to off-grid adventures' subheading, and a 'Find Getaway Deals' button."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero Headings/Subheadings",
+        "first_image_state": "Heading 'Find your next stay', subheading 'Search low prices on hotels, homes and much more...'",
+        "second_image_state": "Heading 'The great getaway, your way', subheading 'Save at least 15% on stays worldwide, from relaxing retreats to off-grid adventures'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Find Getaway Deals Button",
+        "first_image_state": "Not present",
+        "second_image_state": "Blue button with white text 'Find Getaway Deals' positioned below the hero subheading"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Offers Pagination Indicators",
+        "first_image_state": "Two circular indicators (one blue, one gray) below the offers section",
+        "second_image_state": "One blue circular indicator below the offers section"
+      },
+      {
+        "category": "Style",
+        "component_name": "Hero Section Background",
+        "first_image_state": "Solid blue background",
+        "second_image_state": "Photographic beach scene background"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero Headline and Subheadline",
+        "first_image_state": "\"Find your next stay\" headline with \"Search low prices on hotels, homes and much more...\" subheadline",
+        "second_image_state": "\"The great getaway, your way\" headline with \"Save at least 15% on stays worldwide, from relaxing retreats to off-grid adventures\" subheadline"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Flights Navigation Label",
+        "first_image_state": "\"Flight\" text",
+        "second_image_state": "\"Flights\" text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Find Getaway Deals Button",
+        "first_image_state": "Absent",
+        "second_image_state": "Present as a blue button below the hero subheadline"
+      },
+      {
+        "category": "Component",
+        "component_name": "City Cards (Montr\u00e9al, Qu\u00e9bec City)",
+        "first_image_state": "Present with images and labels",
+        "second_image_state": "Absent"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 106.8339729309082,
+    "input_tokens": 7024,
+    "output_tokens": 4627,
+    "total_tokens": 11651,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

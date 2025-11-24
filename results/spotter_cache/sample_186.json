@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Newsletter Checkbox Text",
+        "first_image_state": "Text reads 'We wouldn't say EXCLUSIVE if we didn't mean it! Join our newsletter to find out.' with an unchecked checkbox.",
+        "second_image_state": "Text reads 'Join our Newsletter' with an unchecked checkbox."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Newsletter Checkbox Label",
+        "first_image_state": "Text reads 'We wouldn't say EXCLUSIVE if we didn't mean it! Join our newsletter to find out.'",
+        "second_image_state": "Text reads 'Join our Newsletter'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 24.4935519695282,
+    "input_tokens": 1954,
+    "output_tokens": 866,
+    "total_tokens": 2820,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

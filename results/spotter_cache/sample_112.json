@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Pay & Go Pricing Box",
+        "first_image_state": "Blue rectangular container with \"$9 Monthly Fee\" header followed by descriptive text in a vertical layout",
+        "second_image_state": "Lighter colored rectangular container with \"No Monthly Fees\" header followed by reorganized descriptive text in a vertical layout"
+      },
+      {
+        "category": "Style",
+        "component_name": "Pay & Go Pricing Box",
+        "first_image_state": "Blue background color",
+        "second_image_state": "Lighter (non-blue) background color"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Time Zone Input Field Label",
+        "first_image_state": "Labeled \"Time Zone\"",
+        "second_image_state": "Labeled \"Extended Time\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Company Name Input Field Label",
+        "first_image_state": "No additional text",
+        "second_image_state": "Includes \"Optional\" text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Pay & Go Pricing Box",
+        "first_image_state": "Absent, removed from the layout.",
+        "second_image_state": "Present, positioned on the left side of the pricing plans section, displaying '$0 Monthly Fees' and details about pay-as-you-go credit options."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Pricing Plan Labels",
+        "first_image_state": "Displays plan names with monthly cost information added (e.g., 'Starter $29/month').",
+        "second_image_state": "Displays plan names without monthly cost information (e.g., 'Starter')."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 83.65868496894836,
+    "input_tokens": 2004,
+    "output_tokens": 3620,
+    "total_tokens": 5624,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

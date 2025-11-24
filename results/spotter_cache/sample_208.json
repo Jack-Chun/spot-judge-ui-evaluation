@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "CTA Button",
+        "first_image_state": "Displays 'Meer informatie' text",
+        "second_image_state": "Displays 'Ga verder' text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA Button",
+        "first_image_state": "Displays 'Meer informatie' text",
+        "second_image_state": "Displays 'Ga verder' text"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 13.1119065284729,
+    "input_tokens": 4464,
+    "output_tokens": 435,
+    "total_tokens": 4899,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

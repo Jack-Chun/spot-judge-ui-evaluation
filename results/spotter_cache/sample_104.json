@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Contact Email",
+        "first_image_state": "jessica@energysage.com",
+        "second_image_state": "solarteam@energysage.com"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Signature",
+        "first_image_state": "- Jessica Rayberg",
+        "second_image_state": "- The EnergySage Team"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Contact Information Section",
+        "first_image_state": "Contains \"contact me at jessica@energysage.com\", \"ank you for joining EnergySage!\" (with partial text), and \"- Jessica Rayberg\"",
+        "second_image_state": "Contains \"contact us at solarteam@energysage.com\", \"Thank you for joining EnergySage!\", and \"- The EnergySage Team\""
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 33.2485613822937,
+    "input_tokens": 6784,
+    "output_tokens": 1305,
+    "total_tokens": 8089,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

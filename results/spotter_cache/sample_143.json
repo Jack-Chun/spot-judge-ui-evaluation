@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Right Sidebar Lower Ad",
+        "first_image_state": "A gray rectangular placeholder with 'Ad' text",
+        "second_image_state": "A promotional ad for Chase Offers featuring people and text about activating offers"
+      },
+      {
+        "category": "Component",
+        "component_name": "Right Sidebar Lower Advertisement",
+        "first_image_state": "Contains a different advertisement or placeholder element without the Chase Offers content; appears as a blank or alternate ad unit",
+        "second_image_state": "Contains a Chase Offers advertisement with an image of people, text reading 'Activate Chase Offers\u2122 for deals', and an 'ACTIVATE NOW' button"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 25.668622970581055,
+    "input_tokens": 2688,
+    "output_tokens": 1253,
+    "total_tokens": 3941,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

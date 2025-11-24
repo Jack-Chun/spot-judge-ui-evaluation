@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Main Banner Visual",
+        "first_image_state": "Large photograph of a conference audience",
+        "second_image_state": "Laptop displaying a webpage mockup"
+      },
+      {
+        "category": "Component",
+        "component_name": "Top Right CTA Button",
+        "first_image_state": "Orange button with 'REQUEST A DEMO' text",
+        "second_image_state": "Blue button with 'Connections 2013 Registration Is Now Live!' text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Main Banner Visual Element",
+        "first_image_state": "A photograph of a conference audience in a large venue",
+        "second_image_state": "A laptop displaying a webpage with multiple images"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 42.22593140602112,
+    "input_tokens": 1344,
+    "output_tokens": 1747,
+    "total_tokens": 3091,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

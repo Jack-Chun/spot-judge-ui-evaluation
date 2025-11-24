@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Page Header",
+        "first_image_state": "No 'Varukorg' heading present above 'Best\u00e4ll p\u00e5 artikelnummer'.",
+        "second_image_state": "'Varukorg' heading displayed prominently above 'Best\u00e4ll p\u00e5 artikelnummer'."
+      },
+      {
+        "category": "Component",
+        "component_name": "Action Buttons",
+        "first_image_state": "No buttons below the product table.",
+        "second_image_state": "Two buttons ('FORTS\u00c4TT HANDLA' and 'UPPDATERA VARUKORGEN') displayed below the product table."
+      },
+      {
+        "category": "Component",
+        "component_name": "Discount Codes Section",
+        "first_image_state": "No 'Rabattkoder' section present.",
+        "second_image_state": "'Rabattkoder' section with input field and 'ANV\u00c4ND KUPONG' button displayed."
+      },
+      {
+        "category": "Style",
+        "component_name": "Checkout Button",
+        "first_image_state": "Blue 'G\u00e5 till kassan' button with white text.",
+        "second_image_state": "Orange 'K\u00d6P TILL KASSAN' button with white text."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Bonus Gift Button",
+        "first_image_state": "Green button with text 'Du har upp\u00e5tt en bonusg\u00e5va att v\u00e4lja.'",
+        "second_image_state": "Green button with text 'Du har en bonusg\u00e5va att v\u00e4lja.'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Top Right Button",
+        "first_image_state": "No 'TILL KASSAN' button in the top right corner.",
+        "second_image_state": "Orange 'TILL KASSAN' button displayed in the top right corner."
+      },
+      {
+        "category": "Component",
+        "component_name": "Bottom action buttons",
+        "first_image_state": "The two gray buttons are absent; a single blue 'G\u00e5 till kassan' button with a cart icon replaces them.",
+        "second_image_state": "Two gray buttons ('FORTS\u00c4TT HANDLA' and 'UPPDATERA VARUKORGEN') and an orange 'G\u00c5 TILL KASSAN' button are present."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 69.87893486022949,
+    "input_tokens": 2524,
+    "output_tokens": 3232,
+    "total_tokens": 5756,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

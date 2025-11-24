@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Navigation Tabs",
+        "first_image_state": "Tabs arranged as 'All', 'Images', 'Shopping', 'Videos', 'News', 'More', followed by 'Settings' and 'Tools'",
+        "second_image_state": "Tabs arranged as 'All', 'Images', 'Shopping', 'Videos', 'News', 'More', followed by 'Settings' and 'Tools'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Navigation Tabs",
+        "first_image_state": "Navigation tabs display as text labels accompanied by small icons next to each label.",
+        "second_image_state": "Navigation tabs display as text-only labels without accompanying icons."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 99.66453194618225,
+    "input_tokens": 6384,
+    "output_tokens": 4877,
+    "total_tokens": 11261,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

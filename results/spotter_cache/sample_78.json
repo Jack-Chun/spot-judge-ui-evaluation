@@ -1,0 +1,38 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Primary CTA Button",
+        "first_image_state": "Displays 'TRY IT NOW' text",
+        "second_image_state": "Displays 'JOIN NOW' text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Secondary CTA Button",
+        "first_image_state": "Displays 'TRY IT NOW' text",
+        "second_image_state": "Displays 'JOIN NOW' text"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Primary CTA Button",
+        "first_image_state": "Displays 'TRY IT NOW' in white text on a red background",
+        "second_image_state": "Displays 'JOIN NOW' in white text on a red background"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Secondary CTA Button",
+        "first_image_state": "Displays 'TRY IT NOW' in white text on a red background",
+        "second_image_state": "Displays 'JOIN NOW' in white text on a red background"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 18.586158990859985,
+    "input_tokens": 4944,
+    "output_tokens": 779,
+    "total_tokens": 5723,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

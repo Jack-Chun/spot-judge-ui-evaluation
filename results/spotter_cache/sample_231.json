@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Add to Basket Button",
+        "first_image_state": "Solid medium blue background with white text",
+        "second_image_state": "Solid darker blue background with white text"
+      },
+      {
+        "category": "Component",
+        "component_name": "Promotional Pricing Info",
+        "first_image_state": "Present with text 'Buy 5 or more for \u00a33.79 each Buy 10 or more for \u00a33.59 each'",
+        "second_image_state": "Absent"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 62.26347899436951,
+    "input_tokens": 2256,
+    "output_tokens": 3728,
+    "total_tokens": 5984,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

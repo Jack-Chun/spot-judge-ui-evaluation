@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "CTA Buttons",
+        "first_image_state": "Single red button with 'Try demo for free!' text",
+        "second_image_state": "Two buttons: red 'Try demo' button and blue 'Buy now for $19.99' button"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Original CTA Button Text",
+        "first_image_state": "'Try demo for free!'",
+        "second_image_state": "'Try demo'"
+      },
+      {
+        "category": "Style",
+        "component_name": "New CTA Button Color",
+        "first_image_state": "No additional button (not applicable)",
+        "second_image_state": "Blue background with white text"
+      },
+      {
+        "category": "Layout",
+        "component_name": "CTA Button Arrangement",
+        "first_image_state": "Single button centered below header",
+        "second_image_state": "Two buttons aligned side by side below header"
+      },
+      {
+        "category": "Component",
+        "component_name": "CTA Buttons",
+        "first_image_state": "One button ('Try demo for free!') replacing the previous two buttons",
+        "second_image_state": "Two buttons ('Try demo' and 'Buy now for $19.99') positioned side by side below the header"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Try Demo Button Text",
+        "first_image_state": "'Try demo for free!'",
+        "second_image_state": "'Try demo'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 67.63816690444946,
+    "input_tokens": 1796,
+    "output_tokens": 2926,
+    "total_tokens": 4722,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

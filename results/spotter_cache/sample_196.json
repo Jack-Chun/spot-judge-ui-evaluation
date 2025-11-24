@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Main Heading",
+        "first_image_state": "Replace clipboards & paper-based processes",
+        "second_image_state": "Mobilize work orders, proof of delivery, maintenance reports, sales orders & surveys"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Main Content Area",
+        "first_image_state": "Contains a single heading, a descriptive paragraph, and an illustration of two stick figures shaking hands",
+        "second_image_state": "Contains a heading, tab navigation (two tabs: \"For Organizations\" and \"For Developers\"), a video player showing a mobile forms interface, and a bulleted list of four benefits"
+      },
+      {
+        "category": "Component",
+        "component_name": "Tab Navigation Elements",
+        "first_image_state": "Not present",
+        "second_image_state": "Two tab buttons labeled \"For Organizations\" and \"For Developers\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Video Player",
+        "first_image_state": "Not present",
+        "second_image_state": "A video player displaying a thumbnail of a mobile forms introduction, with play controls and a timestamp"
+      },
+      {
+        "category": "Component",
+        "component_name": "Bulleted Benefits List",
+        "first_image_state": "Not present",
+        "second_image_state": "A list of four bullet points detailing benefits such as removing paperwork, improving data quality, real-time access to field data, and quick setup without programming"
+      },
+      {
+        "category": "Component",
+        "component_name": "Main Content Section",
+        "first_image_state": "Contains a heading, descriptive paragraph text, an illustration of two stick figures, and pagination dots.",
+        "second_image_state": "Contains tab navigation (For Organizations / For Developers), a video player with playback controls, and five bullet points listing benefits."
+      },
+      {
+        "category": "Layout Topology",
+        "component_name": "Main Content Area",
+        "first_image_state": "Linear vertical arrangement starting with a heading, followed by paragraph text, then an illustration, and ending with pagination dots.",
+        "second_image_state": "Structured with tab navigation at the top, followed by a video player, then bullet points below."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 57.30719256401062,
+    "input_tokens": 2026,
+    "output_tokens": 2927,
+    "total_tokens": 4953,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Interactive Live Classes feature",
+        "first_image_state": "Displays \"Interactive Live Classes\"",
+        "second_image_state": "Displays \"Daily interactive live classes\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Live Tests & Quizzes feature",
+        "first_image_state": "Displays \"Live Tests & Quizzes\"",
+        "second_image_state": "Displays \"Live Mock Tests & Quizzes\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Personal Coach feature",
+        "first_image_state": "Displays \"Personal Coach\"",
+        "second_image_state": "Displays \"Personal Coach & Mentorship\""
+      },
+      {
+        "category": "Layout",
+        "component_name": "Pricing card structure",
+        "first_image_state": "Displays monthly rate (e.g., \"\u20b93,844/mo\") as primary price, with total discounted price as secondary",
+        "second_image_state": "Displays total amount (e.g., \"\u20b91,38,375\") as primary price, with original total price as secondary"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Feature List Items",
+        "first_image_state": "Contains items such as \"India's Best Educators\", \"Interactive Live Classes\", \"Structured Courses & PDFs\", \"Live Tests & Quizzes\", \"Personal Coach\", \"Mains Q&A practice\"",
+        "second_image_state": "Contains items such as \"India's best educators\", \"Daily interactive live classes\", \"Structured courses and PDFs\", \"Live Mock Tests & Quizzes\", \"Personal Coach & Mentorship\", \"Mains Q&A practice\""
+      },
+      {
+        "category": "Copy",
+        "component_name": "Pricing Option Text",
+        "first_image_state": "Displays monthly subscription cost (e.g., \"\u20b93,844/mo\") as the primary price, with \"+10% OFF\" and original price (e.g., \"\u20b9138,375\")",
+        "second_image_state": "Displays total subscription cost (e.g., \"\u20b91,38,375\") as the primary price, with \"+10% OFF\" and original price (e.g., \"\u20b915,375\")"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Payment Information Text",
+        "first_image_state": "Contains the text \"To be paid as a one-time payment\" below the pricing options",
+        "second_image_state": "Does not contain any text below the pricing options"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 82.5723443031311,
+    "input_tokens": 2344,
+    "output_tokens": 4490,
+    "total_tokens": 6834,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

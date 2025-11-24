@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Profession dropdown",
+        "first_image_state": "Not present in the form structure",
+        "second_image_state": "Present as a dropdown field below the City dropdown"
+      },
+      {
+        "category": "Component",
+        "component_name": "Profession dropdown",
+        "first_image_state": "Absent",
+        "second_image_state": "Present with icon and 'Profession' label"
+      },
+      {
+        "category": "Copy",
+        "component_name": "First input field label",
+        "first_image_state": "Present with text 'Name'",
+        "second_image_state": "Absent"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 37.07688283920288,
+    "input_tokens": 3664,
+    "output_tokens": 1928,
+    "total_tokens": 5592,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

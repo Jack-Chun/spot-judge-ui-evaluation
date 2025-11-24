@@ -1,0 +1,62 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Progress Indicator and Comparison Button",
+        "first_image_state": "A green horizontal progress bar displaying \"The probability of approval is 30%\" and a green button labeled \"Get >10% to step 3 comparison\" below it.",
+        "second_image_state": "No progress bar or comparison button present."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Form Section Header",
+        "first_image_state": "Displays \"Passport data\" as the header for the input field group.",
+        "second_image_state": "Displays \"What is your name\" as the header for the input field group."
+      },
+      {
+        "category": "Component",
+        "component_name": "Input Field Group",
+        "first_image_state": "Contains three input fields labeled \"Code division\", \"Date of issue (dd/mm/yyyy)\", and \"Issued\".",
+        "second_image_state": "Contains three input fields labeled \"Name\", \"Mobile phone\", and \"Email\"."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Step Progress Indicator",
+        "first_image_state": "Displays \"Step 2 of 4\" next to \"Contact Info\".",
+        "second_image_state": "Displays \"Step 1 of 4\" next to \"Contact Info\"."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Contact Info step indicator",
+        "first_image_state": "Displays 'Step 2 of 4'",
+        "second_image_state": "Displays 'Step 1 of 4'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Form section heading",
+        "first_image_state": "Displays 'Passport data'",
+        "second_image_state": "Displays 'What is your name'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Form input fields",
+        "first_image_state": "Contains input fields labeled 'Code division', 'Date of issue', and 'Issued'",
+        "second_image_state": "Contains input fields labeled 'Name', 'Mobile phone', and 'Email'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Green progress bar",
+        "first_image_state": "Present with text 'The probability of approval is 30%' and 'Get +10% for Step 2 completion'",
+        "second_image_state": "Absent"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 45.642451763153076,
+    "input_tokens": 1412,
+    "output_tokens": 2637,
+    "total_tokens": 4049,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

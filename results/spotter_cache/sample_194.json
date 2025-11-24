@@ -1,0 +1,98 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Hero Section Background and Device Display",
+        "first_image_state": "Blue gradient background with computer monitor, tablet, and smartphone displaying POS software interface.",
+        "second_image_state": "Sky background with clouds, featuring a person holding two tablets and a laptop displaying POS software interfaces."
+      },
+      {
+        "category": "Component",
+        "component_name": "Top Right Navigation Links",
+        "first_image_state": "Includes \"ABOUT US\", \"THE RESTAURANT TIMES\", \"BLOG\", \"NEWS\".",
+        "second_image_state": "Includes \"ABOUT US\", \"BLOG\", \"RESELLER\", \"CAREERS\", \"NEWS\"."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero Section Headline and Subheadline",
+        "first_image_state": "Headline reads \"POS Software For Ever Growing Restaurants!\"; subheadline reads \"Trusted by over 5000+ Restaurants, POSist Simplifies Restaurant Operations & Boosts your Restaurant Business!\".",
+        "second_image_state": "Headline reads \"FOCUS ON RUNNING YOUR FOOD OUTLET\"; subheadline reads \"Leave The Technology Management To Us!\"."
+      },
+      {
+        "category": "Component",
+        "component_name": "Hero Section CTA Button",
+        "first_image_state": "Present as a white button labeled \"SIGN UP FOR FREE DEMO\".",
+        "second_image_state": "Absent."
+      },
+      {
+        "category": "Component",
+        "component_name": "Form CTA Button",
+        "first_image_state": "Absent.",
+        "second_image_state": "Present as a blue button labeled \"Schedule Demo\"."
+      },
+      {
+        "category": "Style",
+        "component_name": "Form CTA Button Color",
+        "first_image_state": "Not applicable (absent).",
+        "second_image_state": "Blue."
+      },
+      {
+        "category": "Layout",
+        "component_name": "Hero Section Layout",
+        "first_image_state": "Text is positioned on the left, visual elements are positioned on the right.",
+        "second_image_state": "Text and visual elements are centered, with text positioned below the visual."
+      },
+      {
+        "category": "Component",
+        "component_name": "Hero Visuals",
+        "first_image_state": "Features device mockups (desktop computer, tablet, smartphone) displaying POS software interfaces.",
+        "second_image_state": "Features a person holding two tablets displaying POS software interfaces."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero Headline",
+        "first_image_state": "Displays the text \"POS Software For Ever Growing Restaurants!\".",
+        "second_image_state": "Displays the text \"FOCUS ON RUNNING YOUR FOOD OUTLET\"."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Hero Subhead",
+        "first_image_state": "Displays the text \"Trusted by over 5000+ Restaurants, POSist Simplifies Restaurant Operations & Boosts your Restaurant Business!\".",
+        "second_image_state": "Displays the text \"Leave The Technology Management To Us!\"."
+      },
+      {
+        "category": "Style",
+        "component_name": "Hero Background",
+        "first_image_state": "Features a geometric blue patterned background.",
+        "second_image_state": "Features a photographic background of a beach scene with a clear sky and clouds."
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA Button Text",
+        "first_image_state": "Displays the text \"SIGN UP FOR FREE DEMO\".",
+        "second_image_state": "Displays the text \"Schedule Demo\"."
+      },
+      {
+        "category": "Style",
+        "component_name": "CTA Button Design",
+        "first_image_state": "A white rectangular button with a dark border and rounded corners.",
+        "second_image_state": "A solid blue rectangular button with rounded corners."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Top Right Navigation Links",
+        "first_image_state": "Includes links labeled \"ABOUT US\", \"THE RESTAURANT TIMES\", \"RESELLER\", \"NEWS\".",
+        "second_image_state": "Includes links labeled \"ABOUT US\", \"BLOG\", \"RESELLER\", \"CAREERS\", \"NEWS\"."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 123.57671809196472,
+    "input_tokens": 2320,
+    "output_tokens": 5958,
+    "total_tokens": 8278,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

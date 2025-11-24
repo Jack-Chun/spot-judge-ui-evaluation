@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Delivery Message Bar",
+        "first_image_state": "Present as a gray horizontal bar displaying 'You get FREE standard delivery on this order'",
+        "second_image_state": "Absent"
+      },
+      {
+        "category": "Component",
+        "component_name": "Delivery notification banner",
+        "first_image_state": "Present as a gray horizontal bar below the review section containing text about free standard delivery",
+        "second_image_state": "Absent"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 18.62209415435791,
+    "input_tokens": 2614,
+    "output_tokens": 481,
+    "total_tokens": 3095,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Layout",
+        "component_name": "Purchase Options Panel",
+        "first_image_state": "Contains 'One-time purchase' section with price, quantity dropdown, 'Add to Cart' and 'Buy Now' buttons, followed by 'Deliver to Canada' option, then 'Subscribe & Save' section with 5%/15% options and 'Add to List' button.",
+        "second_image_state": "Contains 'One-time purchase' section with price, quantity dropdown, followed by 'Subscribe & Save' section with expanded options (including 5%/15% and additional promotional text), 'Deliver every:' dropdown, 'Set Up Now' button, then 'Add to List' button."
+      },
+      {
+        "category": "Component",
+        "component_name": "Action Buttons",
+        "first_image_state": "Includes 'Add to Cart' (orange) and 'Buy Now' (orange) buttons.",
+        "second_image_state": "Includes 'Set Up Now' (orange) button instead of 'Add to Cart' and 'Buy Now'."
+      },
+      {
+        "category": "Component",
+        "component_name": "Delivery Selection",
+        "first_image_state": "Displays 'Deliver to Canada' with location icon.",
+        "second_image_state": "Displays 'Deliver every:' with a dropdown menu showing '2 months (Most common)'."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Subscribe & Save Promotional Text",
+        "first_image_state": "Shows 'Save an extra $0.50 when you apply this coupon. Details'.",
+        "second_image_state": "Shows 'Save an extra $0.50 on your first Subscribe & Save order. Details' and additional text 'Save 5% now and up to 15% on scheduled deliveries. Learn more Get it Thursday, Mar 5'."
+      },
+      {
+        "category": "Component",
+        "component_name": "Purchase Options Panel",
+        "first_image_state": "Contains 'Add to Cart' and 'Buy Now' buttons, 'Deliver to Canada' option, and 'Add to List' button below; subscription details are absent.",
+        "second_image_state": "Contains subscription details (delivery frequency dropdown set to '2 months (Most common)', 'Set Up Now' button) and 'Add to List' button below."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Coupon Description",
+        "first_image_state": "Save an extra $0.50 when you apply this coupon.",
+        "second_image_state": "Save an extra $0.50 on your first Subscribe & Save order."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 61.524648666381836,
+    "input_tokens": 4368,
+    "output_tokens": 2764,
+    "total_tokens": 7132,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

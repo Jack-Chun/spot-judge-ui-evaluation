@@ -1,0 +1,50 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Component",
+        "component_name": "Header Logo",
+        "first_image_state": "Absent from the header section",
+        "second_image_state": "Present in the top-left corner of the header section"
+      },
+      {
+        "category": "Layout",
+        "component_name": "Form Field Arrangement",
+        "first_image_state": "Fields ordered as Voornaam, Leeftijd, Achternaam, Huisman, Bedrijfsnaam, Lottest, Telefoon, Email, Land",
+        "second_image_state": "Fields reordered to Voornaam, Achternaam, Leeftijd, Huisman, Bedrijfsnaam, Lottest, Telefoon, Email, Land"
+      },
+      {
+        "category": "Copy",
+        "component_name": "CTA Button Text",
+        "first_image_state": "Displays \"& wil Teamleader 14 dagen proberen\"",
+        "second_image_state": "Displays \"Probeer nu gratis\""
+      },
+      {
+        "category": "Component",
+        "component_name": "Form Field Required Indicators",
+        "first_image_state": "Form fields (Voornaam, Achternaam, Bedrijfsnaam, Telefoon, Email, Land) display asterisks next to their labels, indicating required fields.",
+        "second_image_state": "Form fields (Voornaam, Achternaam, Bedrijfsnaam, Telefoon, Email, Land) do not display asterisks next to their labels."
+      },
+      {
+        "category": "Copy",
+        "component_name": "Call-to-Action Button",
+        "first_image_state": "The orange button displays the text \"& wil Teamleader 14 dagen proberen\".",
+        "second_image_state": "The orange button displays the text \"Probeer nu gratis\"."
+      },
+      {
+        "category": "Component",
+        "component_name": "Required Fields Checkbox",
+        "first_image_state": "A checkbox with the text \"Deze velden zijn verplicht in te vullen.\" is present above the privacy policy links.",
+        "second_image_state": "No checkbox with the text \"Deze velden zijn verplicht in te vullen.\" is present."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 61.12693190574646,
+    "input_tokens": 2512,
+    "output_tokens": 3011,
+    "total_tokens": 5523,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

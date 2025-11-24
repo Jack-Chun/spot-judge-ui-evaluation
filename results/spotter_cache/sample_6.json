@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Booking Availability Message",
+        "first_image_state": "No additional text above date selection fields; date fields display 'CHECK-IN Add date' and 'CHECKOUT Add date'",
+        "second_image_state": "Additional text 'Earliest availability Feb. 28. Add check-in date' appears above date selection fields; date fields display 'CHECK-IN Add date' and 'CHECKOUT Add date'"
+      },
+      {
+        "category": "Copy",
+        "component_name": "Earliest availability text",
+        "first_image_state": "Does not contain this text",
+        "second_image_state": "Contains 'Earliest availability is Feb. 28. Add check-in date'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Report this listing link",
+        "first_image_state": "Present with icon and text 'Report this listing'",
+        "second_image_state": "Not present"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 60.45700168609619,
+    "input_tokens": 6864,
+    "output_tokens": 2670,
+    "total_tokens": 9534,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

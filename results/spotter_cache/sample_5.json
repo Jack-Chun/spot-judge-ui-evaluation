@@ -1,0 +1,32 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Copy",
+        "component_name": "Cancellation Policy Section",
+        "first_image_state": "Displays 'Free cancellation for 48 hours' with detailed text about canceling up to 7 days before check-in and getting a 50% refund minus service fee.",
+        "second_image_state": "Displays 'Cancellation policy' with text 'Add your trip dates to get the cancellation details for this stay.'"
+      },
+      {
+        "category": "Component",
+        "component_name": "Possible Dates Information Box",
+        "first_image_state": "Not present.",
+        "second_image_state": "Present below the 'Check availability' button, showing available dates (Aug. 19 - Aug. 21) and an 'Add these dates' link."
+      },
+      {
+        "category": "Component",
+        "component_name": "Cancellation Policy Section",
+        "first_image_state": "Displays 'Free cancellation for 48 hours' header with text 'After that, cancel up to 7 days before check-in and get a 50% refund, minus the service fee.'",
+        "second_image_state": "Displays 'Cancellation policy' header with text 'Add your trip dates to get the cancellation details for this stay.'"
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 38.51905798912048,
+    "input_tokens": 7024,
+    "output_tokens": 1301,
+    "total_tokens": 8325,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "output": {
+    "differences": [
+      {
+        "category": "Style",
+        "component_name": "Add to Cart Button",
+        "first_image_state": "Yellow button with black text and white border",
+        "second_image_state": "Solid yellow button with black text without white border"
+      },
+      {
+        "category": "Component",
+        "component_name": "Quantity Selector",
+        "first_image_state": "Quantity selector (dropdown with '1' selected) inserted between 'Select' button and '+ In winkelwagen' button.",
+        "second_image_state": "No quantity selector present; '+ In winkelwagen' button directly follows 'Select' button."
+      }
+    ]
+  },
+  "metadata": {
+    "latency_seconds": 52.725382804870605,
+    "input_tokens": 6256,
+    "output_tokens": 2080,
+    "total_tokens": 8336,
+    "model": "glm-4.5v",
+    "combined": true
+  }
+}
