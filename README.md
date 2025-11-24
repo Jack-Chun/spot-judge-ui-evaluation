@@ -9,7 +9,7 @@ This research proposes a two-stage "Spot & Judge" architecture to mitigate Posit
 ## Key Features
 
 - **Stage 1 - Spotter**: Uses GLM-4.5V to extract visual differences between UI variants in a position-agnostic manner
-- **Stage 2 - Judger**: Uses GPT-4o or Claude 3.5 Sonnet to evaluate UX effectiveness based on extracted differences
+- **Stage 2 - Judger**: Uses GPT-4o to evaluate UX effectiveness based on extracted differences
 - **Position Bias Mitigation**: Reduces position dependency by preventing simultaneous image comparison
 - **WiserUI-Bench Integration**: Complete evaluation framework on real A/B test data
 
@@ -31,7 +31,6 @@ pip install -r requirements.txt
 cp .env.example .env
 # Edit .env and add your API keys:
 # - OPENAI_API_KEY
-# - ANTHROPIC_API_KEY
 # - ZAI_API_KEY
 ```
 
@@ -42,7 +41,7 @@ cp .env.example .env
 python scripts/run_pilot.py
 
 # Run full experiment
-python scripts/run_experiment.py --num-samples 100 --models gpt-4o claude-3.5-sonnet
+python scripts/run_experiment.py --num-samples 300 --models gpt-4o
 ```
 
 ## Project Structure
