@@ -57,6 +57,10 @@ class BaselineE2EEvaluator:
         self.temperature = 0.2
         assert self.temperature == 0.2, "WiserUI-Bench baseline requires temperature=0.2"
         self.max_tokens = self.baseline_config.get('max_tokens', 2000)
+        
+        # Retry configuration
+        self.retry_attempts = self.baseline_config.get('retry_attempts', 3)
+        self.retry_delay = self.baseline_config.get('retry_delay', 5)
 
         # Initialize model based on type
         if 'gpt' in self.model_name:
@@ -172,47 +176,61 @@ class BaselineE2EEvaluator:
             {
                 "role": "user",
                 "content": [
-                    {"type": "text", "text": prompts['prompt']},
                     {"type": "image_url", "image_url": {"url": first_image_b64}},
-                    {"type": "image_url", "image_url": {"url": second_image_b64}}
+                    {"type": "image_url", "image_url": {"url": second_image_b64}},
+                    {"type": "text", "text": prompts['prompt']}
                 ]
             }
         ]
 
-        start_time = time.time()
+        last_exception = None
 
-        try:
-            response = self.llm.chat.completions.create(
-                model=self.openai_model_name,
-                messages=messages,
-                temperature=self.temperature,
-                max_tokens=self.max_tokens
-            )
-            latency = time.time() - start_time
+        for attempt in range(self.retry_attempts):
+            try:
+                start_time = time.time()
+                
+                response = self.llm.chat.completions.create(
+                    model=self.openai_model_name,
+                    messages=messages,
+                    temperature=self.temperature,
+                    max_tokens=self.max_tokens
+                )
+                latency = time.time() - start_time
 
-            content = response.choices[0].message.content
+                content = response.choices[0].message.content
 
-            # Get token usage from native response
-            input_tokens = response.usage.prompt_tokens
-            output_tokens = response.usage.completion_tokens
+                # Check for refusal
+                if content.strip().lower().startswith("i'm unable to") or content.strip().lower().startswith("i am unable to"):
+                    raise RuntimeError(f"Model refused to answer: {content[:50]}...")
 
-            metadata = {
-                "latency_seconds": latency,
-                "input_tokens": input_tokens,
-                "output_tokens": output_tokens,
-                "total_tokens": input_tokens + output_tokens,
-                "model": self.model_name,
-                "provider": self.provider,
-                "response": content
-            }
+                # Get token usage from native response
+                input_tokens = response.usage.prompt_tokens
+                output_tokens = response.usage.completion_tokens
 
-            # Parse judgment
-            judgment = parse_baseline_response(content)
+                metadata = {
+                    "latency_seconds": latency,
+                    "input_tokens": input_tokens,
+                    "output_tokens": output_tokens,
+                    "total_tokens": input_tokens + output_tokens,
+                    "model": self.model_name,
+                    "provider": self.provider,
+                    "response": content,
+                    "attempt": attempt + 1
+                }
 
-            return judgment, metadata
+                # Parse judgment
+                judgment = parse_baseline_response(content)
 
-        except Exception as e:
-            raise RuntimeError(f"Baseline evaluation failed: {str(e)}") from e
+                return judgment, metadata
+
+            except Exception as e:
+                last_exception = e
+                if attempt < self.retry_attempts - 1:
+                    delay = self.retry_delay * (2 ** attempt)
+                    print(f"Baseline API call failed (attempt {attempt + 1}), retrying in {delay}s... Error: {str(e)}")
+                    time.sleep(delay)
+                else:
+                    raise RuntimeError(f"Baseline evaluation failed after {self.retry_attempts} attempts: {str(e)}") from last_exception
 
     def _call_anthropic_native(
         self,
@@ -230,7 +248,6 @@ class BaselineE2EEvaluator:
             {
                 "role": "user",
                 "content": [
-                    {"type": "text", "text": prompts['prompt']},
                     {
                         "type": "image",
                         "source": {
@@ -246,43 +263,58 @@ class BaselineE2EEvaluator:
                             "media_type": "image/png",
                             "data": second_b64_data
                         }
-                    }
+                    },
+                    {"type": "text", "text": prompts['prompt']}
                 ]
             }
         ]
 
-        start_time = time.time()
+        last_exception = None
 
-        try:
-            response = self.llm.messages.create(
-                model=self.anthropic_model_name,
-                max_tokens=self.max_tokens,
-                temperature=self.temperature,
-                messages=messages
-            )
-            latency = time.time() - start_time
+        for attempt in range(self.retry_attempts):
+            try:
+                start_time = time.time()
 
-            content = response.content[0].text
+                response = self.llm.messages.create(
+                    model=self.anthropic_model_name,
+                    max_tokens=self.max_tokens,
+                    temperature=self.temperature,
+                    messages=messages
+                )
+                latency = time.time() - start_time
 
-            # Get token usage from native response
-            input_tokens = response.usage.input_tokens
-            output_tokens = response.usage.output_tokens
+                content = response.content[0].text
 
-            metadata = {
-                "latency_seconds": latency,
-                "input_tokens": input_tokens,
-                "output_tokens": output_tokens,
-                "total_tokens": input_tokens + output_tokens,
-                "model": self.model_name,
-                "provider": self.provider,
-                "response": content
-            }
+                # Check for refusal
+                if content.strip().lower().startswith("i'm unable to") or content.strip().lower().startswith("i am unable to"):
+                    raise RuntimeError(f"Model refused to answer: {content[:50]}...")
 
-            # Parse judgment
-            judgment = parse_baseline_response(content)
+                # Get token usage from native response
+                input_tokens = response.usage.input_tokens
+                output_tokens = response.usage.output_tokens
 
-            return judgment, metadata
+                metadata = {
+                    "latency_seconds": latency,
+                    "input_tokens": input_tokens,
+                    "output_tokens": output_tokens,
+                    "total_tokens": input_tokens + output_tokens,
+                    "model": self.model_name,
+                    "provider": self.provider,
+                    "response": content,
+                    "attempt": attempt + 1
+                }
 
-        except Exception as e:
-            raise RuntimeError(f"Baseline evaluation failed: {str(e)}") from e
+                # Parse judgment
+                judgment = parse_baseline_response(content)
+
+                return judgment, metadata
+
+            except Exception as e:
+                last_exception = e
+                if attempt < self.retry_attempts - 1:
+                    delay = self.retry_delay * (2 ** attempt)
+                    print(f"Baseline API call failed (attempt {attempt + 1}), retrying in {delay}s... Error: {str(e)}")
+                    time.sleep(delay)
+                else:
+                    raise RuntimeError(f"Baseline evaluation failed after {self.retry_attempts} attempts: {str(e)}") from last_exception
 
