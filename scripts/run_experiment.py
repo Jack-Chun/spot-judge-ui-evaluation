@@ -33,8 +33,8 @@ def main():
     parser.add_argument(
         '--models',
         nargs='+',
-        default=['gpt-4o', 'claude-3.5-sonnet'],
-        help='Models to test (default: gpt-4o claude-3.5-sonnet)'
+        default=['gpt-4o'],
+        help='Models to test (default: gpt-4o)'
     )
     parser.add_argument(
         '--skip-baseline',

@@ -544,7 +544,13 @@ class ExperimentOrchestrator:
         """Load from checkpoint."""
         with open(checkpoint_path, 'r') as f:
             checkpoint = json.load(f)
-        self.results = checkpoint['results']
+        
+        # Handle both official checkpoints (with 'results' key) and raw result files
+        if 'results' in checkpoint:
+            self.results = checkpoint['results']
+        else:
+            self.results = checkpoint
+            
         self.logger.info(f"Resumed from checkpoint: {checkpoint_path}")
 
     def _save_results(self):

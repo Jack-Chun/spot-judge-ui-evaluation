@@ -16,7 +16,7 @@ from pathlib import Path
 from typing import Dict, List, Any, Optional
 import json
 
-from .metrics import MetricsCalculator
+from metrics import MetricsCalculator
 
 # Set publication-ready style
 plt.style.use('seaborn-v0_8-paper')

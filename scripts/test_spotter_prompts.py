@@ -16,8 +16,8 @@ from pathlib import Path
 from typing import Dict, List, Any, Tuple
 from datetime import datetime
 
-from src.models.glm4v_spotter import GLM4VSpotter
-from src.utils.prompt_templates import SPOTTER_SYSTEM_PROMPT, SPOTTER_USER_PROMPT
+from ..src.models.glm4v_spotter import GLM4VSpotter
+from ..src.utils.prompt_templates import SPOTTER_SYSTEM_PROMPT, SPOTTER_USER_PROMPT
 
 import dotenv
 dotenv.load_dotenv()
